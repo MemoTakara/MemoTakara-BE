@@ -1,4 +1,4 @@
-## MemoTakara - Vocabulary Learning System
+# MemoTakara - Vocabulary Learning System
 - A Laravel/PHP-based web app for vocabulary learning, developed as part of a graduation thesis at HUST.
 - Features include spaced repetition, writing practice, and cloud data sync for seamless learning.
 
