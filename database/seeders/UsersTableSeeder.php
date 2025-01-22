@@ -16,6 +16,12 @@ class UsersTableSeeder extends Seeder
     {
         DB::table('users')->insert([
             [
+                'username' => 'admin', 
+                'password' => Hash::make('1234'), // Mã hóa mật khẩu bằng Hash
+                'email' => 'admin@gmail.com', 
+                'role' => 'admin',
+            ],
+            [
                 'username' => 'user1', 
                 'password' => Hash::make('1234'), // Mã hóa mật khẩu bằng Hash
                 'email' => 'user1@example.com', 

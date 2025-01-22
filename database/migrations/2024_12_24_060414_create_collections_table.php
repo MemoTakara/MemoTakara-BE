@@ -17,7 +17,7 @@ return new class extends Migration
             $table->text('description')->nullable(); // Mô tả collection (text, cho phép null)
             $table->boolean('privacy')->default(true); // Collection công khai (true) hoặc riêng tư (false)
             $table->text('tag')->nullable(); // Tag của collection (text, cho phép null)
-            $table->integer('star_count')->default(0); // Số sao collection được đánh giá (int, mặc định 0)
+            $table->decimal('star_count')->default(0); // Số sao collection được đánh giá (int, mặc định 0)
             $table->unsignedBigInteger('user_id'); // Khóa ngoại liên kết đến bảng users
             $table->timestamps(); // created_at và updated_at
 
