@@ -12,28 +12,30 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('users', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
-            $table->rememberToken();
-            $table->timestamps();
+            $table->id(); // Tạo cột id tự động tăng, đặt tên là user_id, tự động tạo khóa chính
+            $table->string('name')->nullable(); // Cột lưu tên người dùng, có thể là null
+            $table->string('username'); // Cột lưu tên đăng nhập
+            $table->string('email')->unique(); // Cột lưu email, phải là duy nhất
+            $table->timestamp('email_verified_at')->nullable(); // Cột để lưu thời gian xác minh email, có thể là null
+            $table->string('password'); // Cột lưu mật khẩu
+            $table->string('role')->default('guest'); // Cột lưu vai trò người dùng, mặc định là 'guest'
+            $table->rememberToken(); // Cột cho tính năng "remember me" khi người dùng đăng nhập
+            $table->timestamps(); // Tạo cột created_at và updated_at
         });
 
         Schema::create('password_reset_tokens', function (Blueprint $table) {
-            $table->string('email')->primary();
-            $table->string('token');
-            $table->timestamp('created_at')->nullable();
+            $table->string('email')->primary(); // Cột email là khóa chính
+            $table->string('token'); // Cột lưu token để reset mật khẩu
+            $table->timestamp('created_at')->nullable(); // Cột lưu thời gian tạo token, có thể là null
         });
 
         Schema::create('sessions', function (Blueprint $table) {
-            $table->string('id')->primary();
-            $table->foreignId('user_id')->nullable()->index();
-            $table->string('ip_address', 45)->nullable();
-            $table->text('user_agent')->nullable();
-            $table->longText('payload');
-            $table->integer('last_activity')->index();
+            $table->string('id')->primary(); // Cột id là khóa chính
+            $table->foreignId('user_id')->nullable()->index(); // Cột user_id là khóa ngoại, có thể là null và sẽ được index
+            $table->string('ip_address', 45)->nullable(); // Cột lưu địa chỉ IP, có thể là null
+            $table->text('user_agent')->nullable(); // Cột lưu thông tin về trình duyệt, có thể là null
+            $table->longText('payload'); // Cột lưu dữ liệu phiên
+            $table->integer('last_activity')->index(); // Cột lưu thời gian hoạt động cuối cùng và được index
         });
     }
 
