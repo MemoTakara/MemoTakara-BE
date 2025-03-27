@@ -2,64 +2,63 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\flashcards;
 use Illuminate\Http\Request;
+use App\Models\Flashcards;
+use App\Models\Collections;
+use Illuminate\Support\Facades\Auth;
 
 class FlashcardsController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
+    public function index($collection_id)
     {
-        //
+        $collection = Collections::where('user_id', Auth::id())->findOrFail($collection_id);
+        return response()->json($collection->flashcards);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'collection_id' => 'required|exists:collections,id',
+            'front' => 'required|string',
+            'back' => 'required|string',
+            'audio_file' => 'nullable|string',
+            'vocabulary_meaning' => 'required|string',
+            'image' => 'nullable|string',
+            'status' => 'required|in:new,learning,re-learning,young,mastered'
+        ]);
+
+        $flashcard = Flashcards::create([
+            'collection_id' => $request->collection_id,
+            'front' => $request->front,
+            'back' => $request->back,
+            'audio_file' => $request->audio_file,
+            'vocabulary_meaning' => $request->vocabulary_meaning,
+            'image' => $request->image,
+            'status' => $request->status
+        ]);
+
+        return response()->json($flashcard, 201);
     }
 
-    /**
-     * Display the specified resource.
-     */
-    public function show(flashcards $flashcards)
+    public function show($id)
     {
-        //
+        $flashcard = Flashcards::findOrFail($id);
+        return response()->json($flashcard);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(flashcards $flashcards)
+    public function update(Request $request, $id)
     {
-        //
+        $flashcard = Flashcards::findOrFail($id);
+        $flashcard->update($request->only(['front', 'back', 'audio_file', 'vocabulary_meaning', 'image', 'status']));
+
+        return response()->json($flashcard);
     }
 
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, flashcards $flashcards)
+    public function destroy($id)
     {
-        //
-    }
+        $flashcard = Flashcards::findOrFail($id);
+        $flashcard->delete();
 
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(flashcards $flashcards)
-    {
-        //
+        return response()->json(['message' => 'Flashcard deleted successfully']);
     }
 }

@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('email')->unique(); // Cột lưu email, phải là duy nhất
             $table->timestamp('email_verified_at')->nullable(); // Cột để lưu thời gian xác minh email, có thể là null
             $table->string('password'); // Cột lưu mật khẩu
-            $table->string('role')->default('guest'); // Cột lưu vai trò người dùng, mặc định là 'guest'
+            $table->string('role')->default('user'); // Cột lưu vai trò người dùng, mặc định là 'guest'
             $table->rememberToken(); // Cột cho tính năng "remember me" khi người dùng đăng nhập
             $table->timestamps(); // Tạo cột created_at và updated_at
         });
