@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id(); // ID của flashcard (serial, PK)
             $table->text('front'); // Mặt trước của thẻ (text)
             $table->text('back'); // Mặt sau của thẻ (text)
+            $table->text('pronunciation')->nullable();
             $table->string('audio_file')->nullable(); // File phát âm của từ vựng (character, cho phép null)
-            $table->text('vocabulary_meaning'); // Nghĩa của từ vựng
             $table->string('image')->nullable(); // Hình ảnh miêu tả từ vựng (character, cho phép null)
             $table->enum('status', ['new', 'learning', 're-learning', 'young', 'mastered'])->default('new'); // Trạng thái của từ vựng
             $table->timestamps(); // created_at và updated_at
