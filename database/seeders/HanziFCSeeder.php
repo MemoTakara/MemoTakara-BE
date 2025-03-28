@@ -14,7 +14,7 @@ class HanziSeeder extends Seeder
      */
     public function run(): void
     {
-        $folderPath = storage_path('app/cn-en/'); // Thư mục chứa file JSON
+        $folderPath = storage_path('app/datajson/cn-en/'); // Thư mục chứa file JSON
         $files = glob($folderPath . '*.json'); // Lấy tất cả file JSON
 
         if (empty($files)) {
