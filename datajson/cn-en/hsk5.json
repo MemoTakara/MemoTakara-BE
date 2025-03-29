@@ -1,0 +1,602 @@
+[
+    {
+        "front": "军",
+        "back": "army, military; soldiers, troops",
+        "pronunciation": "jūn",
+        "collection_id": "5"
+    },
+    {
+        "front": "战",
+        "back": "war, fighting, battle",
+        "pronunciation": "zhàn",
+        "collection_id": "5"
+    },
+    {
+        "front": "政",
+        "back": "government, political affairs",
+        "pronunciation": "zhèng",
+        "collection_id": "5"
+    },
+    {
+        "front": "产",
+        "back": "give birth, bring forth, produce",
+        "pronunciation": "chǎn",
+        "collection_id": "5"
+    },
+    {
+        "front": "制",
+        "back": "system; establish; overpower",
+        "pronunciation": "zhì",
+        "collection_id": "5"
+    },
+    {
+        "front": "代",
+        "back": "replace, replacement (of person or generation); era, generation",
+        "pronunciation": "dài",
+        "collection_id": "5"
+    },
+    {
+        "front": "立",
+        "back": "stand; let stand; establish, set",
+        "pronunciation": "lì",
+        "collection_id": "5"
+    },
+    {
+        "front": "义",
+        "back": "right conduct, righteousness",
+        "pronunciation": "yì",
+        "collection_id": "5"
+    },
+    {
+        "front": "神",
+        "back": "spirit, god, supernatural being",
+        "pronunciation": "shén",
+        "collection_id": "5"
+    },
+    {
+        "front": "德",
+        "back": "ethics, morality, virtue",
+        "pronunciation": "dé",
+        "collection_id": "5"
+    },
+    {
+        "front": "统",
+        "back": "govern, command, control; unite",
+        "pronunciation": "tǒng",
+        "collection_id": "5"
+    },
+    {
+        "front": "形",
+        "back": "form, shape, appearance",
+        "pronunciation": "xíng",
+        "collection_id": "5"
+    },
+    {
+        "front": "治",
+        "back": "govern, regulate, administer",
+        "pronunciation": "zhì",
+        "collection_id": "5"
+    },
+    {
+        "front": "达",
+        "back": "arrive at, reach; intelligent; smooth, slippery",
+        "pronunciation": "dá",
+        "collection_id": "5"
+    },
+    {
+        "front": "强",
+        "back": "strong, powerful, energetic",
+        "pronunciation": "qiáng",
+        "collection_id": "5"
+    },
+    {
+        "front": "权",
+        "back": "power, right, authority",
+        "pronunciation": "quán",
+        "collection_id": "5"
+    },
+    {
+        "front": "王",
+        "back": "king, ruler; royal; surname",
+        "pronunciation": "wáng",
+        "collection_id": "5"
+    },
+    {
+        "front": "设",
+        "back": "build; establish; display",
+        "pronunciation": "shè",
+        "collection_id": "5"
+    },
+    {
+        "front": "品",
+        "back": "article, product, commodity",
+        "pronunciation": "pǐn",
+        "collection_id": "5"
+    },
+    {
+        "front": "类",
+        "back": "class, group, kind, category",
+        "pronunciation": "lèi",
+        "collection_id": "5"
+    },
+    {
+        "front": "领",
+        "back": "neck; collar; lead, guide",
+        "pronunciation": "lǐng",
+        "collection_id": "5"
+    },
+    {
+        "front": "造",
+        "back": "construct, build, make, begin; prepare",
+        "pronunciation": "zào",
+        "collection_id": "5"
+    },
+    {
+        "front": "组",
+        "back": "class; section, department",
+        "pronunciation": "zǔ",
+        "collection_id": "5"
+    },
+    {
+        "front": "英",
+        "back": "petal, flower, leaf; brave, a hero; England, English",
+        "pronunciation": "yīng",
+        "collection_id": "5"
+    },
+    {
+        "front": "令",
+        "back": "",
+        "pronunciation": "lìng",
+        "collection_id": "5"
+    },
+    {
+        "front": "布",
+        "back": "cotton cloth, textiles, linen",
+        "pronunciation": "bù",
+        "collection_id": "5"
+    },
+    {
+        "front": "未",
+        "back": "not yet; 8th terrestrial branch",
+        "pronunciation": "wèi",
+        "collection_id": "5"
+    },
+    {
+        "front": "击",
+        "back": "strike, hit, beat; attack, fight",
+        "pronunciation": "jī",
+        "collection_id": "5"
+    },
+    {
+        "front": "兵",
+        "back": "soldier, troops",
+        "pronunciation": "bīng",
+        "collection_id": "5"
+    },
+    {
+        "front": "团",
+        "back": "sphere, ball, circle; mass, lump",
+        "pronunciation": "tuán",
+        "collection_id": "5"
+    },
+    {
+        "front": "集",
+        "back": "assemble, collect together",
+        "pronunciation": "jí",
+        "collection_id": "5"
+    },
+    {
+        "front": "华",
+        "back": "flowery; illustrious; Chinese",
+        "pronunciation": "huá",
+        "collection_id": "5"
+    },
+    {
+        "front": "石",
+        "back": "stone, rock, mineral; rad. 112",
+        "pronunciation": "shí",
+        "collection_id": "5"
+    },
+    {
+        "front": "府",
+        "back": "prefecture; prefect; government",
+        "pronunciation": "fǔ",
+        "collection_id": "5"
+    },
+    {
+        "front": "似",
+        "back": "resemble, similar to; as if, seem",
+        "pronunciation": "shì",
+        "collection_id": "5"
+    },
+    {
+        "front": "官",
+        "back": "official, public servant",
+        "pronunciation": "guān",
+        "collection_id": "5"
+    },
+    {
+        "front": "器",
+        "back": "receptacle, vessel; instrument",
+        "pronunciation": "qì",
+        "collection_id": "5"
+    },
+    {
+        "front": "称",
+        "back": "call; name, brand; address; say",
+        "pronunciation": "chēng",
+        "collection_id": "5"
+    },
+    {
+        "front": "企",
+        "back": "plan a project; stand on tiptoe",
+        "pronunciation": "qǐ",
+        "collection_id": "5"
+    },
+    {
+        "front": "委",
+        "back": "appoint, send, commission",
+        "pronunciation": "wěi",
+        "collection_id": "5"
+    },
+    {
+        "front": "曾",
+        "back": "already; sign of past",
+        "pronunciation": "céng",
+        "collection_id": "5"
+    },
+    {
+        "front": "农",
+        "back": "agriculture, farming; farmer",
+        "pronunciation": "nóng",
+        "collection_id": "5"
+    },
+    {
+        "front": "装",
+        "back": "dress, clothes, attire; fill",
+        "pronunciation": "zhuāng",
+        "collection_id": "5"
+    },
+    {
+        "front": "显",
+        "back": "manifest, display; evident, clear",
+        "pronunciation": "xiǎn",
+        "collection_id": "5"
+    },
+    {
+        "front": "念",
+        "back": "think of, recall, study",
+        "pronunciation": "niàn",
+        "collection_id": "5"
+    },
+    {
+        "front": "青",
+        "back": "blue, green, black; young",
+        "pronunciation": "qīng",
+        "collection_id": "5"
+    },
+    {
+        "front": "武",
+        "back": "military; martial, warlike",
+        "pronunciation": "wǔ",
+        "collection_id": "5"
+    },
+    {
+        "front": "势",
+        "back": "power, force; tendency",
+        "pronunciation": "shì",
+        "collection_id": "5"
+    },
+    {
+        "front": "古",
+        "back": "old, classic, ancient",
+        "pronunciation": "gǔ",
+        "collection_id": "5"
+    },
+    {
+        "front": "构",
+        "back": "frame, building, structure",
+        "pronunciation": "gòu",
+        "collection_id": "5"
+    },
+    {
+        "front": "土",
+        "back": "soil, earth; items made of earth",
+        "pronunciation": "tǔ",
+        "collection_id": "5"
+    },
+    {
+        "front": "投",
+        "back": "throw, cast, fling, pitch; jump",
+        "pronunciation": "tóu",
+        "collection_id": "5"
+    },
+    {
+        "front": "某",
+        "back": "certain thing or person",
+        "pronunciation": "mǒu",
+        "collection_id": "5"
+    },
+    {
+        "front": "维",
+        "back": "maintain, preserve, safeguard",
+        "pronunciation": "wéi",
+        "collection_id": "5"
+    },
+    {
+        "front": "革",
+        "back": "leather, animal hides; rad. 177",
+        "pronunciation": "gé",
+        "collection_id": "5"
+    },
+    {
+        "front": "敌",
+        "back": "enemy, foe, rival; resist",
+        "pronunciation": "dí",
+        "collection_id": "5"
+    },
+    {
+        "front": "致",
+        "back": "send, deliver, present; cause",
+        "pronunciation": "zhì",
+        "collection_id": "5"
+    },
+    {
+        "front": "派",
+        "back": "school of thought, sect, branch",
+        "pronunciation": "pài",
+        "collection_id": "5"
+    },
+    {
+        "front": "营",
+        "back": "encampment, barracks; manage",
+        "pronunciation": "yíng",
+        "collection_id": "5"
+    },
+    {
+        "front": "巴",
+        "back": "greatly desire, anxiously hope",
+        "pronunciation": "bā",
+        "collection_id": "5"
+    },
+    {
+        "front": "防",
+        "back": "defend; prevent; embankment",
+        "pronunciation": "fáng",
+        "collection_id": "5"
+    },
+    {
+        "front": "施",
+        "back": "grant, bestow; give; act; name",
+        "pronunciation": "shī",
+        "collection_id": "5"
+    },
+    {
+        "front": "型",
+        "back": "pattern, model, type; law; mold",
+        "pronunciation": "xíng",
+        "collection_id": "5"
+    },
+    {
+        "front": "依",
+        "back": "rely on, be set in; consent, obey a wish",
+        "pronunciation": "yī",
+        "collection_id": "5"
+    },
+    {
+        "front": "群",
+        "back": "(same as羣) group, crowd, multitude, mob",
+        "pronunciation": "qún",
+        "collection_id": "5"
+    },
+    {
+        "front": "项",
+        "back": "neck, nape of neck; sum; funds",
+        "pronunciation": "xiàng",
+        "collection_id": "5"
+    },
+    {
+        "front": "织",
+        "back": "weave, knit; organize, unite",
+        "pronunciation": "zhī",
+        "collection_id": "5"
+    },
+    {
+        "front": "斗",
+        "back": "Chinese peck; liquid measure",
+        "pronunciation": "dòu",
+        "collection_id": "5"
+    },
+    {
+        "front": "采",
+        "back": "collect, gather; pick, pluck",
+        "pronunciation": "cǎi",
+        "collection_id": "5"
+    },
+    {
+        "front": "杀",
+        "back": "kill, slaughter, murder; hurt",
+        "pronunciation": "shā",
+        "collection_id": "5"
+    },
+    {
+        "front": "朝",
+        "back": "dynasty; morning",
+        "pronunciation": "cháo",
+        "collection_id": "5"
+    },
+    {
+        "front": "属",
+        "back": "class, category, type; belong to",
+        "pronunciation": "shǔ",
+        "collection_id": "5"
+    },
+    {
+        "front": "限",
+        "back": "boundary, limit, line",
+        "pronunciation": "xiàn",
+        "collection_id": "5"
+    },
+    {
+        "front": "威",
+        "back": "pomp, power; powerful; dominate",
+        "pronunciation": "wēi",
+        "collection_id": "5"
+    },
+    {
+        "front": "状",
+        "back": "form; appearance; shape; official",
+        "pronunciation": "zhuàng",
+        "collection_id": "5"
+    },
+    {
+        "front": "率",
+        "back": "to lead; ratio; rate; limit",
+        "pronunciation": "lǜ",
+        "collection_id": "5"
+    },
+    {
+        "front": "独",
+        "back": "alone, single, solitary, only",
+        "pronunciation": "dú",
+        "collection_id": "5"
+    },
+    {
+        "front": "创",
+        "back": "establish, create; knife cut",
+        "pronunciation": "chuàng",
+        "collection_id": "5"
+    },
+    {
+        "front": "承",
+        "back": "inherit, receive; succeed",
+        "pronunciation": "chéng",
+        "collection_id": "5"
+    },
+    {
+        "front": "股",
+        "back": "thighs, haunches, rump; share",
+        "pronunciation": "gǔ",
+        "collection_id": "5"
+    },
+    {
+        "front": "益",
+        "back": "profit, benefit; advantage",
+        "pronunciation": "yì",
+        "collection_id": "5"
+    },
+    {
+        "front": "血",
+        "back": "blood; radical number 143",
+        "pronunciation": "xuè",
+        "collection_id": "5"
+    },
+    {
+        "front": "素",
+        "back": "white (silk); plain; vegetarian; formerly; normally",
+        "pronunciation": "sù",
+        "collection_id": "5"
+    },
+    {
+        "front": "夜",
+        "back": "night, dark; in night; by night",
+        "pronunciation": "yè",
+        "collection_id": "5"
+    },
+    {
+        "front": "初",
+        "back": "beginning, initial, primary",
+        "pronunciation": "chū",
+        "collection_id": "5"
+    },
+    {
+        "front": "源",
+        "back": "spring; source, head; surname",
+        "pronunciation": "yuán",
+        "collection_id": "5"
+    },
+    {
+        "front": "食",
+        "back": "eat; meal; food; KangXi radical number 184",
+        "pronunciation": "shí",
+        "collection_id": "5"
+    },
+    {
+        "front": "待",
+        "back": "treat, entertain, receive; wait",
+        "pronunciation": "dài",
+        "collection_id": "5"
+    },
+    {
+        "front": "述",
+        "back": "narrate, state, express",
+        "pronunciation": "shù",
+        "collection_id": "5"
+    },
+    {
+        "front": "陆",
+        "back": "land, continental; army",
+        "pronunciation": "lù",
+        "collection_id": "5"
+    },
+    {
+        "front": "置",
+        "back": "place, lay out; set aside",
+        "pronunciation": "zhì",
+        "collection_id": "5"
+    },
+    {
+        "front": "劳",
+        "back": "labor, toil, do manual work",
+        "pronunciation": "láo",
+        "collection_id": "5"
+    },
+    {
+        "front": "财",
+        "back": "wealth, valuables, riches",
+        "pronunciation": "cái",
+        "collection_id": "5"
+    },
+    {
+        "front": "纳",
+        "back": "admit, take, receive, accept",
+        "pronunciation": "nà",
+        "collection_id": "5"
+    },
+    {
+        "front": "雷",
+        "back": "thunder",
+        "pronunciation": "léi",
+        "collection_id": "5"
+    },
+    {
+        "front": "模",
+        "back": "model, standard, pattern; copy",
+        "pronunciation": "mó",
+        "collection_id": "5"
+    },
+    {
+        "front": "充",
+        "back": "fill, be full, supply",
+        "pronunciation": "chōng",
+        "collection_id": "5"
+    },
+    {
+        "front": "木",
+        "back": "tree; wood, lumber; wooden",
+        "pronunciation": "mù",
+        "collection_id": "5"
+    },
+    {
+        "front": "龙",
+        "back": "dragon; symbolic of emperor",
+        "pronunciation": "lóng",
+        "collection_id": "5"
+    },
+    {
+        "front": "冲",
+        "back": "soar; pour boiling water over",
+        "pronunciation": "chōng",
+        "collection_id": "5"
+    }
+]

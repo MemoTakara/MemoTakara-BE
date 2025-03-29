@@ -1,0 +1,198 @@
+[
+    {
+        "front": "立ちます",
+        "kanji": "LẬP",
+        "pronunciation": "たちます",
+        "back": "đứng",
+        "collection_id": "26"
+    },
+    {
+        "front": "座ります",
+        "kanji": "TỌA",
+        "pronunciation": "すわります",
+        "back": "ngồi",
+        "collection_id": "26"
+    },
+    {
+        "front": "使います",
+        "kanji": "SỬ, SỨ",
+        "pronunciation": "つかいます",
+        "back": "dùng, sử dụng",
+        "collection_id": "26"
+    },
+    {
+        "front": "置きます",
+        "kanji": "TRÍ",
+        "pronunciation": "おきます",
+        "back": "dậy, thức dậy",
+        "collection_id": "26"
+    },
+    {
+        "front": "作ります, 造ります",
+        "kanji": "TÁC TẠO",
+        "pronunciation": "つくります",
+        "back": "làm, chế tạo, sản xuất",
+        "collection_id": "26"
+    },
+    {
+        "front": "売ります",
+        "kanji": "MẠI",
+        "pronunciation": "うります",
+        "back": "bán",
+        "collection_id": "26"
+    },
+    {
+        "front": "知ります",
+        "kanji": "TRI",
+        "pronunciation": "しります",
+        "back": "biết",
+        "collection_id": "26"
+    },
+    {
+        "front": "住みます",
+        "kanji": "TRÚ, TRỤ",
+        "pronunciation": "すみます",
+        "back": "sống, ở",
+        "collection_id": "26"
+    },
+    {
+        "front": "研究します",
+        "kanji": "NGHIÊN CỬU",
+        "pronunciation": "けんきゅうします",
+        "back": "nghiên cứu",
+        "collection_id": "26"
+    },
+    {
+        "front": "知って　います",
+        "kanji": "TRI",
+        "pronunciation": "しって　います",
+        "back": "biết",
+        "collection_id": "26"
+    },
+    {
+        "front": "[大阪に～]住んで　います",
+        "kanji": "ĐẠI PHẢN TRÚ/TRỤ",
+        "pronunciation": "[おおさかに～]すんで　います",
+        "back": "sống [ở Osaka]",
+        "collection_id": "26"
+    },
+    {
+        "front": "資料",
+        "kanji": "TƯ LIỆU",
+        "pronunciation": "しりょう",
+        "back": "tài liệu, tư liệu",
+        "collection_id": "26"
+    },
+    {
+        "front": "カタログ",
+        "kanji": null,
+        "pronunciation": "カタログ",
+        "back": "ca-ta-lô",
+        "collection_id": "26"
+    },
+    {
+        "front": "時刻表",
+        "kanji": "THỜI KHẮC BIỂU",
+        "pronunciation": "じこくひょう",
+        "back": "bảng giờ tàu chạy",
+        "collection_id": "26"
+    },
+    {
+        "front": "服",
+        "kanji": "PHỤC",
+        "pronunciation": "ふく",
+        "back": "quần áo",
+        "collection_id": "26"
+    },
+    {
+        "front": "製品",
+        "kanji": "CHẾ PHẨM",
+        "pronunciation": "せいひん",
+        "back": "sản phẩm",
+        "collection_id": "26"
+    },
+    {
+        "front": "ソフト",
+        "kanji": null,
+        "pronunciation": "ソフト",
+        "back": "phần mềm",
+        "collection_id": "26"
+    },
+    {
+        "front": "専門",
+        "kanji": "CHUYÊN MÔN",
+        "pronunciation": "せんもん",
+        "back": "chuyên môn",
+        "collection_id": "26"
+    },
+    {
+        "front": "歯医者",
+        "kanji": "XỈ Y GIẢ",
+        "pronunciation": "はいしゃ",
+        "back": "nha sĩ",
+        "collection_id": "26"
+    },
+    {
+        "front": "床屋",
+        "kanji": "SÀNG ỐC",
+        "pronunciation": "とこや",
+        "back": "hiệu cắt tóc",
+        "collection_id": "26"
+    },
+    {
+        "front": "プレイガイド",
+        "kanji": null,
+        "pronunciation": "プレイガイド",
+        "back": "quầy bán vé (trong nhà hát)",
+        "collection_id": "26"
+    },
+    {
+        "front": "独身",
+        "kanji": "ĐỘC THÂN",
+        "pronunciation": "どくしん",
+        "back": "độc thân",
+        "collection_id": "26"
+    },
+    {
+        "front": "特に",
+        "kanji": "ĐẶC",
+        "pronunciation": "とくに",
+        "back": "đặc biệt",
+        "collection_id": "26"
+    },
+    {
+        "front": "思い出します",
+        "kanji": "TƯ XUẤT",
+        "pronunciation": "おもいだします",
+        "back": "nhớ lại, hồi tưởng",
+        "collection_id": "26"
+    },
+    {
+        "front": "ご家族",
+        "kanji": "GIA TỘC",
+        "pronunciation": "ごかぞく",
+        "back": "gia đình (dùng cho người khác)",
+        "collection_id": "26"
+    },
+    {
+        "front": "いらっしゃいます",
+        "kanji": null,
+        "pronunciation": "いらっしゃいます",
+        "back": "thể kính trọng của 「います」",
+        "collection_id": "26"
+    },
+    {
+        "front": "高校",
+        "kanji": "CAO HIỆU",
+        "pronunciation": "こうこう",
+        "back": "trường trung học phổ thông",
+        "collection_id": "26"
+    },
+    {
+        "front": "日本橋",
+        "kanji": "NHẬT BẢN KIỀU",
+        "pronunciation": "にっぽんばし",
+        "back": "tên một khu phố buôn bán ở Osaka",
+        "collection_id": "26"
+    }
+]

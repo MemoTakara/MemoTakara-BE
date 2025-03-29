@@ -1,0 +1,205 @@
+[
+    {
+        "front": "できます",
+        "kanji": null,
+        "pronunciation": "できます",
+        "back": "có thể",
+        "collection_id": "29"
+    },
+    {
+        "front": "洗います",
+        "kanji": "TẨY",
+        "pronunciation": "あらいます",
+        "back": "rửa",
+        "collection_id": "29"
+    },
+    {
+        "front": "弾きます",
+        "kanji": "ĐÀN, ĐẠN",
+        "pronunciation": "ひきます",
+        "back": "chơi (nhạc cụ)",
+        "collection_id": "29"
+    },
+    {
+        "front": "歌います",
+        "kanji": "CA",
+        "pronunciation": "うたいます",
+        "back": "hát",
+        "collection_id": "29"
+    },
+    {
+        "front": "集めます",
+        "kanji": "TẬP",
+        "pronunciation": "あつめます",
+        "back": "sưu tầm, thu thập",
+        "collection_id": "29"
+    },
+    {
+        "front": "捨てます",
+        "kanji": "XẢ",
+        "pronunciation": "すてます",
+        "back": "vứt, bỏ đi",
+        "collection_id": "29"
+    },
+    {
+        "front": "換えます",
+        "kanji": "HOÁN",
+        "pronunciation": "かえます",
+        "back": "đổi",
+        "collection_id": "29"
+    },
+    {
+        "front": "運転します",
+        "kanji": "VẬN CHUYỂN",
+        "pronunciation": "うんてんします",
+        "back": "lái",
+        "collection_id": "29"
+    },
+    {
+        "front": "予約します",
+        "kanji": "DỰ ƯỚC",
+        "pronunciation": "よやくします",
+        "back": "đặt chỗ, đặt trước",
+        "collection_id": "29"
+    },
+    {
+        "front": "見学します",
+        "kanji": "KIẾN HỌC",
+        "pronunciation": "けんがくします",
+        "back": "thăm quan với mục đích học tập",
+        "collection_id": "29"
+    },
+    {
+        "front": "ピアノ",
+        "kanji": null,
+        "pronunciation": "ピアノ",
+        "back": "đàn Piano",
+        "collection_id": "29"
+    },
+    {
+        "front": "―メートル",
+        "kanji": null,
+        "pronunciation": "―メートル",
+        "back": "―　mét",
+        "collection_id": "29"
+    },
+    {
+        "front": "国際～",
+        "kanji": "QUỐC TẾ ~",
+        "pronunciation": "こくさい～",
+        "back": "quốc tế",
+        "collection_id": "29"
+    },
+    {
+        "front": "現金",
+        "kanji": "HIỆN KIM",
+        "pronunciation": "げんきん",
+        "back": "tiền mặt",
+        "collection_id": "29"
+    },
+    {
+        "front": "趣味",
+        "kanji": "THÚ VỊ",
+        "pronunciation": "しゅみ",
+        "back": "sở thích, thú vui",
+        "collection_id": "29"
+    },
+    {
+        "front": "日記",
+        "kanji": "NHẬT KÝ",
+        "pronunciation": "にっき",
+        "back": "nhật ký",
+        "collection_id": "29"
+    },
+    {
+        "front": "[お]祈り",
+        "kanji": "KỲ",
+        "pronunciation": "[お]いのり",
+        "back": "việc cầu nguyện (～をします：cầu nguyện)",
+        "collection_id": "29"
+    },
+    {
+        "front": "課長",
+        "kanji": "KHOA TRƯỞNG",
+        "pronunciation": "かちょう",
+        "back": "tổ trưởng",
+        "collection_id": "29"
+    },
+    {
+        "front": "部長",
+        "kanji": "BỘ TRƯỞNG",
+        "pronunciation": "ぶちょう",
+        "back": "trưởng phòng",
+        "collection_id": "29"
+    },
+    {
+        "front": "社長",
+        "kanji": "XÃ TRƯỞNG",
+        "pronunciation": "しゃちょう",
+        "back": "giám đốc",
+        "collection_id": "29"
+    },
+    {
+        "front": "動物",
+        "kanji": "ĐỘNG VẬT",
+        "pronunciation": "どうぶつ",
+        "back": "động vật",
+        "collection_id": "29"
+    },
+    {
+        "front": "馬",
+        "kanji": "MÃ",
+        "pronunciation": "うま",
+        "back": "ngựa",
+        "collection_id": "29"
+    },
+    {
+        "front": "へえ",
+        "kanji": null,
+        "pronunciation": "へえ",
+        "back": "thế à!",
+        "collection_id": "29"
+    },
+    {
+        "front": "それはおもしろいですね。",
+        "kanji": null,
+        "pronunciation": "それはおもしろいですね。",
+        "back": "Hay thật nhỉ.",
+        "collection_id": "29"
+    },
+    {
+        "front": "なかなか",
+        "kanji": null,
+        "pronunciation": "なかなか",
+        "back": "khó mà~, không dễ, mãi mà (dùng với thể phủ định)",
+        "collection_id": "29"
+    },
+    {
+        "front": "牧場",
+        "kanji": "MỤC TRƯỜNG",
+        "pronunciation": "ぼくじょう",
+        "back": "trang trại chăn nuôi",
+        "collection_id": "29"
+    },
+    {
+        "front": "ほんとうですか。",
+        "kanji": null,
+        "pronunciation": "ほんとうですか。",
+        "back": "Thật không ạ?",
+        "collection_id": "29"
+    },
+    {
+        "front": "ぜひ",
+        "kanji": null,
+        "pronunciation": "ぜひ",
+        "back": "nhất định, rất",
+        "collection_id": "29"
+    },
+    {
+        "front": "ビートルズ",
+        "kanji": null,
+        "pronunciation": "ビートルズ",
+        "back": "Beatles, một băng nhạc nỗi tiếng nước Anh",
+        "collection_id": "29"
+    }
+]

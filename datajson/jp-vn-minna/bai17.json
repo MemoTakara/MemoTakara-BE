@@ -1,0 +1,261 @@
+[
+    {
+        "front": "覚えます",
+        "kanji": "GIÁC",
+        "pronunciation": "おぼえます",
+        "back": "nhớ",
+        "collection_id": "28"
+    },
+    {
+        "front": "忘れます",
+        "kanji": "VONG",
+        "pronunciation": "わすれます",
+        "back": "quên",
+        "collection_id": "28"
+    },
+    {
+        "front": "なくします",
+        "kanji": null,
+        "pronunciation": "なくします",
+        "back": "mất, đánh mất",
+        "collection_id": "28"
+    },
+    {
+        "front": "[レポートを～]出します",
+        "kanji": "XUẤT",
+        "pronunciation": "[レポートを～]だします",
+        "back": "nộp[bản/bài báo cáo]",
+        "collection_id": "28"
+    },
+    {
+        "front": "払います",
+        "kanji": "PHẤT",
+        "pronunciation": "はらいます",
+        "back": "trả tiền",
+        "collection_id": "28"
+    },
+    {
+        "front": "返します",
+        "kanji": "PHẢN",
+        "pronunciation": "かえします",
+        "back": "trả lại",
+        "collection_id": "28"
+    },
+    {
+        "front": "出かけます",
+        "kanji": "XUẤT",
+        "pronunciation": "でかけます",
+        "back": "ra ngoài",
+        "collection_id": "28"
+    },
+    {
+        "front": "脱ぎます",
+        "kanji": "THOÁT",
+        "pronunciation": "ぬぎます",
+        "back": "cởi (quần áo, giầy)",
+        "collection_id": "28"
+    },
+    {
+        "front": "持って行きます",
+        "kanji": "TRÌ HÀNH",
+        "pronunciation": "もっていきます",
+        "back": "mang đi, mang theo",
+        "collection_id": "28"
+    },
+    {
+        "front": "持って来ます",
+        "kanji": "TRÌ LAI",
+        "pronunciation": "もってきます",
+        "back": "mang đến",
+        "collection_id": "28"
+    },
+    {
+        "front": "心配します",
+        "kanji": "TÂM PHỐI",
+        "pronunciation": "しんぱいします",
+        "back": "lo lắng",
+        "collection_id": "28"
+    },
+    {
+        "front": "残業します",
+        "kanji": "TÀN NGHIỆP",
+        "pronunciation": "ざんぎょうします",
+        "back": "làm thêm, làm quá giờ",
+        "collection_id": "28"
+    },
+    {
+        "front": "出張します",
+        "kanji": "XUẤT TRƯƠNG",
+        "pronunciation": "しゅっちょうします",
+        "back": "đi công tác",
+        "collection_id": "28"
+    },
+    {
+        "front": "[薬を～]飲みます",
+        "kanji": "DƯỢC ẨM",
+        "pronunciation": "[くすりを～]のみます",
+        "back": "uống [thuốc]",
+        "collection_id": "28"
+    },
+    {
+        "front": "[おふろに～]入ります",
+        "kanji": "NHẬP",
+        "pronunciation": "[おふろに～]はいります",
+        "back": "tắm bồn [vào bồn tắm]",
+        "collection_id": "28"
+    },
+    {
+        "front": "大切[な]",
+        "kanji": "ĐẠI THIẾT",
+        "pronunciation": "たいせつ[な]",
+        "back": "quan trọng, quý giá",
+        "collection_id": "28"
+    },
+    {
+        "front": "大丈夫[な]",
+        "kanji": "ĐẠI TRƯỢNG PHU",
+        "pronunciation": "だいじょうぶ[な]",
+        "back": "không sao, không có vấn đề gì",
+        "collection_id": "28"
+    },
+    {
+        "front": "危ない",
+        "kanji": "NGUY",
+        "pronunciation": "あぶない",
+        "back": "nguy hiểm",
+        "collection_id": "28"
+    },
+    {
+        "front": "問題",
+        "kanji": "VẤN ĐỀ",
+        "pronunciation": "もんだい",
+        "back": "vấn đề",
+        "collection_id": "28"
+    },
+    {
+        "front": "答え",
+        "kanji": "ĐÁP",
+        "pronunciation": "こたえ",
+        "back": "câu trả lời",
+        "collection_id": "28"
+    },
+    {
+        "front": "禁煙",
+        "kanji": "CẤM YÊN",
+        "pronunciation": "きんえん",
+        "back": "cấm hút thuốc",
+        "collection_id": "28"
+    },
+    {
+        "front": "[健康]保険証",
+        "kanji": "KIỆN KHANG",
+        "pronunciation": "[けんこう]ほけんしょう",
+        "back": "thẻ bảo hiểm [y tế]",
+        "collection_id": "28"
+    },
+    {
+        "front": "かぜ",
+        "kanji": null,
+        "pronunciation": "かぜ",
+        "back": "cảm, cúm",
+        "collection_id": "28"
+    },
+    {
+        "front": "熱",
+        "kanji": "NHIỆT",
+        "pronunciation": "ねつ",
+        "back": "sốt",
+        "collection_id": "28"
+    },
+    {
+        "front": "病気",
+        "kanji": "BỆNH KHÍ",
+        "pronunciation": "びょうき",
+        "back": "ốm, bệnh",
+        "collection_id": "28"
+    },
+    {
+        "front": "薬",
+        "kanji": "DƯỢC",
+        "pronunciation": "くすり",
+        "back": "thuốc",
+        "collection_id": "28"
+    },
+    {
+        "front": "[お]ふろ",
+        "kanji": null,
+        "pronunciation": "[お]ふろ",
+        "back": "bồn tắm",
+        "collection_id": "28"
+    },
+    {
+        "front": "上着",
+        "kanji": "THƯỢNG TRƯỚC",
+        "pronunciation": "うわぎ",
+        "back": "áo khoác",
+        "collection_id": "28"
+    },
+    {
+        "front": "下着",
+        "kanji": "HẠ TRƯỚC",
+        "pronunciation": "したぎ",
+        "back": "quần áo lót",
+        "collection_id": "28"
+    },
+    {
+        "front": "先生",
+        "kanji": "TIÊN SINH",
+        "pronunciation": "せんせい",
+        "back": "thầy/ cô",
+        "collection_id": "28"
+    },
+    {
+        "front": "２，３日",
+        "kanji": "NHẬT",
+        "pronunciation": "２，３にち",
+        "back": "vài ngày",
+        "collection_id": "28"
+    },
+    {
+        "front": "２，３～",
+        "kanji": null,
+        "pronunciation": "２，３～",
+        "back": "vài~ (“~” là hậu tố chỉ cách đếm)",
+        "collection_id": "28"
+    },
+    {
+        "front": "～までに",
+        "kanji": null,
+        "pronunciation": "～までに",
+        "back": "trước ~ (chỉ thời hạn)",
+        "collection_id": "28"
+    },
+    {
+        "front": "ですから",
+        "kanji": null,
+        "pronunciation": "ですから",
+        "back": "vì thế, vì vậy, do đó",
+        "collection_id": "28"
+    },
+    {
+        "front": "どうしましたか。",
+        "kanji": null,
+        "pronunciation": "どうしましたか。",
+        "back": "Có vần đề gì?/Anh/chị bị làm sao?",
+        "collection_id": "28"
+    },
+    {
+        "front": "「のどが」痛いです。",
+        "kanji": "THỐNG",
+        "pronunciation": "「のどが」いたいです。",
+        "back": "Tôi bị đau [~họng].",
+        "collection_id": "28"
+    },
+    {
+        "front": "お大事に。",
+        "kanji": "ĐẠI SỰ",
+        "pronunciation": "おだいじに",
+        "back": "Anh/chị nhớ giữ gìn sức khỏe.",
+        "collection_id": "28"
+    }
+]

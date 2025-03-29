@@ -1,0 +1,310 @@
+[
+    {
+        "front": "[式が～]始まります",
+        "kanji": "THỨC THỦY",
+        "pronunciation": "[しきが～]はじまります",
+        "back": "bắt đầu [buổi lễ ~]",
+        "collection_id": "42"
+    },
+    {
+        "front": "続けます",
+        "kanji": "TỤC",
+        "pronunciation": "つづけます",
+        "back": "tiếp tục",
+        "collection_id": "42"
+    },
+    {
+        "front": "見つけます",
+        "kanji": "KIẾN",
+        "pronunciation": "みつけます",
+        "back": "tìm, tìm thấy",
+        "collection_id": "42"
+    },
+    {
+        "front": "[試験を～]受けます",
+        "kanji": "THÍ NGHIỆM THỤ/THỌ",
+        "pronunciation": "[しけんを～]うけます",
+        "back": "thi [kỳ thi]",
+        "collection_id": "42"
+    },
+    {
+        "front": "[大学に～]入学します",
+        "kanji": "ĐẠI HỌC NHẬP HỌC",
+        "pronunciation": "[だいがくに～] にゅうがくします",
+        "back": "nhập học, vào [(trường) đại học]",
+        "collection_id": "42"
+    },
+    {
+        "front": "[大学を～]卒業します",
+        "kanji": "ĐẠI HỌC TỐT NGHIỆP",
+        "pronunciation": "[だいがくを～]そつぎょうします",
+        "back": "tốt nghiệp [(trường) đại học]",
+        "collection_id": "42"
+    },
+    {
+        "front": "[会議に～]出席します",
+        "kanji": "HỘI NGHỊ XUẤT TỊCH",
+        "pronunciation": "[かいぎに～] しゅっせきします",
+        "back": "tham dự, tham gia [cuộc họp]",
+        "collection_id": "42"
+    },
+    {
+        "front": "休憩します",
+        "kanji": "HƯU KHẾ",
+        "pronunciation": "きゅうけいします",
+        "back": "nghỉ, giải lao",
+        "collection_id": "42"
+    },
+    {
+        "front": "連休",
+        "kanji": "LIÊN HƯU",
+        "pronunciation": "れんきゅう",
+        "back": "ngày nghỉ liền nhau",
+        "collection_id": "42"
+    },
+    {
+        "front": "作文",
+        "kanji": "TÁC VĂN",
+        "pronunciation": "さくぶん",
+        "back": "bài văn",
+        "collection_id": "42"
+    },
+    {
+        "front": "展覧会",
+        "kanji": "TRIỂN LÃM HỘI",
+        "pronunciation": "てんらんかい",
+        "back": "triển lãm",
+        "collection_id": "42"
+    },
+    {
+        "front": "結婚式",
+        "kanji": "KẾT HÔN THỨC",
+        "pronunciation": "けっこんしき",
+        "back": "lễ cưới, đám cưới",
+        "collection_id": "42"
+    },
+    {
+        "front": "[お]葬式",
+        "kanji": "TÁNG THỨC",
+        "pronunciation": "[お]そうしき",
+        "back": "lễ tang, đám tang",
+        "collection_id": "42"
+    },
+    {
+        "front": "式",
+        "kanji": "THỨC",
+        "pronunciation": "しき",
+        "back": "lễ, đám",
+        "collection_id": "42"
+    },
+    {
+        "front": "本社",
+        "kanji": "BẢN XÃ",
+        "pronunciation": "ほんしゃ",
+        "back": "trụ sở chính",
+        "collection_id": "42"
+    },
+    {
+        "front": "支店",
+        "kanji": "CHI ĐIẾM",
+        "pronunciation": "してん",
+        "back": "chi nhánh",
+        "collection_id": "42"
+    },
+    {
+        "front": "教会",
+        "kanji": "GIÁO HỘI",
+        "pronunciation": "きょうかい",
+        "back": "nhà thờ",
+        "collection_id": "42"
+    },
+    {
+        "front": "大学院",
+        "kanji": "ĐẠI HỌC VIỆN",
+        "pronunciation": "だいがくいん",
+        "back": "cao học, sở giáo dục trên đại học",
+        "collection_id": "42"
+    },
+    {
+        "front": "動物園",
+        "kanji": "ĐỘNG VẬT VIÊN",
+        "pronunciation": "どうぶつえん",
+        "back": "vườn thú, vườn bách thú",
+        "collection_id": "42"
+    },
+    {
+        "front": "温泉",
+        "kanji": "ÔN TUYỀN",
+        "pronunciation": "おんせん",
+        "back": "suối nước nóng",
+        "collection_id": "42"
+    },
+    {
+        "front": "お客[さん]",
+        "kanji": "KHÁCH",
+        "pronunciation": "おきゃく[さん]",
+        "back": "khách hàng",
+        "collection_id": "42"
+    },
+    {
+        "front": "だれか",
+        "kanji": null,
+        "pronunciation": "だれか",
+        "back": "ai đó",
+        "collection_id": "42"
+    },
+    {
+        "front": "～の方",
+        "kanji": "PHƯƠNG",
+        "pronunciation": "～のほう",
+        "back": "phía ~, hướng ~",
+        "collection_id": "42"
+    },
+    {
+        "front": "ずっと",
+        "kanji": null,
+        "pronunciation": "ずっと",
+        "back": "suốt, liền",
+        "collection_id": "42"
+    },
+    {
+        "front": "ピカソ",
+        "kanji": null,
+        "pronunciation": "ピカソ",
+        "back": "Pablo Picasso, danh họa người Tây Ban Nha (1881-1973)",
+        "collection_id": "42"
+    },
+    {
+        "front": "上野公園",
+        "kanji": "THƯỢNG DÃ CÔNG VIÊN",
+        "pronunciation": "うえのこうえん",
+        "back": "Công viên Ueno (ở Tokyo)",
+        "collection_id": "42"
+    },
+    {
+        "front": "残ります",
+        "kanji": "TÀN",
+        "pronunciation": "のこります",
+        "back": "ở lại",
+        "collection_id": "42"
+    },
+    {
+        "front": "月に",
+        "kanji": "NGUYỆT",
+        "pronunciation": "つきに",
+        "back": "một tháng",
+        "collection_id": "42"
+    },
+    {
+        "front": "普通の",
+        "kanji": "PHỔ THÔNG",
+        "pronunciation": "ふつうの",
+        "back": "thường, thông thường",
+        "collection_id": "42"
+    },
+    {
+        "front": "インターネット",
+        "kanji": null,
+        "pronunciation": "インターネット",
+        "back": "Internet",
+        "collection_id": "42"
+    },
+    {
+        "front": "村",
+        "kanji": "THÔN",
+        "pronunciation": "むら",
+        "back": "làng",
+        "collection_id": "42"
+    },
+    {
+        "front": "映画館",
+        "kanji": "ẢNH HỌA QUÁN",
+        "pronunciation": "えいがかん",
+        "back": "rạp chiếu phim",
+        "collection_id": "42"
+    },
+    {
+        "front": "嫌[な]",
+        "kanji": "HIỀM",
+        "pronunciation": "いや「な」",
+        "back": "chán, ghét, không chấp nhận được",
+        "collection_id": "42"
+    },
+    {
+        "front": "空",
+        "kanji": "KHÔNG",
+        "pronunciation": "そら",
+        "back": "bầu trời",
+        "collection_id": "42"
+    },
+    {
+        "front": "閉じます",
+        "kanji": "BẾ",
+        "pronunciation": "とじます",
+        "back": "đóng, nhắm",
+        "collection_id": "42"
+    },
+    {
+        "front": "都会",
+        "kanji": "ĐÔ HỘI",
+        "pronunciation": "とかい",
+        "back": "thành phố, nơi đô hội",
+        "collection_id": "42"
+    },
+    {
+        "front": "子供たち",
+        "kanji": "TỬ CUNG",
+        "pronunciation": "こどもたち",
+        "back": "trẻ em, trẻ con",
+        "collection_id": "42"
+    },
+    {
+        "front": "自由に",
+        "kanji": "TỰ DO",
+        "pronunciation": "じゆうに",
+        "back": "tự do",
+        "collection_id": "42"
+    },
+    {
+        "front": "世界中",
+        "kanji": "THẾ GIỚI TRUNG",
+        "pronunciation": "せかいじゅう",
+        "back": "khắp thế giới",
+        "collection_id": "42"
+    },
+    {
+        "front": "集まります",
+        "kanji": "TẬP",
+        "pronunciation": "あつまります",
+        "back": "tập trung",
+        "collection_id": "42"
+    },
+    {
+        "front": "美しい",
+        "kanji": "MỸ",
+        "pronunciation": "うつくしい",
+        "back": "đẹp",
+        "collection_id": "42"
+    },
+    {
+        "front": "自然",
+        "kanji": "TỰ NHIÊN",
+        "pronunciation": "しぜん",
+        "back": "tự nhiên, thiên nhiên",
+        "collection_id": "42"
+    },
+    {
+        "front": "すばらしさ",
+        "kanji": null,
+        "pronunciation": "すばらしさ",
+        "back": "tuyệt vời",
+        "collection_id": "42"
+    },
+    {
+        "front": "気がつきます",
+        "kanji": "KHÍ",
+        "pronunciation": "きがつきます",
+        "back": "để ý, nhận ra",
+        "collection_id": "42"
+    }
+]

@@ -1,0 +1,394 @@
+[
+    {
+        "front": "食べます",
+        "kanji": "THỰC",
+        "pronunciation": "たべます",
+        "back": "ăn",
+        "collection_id": "17"
+    },
+    {
+        "front": "飲みます",
+        "kanji": "ẨM",
+        "pronunciation": "のみます",
+        "back": "uống",
+        "collection_id": "17"
+    },
+    {
+        "front": "吸います",
+        "kanji": "HẤP",
+        "pronunciation": "すいます",
+        "back": "",
+        "collection_id": "17"
+    },
+    {
+        "front": "[たばこを～]",
+        "kanji": null,
+        "pronunciation": "[たばこを～]",
+        "back": "hút [thuốc lá]",
+        "collection_id": "17"
+    },
+    {
+        "front": "見ます",
+        "kanji": "KIẾN",
+        "pronunciation": "みます",
+        "back": "xem, nhìn, trông",
+        "collection_id": "17"
+    },
+    {
+        "front": "聞きます",
+        "kanji": "VĂN",
+        "pronunciation": "ききます",
+        "back": "nghe",
+        "collection_id": "17"
+    },
+    {
+        "front": "読みます",
+        "kanji": "ĐỘC",
+        "pronunciation": "よみます",
+        "back": "đọc",
+        "collection_id": "17"
+    },
+    {
+        "front": "書きます",
+        "kanji": "THƯ",
+        "pronunciation": "かきます",
+        "back": "viết, vẽ",
+        "collection_id": "17"
+    },
+    {
+        "front": "買います",
+        "kanji": "MÃI",
+        "pronunciation": "かいます",
+        "back": "mua",
+        "collection_id": "17"
+    },
+    {
+        "front": "撮ります[写真を～]",
+        "kanji": "TOÁT TẢ CHÂN",
+        "pronunciation": "とります[しゃしんを～]",
+        "back": "chụp [ảnh]",
+        "collection_id": "17"
+    },
+    {
+        "front": "します",
+        "kanji": null,
+        "pronunciation": "します",
+        "back": "làm",
+        "collection_id": "17"
+    },
+    {
+        "front": "会います[友達に～]",
+        "kanji": "HỘI HỮU ĐẠT",
+        "pronunciation": "あいます[ともだちに～]",
+        "back": "gặp [bạn]",
+        "collection_id": "17"
+    },
+    {
+        "front": "ごはん",
+        "kanji": null,
+        "pronunciation": "ごはん",
+        "back": "cơm, bữa ăn",
+        "collection_id": "17"
+    },
+    {
+        "front": "朝ごはん",
+        "kanji": "TRIỀU",
+        "pronunciation": "あさごはん",
+        "back": "cơm sáng",
+        "collection_id": "17"
+    },
+    {
+        "front": "昼ごはん",
+        "kanji": "TRÚ",
+        "pronunciation": "ひるごはん",
+        "back": "cơm trưa",
+        "collection_id": "17"
+    },
+    {
+        "front": "晩ごはん",
+        "kanji": "VÃN",
+        "pronunciation": "ばんごはん",
+        "back": "cơm tối",
+        "collection_id": "17"
+    },
+    {
+        "front": "パン",
+        "kanji": null,
+        "pronunciation": "パン",
+        "back": "bánh mì",
+        "collection_id": "17"
+    },
+    {
+        "front": "卵",
+        "kanji": "NOÃN",
+        "pronunciation": "たまご",
+        "back": "trứng",
+        "collection_id": "17"
+    },
+    {
+        "front": "肉",
+        "kanji": "NHỤC",
+        "pronunciation": "にく",
+        "back": "thịt",
+        "collection_id": "17"
+    },
+    {
+        "front": "魚",
+        "kanji": "NGƯ",
+        "pronunciation": "さかな",
+        "back": "cá",
+        "collection_id": "17"
+    },
+    {
+        "front": "野菜",
+        "kanji": "DÃ THÁI",
+        "pronunciation": "やさい",
+        "back": "rau",
+        "collection_id": "17"
+    },
+    {
+        "front": "果物",
+        "kanji": "QUẢ VẬT",
+        "pronunciation": "くだもの",
+        "back": "hoa quả, trái cây",
+        "collection_id": "17"
+    },
+    {
+        "front": "水",
+        "kanji": "THỦY",
+        "pronunciation": "みず",
+        "back": "nước",
+        "collection_id": "17"
+    },
+    {
+        "front": "お茶",
+        "kanji": "TRÀ",
+        "pronunciation": "おちゃ",
+        "back": "trà (nói chung)",
+        "collection_id": "17"
+    },
+    {
+        "front": "紅茶",
+        "kanji": "HỒNG TRÀ",
+        "pronunciation": "こうちゃ",
+        "back": "trà đen",
+        "collection_id": "17"
+    },
+    {
+        "front": "牛乳",
+        "kanji": "NGƯU NHŨ",
+        "pronunciation": "ぎゅうにゅう",
+        "back": "sữa bò",
+        "collection_id": "17"
+    },
+    {
+        "front": "(ミルク)",
+        "kanji": null,
+        "pronunciation": "(ミルク)",
+        "back": "",
+        "collection_id": "17"
+    },
+    {
+        "front": "ジュース",
+        "kanji": null,
+        "pronunciation": "ジュース",
+        "back": "nước hoa quả",
+        "collection_id": "17"
+    },
+    {
+        "front": "ビール",
+        "kanji": null,
+        "pronunciation": "ビール",
+        "back": "bia",
+        "collection_id": "17"
+    },
+    {
+        "front": "[お]酒",
+        "kanji": "TỬU",
+        "pronunciation": "[お]さけ",
+        "back": "rượu, rượu sake",
+        "collection_id": "17"
+    },
+    {
+        "front": "ビデオ",
+        "kanji": null,
+        "pronunciation": "ビデオ",
+        "back": "video, băng video, đầu video",
+        "collection_id": "17"
+    },
+    {
+        "front": "映画",
+        "kanji": "ẢNH HỌA",
+        "pronunciation": "えいが",
+        "back": "phim, điện ảnh",
+        "collection_id": "17"
+    },
+    {
+        "front": "ＣＤ",
+        "kanji": null,
+        "pronunciation": "ＣＤ",
+        "back": "đĩa CD",
+        "collection_id": "17"
+    },
+    {
+        "front": "手紙",
+        "kanji": "THỦ CHỈ",
+        "pronunciation": "てがみ",
+        "back": "thư",
+        "collection_id": "17"
+    },
+    {
+        "front": "レポート",
+        "kanji": null,
+        "pronunciation": "レポート",
+        "back": "báo cáo",
+        "collection_id": "17"
+    },
+    {
+        "front": "写真",
+        "kanji": "TẢ CHÂN",
+        "pronunciation": "しゃしん",
+        "back": "ảnh",
+        "collection_id": "17"
+    },
+    {
+        "front": "店",
+        "kanji": "ĐIẾM",
+        "pronunciation": "みせ",
+        "back": "cửa hàng, tiệm",
+        "collection_id": "17"
+    },
+    {
+        "front": "レストラン",
+        "kanji": null,
+        "pronunciation": "レストラン",
+        "back": "nhà hàng",
+        "collection_id": "17"
+    },
+    {
+        "front": "庭",
+        "kanji": "ĐÌNH",
+        "pronunciation": "にわ",
+        "back": "vườn",
+        "collection_id": "17"
+    },
+    {
+        "front": "宿題",
+        "kanji": "TÚC ĐỀ",
+        "pronunciation": "しゅくだい",
+        "back": "bài tập về nhà (～をします: làm bài tập)",
+        "collection_id": "17"
+    },
+    {
+        "front": "テニス",
+        "kanji": null,
+        "pronunciation": "テニス",
+        "back": "quần vợt (～をします: đánh quần vợt)",
+        "collection_id": "17"
+    },
+    {
+        "front": "サッカー",
+        "kanji": null,
+        "pronunciation": "サッカー",
+        "back": "bóng đá (～をします: chơi bóng đá)",
+        "collection_id": "17"
+    },
+    {
+        "front": "[お]花見",
+        "kanji": "HOA KIẾN",
+        "pronunciation": "[お]はなみ",
+        "back": "việc ngắm hoa anh đào (～をします: ngắm hoa anh đào)",
+        "collection_id": "17"
+    },
+    {
+        "front": "何",
+        "kanji": "HÀ",
+        "pronunciation": "なに",
+        "back": "cái gì",
+        "collection_id": "17"
+    },
+    {
+        "front": "いっしょに",
+        "kanji": null,
+        "pronunciation": "いっしょに",
+        "back": "cùng, cùng nhau",
+        "collection_id": "17"
+    },
+    {
+        "front": "ちょっと",
+        "kanji": null,
+        "pronunciation": "ちょっと",
+        "back": "một chút",
+        "collection_id": "17"
+    },
+    {
+        "front": "いつも",
+        "kanji": null,
+        "pronunciation": "いつも",
+        "back": "luôn luôn, lúc nào cũng",
+        "collection_id": "17"
+    },
+    {
+        "front": "時々",
+        "kanji": "THÌ (KÉP)",
+        "pronunciation": "ときどき",
+        "back": "thỉnh thoảng",
+        "collection_id": "17"
+    },
+    {
+        "front": "それから",
+        "kanji": null,
+        "pronunciation": "それから",
+        "back": "sau đó, tiếp theo",
+        "collection_id": "17"
+    },
+    {
+        "front": "ええ",
+        "kanji": null,
+        "pronunciation": "ええ",
+        "back": "vâng, được (cách nói thân mật của 「はい」)",
+        "collection_id": "17"
+    },
+    {
+        "front": "いいですね。",
+        "kanji": null,
+        "pronunciation": "いいですね。",
+        "back": "Được đấy nhỉ./ hay quá.",
+        "collection_id": "17"
+    },
+    {
+        "front": "わかりました。",
+        "kanji": null,
+        "pronunciation": "わかりました。",
+        "back": "Tôi hiểu rồi/ vâng ạ.",
+        "collection_id": "17"
+    },
+    {
+        "front": "何ですか。",
+        "kanji": "HÀ",
+        "pronunciation": "（なんですか）",
+        "back": "Có gì đấy ạ?/ cái gì vậy?",
+        "collection_id": "17"
+    },
+    {
+        "front": "じゃ、また[あした]。",
+        "kanji": null,
+        "pronunciation": "じゃ、また[あした]。",
+        "back": "Hẹn gặp lại [ngày mai].",
+        "collection_id": "17"
+    },
+    {
+        "front": "メキシコ",
+        "kanji": null,
+        "pronunciation": "メキシコ",
+        "back": "Mexico",
+        "collection_id": "17"
+    },
+    {
+        "front": "大阪城公園",
+        "kanji": "ĐẠI PHẢN THÀNH CÔNG VIÊN",
+        "pronunciation": "おおさかじょうこうえん",
+        "back": "Công viên lâu đài Osaka",
+        "collection_id": "17"
+    }
+]

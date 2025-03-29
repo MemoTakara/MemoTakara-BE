@@ -1,0 +1,345 @@
+[
+    {
+        "front": "います",
+        "kanji": null,
+        "pronunciation": "います",
+        "back": "có, ở (tồn tại, dùng cho người và động vật)",
+        "collection_id": "21"
+    },
+    {
+        "front": "あります",
+        "kanji": null,
+        "pronunciation": "あります",
+        "back": "có (tồn tại, dùng cho đồ vật)",
+        "collection_id": "21"
+    },
+    {
+        "front": "いろいろ[な]",
+        "kanji": null,
+        "pronunciation": "いろいろ[な]",
+        "back": "nhiều, đa dạng",
+        "collection_id": "21"
+    },
+    {
+        "front": "男の人",
+        "kanji": "NAM NHÂN",
+        "pronunciation": "おとこのひと",
+        "back": "người đàn ông",
+        "collection_id": "21"
+    },
+    {
+        "front": "女の人",
+        "kanji": "NỮ NHÂN",
+        "pronunciation": "おんなのひと",
+        "back": "người đàn bà",
+        "collection_id": "21"
+    },
+    {
+        "front": "男の子",
+        "kanji": "NAM TỬ",
+        "pronunciation": "おとこのこ",
+        "back": "cậu con trai",
+        "collection_id": "21"
+    },
+    {
+        "front": "女の子",
+        "kanji": "NỮ TỬ",
+        "pronunciation": "おんなのこ",
+        "back": "cô con gái",
+        "collection_id": "21"
+    },
+    {
+        "front": "犬",
+        "kanji": "KHUYỂN",
+        "pronunciation": "いぬ",
+        "back": "chó",
+        "collection_id": "21"
+    },
+    {
+        "front": "猫",
+        "kanji": "MIÊU",
+        "pronunciation": "ねこ",
+        "back": "mèo",
+        "collection_id": "21"
+    },
+    {
+        "front": "木",
+        "kanji": "MỘC",
+        "pronunciation": "き",
+        "back": "cây, gỗ",
+        "collection_id": "21"
+    },
+    {
+        "front": "物",
+        "kanji": "VẬT",
+        "pronunciation": "もの",
+        "back": "vật, đồ vật",
+        "collection_id": "21"
+    },
+    {
+        "front": "フィルム",
+        "kanji": null,
+        "pronunciation": "フィルム",
+        "back": "phim",
+        "collection_id": "21"
+    },
+    {
+        "front": "電池",
+        "kanji": "ĐIỆN TRÌ",
+        "pronunciation": "でんち",
+        "back": "Pin",
+        "collection_id": "21"
+    },
+    {
+        "front": "箱",
+        "kanji": "TƯƠNG",
+        "pronunciation": "はこ",
+        "back": "hộp",
+        "collection_id": "21"
+    },
+    {
+        "front": "スイッチ",
+        "kanji": null,
+        "pronunciation": "スイッチ",
+        "back": "công tắc",
+        "collection_id": "21"
+    },
+    {
+        "front": "冷蔵庫",
+        "kanji": "LÃNH TÀN KHỐ",
+        "pronunciation": "れいぞうこ",
+        "back": "tủ lạnh",
+        "collection_id": "21"
+    },
+    {
+        "front": "テーブル",
+        "kanji": null,
+        "pronunciation": "テーブル",
+        "back": "bàn",
+        "collection_id": "21"
+    },
+    {
+        "front": "ベッド",
+        "kanji": null,
+        "pronunciation": "ベッド",
+        "back": "giường",
+        "collection_id": "21"
+    },
+    {
+        "front": "棚",
+        "kanji": "BẰNG",
+        "pronunciation": "たな",
+        "back": "giá sách",
+        "collection_id": "21"
+    },
+    {
+        "front": "ドア",
+        "kanji": null,
+        "pronunciation": "ドア",
+        "back": "cửa",
+        "collection_id": "21"
+    },
+    {
+        "front": "窓",
+        "kanji": "SONG",
+        "pronunciation": "まど",
+        "back": "cửa sổ",
+        "collection_id": "21"
+    },
+    {
+        "front": "ポスト",
+        "kanji": null,
+        "pronunciation": "ポスト",
+        "back": "hộp thư, hòm thư",
+        "collection_id": "21"
+    },
+    {
+        "front": "ビル",
+        "kanji": null,
+        "pronunciation": "ビル",
+        "back": "toà nhà",
+        "collection_id": "21"
+    },
+    {
+        "front": "公園",
+        "kanji": "CÔNG VIÊN",
+        "pronunciation": "こうえん",
+        "back": "công viên",
+        "collection_id": "21"
+    },
+    {
+        "front": "喫茶店",
+        "kanji": "KHIẾT TRÀ ĐIẾM",
+        "pronunciation": "きっさてん",
+        "back": "quán giải khát, quán cà-phê",
+        "collection_id": "21"
+    },
+    {
+        "front": "本屋",
+        "kanji": "BẢN ỐC",
+        "pronunciation": "ほんや",
+        "back": "hiệu sách",
+        "collection_id": "21"
+    },
+    {
+        "front": "～屋",
+        "kanji": "ỐC",
+        "pronunciation": "～や",
+        "back": "hiệu ~, cửa hàng ~",
+        "collection_id": "21"
+    },
+    {
+        "front": "乗り場",
+        "kanji": "THỪA TRƯỜNG",
+        "pronunciation": "のりば",
+        "back": "bến xe, điểm lên xuống xe",
+        "collection_id": "21"
+    },
+    {
+        "front": "県",
+        "kanji": "HUYỆN",
+        "pronunciation": "けん",
+        "back": "tỉnh",
+        "collection_id": "21"
+    },
+    {
+        "front": "上",
+        "kanji": "THƯỢNG",
+        "pronunciation": "うえ",
+        "back": "trên",
+        "collection_id": "21"
+    },
+    {
+        "front": "下",
+        "kanji": "HẠ",
+        "pronunciation": "した",
+        "back": "dưới",
+        "collection_id": "21"
+    },
+    {
+        "front": "前",
+        "kanji": "TIỀN",
+        "pronunciation": "まえ",
+        "back": "trước",
+        "collection_id": "21"
+    },
+    {
+        "front": "うしろ",
+        "kanji": null,
+        "pronunciation": "うしろ",
+        "back": "sau",
+        "collection_id": "21"
+    },
+    {
+        "front": "右",
+        "kanji": "HUỮ",
+        "pronunciation": "みぎ",
+        "back": "phải",
+        "collection_id": "21"
+    },
+    {
+        "front": "左",
+        "kanji": "TẢ",
+        "pronunciation": "ひだり",
+        "back": "trái",
+        "collection_id": "21"
+    },
+    {
+        "front": "中",
+        "kanji": "TRUNG",
+        "pronunciation": "なか",
+        "back": "trong, giữa",
+        "collection_id": "21"
+    },
+    {
+        "front": "外",
+        "kanji": "NGOẠI",
+        "pronunciation": "そと",
+        "back": "ngoài",
+        "collection_id": "21"
+    },
+    {
+        "front": "隣",
+        "kanji": "LÂN",
+        "pronunciation": "となり",
+        "back": "bên cạnh",
+        "collection_id": "21"
+    },
+    {
+        "front": "近く",
+        "kanji": "CẬN",
+        "pronunciation": "ちかく",
+        "back": "gần",
+        "collection_id": "21"
+    },
+    {
+        "front": "間",
+        "kanji": "GIAN",
+        "pronunciation": "あいだ",
+        "back": "giữa",
+        "collection_id": "21"
+    },
+    {
+        "front": "～や～[など] ~",
+        "kanji": null,
+        "pronunciation": "～や～[など] ~",
+        "back": "~và ~, [v.v.]",
+        "collection_id": "21"
+    },
+    {
+        "front": "いちばん～",
+        "kanji": null,
+        "pronunciation": "いちばん～",
+        "back": "~ nhất (いちばん うえ：vị trí cao nhất)",
+        "collection_id": "21"
+    },
+    {
+        "front": "―段目",
+        "kanji": "ĐOẠN MỤC",
+        "pronunciation": "―だんめ",
+        "back": "giá thứ -, tầng thứ",
+        "collection_id": "21"
+    },
+    {
+        "front": "[どうも]すみません。",
+        "kanji": null,
+        "pronunciation": "[どうも]すみません。",
+        "back": "Cám ơn",
+        "collection_id": "21"
+    },
+    {
+        "front": "チリソース",
+        "kanji": null,
+        "pronunciation": "チリソース",
+        "back": "tương ớt (chili sauce)",
+        "collection_id": "21"
+    },
+    {
+        "front": "奥",
+        "kanji": "ÁO",
+        "pronunciation": "おく",
+        "back": "bên trong cùng, phía sâu bên trong",
+        "collection_id": "21"
+    },
+    {
+        "front": "スパイス・コーナー",
+        "kanji": null,
+        "pronunciation": "スパイス・コーナー",
+        "back": "góc gia vị (sprice corner)",
+        "collection_id": "21"
+    },
+    {
+        "front": "東京ディズニーランド",
+        "kanji": "ĐÔNG KINH",
+        "pronunciation": "東京ディズニーランド",
+        "back": "Công viên Tokyo Disneyland",
+        "collection_id": "21"
+    },
+    {
+        "front": "ユニューヤ・ストア",
+        "kanji": null,
+        "pronunciation": "ユニューヤ・ストア",
+        "back": "tên một siêu thị (giả tưởng)",
+        "collection_id": "21"
+    }
+]

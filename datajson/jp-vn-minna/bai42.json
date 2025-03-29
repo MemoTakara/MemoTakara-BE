@@ -1,0 +1,387 @@
+[
+    {
+        "front": "包みます",
+        "kanji": "BAO",
+        "pronunciation": "つつみます",
+        "back": "bọc, gói",
+        "collection_id": "53"
+    },
+    {
+        "front": "沸かします",
+        "kanji": "PHẮT/PHI",
+        "pronunciation": "わかします",
+        "back": "đun sôi",
+        "collection_id": "53"
+    },
+    {
+        "front": "混ぜます",
+        "kanji": "HỖN",
+        "pronunciation": "まぜます",
+        "back": "trộn, khuấy",
+        "collection_id": "53"
+    },
+    {
+        "front": "計算します",
+        "kanji": "KẾ TOÁN",
+        "pronunciation": "けいさんします",
+        "back": "tính toán, làm tính",
+        "collection_id": "53"
+    },
+    {
+        "front": "厚い",
+        "kanji": "HẬU",
+        "pronunciation": "あつい",
+        "back": "dày",
+        "collection_id": "53"
+    },
+    {
+        "front": "薄い",
+        "kanji": "BẠC",
+        "pronunciation": "うすい",
+        "back": "mỏng",
+        "collection_id": "53"
+    },
+    {
+        "front": "弁護士",
+        "kanji": "BIỆN HỘ SĨ",
+        "pronunciation": "べんごし",
+        "back": "luật sư",
+        "collection_id": "53"
+    },
+    {
+        "front": "音楽家",
+        "kanji": "ÂM NHẠC GIA",
+        "pronunciation": "おんがくか",
+        "back": "nhạc sĩ",
+        "collection_id": "53"
+    },
+    {
+        "front": "子どもたち",
+        "kanji": "TỬ",
+        "pronunciation": "こどもたち",
+        "back": "trẻ em, trẻ con, bọn trẻ",
+        "collection_id": "53"
+    },
+    {
+        "front": "二人",
+        "kanji": "NHỊ NHÂN",
+        "pronunciation": "ふたり",
+        "back": "hai người, cặp, đôi",
+        "collection_id": "53"
+    },
+    {
+        "front": "教育",
+        "kanji": "GIÁO DỤC",
+        "pronunciation": "きょういく",
+        "back": "giáo dục, việc học hành",
+        "collection_id": "53"
+    },
+    {
+        "front": "歴史",
+        "kanji": "LỊCH SỬ",
+        "pronunciation": "れきし",
+        "back": "lịch sử",
+        "collection_id": "53"
+    },
+    {
+        "front": "文化",
+        "kanji": "VĂN HÓA",
+        "pronunciation": "ぶんか",
+        "back": "văn hóa",
+        "collection_id": "53"
+    },
+    {
+        "front": "社会",
+        "kanji": "XÃ HỘI",
+        "pronunciation": "しゃかい",
+        "back": "xã hội",
+        "collection_id": "53"
+    },
+    {
+        "front": "法律",
+        "kanji": "PHÁP LUẬT",
+        "pronunciation": "ほうりつ",
+        "back": "pháp luật",
+        "collection_id": "53"
+    },
+    {
+        "front": "戦争",
+        "kanji": "CHIẾN TRANH",
+        "pronunciation": "せんそう",
+        "back": "chiến tranh",
+        "collection_id": "53"
+    },
+    {
+        "front": "平和",
+        "kanji": "BÌNH HÒA",
+        "pronunciation": "へいわ",
+        "back": "hòa bình",
+        "collection_id": "53"
+    },
+    {
+        "front": "目的",
+        "kanji": "MỤC ĐÍCH",
+        "pronunciation": "もくてき",
+        "back": "mục đích",
+        "collection_id": "53"
+    },
+    {
+        "front": "安全",
+        "kanji": "AN TOÀN",
+        "pronunciation": "あんぜん",
+        "back": "an toàn",
+        "collection_id": "53"
+    },
+    {
+        "front": "論文",
+        "kanji": "LUẬN VĂN",
+        "pronunciation": "ろんぶん",
+        "back": "luận văn, bài báo học thuật",
+        "collection_id": "53"
+    },
+    {
+        "front": "関係",
+        "kanji": "QUAN HỆ",
+        "pronunciation": "かんけい",
+        "back": "quan hệ",
+        "collection_id": "53"
+    },
+    {
+        "front": "ミキサー",
+        "kanji": null,
+        "pronunciation": "ミキサー",
+        "back": "máy trộn (mixer)",
+        "collection_id": "53"
+    },
+    {
+        "front": "やかん",
+        "kanji": null,
+        "pronunciation": "やかん",
+        "back": "cái ấm nước",
+        "collection_id": "53"
+    },
+    {
+        "front": "栓抜き",
+        "kanji": "XUYÊN BẠT",
+        "pronunciation": "せんぬき",
+        "back": "cái mở nắp chai",
+        "collection_id": "53"
+    },
+    {
+        "front": "缶切り",
+        "kanji": "PHẪU THIẾT",
+        "pronunciation": "かんきり",
+        "back": "cái mở đồ hộp",
+        "collection_id": "53"
+    },
+    {
+        "front": "缶詰",
+        "kanji": "PHẪU CẬT",
+        "pronunciation": "かんづめ",
+        "back": "đồ hộp",
+        "collection_id": "53"
+    },
+    {
+        "front": "ふろしき",
+        "kanji": null,
+        "pronunciation": "ふろしき",
+        "back": "tấm vải để gói đồ",
+        "collection_id": "53"
+    },
+    {
+        "front": "そろばん",
+        "kanji": null,
+        "pronunciation": "そろばん",
+        "back": "bàn tính",
+        "collection_id": "53"
+    },
+    {
+        "front": "体温計",
+        "kanji": "THỂ ÔN KẾ",
+        "pronunciation": "たいおんけい",
+        "back": "máy đo nhiệt độ cơ thể",
+        "collection_id": "53"
+    },
+    {
+        "front": "材料",
+        "kanji": "TÀI LIỆU",
+        "pronunciation": "ざいりょう",
+        "back": "nguyên liệu",
+        "collection_id": "53"
+    },
+    {
+        "front": "石",
+        "kanji": "THẠCH",
+        "pronunciation": "いし",
+        "back": "hòn đá, đá",
+        "collection_id": "53"
+    },
+    {
+        "front": "ピラミッド",
+        "kanji": null,
+        "pronunciation": "ピラミッド",
+        "back": "kim tự tháp",
+        "collection_id": "53"
+    },
+    {
+        "front": "データ",
+        "kanji": null,
+        "pronunciation": "データ",
+        "back": "số liệu, dữ liệu",
+        "collection_id": "53"
+    },
+    {
+        "front": "ファイル",
+        "kanji": null,
+        "pronunciation": "ファイル",
+        "back": "cái kẹp tài liệu (file)",
+        "collection_id": "53"
+    },
+    {
+        "front": "ある～",
+        "kanji": null,
+        "pronunciation": "ある～",
+        "back": "có ~, một ~",
+        "collection_id": "53"
+    },
+    {
+        "front": "一生懸命",
+        "kanji": "NHẤT SINH HUYỀN MỆNH",
+        "pronunciation": "いっしょうけんめい",
+        "back": "hết sức, chăm chỉ",
+        "collection_id": "53"
+    },
+    {
+        "front": "なぜ",
+        "kanji": null,
+        "pronunciation": "なぜ",
+        "back": "tại sao",
+        "collection_id": "53"
+    },
+    {
+        "front": "国連",
+        "kanji": "QUỐC LIÊN",
+        "pronunciation": "こくれん",
+        "back": "Liên hợp Quốc",
+        "collection_id": "53"
+    },
+    {
+        "front": "エリーゼのために",
+        "kanji": null,
+        "pronunciation": "エリーゼのために",
+        "back": "Fur” Elize, tên một bản nhạc của Beethoven",
+        "collection_id": "53"
+    },
+    {
+        "front": "ベートーベン",
+        "kanji": null,
+        "pronunciation": "ベートーベン",
+        "back": "Beethoven (1770-1827), nhà soạn nhạc người Đức",
+        "collection_id": "53"
+    },
+    {
+        "front": "ポーランド",
+        "kanji": null,
+        "pronunciation": "ポーランド",
+        "back": "Ba Lan",
+        "collection_id": "53"
+    },
+    {
+        "front": "ローン",
+        "kanji": null,
+        "pronunciation": "ローン",
+        "back": "khoản vay trả góp, tiền vay góp",
+        "collection_id": "53"
+    },
+    {
+        "front": "セット",
+        "kanji": null,
+        "pronunciation": "セット",
+        "back": "bộ",
+        "collection_id": "53"
+    },
+    {
+        "front": "あと",
+        "kanji": null,
+        "pronunciation": "あと",
+        "back": "còn lại",
+        "collection_id": "53"
+    },
+    {
+        "front": "カップラーメン",
+        "kanji": null,
+        "pronunciation": "カップラーメン",
+        "back": "mì ăn liền đựng trong cốc",
+        "collection_id": "53"
+    },
+    {
+        "front": "インスタントラーメン",
+        "kanji": null,
+        "pronunciation": "インスタントラーメン",
+        "back": "mì ăn liền",
+        "collection_id": "53"
+    },
+    {
+        "front": "なべ",
+        "kanji": null,
+        "pronunciation": "なべ",
+        "back": "cái chảo, cái nồi",
+        "collection_id": "53"
+    },
+    {
+        "front": "どんぶり",
+        "kanji": null,
+        "pronunciation": "どんぶり",
+        "back": "cái bát tô",
+        "collection_id": "53"
+    },
+    {
+        "front": "食品",
+        "kanji": "THỰC PHẨM",
+        "pronunciation": "しょくひん",
+        "back": "thực phẩm, đồ ăn",
+        "collection_id": "53"
+    },
+    {
+        "front": "調査",
+        "kanji": "ĐIỀU TRA",
+        "pronunciation": "ちょうさ",
+        "back": "việc điều tra, cuộc điều tra",
+        "collection_id": "53"
+    },
+    {
+        "front": "カップ",
+        "kanji": null,
+        "pronunciation": "カップ",
+        "back": "cốc (dùng để đựng đồ ăn)",
+        "collection_id": "53"
+    },
+    {
+        "front": "また",
+        "kanji": null,
+        "pronunciation": "また",
+        "back": "và, thêm nữa",
+        "collection_id": "53"
+    },
+    {
+        "front": "～の代わりに",
+        "kanji": "ĐẠI",
+        "pronunciation": "～のかわりに",
+        "back": "thay ~, thay thế ~",
+        "collection_id": "53"
+    },
+    {
+        "front": "どこででも",
+        "kanji": null,
+        "pronunciation": "どこででも",
+        "back": "ở đâu cũng",
+        "collection_id": "53"
+    },
+    {
+        "front": "今では",
+        "kanji": "KIM",
+        "pronunciation": "いまでは",
+        "back": "bây giờ (thì)",
+        "collection_id": "53"
+    }
+]

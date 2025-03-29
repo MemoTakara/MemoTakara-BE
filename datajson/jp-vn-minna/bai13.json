@@ -1,0 +1,296 @@
+[
+    {
+        "front": "遊びます",
+        "kanji": "DU",
+        "pronunciation": "あそびます",
+        "back": "chơi",
+        "collection_id": "24"
+    },
+    {
+        "front": "泳ぎます",
+        "kanji": "VỊNH",
+        "pronunciation": "およぎます",
+        "back": "bơi",
+        "collection_id": "24"
+    },
+    {
+        "front": "迎えます",
+        "kanji": "NGHINH",
+        "pronunciation": "むかえます",
+        "back": "đón",
+        "collection_id": "24"
+    },
+    {
+        "front": "疲れます",
+        "kanji": "BÌ",
+        "pronunciation": "つかれます",
+        "back": "mệt",
+        "collection_id": "24"
+    },
+    {
+        "front": "[手紙を～]出します",
+        "kanji": "THỦ CHỈ XUẤT",
+        "pronunciation": "[てがみを～]だします",
+        "back": "gửi[thư]",
+        "collection_id": "24"
+    },
+    {
+        "front": "[喫茶店に～]入ります",
+        "kanji": "KHIẾT TRÀ ĐIẾM NHẬP",
+        "pronunciation": "[きっさてんに～]はいります",
+        "back": "vào [quán giải khát]",
+        "collection_id": "24"
+    },
+    {
+        "front": "[喫茶店を～]出ます",
+        "kanji": "KHIẾT TRÀ ĐIẾM XUẤT",
+        "pronunciation": "[きっさてんを～]でます",
+        "back": "ra, ra khỏi [quán giải khát]",
+        "collection_id": "24"
+    },
+    {
+        "front": "結婚します",
+        "kanji": "KẾT HÔN",
+        "pronunciation": "けっこんします",
+        "back": "kết hôn, lập gia đình, cưới",
+        "collection_id": "24"
+    },
+    {
+        "front": "買い物します",
+        "kanji": "MÃI VẬT",
+        "pronunciation": "かいものします",
+        "back": "mua hàng",
+        "collection_id": "24"
+    },
+    {
+        "front": "食事します",
+        "kanji": "THỰC SỰ",
+        "pronunciation": "しょくじします",
+        "back": "ăn cơm",
+        "collection_id": "24"
+    },
+    {
+        "front": "[公園を～]散歩します",
+        "kanji": "CÔNG VIÊN TÁN BỘ",
+        "pronunciation": "[こうえんを～]さんぽします",
+        "back": "đi dạo [ở công viên]",
+        "collection_id": "24"
+    },
+    {
+        "front": "大変「な」",
+        "kanji": "ĐẠI BIẾN",
+        "pronunciation": "たいへん「な」",
+        "back": "vất vả, khó khăn, khổ",
+        "collection_id": "24"
+    },
+    {
+        "front": "欲しい",
+        "kanji": "DỤC",
+        "pronunciation": "ほしい",
+        "back": "muốn có",
+        "collection_id": "24"
+    },
+    {
+        "front": "寂しい",
+        "kanji": "TỊCH",
+        "pronunciation": "さびしい",
+        "back": "buồn, cô đơn",
+        "collection_id": "24"
+    },
+    {
+        "front": "広い",
+        "kanji": "QUẢNG",
+        "pronunciation": "ひろい",
+        "back": "rộng",
+        "collection_id": "24"
+    },
+    {
+        "front": "狭い",
+        "kanji": "HIỆP",
+        "pronunciation": "せまい",
+        "back": "chật, hẹp",
+        "collection_id": "24"
+    },
+    {
+        "front": "市役所",
+        "kanji": "THỊ DỊCH SỞ",
+        "pronunciation": "しやくしょ",
+        "back": "văn phòng hành chính quận, thành phố",
+        "collection_id": "24"
+    },
+    {
+        "front": "プール",
+        "kanji": null,
+        "pronunciation": "プール",
+        "back": "bể bơi",
+        "collection_id": "24"
+    },
+    {
+        "front": "川",
+        "kanji": "XUYÊN",
+        "pronunciation": "かわ",
+        "back": "sông",
+        "collection_id": "24"
+    },
+    {
+        "front": "経済",
+        "kanji": "KINH TẾ",
+        "pronunciation": "けいざい",
+        "back": "kinh tế",
+        "collection_id": "24"
+    },
+    {
+        "front": "美術",
+        "kanji": "MỸ THUẬT",
+        "pronunciation": "びじゅつ",
+        "back": "mỹ thuật",
+        "collection_id": "24"
+    },
+    {
+        "front": "釣り",
+        "kanji": "ĐIẾU",
+        "pronunciation": "つり",
+        "back": "việc câu cá (~をします：câu cá)",
+        "collection_id": "24"
+    },
+    {
+        "front": "スキー",
+        "kanji": null,
+        "pronunciation": "スキー",
+        "back": "việc trượt tuyết (~をします：trượt tuyết)",
+        "collection_id": "24"
+    },
+    {
+        "front": "会議",
+        "kanji": "HỘI NGHỊ",
+        "pronunciation": "かいぎ",
+        "back": "họp, cuộc họp (~をします: họp, tổ chức cuộc họp)",
+        "collection_id": "24"
+    },
+    {
+        "front": "登録",
+        "kanji": "ĐĂNG LỤC",
+        "pronunciation": "とうろく",
+        "back": "việc đăng ký (~をします：đăng ký)",
+        "collection_id": "24"
+    },
+    {
+        "front": "週末",
+        "kanji": "CHU MẠT",
+        "pronunciation": "しゅうまつ",
+        "back": "cuối tuần",
+        "collection_id": "24"
+    },
+    {
+        "front": "～ごろ",
+        "kanji": null,
+        "pronunciation": "～ごろ",
+        "back": "khoảng ~ (dùng cho thời gian)",
+        "collection_id": "24"
+    },
+    {
+        "front": "何か",
+        "kanji": "HÀ",
+        "pronunciation": "なにか",
+        "back": "cái gì đó",
+        "collection_id": "24"
+    },
+    {
+        "front": "どこか",
+        "kanji": null,
+        "pronunciation": "どこか",
+        "back": "đâu đó, chỗ nào đó",
+        "collection_id": "24"
+    },
+    {
+        "front": "おなかが　すきました。",
+        "kanji": null,
+        "pronunciation": "おなかが　すきました。",
+        "back": "(tôi) đói rồi.",
+        "collection_id": "24"
+    },
+    {
+        "front": "おなかが　いっぱいです。",
+        "kanji": null,
+        "pronunciation": "おなかが　いっぱいです。",
+        "back": "(tôi) no rồi.",
+        "collection_id": "24"
+    },
+    {
+        "front": "のどが　かわきました。",
+        "kanji": null,
+        "pronunciation": "のどが　かわきました。",
+        "back": "(tôi) khát.",
+        "collection_id": "24"
+    },
+    {
+        "front": "そうですね。",
+        "kanji": null,
+        "pronunciation": "そうですね。",
+        "back": "Thế à. Như vậy nhỉ",
+        "collection_id": "24"
+    },
+    {
+        "front": "そうしましょう。",
+        "kanji": null,
+        "pronunciation": "そうしましょう。",
+        "back": "Nhất trí./ Chúng ta thống nhất như thế.",
+        "collection_id": "24"
+    },
+    {
+        "front": "ご注文は？",
+        "kanji": "CHÚ VĂN",
+        "pronunciation": "ごちゅうもん",
+        "back": "Anh/Chị dùng món gì ạ",
+        "collection_id": "24"
+    },
+    {
+        "front": "ていしょく",
+        "kanji": null,
+        "pronunciation": "ていしょく",
+        "back": "cơm suất, cơm phần",
+        "collection_id": "24"
+    },
+    {
+        "front": "牛どん",
+        "kanji": "NGƯU",
+        "pronunciation": "ぎゅうどん",
+        "back": "món cơm thịt bò",
+        "collection_id": "24"
+    },
+    {
+        "front": "[少々] お待ちください。",
+        "kanji": "THIỂU ĐÃI",
+        "pronunciation": "「しょうしょう」おまちください",
+        "back": "Xin anh/chị vui lòng đợi [một chút].",
+        "collection_id": "24"
+    },
+    {
+        "front": "別々に",
+        "kanji": "BIỆT",
+        "pronunciation": "べつべつに",
+        "back": "riêng ra/ để riêng",
+        "collection_id": "24"
+    },
+    {
+        "front": "ロシア",
+        "kanji": null,
+        "pronunciation": "ロシア",
+        "back": "Nga",
+        "collection_id": "24"
+    },
+    {
+        "front": "つるや",
+        "kanji": null,
+        "pronunciation": "つるや",
+        "back": "tên một nhà hàng (giả tưởng)",
+        "collection_id": "24"
+    },
+    {
+        "front": "おはようテレビ",
+        "kanji": null,
+        "pronunciation": "おはようテレビ",
+        "back": "tên một chương trình truyền hình (giả tưởng)",
+        "collection_id": "24"
+    }
+]

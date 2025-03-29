@@ -1,0 +1,345 @@
+[
+    {
+        "front": "わたし",
+        "kanji": null,
+        "pronunciation": "わたし",
+        "back": "tôi",
+        "collection_id": "12"
+    },
+    {
+        "front": "わたしたち",
+        "kanji": null,
+        "pronunciation": "わたしたち",
+        "back": "chúng tôi, chúng ta",
+        "collection_id": "12"
+    },
+    {
+        "front": "あなた",
+        "kanji": null,
+        "pronunciation": "あなた",
+        "back": "anh/ chị/ ông/ bà,",
+        "collection_id": "12"
+    },
+    {
+        "front": "あの人",
+        "kanji": "NHÂN",
+        "pronunciation": "あのひと",
+        "back": "người kia, người đó",
+        "collection_id": "12"
+    },
+    {
+        "front": "あの方",
+        "kanji": "PHƯƠNG",
+        "pronunciation": "あのかた",
+        "back": "vị kia",
+        "collection_id": "12"
+    },
+    {
+        "front": "皆さん",
+        "kanji": "GIAI",
+        "pronunciation": "みなさん",
+        "back": "các anh chị, các ông bà, các bạn, quý vị",
+        "collection_id": "12"
+    },
+    {
+        "front": "～さん",
+        "kanji": null,
+        "pronunciation": "～さん",
+        "back": "anh, chị, ông, bà",
+        "collection_id": "12"
+    },
+    {
+        "front": "～ちゃん",
+        "kanji": null,
+        "pronunciation": "～ちゃん",
+        "back": "(hậu tố thêm vào sau tên của trẻ em thay cho 「～さん」)",
+        "collection_id": "12"
+    },
+    {
+        "front": "～君",
+        "kanji": "QUÂN",
+        "pronunciation": "～くん",
+        "back": "(hậu tố thêm vào sau tên của em trai)",
+        "collection_id": "12"
+    },
+    {
+        "front": "～人",
+        "kanji": "NHÂN",
+        "pronunciation": "～じん",
+        "back": "người (nước)~”; ví dụ  「アメリカじん」: người Mỹ)",
+        "collection_id": "12"
+    },
+    {
+        "front": "先生",
+        "kanji": "TIÊN SINH",
+        "pronunciation": "せんせい",
+        "back": "thầy/ cô",
+        "collection_id": "12"
+    },
+    {
+        "front": "教師",
+        "kanji": "GIÁO SƯ",
+        "pronunciation": "きょうし",
+        "back": "giáo viên",
+        "collection_id": "12"
+    },
+    {
+        "front": "学生",
+        "kanji": "HỌC SINH",
+        "pronunciation": "がくせい",
+        "back": "học sinh, sinh viên",
+        "collection_id": "12"
+    },
+    {
+        "front": "会社員",
+        "kanji": "HỘI XÃ VIÊN",
+        "pronunciation": "かいしゃいん",
+        "back": "nhân viên công ty",
+        "collection_id": "12"
+    },
+    {
+        "front": "社員",
+        "kanji": "XÃ VIÊN",
+        "pronunciation": "しゃいん",
+        "back": "nhân viên công ty ~",
+        "collection_id": "12"
+    },
+    {
+        "front": "銀行員",
+        "kanji": "NGÂN HÀNH VIÊN",
+        "pronunciation": "ぎんこういん",
+        "back": "nhân viên ngân hàng",
+        "collection_id": "12"
+    },
+    {
+        "front": "医者",
+        "kanji": "Y GIẢ",
+        "pronunciation": "いしゃ",
+        "back": "bác sĩ",
+        "collection_id": "12"
+    },
+    {
+        "front": "研究者",
+        "kanji": "NGHIÊN CỨU GIẢ",
+        "pronunciation": "けんきゅうしゃ",
+        "back": "nhà nghiên cứu",
+        "collection_id": "12"
+    },
+    {
+        "front": "エンジニア",
+        "kanji": null,
+        "pronunciation": "エンジニア",
+        "back": "kỹ sư",
+        "collection_id": "12"
+    },
+    {
+        "front": "大学",
+        "kanji": "ĐẠI HỌC",
+        "pronunciation": "だいがく",
+        "back": "đại học, trường đại học",
+        "collection_id": "12"
+    },
+    {
+        "front": "病院",
+        "kanji": "BỆNH VIỆN",
+        "pronunciation": "びょういん",
+        "back": "bệnh viện",
+        "collection_id": "12"
+    },
+    {
+        "front": "電気",
+        "kanji": "ĐIỆN KHÍ",
+        "pronunciation": "でんき",
+        "back": "điện, đèn điện",
+        "collection_id": "12"
+    },
+    {
+        "front": "だれ（どなた）",
+        "kanji": null,
+        "pronunciation": "だれ（どなた）",
+        "back": "ai (「どなた」là cách nói lịch sự của「だれ」, vị nào)",
+        "collection_id": "12"
+    },
+    {
+        "front": "－歳",
+        "kanji": "NHẤT TUẾ",
+        "pronunciation": "―さい",
+        "back": "―tuổi",
+        "collection_id": "12"
+    },
+    {
+        "front": "何歳",
+        "kanji": "HÀ TUẾ",
+        "pronunciation": "なんさい",
+        "back": "mấy tuổi, bao nhiêu tuổi",
+        "collection_id": "12"
+    },
+    {
+        "front": "はい",
+        "kanji": null,
+        "pronunciation": "はい",
+        "back": "vâng, dạ",
+        "collection_id": "12"
+    },
+    {
+        "front": "いいえ",
+        "kanji": null,
+        "pronunciation": "いいえ",
+        "back": "không",
+        "collection_id": "12"
+    },
+    {
+        "front": "失礼ですが",
+        "kanji": "THẤT LỄ",
+        "pronunciation": "しつれいですが",
+        "back": "xin lỗi,…",
+        "collection_id": "12"
+    },
+    {
+        "front": "お名前は？",
+        "kanji": "DANH TIỀN",
+        "pronunciation": "おなまえは？",
+        "back": "Tên anh/chị là gì?",
+        "collection_id": "12"
+    },
+    {
+        "front": "初めまして。",
+        "kanji": "SƠ",
+        "pronunciation": "はじめまして。",
+        "back": "Rất hân hạnh được gặp anh/chị",
+        "collection_id": "12"
+    },
+    {
+        "front": "どうぞよろしく[おねがいします]。",
+        "kanji": null,
+        "pronunciation": "どうぞよろしく[おねがいします]。",
+        "back": "Rất mong được sự giúp đỡ của anh/chị.",
+        "collection_id": "12"
+    },
+    {
+        "front": "こちらは～さんです。",
+        "kanji": null,
+        "pronunciation": "こちらは～さんです。",
+        "back": "Đây là anh/chị/ông/bà ~.",
+        "collection_id": "12"
+    },
+    {
+        "front": "～から来ました。",
+        "kanji": "LAI",
+        "pronunciation": "～からきました。",
+        "back": "(tôi) đến từ ~.",
+        "collection_id": "12"
+    },
+    {
+        "front": "アメリカ",
+        "kanji": null,
+        "pronunciation": "アメリカ",
+        "back": "Mỹ",
+        "collection_id": "12"
+    },
+    {
+        "front": "イギリス",
+        "kanji": null,
+        "pronunciation": "イギリス",
+        "back": "Anh",
+        "collection_id": "12"
+    },
+    {
+        "front": "インド",
+        "kanji": null,
+        "pronunciation": "インド",
+        "back": "Ấn Độ",
+        "collection_id": "12"
+    },
+    {
+        "front": "インドネシア",
+        "kanji": null,
+        "pronunciation": "インドネシア",
+        "back": "Indonesia",
+        "collection_id": "12"
+    },
+    {
+        "front": "韓国",
+        "kanji": "HÀN QUỐC",
+        "pronunciation": "かんこく",
+        "back": "Hàn Quốc",
+        "collection_id": "12"
+    },
+    {
+        "front": "タイ",
+        "kanji": null,
+        "pronunciation": "タイ",
+        "back": "Thái Lan",
+        "collection_id": "12"
+    },
+    {
+        "front": "中国",
+        "kanji": "TRUNG QUỐC",
+        "pronunciation": "ちゅうごく",
+        "back": "Trung Quốc",
+        "collection_id": "12"
+    },
+    {
+        "front": "ドイツ",
+        "kanji": null,
+        "pronunciation": "ドイツ",
+        "back": "Đức",
+        "collection_id": "12"
+    },
+    {
+        "front": "日本",
+        "kanji": "NHẬT BẢN",
+        "pronunciation": "にほん",
+        "back": "Nhật Bản",
+        "collection_id": "12"
+    },
+    {
+        "front": "フランス",
+        "kanji": null,
+        "pronunciation": "フランス",
+        "back": "Pháp",
+        "collection_id": "12"
+    },
+    {
+        "front": "ブラジル",
+        "kanji": null,
+        "pronunciation": "ブラジル",
+        "back": "Braxin",
+        "collection_id": "12"
+    },
+    {
+        "front": "さくら大学",
+        "kanji": "ĐẠI HỌC",
+        "pronunciation": "さくらだいがく",
+        "back": "Đại học Sakura(giả tưởng)",
+        "collection_id": "12"
+    },
+    {
+        "front": "富士大学",
+        "kanji": "PHÚ SĨ ĐẠI HỌC",
+        "pronunciation": "ふじだいがく",
+        "back": "Đại học Phú Sĩ(giả tưởng)",
+        "collection_id": "12"
+    },
+    {
+        "front": "ＩＭＣ ／ パワーでんき ／ブラジルエアー",
+        "kanji": null,
+        "pronunciation": "ＩＭＣ ／ パワーでんき ／ブラジルエアー",
+        "back": "tên các công ty (giả tưởng)",
+        "collection_id": "12"
+    },
+    {
+        "front": "ＡＫＣ",
+        "kanji": null,
+        "pronunciation": "ＡＫＣ",
+        "back": "tên một tổ chức (giả tưởng)",
+        "collection_id": "12"
+    },
+    {
+        "front": "神戸病院",
+        "kanji": "THẦN HỘ  BỆNH VIỆN",
+        "pronunciation": "こうべびょういん",
+        "back": "tên một bệnh viện (giả tưởng)",
+        "collection_id": "12"
+    }
+]

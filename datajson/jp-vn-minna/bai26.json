@@ -1,0 +1,352 @@
+[
+    {
+        "front": "見ます, 診ます",
+        "kanji": "KIẾN, CHẨN",
+        "pronunciation": "みます",
+        "back": "xem, khám bệnh",
+        "collection_id": "37"
+    },
+    {
+        "front": "探します,捜します",
+        "kanji": "THÁM、SƯU",
+        "pronunciation": "さがします",
+        "back": "tìm, tìm kiếm",
+        "collection_id": "37"
+    },
+    {
+        "front": "[時間に～]遅れます",
+        "kanji": "THỜI GIAN TRÌ",
+        "pronunciation": "[じかんに～] おくれます",
+        "back": "chậm, muộn [cuộc hẹn,v.v.]",
+        "collection_id": "37"
+    },
+    {
+        "front": "やります",
+        "kanji": null,
+        "pronunciation": "やります",
+        "back": "làm",
+        "collection_id": "37"
+    },
+    {
+        "front": "[パーティーに～]参加します",
+        "kanji": "THAM GIA",
+        "pronunciation": "[パーティーに～]さんかします",
+        "back": "tham gia, dự [buổi tiệc]",
+        "collection_id": "37"
+    },
+    {
+        "front": "申し込みます",
+        "kanji": "THÂN VÀO",
+        "pronunciation": "もうしこみます",
+        "back": "đăng ký",
+        "collection_id": "37"
+    },
+    {
+        "front": "都合が　いい",
+        "kanji": "ĐÔ HỢP",
+        "pronunciation": "つごうが　いい",
+        "back": "có thời gian, thuận tiện",
+        "collection_id": "37"
+    },
+    {
+        "front": "都合が　悪い",
+        "kanji": "ĐÔ HỢP ÁC",
+        "pronunciation": "つごうが　わるい",
+        "back": "không có thời gian, bận, không thuận tiện",
+        "collection_id": "37"
+    },
+    {
+        "front": "気分がいい",
+        "kanji": "KHÍ PHÂN",
+        "pronunciation": "きぶんがいい",
+        "back": "cảm thấy tốt, cảm thấy khỏe",
+        "collection_id": "37"
+    },
+    {
+        "front": "気分が悪い",
+        "kanji": "KHÍ PHÂN ÁC",
+        "pronunciation": "きぶんがわるい",
+        "back": "cảm thấy không tốt, cảm thấy mệt",
+        "collection_id": "37"
+    },
+    {
+        "front": "新聞社",
+        "kanji": "TÂN VĂN XÃ",
+        "pronunciation": "しんぶんしゃ",
+        "back": "công ty phát hành báo, tòa soạn báo",
+        "collection_id": "37"
+    },
+    {
+        "front": "柔道",
+        "kanji": "NHU ĐẠO",
+        "pronunciation": "じゅうどう",
+        "back": "Judo (nhu đạo)",
+        "collection_id": "37"
+    },
+    {
+        "front": "運動会",
+        "kanji": "VẬN ĐỘNG HỘI",
+        "pronunciation": "うんどうかい",
+        "back": "hội thi thể thao",
+        "collection_id": "37"
+    },
+    {
+        "front": "場所",
+        "kanji": "TRƯỜNG SỞ",
+        "pronunciation": "ばしょ",
+        "back": "địa điểm",
+        "collection_id": "37"
+    },
+    {
+        "front": "ボランティア",
+        "kanji": null,
+        "pronunciation": "ボランティア",
+        "back": "tình nguyện viên",
+        "collection_id": "37"
+    },
+    {
+        "front": "～弁",
+        "kanji": "BIỆN",
+        "pronunciation": "～べん",
+        "back": "tiếng ~, giọng ~",
+        "collection_id": "37"
+    },
+    {
+        "front": "今度",
+        "kanji": "KIM ĐỘ",
+        "pronunciation": "こんど",
+        "back": "lần tới",
+        "collection_id": "37"
+    },
+    {
+        "front": "ずいぶん",
+        "kanji": null,
+        "pronunciation": "ずいぶん",
+        "back": "khá, tương đối",
+        "collection_id": "37"
+    },
+    {
+        "front": "直接",
+        "kanji": "TRỰC TIẾP",
+        "pronunciation": "ちょくせつ",
+        "back": "trực tiếp",
+        "collection_id": "37"
+    },
+    {
+        "front": "いつでも",
+        "kanji": null,
+        "pronunciation": "いつでも",
+        "back": "lúc nào cũng",
+        "collection_id": "37"
+    },
+    {
+        "front": "どこでも",
+        "kanji": null,
+        "pronunciation": "どこでも",
+        "back": "ở đâu cũng",
+        "collection_id": "37"
+    },
+    {
+        "front": "だれでも",
+        "kanji": null,
+        "pronunciation": "だれでも",
+        "back": "ai cũng",
+        "collection_id": "37"
+    },
+    {
+        "front": "何でも",
+        "kanji": "HÀ",
+        "pronunciation": "なんでも",
+        "back": "cái gì cũng",
+        "collection_id": "37"
+    },
+    {
+        "front": "こんな～",
+        "kanji": null,
+        "pronunciation": "こんな～",
+        "back": "~ như thế này",
+        "collection_id": "37"
+    },
+    {
+        "front": "そんな～",
+        "kanji": null,
+        "pronunciation": "そんな～",
+        "back": "~ như thế đó (gần người nghe)",
+        "collection_id": "37"
+    },
+    {
+        "front": "あんな～",
+        "kanji": null,
+        "pronunciation": "あんな～",
+        "back": "~ như thế kia (xa cả người nói và người nghe)",
+        "collection_id": "37"
+    },
+    {
+        "front": "ＮＨＫ",
+        "kanji": null,
+        "pronunciation": "ＮＨＫ",
+        "back": "Nippon Hoso Kyokai (hãng phát thanh truyền hình)",
+        "collection_id": "37"
+    },
+    {
+        "front": "こどもの日",
+        "kanji": "NHẬT",
+        "pronunciation": "こどものひ",
+        "back": "ngày trẻ em",
+        "collection_id": "37"
+    },
+    {
+        "front": "エドヤストア",
+        "kanji": null,
+        "pronunciation": "エドヤストア",
+        "back": "tên một cửa hàng (giả tưởng)",
+        "collection_id": "37"
+    },
+    {
+        "front": "[荷物が～] 片付きます",
+        "kanji": "HÀ VẬT PHIẾN PHÓ",
+        "pronunciation": "[にもつが～] かたづきます",
+        "back": "được dọn dẹp ngăn nắp, gọn gàng [đồ đạc ~]",
+        "collection_id": "37"
+    },
+    {
+        "front": "ごみ",
+        "kanji": null,
+        "pronunciation": "ごみ",
+        "back": "rác",
+        "collection_id": "37"
+    },
+    {
+        "front": "[ごみを～] 出します",
+        "kanji": "XUẤT",
+        "pronunciation": "だします",
+        "back": "đổ, để [rác]",
+        "collection_id": "37"
+    },
+    {
+        "front": "[ごみが～] 燃えます",
+        "kanji": "NHIÊN",
+        "pronunciation": "もえます",
+        "back": "cháy được [rác ~]",
+        "collection_id": "37"
+    },
+    {
+        "front": "月・水・金",
+        "kanji": "NGUYỆT THỦY KIM",
+        "pronunciation": "げっ・すい・きん",
+        "back": "thứ hai, thứ tư, thứ sáu",
+        "collection_id": "37"
+    },
+    {
+        "front": "置き場",
+        "kanji": "TRÍ TRƯỜNG",
+        "pronunciation": "おきば",
+        "back": "nơi để",
+        "collection_id": "37"
+    },
+    {
+        "front": "横",
+        "kanji": "HOÀNH",
+        "pronunciation": "よこ",
+        "back": "bên cạnh",
+        "collection_id": "37"
+    },
+    {
+        "front": "瓶",
+        "kanji": "BÌNH",
+        "pronunciation": "びん",
+        "back": "cái chai",
+        "collection_id": "37"
+    },
+    {
+        "front": "缶",
+        "kanji": "PHẪU",
+        "pronunciation": "かん",
+        "back": "cái lon, hộp kim loại",
+        "collection_id": "37"
+    },
+    {
+        "front": "[お]湯",
+        "kanji": "THANG",
+        "pronunciation": "「お」ゆ",
+        "back": "nước nóng",
+        "collection_id": "37"
+    },
+    {
+        "front": "ガス",
+        "kanji": null,
+        "pronunciation": "ガス",
+        "back": "ga",
+        "collection_id": "37"
+    },
+    {
+        "front": "～会社",
+        "kanji": "HỘI XÃ",
+        "pronunciation": "～がいしゃ",
+        "back": "công ty ~",
+        "collection_id": "37"
+    },
+    {
+        "front": "連絡します",
+        "kanji": "LIÊN LẠC",
+        "pronunciation": "れんらくします",
+        "back": "liên lạc",
+        "collection_id": "37"
+    },
+    {
+        "front": "困ったなあ。",
+        "kanji": "KHỐN",
+        "pronunciation": "こまったなあ。",
+        "back": "Làm thế nào đây!/ căng quá nhỉ!/ gay quá!",
+        "collection_id": "37"
+    },
+    {
+        "front": "電子メール",
+        "kanji": "ĐIỆN TỬ",
+        "pronunciation": "でんしメール",
+        "back": "thư điện tử, e-mail",
+        "collection_id": "37"
+    },
+    {
+        "front": "宇宙",
+        "kanji": "VŨ TRỤ",
+        "pronunciation": "うちゅう",
+        "back": "vũ trụ",
+        "collection_id": "37"
+    },
+    {
+        "front": "怖い",
+        "kanji": "BỐ",
+        "pronunciation": "こわい",
+        "back": "sợ",
+        "collection_id": "37"
+    },
+    {
+        "front": "宇宙船",
+        "kanji": "VŨ TRỤ THUYỀN",
+        "pronunciation": "うちゅうせん",
+        "back": "tàu vũ trụ",
+        "collection_id": "37"
+    },
+    {
+        "front": "別の",
+        "kanji": "BIỆT",
+        "pronunciation": "べつの",
+        "back": "khác",
+        "collection_id": "37"
+    },
+    {
+        "front": "宇宙飛行士",
+        "kanji": "VŨ TRỤ PHI HÀNH SĨ",
+        "pronunciation": "うちゅうひこうし",
+        "back": "nhà du hành vũ trụ",
+        "collection_id": "37"
+    },
+    {
+        "front": "土井隆雄",
+        "kanji": "THỔ TỈNH LONG HÙNG",
+        "pronunciation": "どいたかお",
+        "back": "nhà du hành vũ trụ người Nhật (1954- )",
+        "collection_id": "37"
+    }
+]

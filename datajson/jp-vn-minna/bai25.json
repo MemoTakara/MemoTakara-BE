@@ -1,0 +1,121 @@
+[
+    {
+        "front": "考えます",
+        "kanji": "KHẢO",
+        "pronunciation": "かんがえます",
+        "back": "nghĩ, suy nghĩ",
+        "collection_id": "36"
+    },
+    {
+        "front": "[駅に～]着きます",
+        "kanji": "DỊCH TRƯỚC",
+        "pronunciation": "[えきに～] つきます",
+        "back": "đến [ga]",
+        "collection_id": "36"
+    },
+    {
+        "front": "留学します",
+        "kanji": "LƯU HỌC",
+        "pronunciation": "りゅうがくします",
+        "back": "du học",
+        "collection_id": "36"
+    },
+    {
+        "front": "[年を～]取ります",
+        "kanji": "NIÊN THỦ",
+        "pronunciation": "[としを～]とります",
+        "back": "thêm [tuổi]",
+        "collection_id": "36"
+    },
+    {
+        "front": "田舎",
+        "kanji": "ĐIỀN XÁ",
+        "pronunciation": "いなか",
+        "back": "quê, nông thôn",
+        "collection_id": "36"
+    },
+    {
+        "front": "大使館",
+        "kanji": "ĐẠI SỨ QUÁN",
+        "pronunciation": "たいしかん",
+        "back": "đại sứ quán",
+        "collection_id": "36"
+    },
+    {
+        "front": "グループ",
+        "kanji": null,
+        "pronunciation": "グループ",
+        "back": "nhóm, đoàn",
+        "collection_id": "36"
+    },
+    {
+        "front": "チャンス",
+        "kanji": null,
+        "pronunciation": "チャンス",
+        "back": "cơ hội",
+        "collection_id": "36"
+    },
+    {
+        "front": "億",
+        "kanji": "ỨC",
+        "pronunciation": "おく",
+        "back": "bên trong cùng, phía sâu bên trong",
+        "collection_id": "36"
+    },
+    {
+        "front": "もし[～たら]",
+        "kanji": null,
+        "pronunciation": "もし[～たら]",
+        "back": "nếu [~ thì]",
+        "collection_id": "36"
+    },
+    {
+        "front": "いくら[～ても]",
+        "kanji": null,
+        "pronunciation": "いくら[～ても]",
+        "back": "cho dù, thế nào [~ đi nữa]",
+        "collection_id": "36"
+    },
+    {
+        "front": "転勤",
+        "kanji": "CHUYỂN CẦN",
+        "pronunciation": "てんきん",
+        "back": "việc chuyển địa điểm làm việc",
+        "collection_id": "36"
+    },
+    {
+        "front": "こと",
+        "kanji": null,
+        "pronunciation": "こと",
+        "back": "việc (~の　こと: việc ~)",
+        "collection_id": "36"
+    },
+    {
+        "front": "一杯飲みましょう。",
+        "kanji": "NHẤT BÔI ẨM",
+        "pronunciation": "いっぱいのみましょう",
+        "back": "Chúng ta cùng uống nhé.",
+        "collection_id": "36"
+    },
+    {
+        "front": "[いろいろ]お世話になりました。",
+        "kanji": "THẾ THOẠI",
+        "pronunciation": "「いろいろおせわになりました",
+        "back": "Anh/chị đã giúp tôi (nhiều).",
+        "collection_id": "36"
+    },
+    {
+        "front": "頑張ります",
+        "kanji": "NGOAN TRƯƠNG",
+        "pronunciation": "がんばります",
+        "back": "cố, cố gắng",
+        "collection_id": "36"
+    },
+    {
+        "front": "どうぞお元気で。",
+        "kanji": "NGUYÊN KHÍ",
+        "pronunciation": "どうぞおげんきで",
+        "back": "Chúc anh/chị mạnh khỏe.",
+        "collection_id": "36"
+    }
+]

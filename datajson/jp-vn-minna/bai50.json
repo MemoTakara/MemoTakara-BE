@@ -1,0 +1,324 @@
+[
+    {
+        "front": "参ります",
+        "kanji": "THAM",
+        "pronunciation": "まいります",
+        "back": "đi, đến (khiêm nhường ngữ của いきます và きます)",
+        "collection_id": "61"
+    },
+    {
+        "front": "おります",
+        "kanji": null,
+        "pronunciation": "おります",
+        "back": "ở, có (khiêm nhường ngữ của います)",
+        "collection_id": "61"
+    },
+    {
+        "front": "いただきます",
+        "kanji": null,
+        "pronunciation": "いただきます",
+        "back": "ăn, uống, nhận (khiêm nhường ngữ của たべます、のみます　và もらいます)",
+        "collection_id": "61"
+    },
+    {
+        "front": "申します",
+        "kanji": "THÂN",
+        "pronunciation": "もうします",
+        "back": "nói (khiêm nhường ngữ của いいます)",
+        "collection_id": "61"
+    },
+    {
+        "front": "いたします",
+        "kanji": null,
+        "pronunciation": "いたします",
+        "back": "làm (khiêm nhường ngữ của します)",
+        "collection_id": "61"
+    },
+    {
+        "front": "拝見します",
+        "kanji": "BÁI KIẾN",
+        "pronunciation": "はいけんします",
+        "back": "xem, nhìn (khiêm nhường ngữ của みます)",
+        "collection_id": "61"
+    },
+    {
+        "front": "存じます",
+        "kanji": "TỒN",
+        "pronunciation": "ぞんじます",
+        "back": "biết (khiêm nhường ngữ của しります)",
+        "collection_id": "61"
+    },
+    {
+        "front": "伺います",
+        "kanji": "TÝ/TỬ",
+        "pronunciation": "うかがいます",
+        "back": "hỏi, nghe, đến thăm(khiêm nhường ngữ của ききます và いきます)",
+        "collection_id": "61"
+    },
+    {
+        "front": "お目にかかります",
+        "kanji": "MỤC",
+        "pronunciation": "おめにかかります",
+        "back": "gặp (khiêm nhường ngữ của あいます)",
+        "collection_id": "61"
+    },
+    {
+        "front": "ございます",
+        "kanji": null,
+        "pronunciation": "ございます",
+        "back": "có (thể lịch sự của あります)",
+        "collection_id": "61"
+    },
+    {
+        "front": "～でございます",
+        "kanji": null,
+        "pronunciation": "～でございます",
+        "back": "là (thể lịch sự của ～です)",
+        "collection_id": "61"
+    },
+    {
+        "front": "私",
+        "kanji": "TƯ",
+        "pronunciation": "わたくし",
+        "back": "tôi (khiêm nhường ngữ của わたし)",
+        "collection_id": "61"
+    },
+    {
+        "front": "ガイド",
+        "kanji": null,
+        "pronunciation": "ガイド",
+        "back": "người hướng dẫn, hướng dẫn viên",
+        "collection_id": "61"
+    },
+    {
+        "front": "お宅",
+        "kanji": "TRẠCH",
+        "pronunciation": "おたく",
+        "back": "nhà (dùng cho người khác)",
+        "collection_id": "61"
+    },
+    {
+        "front": "郊外",
+        "kanji": "GIAO NGOẠI",
+        "pronunciation": "こうがい",
+        "back": "ngoại ô",
+        "collection_id": "61"
+    },
+    {
+        "front": "アルバム",
+        "kanji": null,
+        "pronunciation": "アルバム",
+        "back": "an-bum (ca nhạc)",
+        "collection_id": "61"
+    },
+    {
+        "front": "再来週",
+        "kanji": "TÁI LAI CHU",
+        "pronunciation": "さらいしゅう",
+        "back": "tuần sau nữa",
+        "collection_id": "61"
+    },
+    {
+        "front": "再来月",
+        "kanji": "TÁI LAI NGUYỆT",
+        "pronunciation": "さらいげつ",
+        "back": "tháng sau nữa",
+        "collection_id": "61"
+    },
+    {
+        "front": "再来年",
+        "kanji": "TÁI LAI NIÊN",
+        "pronunciation": "さらいねん",
+        "back": "năm sau nữa",
+        "collection_id": "61"
+    },
+    {
+        "front": "半年",
+        "kanji": "BÁN NIÊN",
+        "pronunciation": "はんとし",
+        "back": "nửa năm",
+        "collection_id": "61"
+    },
+    {
+        "front": "最初に",
+        "kanji": "TỐI SƠ",
+        "pronunciation": "さいしょに",
+        "back": "đầu tiên, trước hết",
+        "collection_id": "61"
+    },
+    {
+        "front": "最後に",
+        "kanji": "TỐI HẬU",
+        "pronunciation": "さいごに",
+        "back": "cuối cùng",
+        "collection_id": "61"
+    },
+    {
+        "front": "ただ今",
+        "kanji": "KIM",
+        "pronunciation": "ただいま",
+        "back": "bây giờ (thể lịch sự củaいま)",
+        "collection_id": "61"
+    },
+    {
+        "front": "江戸東京博物館",
+        "kanji": "GIANG HỘ ĐÔNG KINH BÁC VẬT QUÁN",
+        "pronunciation": "えどとうきょうはくぶつかん",
+        "back": "bảo tàng Edo-Tokyo",
+        "collection_id": "61"
+    },
+    {
+        "front": "緊張します",
+        "kanji": "KHẨN TRƯƠNG",
+        "pronunciation": "きんちょうします",
+        "back": "căng thẳng, hồi hộp",
+        "collection_id": "61"
+    },
+    {
+        "front": "放送します",
+        "kanji": "PHÓNG TỐNG",
+        "pronunciation": "ほうそうします",
+        "back": "phát thanh, truyền hình",
+        "collection_id": "61"
+    },
+    {
+        "front": "[ビデオに～]撮ります",
+        "kanji": "TOÁT",
+        "pronunciation": "[ビデオに～]とります",
+        "back": "thu [video], quay",
+        "collection_id": "61"
+    },
+    {
+        "front": "賞金",
+        "kanji": "THƯỞNG KIM",
+        "pronunciation": "しょうきん",
+        "back": "tiền thưởng",
+        "collection_id": "61"
+    },
+    {
+        "front": "自然",
+        "kanji": "TỰ NHIÊN",
+        "pronunciation": "しぜん",
+        "back": "tự nhiên, thiên nhiên",
+        "collection_id": "61"
+    },
+    {
+        "front": "きりん",
+        "kanji": null,
+        "pronunciation": "きりん",
+        "back": "con hươu cao cổ",
+        "collection_id": "61"
+    },
+    {
+        "front": "像",
+        "kanji": "TƯỢNG",
+        "pronunciation": "ぞう",
+        "back": "con voi",
+        "collection_id": "61"
+    },
+    {
+        "front": "ころ",
+        "kanji": null,
+        "pronunciation": "ころ",
+        "back": "hồi, thời",
+        "collection_id": "61"
+    },
+    {
+        "front": "[夢が～]かないます",
+        "kanji": "MỘNG",
+        "pronunciation": "「ゆめが～」かないます",
+        "back": "thành hiện thực, được thực hiện [mơ ước ~]",
+        "collection_id": "61"
+    },
+    {
+        "front": "ひとことよろしいでしょうか。",
+        "kanji": null,
+        "pronunciation": "ひとことよろしいでしょうか。",
+        "back": "Tôi xin phép nói vài lời có được không ạ?",
+        "collection_id": "61"
+    },
+    {
+        "front": "協力します",
+        "kanji": "HIỆP LỰC",
+        "pronunciation": "きょうりょくします",
+        "back": "hợp tác",
+        "collection_id": "61"
+    },
+    {
+        "front": "心から",
+        "kanji": "TÂM",
+        "pronunciation": "こころから",
+        "back": "từ trái tim, từ đáy lòng",
+        "collection_id": "61"
+    },
+    {
+        "front": "感謝します",
+        "kanji": "CẢM TẠ",
+        "pronunciation": "かんしゃします",
+        "back": "cám ơn, cảm tạ",
+        "collection_id": "61"
+    },
+    {
+        "front": "[お]礼",
+        "kanji": "LỄ",
+        "pronunciation": "「お」れい",
+        "back": "lời cám ơn, sự cám ơn",
+        "collection_id": "61"
+    },
+    {
+        "front": "拝啓",
+        "kanji": "BÁI KHẢI",
+        "pronunciation": "はいけい",
+        "back": "kính gửi",
+        "collection_id": "61"
+    },
+    {
+        "front": "美しい",
+        "kanji": "MỸ",
+        "pronunciation": "うつくしい",
+        "back": "đẹp",
+        "collection_id": "61"
+    },
+    {
+        "front": "お元気でいらっしゃいますか。",
+        "kanji": "NGUYÊN KHÍ",
+        "pronunciation": "おげんきでいらっしゃいますか",
+        "back": "Anh/chị có khỏe không ạ? (tôn kính ngữ của おげんきですか)",
+        "collection_id": "61"
+    },
+    {
+        "front": "迷惑をかけます",
+        "kanji": null,
+        "pronunciation": "めいわくを　かけます",
+        "back": "làm phiền",
+        "collection_id": "61"
+    },
+    {
+        "front": "生かします",
+        "kanji": null,
+        "pronunciation": "いかします",
+        "back": "tận dụng, phát huy, dùng",
+        "collection_id": "61"
+    },
+    {
+        "front": "[お]城",
+        "kanji": null,
+        "pronunciation": "「お」しろ",
+        "back": "lâu đài",
+        "collection_id": "61"
+    },
+    {
+        "front": "敬具",
+        "kanji": null,
+        "pronunciation": "けいぐ",
+        "back": "kính thư",
+        "collection_id": "61"
+    },
+    {
+        "front": "ミュンヘン",
+        "kanji": null,
+        "pronunciation": "ミュンヘン",
+        "back": "Munich (ở Đức)",
+        "collection_id": "61"
+    }
+]

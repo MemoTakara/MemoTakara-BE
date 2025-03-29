@@ -1,0 +1,387 @@
+[
+    {
+        "front": "はります",
+        "kanji": null,
+        "pronunciation": "はります",
+        "back": "dán, dán lên",
+        "collection_id": "41"
+    },
+    {
+        "front": "掛けます",
+        "kanji": "QUẢI",
+        "pronunciation": "かけます",
+        "back": "treo",
+        "collection_id": "41"
+    },
+    {
+        "front": "飾ります",
+        "kanji": "SỨC",
+        "pronunciation": "かざります",
+        "back": "trang trí",
+        "collection_id": "41"
+    },
+    {
+        "front": "並べます",
+        "kanji": "TỊNH",
+        "pronunciation": "ならべます",
+        "back": "xếp thành hàng",
+        "collection_id": "41"
+    },
+    {
+        "front": "植えます",
+        "kanji": "THỰC",
+        "pronunciation": "うえます",
+        "back": "trồng (cây)",
+        "collection_id": "41"
+    },
+    {
+        "front": "戻します",
+        "kanji": "LỆ",
+        "pronunciation": "もどします",
+        "back": "đưa về, trả về, để lại vị trí ban đầu",
+        "collection_id": "41"
+    },
+    {
+        "front": "まとめます",
+        "kanji": null,
+        "pronunciation": "まとめます",
+        "back": "nhóm lại, tóm tắt",
+        "collection_id": "41"
+    },
+    {
+        "front": "片づけます",
+        "kanji": "PHIẾN",
+        "pronunciation": "かたづけます",
+        "back": "dọn dẹp, sắp xếp",
+        "collection_id": "41"
+    },
+    {
+        "front": "しまいます",
+        "kanji": null,
+        "pronunciation": "しまいます",
+        "back": "cất vào, để vào",
+        "collection_id": "41"
+    },
+    {
+        "front": "決めます",
+        "kanji": "QUYẾT",
+        "pronunciation": "きめます",
+        "back": "quyết định",
+        "collection_id": "41"
+    },
+    {
+        "front": "知らせます",
+        "kanji": "TRI",
+        "pronunciation": "しらせます",
+        "back": "thông báo, báo",
+        "collection_id": "41"
+    },
+    {
+        "front": "相談します",
+        "kanji": "TƯƠNG ĐÀM",
+        "pronunciation": "そうだんします",
+        "back": "trao đổi, bàn bạc, tư vấn",
+        "collection_id": "41"
+    },
+    {
+        "front": "予習します",
+        "kanji": "DỰ TẬP",
+        "pronunciation": "よしゅうします",
+        "back": "chuẩn bị bài mới",
+        "collection_id": "41"
+    },
+    {
+        "front": "復習します",
+        "kanji": "PHỤC TẬP",
+        "pronunciation": "ふくしゅうします",
+        "back": "ôn bài cũ",
+        "collection_id": "41"
+    },
+    {
+        "front": "そのままにします",
+        "kanji": null,
+        "pronunciation": "そのままにします",
+        "back": "để nguyên như thế",
+        "collection_id": "41"
+    },
+    {
+        "front": "お子さん",
+        "kanji": "TỬ",
+        "pronunciation": "おこさん",
+        "back": "con (dùng đối với người khác)",
+        "collection_id": "41"
+    },
+    {
+        "front": "授業",
+        "kanji": "THỤ NGHIỆP",
+        "pronunciation": "じゅぎょう",
+        "back": "giờ học",
+        "collection_id": "41"
+    },
+    {
+        "front": "講義",
+        "kanji": "GIẢNG NGHĨA",
+        "pronunciation": "こうぎ",
+        "back": "bài giảng",
+        "collection_id": "41"
+    },
+    {
+        "front": "ミーティング",
+        "kanji": null,
+        "pronunciation": "ミーティング",
+        "back": "cuộc họp",
+        "collection_id": "41"
+    },
+    {
+        "front": "予定",
+        "kanji": "DỰ ĐỊNH",
+        "pronunciation": "よてい",
+        "back": "kế hoạch, dự định",
+        "collection_id": "41"
+    },
+    {
+        "front": "お知らせ",
+        "kanji": "TRI",
+        "pronunciation": "おしらせ",
+        "back": "bản thông báo",
+        "collection_id": "41"
+    },
+    {
+        "front": "案内書",
+        "kanji": "ÁN NỘI THƯ",
+        "pronunciation": "あんないしょ",
+        "back": "sách/tài liệu hướng dẫn",
+        "collection_id": "41"
+    },
+    {
+        "front": "カレンダー",
+        "kanji": null,
+        "pronunciation": "カレンダー",
+        "back": "lịch, tờ lịch",
+        "collection_id": "41"
+    },
+    {
+        "front": "ポスター",
+        "kanji": null,
+        "pronunciation": "ポスター",
+        "back": "tờ pa-nô, áp phích, tờ quảng cáo",
+        "collection_id": "41"
+    },
+    {
+        "front": "ごみ箱",
+        "kanji": "TƯƠNG",
+        "pronunciation": "ごみばこ",
+        "back": "thùng rác",
+        "collection_id": "41"
+    },
+    {
+        "front": "人形",
+        "kanji": "NHÂN HÌNH",
+        "pronunciation": "にんぎょう",
+        "back": "con búp bê, con rối",
+        "collection_id": "41"
+    },
+    {
+        "front": "花瓶",
+        "kanji": "HOA BÌNH",
+        "pronunciation": "かびん",
+        "back": "lọ hoa",
+        "collection_id": "41"
+    },
+    {
+        "front": "鏡",
+        "kanji": "KÍNH",
+        "pronunciation": "かがみ",
+        "back": "cái gương",
+        "collection_id": "41"
+    },
+    {
+        "front": "引き出し",
+        "kanji": "DẪN XUẤT",
+        "pronunciation": "ひきだし",
+        "back": "ngăn kéo",
+        "collection_id": "41"
+    },
+    {
+        "front": "玄関",
+        "kanji": "HUYỀN QUAN",
+        "pronunciation": "げんかん",
+        "back": "cửa vào",
+        "collection_id": "41"
+    },
+    {
+        "front": "廊下",
+        "kanji": "LANG HẠ",
+        "pronunciation": "ろうか",
+        "back": "hành lang",
+        "collection_id": "41"
+    },
+    {
+        "front": "壁",
+        "kanji": "BÍCH",
+        "pronunciation": "かべ",
+        "back": "bức tường",
+        "collection_id": "41"
+    },
+    {
+        "front": "池",
+        "kanji": "TRÌ",
+        "pronunciation": "いけ",
+        "back": "cái ao",
+        "collection_id": "41"
+    },
+    {
+        "front": "交番",
+        "kanji": "GIAO PHIÊN",
+        "pronunciation": "こうばん",
+        "back": "trạm/bốt cảnh sát",
+        "collection_id": "41"
+    },
+    {
+        "front": "元の所",
+        "kanji": "NGUYÊN SỞ",
+        "pronunciation": "もとのところ",
+        "back": "địa điểm ban đầu, địa điểm gốc",
+        "collection_id": "41"
+    },
+    {
+        "front": "周り",
+        "kanji": "CHU",
+        "pronunciation": "まわり",
+        "back": "xung quanh",
+        "collection_id": "41"
+    },
+    {
+        "front": "真ん中",
+        "kanji": "CHÂN TRUNG",
+        "pronunciation": "まんなか",
+        "back": "giữa, trung tâm",
+        "collection_id": "41"
+    },
+    {
+        "front": "隅",
+        "kanji": "NGUNG",
+        "pronunciation": "すみ",
+        "back": "góc",
+        "collection_id": "41"
+    },
+    {
+        "front": "まだ",
+        "kanji": null,
+        "pronunciation": "まだ",
+        "back": "chưa",
+        "collection_id": "41"
+    },
+    {
+        "front": "～ほど",
+        "kanji": null,
+        "pronunciation": "～ほど",
+        "back": "khoảng ~, chừng ~",
+        "collection_id": "41"
+    },
+    {
+        "front": "予定表",
+        "kanji": "DỰ ĐỊNH BIỂU",
+        "pronunciation": "よていひょう",
+        "back": "lịch, thời khóa biểu",
+        "collection_id": "41"
+    },
+    {
+        "front": "ご苦労さま。",
+        "kanji": "KHỔ LAO",
+        "pronunciation": "ごくろうさま",
+        "back": "Anh/chị đã làm việc vất vả./cám ơn anh/chị. (câu nói dùng để bày tỏ sự cám ơn hoặc thông cảm với sự vất vả khi ai đó làm xong một việc gì)",
+        "collection_id": "41"
+    },
+    {
+        "front": "希望",
+        "kanji": "HY VỌNG",
+        "pronunciation": "きぼう",
+        "back": "hi vọng, nguyện vọng",
+        "collection_id": "41"
+    },
+    {
+        "front": "なにかご希望がありますか。",
+        "kanji": "HY VỌNG",
+        "pronunciation": "なにかごきぼうがありますか",
+        "back": "Anh/chị có nguyện vọng gì không?/ anh/chị có yêu cầu gì không?",
+        "collection_id": "41"
+    },
+    {
+        "front": "ミュージカル",
+        "kanji": null,
+        "pronunciation": "ミュージカル",
+        "back": "ca kịch",
+        "collection_id": "41"
+    },
+    {
+        "front": "それはいいですね。",
+        "kanji": null,
+        "pronunciation": "それはいいですね。",
+        "back": "Điều đó được đấy nhỉ./ Hay quá nhỉ",
+        "collection_id": "41"
+    },
+    {
+        "front": "ブロードウェイ",
+        "kanji": null,
+        "pronunciation": "ブロードウェイ",
+        "back": "Broadway",
+        "collection_id": "41"
+    },
+    {
+        "front": "丸い",
+        "kanji": "HOÀN",
+        "pronunciation": "まるい",
+        "back": "tròn",
+        "collection_id": "41"
+    },
+    {
+        "front": "月",
+        "kanji": "NGUYỆT",
+        "pronunciation": "つき",
+        "back": "mặt trăng, trăng",
+        "collection_id": "41"
+    },
+    {
+        "front": "ある～",
+        "kanji": null,
+        "pronunciation": "ある～",
+        "back": "có ~, một ~",
+        "collection_id": "41"
+    },
+    {
+        "front": "地球",
+        "kanji": "ĐỊA CẦU",
+        "pronunciation": "ちきゅう",
+        "back": "trái đất",
+        "collection_id": "41"
+    },
+    {
+        "front": "うれしい",
+        "kanji": null,
+        "pronunciation": "うれしい",
+        "back": "vui",
+        "collection_id": "41"
+    },
+    {
+        "front": "嫌[な]",
+        "kanji": "HIỀM",
+        "pronunciation": "いや「な」",
+        "back": "chán, ghét, không chấp nhận được",
+        "collection_id": "41"
+    },
+    {
+        "front": "すると",
+        "kanji": null,
+        "pronunciation": "すると",
+        "back": "sau đó, tiếp đó, rồi, khi ~ như vậy thì",
+        "collection_id": "41"
+    },
+    {
+        "front": "目が覚めます",
+        "kanji": "MỤC GIÁC",
+        "pronunciation": "めが　さめます",
+        "back": "tỉnh giấc, mở mắt",
+        "collection_id": "41"
+    }
+]

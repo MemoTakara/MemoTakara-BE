@@ -1,0 +1,436 @@
+[
+    {
+        "front": "[子供が～]",
+        "kanji": "TỬ CUNG",
+        "pronunciation": "[こどもが～] います",
+        "back": "có [con]",
+        "collection_id": "22"
+    },
+    {
+        "front": "[日本に～]",
+        "kanji": "NHẬT BẢN",
+        "pronunciation": "[にほんに～] います",
+        "back": "ở [Nhật]",
+        "collection_id": "22"
+    },
+    {
+        "front": "かかります",
+        "kanji": null,
+        "pronunciation": "かかります",
+        "back": "mất, tốn (thời gian, tiền bạc)",
+        "collection_id": "22"
+    },
+    {
+        "front": "[会社を～]休みます",
+        "kanji": "HỘI XÃ HƯU",
+        "pronunciation": "[かいしゃを～] やすみます",
+        "back": "nghỉ [làm việc]",
+        "collection_id": "22"
+    },
+    {
+        "front": "１つ",
+        "kanji": null,
+        "pronunciation": "ひとつ",
+        "back": "một cái (dùng để đếm đồ vật)",
+        "collection_id": "22"
+    },
+    {
+        "front": "２つ",
+        "kanji": null,
+        "pronunciation": "ふたつ",
+        "back": "hai cái",
+        "collection_id": "22"
+    },
+    {
+        "front": "３つ",
+        "kanji": null,
+        "pronunciation": "みっつ",
+        "back": "ba cái",
+        "collection_id": "22"
+    },
+    {
+        "front": "４つ",
+        "kanji": null,
+        "pronunciation": "よっつ",
+        "back": "bốn cái",
+        "collection_id": "22"
+    },
+    {
+        "front": "５つ",
+        "kanji": null,
+        "pronunciation": "いつつ",
+        "back": "năm cái",
+        "collection_id": "22"
+    },
+    {
+        "front": "６つ",
+        "kanji": null,
+        "pronunciation": "むっつ",
+        "back": "sáu cái",
+        "collection_id": "22"
+    },
+    {
+        "front": "７つ",
+        "kanji": null,
+        "pronunciation": "ななつ",
+        "back": "bảy cái",
+        "collection_id": "22"
+    },
+    {
+        "front": "８つ",
+        "kanji": null,
+        "pronunciation": "やっつ",
+        "back": "tám cái",
+        "collection_id": "22"
+    },
+    {
+        "front": "９つ",
+        "kanji": null,
+        "pronunciation": "ここのつ",
+        "back": "chín cái",
+        "collection_id": "22"
+    },
+    {
+        "front": "10",
+        "kanji": null,
+        "pronunciation": "とお",
+        "back": "mười cái",
+        "collection_id": "22"
+    },
+    {
+        "front": "いくつ",
+        "kanji": null,
+        "pronunciation": "いくつ",
+        "back": "mấy cái, bao nhiêu cái",
+        "collection_id": "22"
+    },
+    {
+        "front": "１人",
+        "kanji": "NHÂN",
+        "pronunciation": "ひとり",
+        "back": "một người",
+        "collection_id": "22"
+    },
+    {
+        "front": "２人",
+        "kanji": "NHÂN",
+        "pronunciation": "ふたり",
+        "back": "hai người",
+        "collection_id": "22"
+    },
+    {
+        "front": "－人",
+        "kanji": "NHÂN",
+        "pronunciation": "―にん",
+        "back": "- người",
+        "collection_id": "22"
+    },
+    {
+        "front": "－台",
+        "kanji": "ĐÀI",
+        "pronunciation": "―だい",
+        "back": "- cái (dùng để đếm máy móc, xe cộ v.v.)",
+        "collection_id": "22"
+    },
+    {
+        "front": "－枚",
+        "kanji": "MAI",
+        "pronunciation": "―まい",
+        "back": "- tờ, tấm",
+        "collection_id": "22"
+    },
+    {
+        "front": "―回",
+        "kanji": "HỒI",
+        "pronunciation": "―かい",
+        "back": "- lần",
+        "collection_id": "22"
+    },
+    {
+        "front": "りんご",
+        "kanji": null,
+        "pronunciation": "りんご",
+        "back": "táo",
+        "collection_id": "22"
+    },
+    {
+        "front": "みかん",
+        "kanji": null,
+        "pronunciation": "みかん",
+        "back": "quýt",
+        "collection_id": "22"
+    },
+    {
+        "front": "サンドイッチ",
+        "kanji": null,
+        "pronunciation": "サンドイッチ",
+        "back": "bánh San Uých",
+        "collection_id": "22"
+    },
+    {
+        "front": "カレー[ライス]",
+        "kanji": null,
+        "pronunciation": "カレー[ライス]",
+        "back": "món [cơm] ca-ri",
+        "collection_id": "22"
+    },
+    {
+        "front": "アイスクリーム",
+        "kanji": null,
+        "pronunciation": "アイスクリーム",
+        "back": "kem",
+        "collection_id": "22"
+    },
+    {
+        "front": "切手",
+        "kanji": "THIẾT THỦ",
+        "pronunciation": "きって",
+        "back": "tem",
+        "collection_id": "22"
+    },
+    {
+        "front": "はがき",
+        "kanji": null,
+        "pronunciation": "はがき",
+        "back": "bưu thiếp",
+        "collection_id": "22"
+    },
+    {
+        "front": "封筒",
+        "kanji": "PHONG ĐỒNG",
+        "pronunciation": "ふうとう",
+        "back": "phong bì",
+        "collection_id": "22"
+    },
+    {
+        "front": "速達",
+        "kanji": "TỐC ĐẠT",
+        "pronunciation": "そくたつ",
+        "back": "(bưu phẩm) gửi nhanh",
+        "collection_id": "22"
+    },
+    {
+        "front": "書留",
+        "kanji": "THƯ LƯU",
+        "pronunciation": "かきとめ",
+        "back": "(bưu phẩm) gửi bảo đảm",
+        "collection_id": "22"
+    },
+    {
+        "front": "エアメール",
+        "kanji": null,
+        "pronunciation": "エアメール",
+        "back": "(Air Mail) thư chuyển bằng đường hàng khô",
+        "collection_id": "22"
+    },
+    {
+        "front": "航空便",
+        "kanji": "HÀNG KHÔNG TIỆN",
+        "pronunciation": "こうくうびん",
+        "back": "gửi bằng đường hàng không",
+        "collection_id": "22"
+    },
+    {
+        "front": "船便",
+        "kanji": "THUYỀN TIỆN",
+        "pronunciation": "ふなびん",
+        "back": "gửi bằng đường biển",
+        "collection_id": "22"
+    },
+    {
+        "front": "両親",
+        "kanji": "LƯỠNG THÂN",
+        "pronunciation": "りょうしん",
+        "back": "bố mẹ",
+        "collection_id": "22"
+    },
+    {
+        "front": "兄弟",
+        "kanji": "HUYNH ĐỆ",
+        "pronunciation": "きょうだい",
+        "back": "anh chị em",
+        "collection_id": "22"
+    },
+    {
+        "front": "兄",
+        "kanji": "HUYNH",
+        "pronunciation": "あに",
+        "back": "anh trai",
+        "collection_id": "22"
+    },
+    {
+        "front": "お兄さん",
+        "kanji": "HUYNH",
+        "pronunciation": "おにいさん",
+        "back": "anh trai (dùng cho người khác)",
+        "collection_id": "22"
+    },
+    {
+        "front": "姉",
+        "kanji": "TỶ",
+        "pronunciation": "あね",
+        "back": "chị gái",
+        "collection_id": "22"
+    },
+    {
+        "front": "お姉さん",
+        "kanji": "TỶ",
+        "pronunciation": "おねえさん",
+        "back": "chị gái (dùng cho người khác)",
+        "collection_id": "22"
+    },
+    {
+        "front": "弟",
+        "kanji": "ĐỆ",
+        "pronunciation": "おとうと",
+        "back": "em trai",
+        "collection_id": "22"
+    },
+    {
+        "front": "弟さん",
+        "kanji": "ĐỆ",
+        "pronunciation": "おとうとさん",
+        "back": "em trai (dùng cho người khác)",
+        "collection_id": "22"
+    },
+    {
+        "front": "妹",
+        "kanji": "MUỘI",
+        "pronunciation": "いもうと",
+        "back": "em gái",
+        "collection_id": "22"
+    },
+    {
+        "front": "妹さん",
+        "kanji": "MUỘI",
+        "pronunciation": "いもうとさん",
+        "back": "em gái (dùng cho người khác)",
+        "collection_id": "22"
+    },
+    {
+        "front": "外国",
+        "kanji": "NGOẠI QUỐC",
+        "pronunciation": "がいこく",
+        "back": "nước ngoài",
+        "collection_id": "22"
+    },
+    {
+        "front": "―時間",
+        "kanji": "THỜI GIAN",
+        "pronunciation": "―じかん",
+        "back": "- tiếng",
+        "collection_id": "22"
+    },
+    {
+        "front": "―週間",
+        "kanji": "CHU GIAN",
+        "pronunciation": "―しゅうかん",
+        "back": "- tuần",
+        "collection_id": "22"
+    },
+    {
+        "front": "－か月",
+        "kanji": "NGUYỆT",
+        "pronunciation": "―かげつ",
+        "back": "- tháng",
+        "collection_id": "22"
+    },
+    {
+        "front": "―年",
+        "kanji": "NIÊN",
+        "pronunciation": "―ねん",
+        "back": "- năm",
+        "collection_id": "22"
+    },
+    {
+        "front": "～ぐらい",
+        "kanji": null,
+        "pronunciation": "～ぐらい",
+        "back": "khoảng ~",
+        "collection_id": "22"
+    },
+    {
+        "front": "どのくらい",
+        "kanji": null,
+        "pronunciation": "どのくらい",
+        "back": "bao lâu",
+        "collection_id": "22"
+    },
+    {
+        "front": "全部で",
+        "kanji": "TOÀN BỘ",
+        "pronunciation": "ぜんぶで",
+        "back": "tổng cộng",
+        "collection_id": "22"
+    },
+    {
+        "front": "みんな",
+        "kanji": null,
+        "pronunciation": "みんな",
+        "back": "tất cả",
+        "collection_id": "22"
+    },
+    {
+        "front": "～だけ",
+        "kanji": null,
+        "pronunciation": "～だけ",
+        "back": "chỉ ~",
+        "collection_id": "22"
+    },
+    {
+        "front": "いらっしゃいませ。",
+        "kanji": null,
+        "pronunciation": "いらっしゃいませ。",
+        "back": "Xin mời vào./ xin chào quý khách.",
+        "collection_id": "22"
+    },
+    {
+        "front": "いい[お]天気ですね。",
+        "kanji": "THIÊN KHÍ",
+        "pronunciation": "いい[お]てんきですね。",
+        "back": "Trời đẹp nhỉ.",
+        "collection_id": "22"
+    },
+    {
+        "front": "お出かけですか。",
+        "kanji": "XUẤT",
+        "pronunciation": "おでかけですか。",
+        "back": "Anh/ chị đi ra ngoài đấy à?",
+        "collection_id": "22"
+    },
+    {
+        "front": "ちょっと～まで。",
+        "kanji": null,
+        "pronunciation": "ちょっと～まで。",
+        "back": "Tôi đi ~ một chút.",
+        "collection_id": "22"
+    },
+    {
+        "front": "行っていらっしゃい。",
+        "kanji": "HÀNH",
+        "pronunciation": "いっていらっしゃい。",
+        "back": "Anh/chị đi nhé.",
+        "collection_id": "22"
+    },
+    {
+        "front": "行ってまいります。",
+        "kanji": "HÀNH",
+        "pronunciation": "いってまいります",
+        "back": "Tôi đi đây. (nguyên nghĩa: tôi đi rồi sẽ về.)",
+        "collection_id": "22"
+    },
+    {
+        "front": "それから",
+        "kanji": null,
+        "pronunciation": "それから",
+        "back": "sau đó, tiếp theo",
+        "collection_id": "22"
+    },
+    {
+        "front": "オーストラリア",
+        "kanji": null,
+        "pronunciation": "オーストラリア",
+        "back": "Úc",
+        "collection_id": "22"
+    }
+]

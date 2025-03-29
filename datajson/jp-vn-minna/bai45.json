@@ -1,0 +1,240 @@
+[
+    {
+        "front": "謝ります",
+        "kanji": "TẠ",
+        "pronunciation": "あやまります",
+        "back": "xin lỗi, tạ lỗi",
+        "collection_id": "56"
+    },
+    {
+        "front": "[事故に～]遭います",
+        "kanji": "SỰ CỐ TAO",
+        "pronunciation": "[じこに～] あいます",
+        "back": "gặp [tai nạn]",
+        "collection_id": "56"
+    },
+    {
+        "front": "信じます",
+        "kanji": "TÍN",
+        "pronunciation": "しんじます",
+        "back": "tin, tin tưởng",
+        "collection_id": "56"
+    },
+    {
+        "front": "用意します",
+        "kanji": "DỤNG Ý",
+        "pronunciation": "よういします",
+        "back": "chuẩn bị",
+        "collection_id": "56"
+    },
+    {
+        "front": "キャンセルします",
+        "kanji": null,
+        "pronunciation": "キャンセルします",
+        "back": "hủy bỏ, hủy",
+        "collection_id": "56"
+    },
+    {
+        "front": "うまくいきます",
+        "kanji": null,
+        "pronunciation": "うまくいきます",
+        "back": "tốt, thuận lợi",
+        "collection_id": "56"
+    },
+    {
+        "front": "保証書",
+        "kanji": "BẢO CHỨNG THƯ",
+        "pronunciation": "ほしょうしょ",
+        "back": "giấy bảo hành",
+        "collection_id": "56"
+    },
+    {
+        "front": "領収書",
+        "kanji": "LÃNH THÂU THƯ",
+        "pronunciation": "りょうしゅうしょ",
+        "back": "hóa đơn",
+        "collection_id": "56"
+    },
+    {
+        "front": "贈り物",
+        "kanji": "TẶNG VẬT",
+        "pronunciation": "おくりもの",
+        "back": "quà tặng (～をします)",
+        "collection_id": "56"
+    },
+    {
+        "front": "まちがい電話",
+        "kanji": "ĐIỆN THOẠI",
+        "pronunciation": "まちがいでんわ",
+        "back": "điện thoại nhầm",
+        "collection_id": "56"
+    },
+    {
+        "front": "キャンプ",
+        "kanji": null,
+        "pronunciation": "キャンプ",
+        "back": "trại",
+        "collection_id": "56"
+    },
+    {
+        "front": "かかり",
+        "kanji": null,
+        "pronunciation": "かかり",
+        "back": "nhân viên, người phụ trách",
+        "collection_id": "56"
+    },
+    {
+        "front": "中止",
+        "kanji": "TRUNG CHỈ",
+        "pronunciation": "ちゅうし",
+        "back": "dừng, đình chỉ",
+        "collection_id": "56"
+    },
+    {
+        "front": "点",
+        "kanji": "ĐIỂM",
+        "pronunciation": "てん",
+        "back": "điểm",
+        "collection_id": "56"
+    },
+    {
+        "front": "レバー",
+        "kanji": null,
+        "pronunciation": "レバー",
+        "back": "tay bẻ, tay số, cần gạt",
+        "collection_id": "56"
+    },
+    {
+        "front": "[－円]札",
+        "kanji": "VIÊN TRÁT",
+        "pronunciation": "[－えん]さつ",
+        "back": "tờ tiền giấy [-yên]",
+        "collection_id": "56"
+    },
+    {
+        "front": "ちゃんと",
+        "kanji": null,
+        "pronunciation": "ちゃんと",
+        "back": "đúng, hẳn hoi",
+        "collection_id": "56"
+    },
+    {
+        "front": "急に",
+        "kanji": "CẤP",
+        "pronunciation": "きゅうに",
+        "back": "gấp",
+        "collection_id": "56"
+    },
+    {
+        "front": "楽しみにしています",
+        "kanji": "NHẠC/LẠC",
+        "pronunciation": "たのしみにしています",
+        "back": "mong đợi, lấy làm vui",
+        "collection_id": "56"
+    },
+    {
+        "front": "以上です。",
+        "kanji": null,
+        "pronunciation": "いじょうです。",
+        "back": "Xin hết.",
+        "collection_id": "56"
+    },
+    {
+        "front": "係員",
+        "kanji": "HỆ VIÊN",
+        "pronunciation": "かかりいん",
+        "back": "nhân viên",
+        "collection_id": "56"
+    },
+    {
+        "front": "コース",
+        "kanji": null,
+        "pronunciation": "コース",
+        "back": "đường chạy (ma ra tông)",
+        "collection_id": "56"
+    },
+    {
+        "front": "スタート",
+        "kanji": null,
+        "pronunciation": "スタート",
+        "back": "xuất phát",
+        "collection_id": "56"
+    },
+    {
+        "front": "－位",
+        "kanji": "VỊ",
+        "pronunciation": "―い",
+        "back": "thứ ―, vị trí thứ －, giải ―",
+        "collection_id": "56"
+    },
+    {
+        "front": "優勝します",
+        "kanji": "ƯU THẮNG",
+        "pronunciation": "ゆうしょうします",
+        "back": "vô địch, đoạt giải nhất",
+        "collection_id": "56"
+    },
+    {
+        "front": "悩み",
+        "kanji": "NÃO",
+        "pronunciation": "なやみ",
+        "back": "(điều/sự) lo nghĩ, trăn trở, phiền muộn",
+        "collection_id": "56"
+    },
+    {
+        "front": "目覚まし[時計]",
+        "kanji": "MỤC GIÁC THỜI KẾ",
+        "pronunciation": "めざまし「どけい」",
+        "back": "đồng hồ báo thức",
+        "collection_id": "56"
+    },
+    {
+        "front": "眠ります",
+        "kanji": "MIÊN",
+        "pronunciation": "ねむります",
+        "back": "ngủ",
+        "collection_id": "56"
+    },
+    {
+        "front": "目が覚めます",
+        "kanji": "MỤC GIÁC",
+        "pronunciation": "めがさめます",
+        "back": "tỉnh giấc",
+        "collection_id": "56"
+    },
+    {
+        "front": "大学生",
+        "kanji": "ĐẠI HỌC SINH",
+        "pronunciation": "だいがくせい",
+        "back": "sinh viên đại học",
+        "collection_id": "56"
+    },
+    {
+        "front": "回答",
+        "kanji": "HỒI ĐÁP",
+        "pronunciation": "かいとう",
+        "back": "câu trả lời, lời giải",
+        "collection_id": "56"
+    },
+    {
+        "front": "鳴ります",
+        "kanji": "MINH",
+        "pronunciation": "なります",
+        "back": "reo, kêu",
+        "collection_id": "56"
+    },
+    {
+        "front": "セットします",
+        "kanji": null,
+        "pronunciation": "セットします",
+        "back": "cài, đặt",
+        "collection_id": "56"
+    },
+    {
+        "front": "それでも",
+        "kanji": null,
+        "pronunciation": "それでも",
+        "back": "tuy thế, mặc dù thế",
+        "collection_id": "56"
+    }
+]

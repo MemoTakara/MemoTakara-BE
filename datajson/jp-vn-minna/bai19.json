@@ -1,0 +1,219 @@
+[
+    {
+        "front": "[山に～]登ります",
+        "kanji": "SƠN ĐĂNG",
+        "pronunciation": "[やまに～]のぼります",
+        "back": "leo [núi]",
+        "collection_id": "30"
+    },
+    {
+        "front": "[ホテルに～]泊まります",
+        "kanji": "BẠC",
+        "pronunciation": "[ホテルに～]とまります",
+        "back": "trọ [ở khách sạn]",
+        "collection_id": "30"
+    },
+    {
+        "front": "掃除します",
+        "kanji": "TẢO TRỪ",
+        "pronunciation": "そうじします",
+        "back": "dọn vệ sinh",
+        "collection_id": "30"
+    },
+    {
+        "front": "洗濯します",
+        "kanji": "TẨY TRẠC",
+        "pronunciation": "せんたくします",
+        "back": "giặt",
+        "collection_id": "30"
+    },
+    {
+        "front": "練習します",
+        "kanji": "LUYỆN TẬP",
+        "pronunciation": "れんしゅうします",
+        "back": "luyện tập, thực hành",
+        "collection_id": "30"
+    },
+    {
+        "front": "なります",
+        "kanji": null,
+        "pronunciation": "なります",
+        "back": "trở thành, trở nên",
+        "collection_id": "30"
+    },
+    {
+        "front": "眠い",
+        "kanji": "MIÊN",
+        "pronunciation": "ねむい",
+        "back": "buồn ngủ",
+        "collection_id": "30"
+    },
+    {
+        "front": "強い",
+        "kanji": "CƯỜNG",
+        "pronunciation": "つよい",
+        "back": "mạnh",
+        "collection_id": "30"
+    },
+    {
+        "front": "弱い",
+        "kanji": "NHƯỢC",
+        "pronunciation": "よわい",
+        "back": "yếu",
+        "collection_id": "30"
+    },
+    {
+        "front": "調子が　いい",
+        "kanji": "ĐIỀU TỬ",
+        "pronunciation": "ちょうしが　いい",
+        "back": "trong tình trạng tốt",
+        "collection_id": "30"
+    },
+    {
+        "front": "調子が　わるい",
+        "kanji": "ĐIỀU TỬ",
+        "pronunciation": "ちょうしが　わるい",
+        "back": "trong tình trạng xấu",
+        "collection_id": "30"
+    },
+    {
+        "front": "調子",
+        "kanji": "ĐIỀU TỬ",
+        "pronunciation": "ちょうし",
+        "back": "tình trạng, trạng thái",
+        "collection_id": "30"
+    },
+    {
+        "front": "ゴルフ",
+        "kanji": null,
+        "pronunciation": "ゴルフ",
+        "back": "gôn (～をします:chơi gôn)",
+        "collection_id": "30"
+    },
+    {
+        "front": "相撲",
+        "kanji": "TƯƠNG PHÁC",
+        "pronunciation": "すもう",
+        "back": "vật Sumo",
+        "collection_id": "30"
+    },
+    {
+        "front": "パチンコ",
+        "kanji": null,
+        "pronunciation": "パチンコ",
+        "back": "trò chơi Pachinko (～をします: chơi trò chơi Pachinko)",
+        "collection_id": "30"
+    },
+    {
+        "front": "お茶",
+        "kanji": "TRÀ",
+        "pronunciation": "おちゃ",
+        "back": "trà (nói chung)",
+        "collection_id": "30"
+    },
+    {
+        "front": "日",
+        "kanji": "NHẬT",
+        "pronunciation": "ひ",
+        "back": "ngày",
+        "collection_id": "30"
+    },
+    {
+        "front": "一度",
+        "kanji": "NHẤT ĐỘ",
+        "pronunciation": "いちど",
+        "back": "một lần",
+        "collection_id": "30"
+    },
+    {
+        "front": "一度も",
+        "kanji": "NHẤT ĐỘ",
+        "pronunciation": "いちども",
+        "back": "chưa lần nào",
+        "collection_id": "30"
+    },
+    {
+        "front": "だんだん",
+        "kanji": null,
+        "pronunciation": "だんだん",
+        "back": "dần dần",
+        "collection_id": "30"
+    },
+    {
+        "front": "もうすぐ",
+        "kanji": null,
+        "pronunciation": "もうすぐ",
+        "back": "sắp",
+        "collection_id": "30"
+    },
+    {
+        "front": "おかげさまで",
+        "kanji": null,
+        "pronunciation": "おかげさまで",
+        "back": "cám ơn anh/ chị (dùng để bày tỏ sự cám ơn khi nhận được sự giúp đỡ của ai đó)",
+        "collection_id": "30"
+    },
+    {
+        "front": "乾杯",
+        "kanji": "CAN BỘI",
+        "pronunciation": "かんぱい",
+        "back": "nâng cốc!/cạn chén",
+        "collection_id": "30"
+    },
+    {
+        "front": "実は",
+        "kanji": "THỰC",
+        "pronunciation": "じつは",
+        "back": "thật ra là/sự tình là",
+        "collection_id": "30"
+    },
+    {
+        "front": "ダイエット",
+        "kanji": null,
+        "pronunciation": "ダイエット",
+        "back": "việc ăn kiêng, chế độ giảm cân (～をします:ăn kiêng)",
+        "collection_id": "30"
+    },
+    {
+        "front": "何回も",
+        "kanji": "HÀ HỒI",
+        "pronunciation": "なんかいも",
+        "back": "nhiều lần",
+        "collection_id": "30"
+    },
+    {
+        "front": "しかし",
+        "kanji": null,
+        "pronunciation": "しかし",
+        "back": "nhưng, tuy nhiên",
+        "collection_id": "30"
+    },
+    {
+        "front": "無理[な]",
+        "kanji": "VÔ LÝ",
+        "pronunciation": "むり「な」",
+        "back": "không thể, quá sức",
+        "collection_id": "30"
+    },
+    {
+        "front": "体にいい",
+        "kanji": "THỂ",
+        "pronunciation": "からだにいい",
+        "back": "tốt cho sức khỏe",
+        "collection_id": "30"
+    },
+    {
+        "front": "ケーキ",
+        "kanji": null,
+        "pronunciation": "ケーキ",
+        "back": "bánh ga-tô, bánh ngọt",
+        "collection_id": "30"
+    },
+    {
+        "front": "葛飾北斎",
+        "kanji": "CÁT SỨC BẮC TRAI",
+        "pronunciation": "かつしかほくさい",
+        "back": "Katsushika Hokusai (1760-1849), một họa sĩ nổi tiếng thời Edo",
+        "collection_id": "30"
+    }
+]

@@ -1,0 +1,331 @@
+[
+    {
+        "front": "[ドアが～]開きます",
+        "kanji": "KHAI",
+        "pronunciation": "[ドアが～]あきます",
+        "back": "mở [cửa ~]",
+        "collection_id": "40"
+    },
+    {
+        "front": "[ドアが～]閉まります",
+        "kanji": "BẾ",
+        "pronunciation": "[ドアが～]しまります",
+        "back": "đóng [cửa ~]",
+        "collection_id": "40"
+    },
+    {
+        "front": "[電気が～]",
+        "kanji": "ĐIỆN KHÍ",
+        "pronunciation": "[でんきが～] つきます",
+        "back": "sáng [điện ~]",
+        "collection_id": "40"
+    },
+    {
+        "front": "[電気が～]消えます",
+        "kanji": "ĐIỆN KHÍ TIÊU",
+        "pronunciation": "[でんきが～]きえます",
+        "back": "tắt [điện ~]",
+        "collection_id": "40"
+    },
+    {
+        "front": "[道が～]込みます",
+        "kanji": "ĐẠO VÀO",
+        "pronunciation": "[みちが～]こみます",
+        "back": "đông, tắc [đường ~]",
+        "collection_id": "40"
+    },
+    {
+        "front": "[道が～]",
+        "kanji": "ĐẠO",
+        "pronunciation": "[みちが～] すきます",
+        "back": "vắng, thoáng [đường ~]",
+        "collection_id": "40"
+    },
+    {
+        "front": "[いすが～]壊れます",
+        "kanji": "HOẠI",
+        "pronunciation": "[いすが～]こわれます",
+        "back": "hỏng [cái ghế bị ~]",
+        "collection_id": "40"
+    },
+    {
+        "front": "[コップが～]　割れます",
+        "kanji": "CÁT",
+        "pronunciation": "[コップが～]われます",
+        "back": "vỡ [cái cốc bị ~]",
+        "collection_id": "40"
+    },
+    {
+        "front": "[木が～]折れます",
+        "kanji": "MỘC TRIẾT",
+        "pronunciation": "[きが～] おれます",
+        "back": "gãy [cái cây bị ~]",
+        "collection_id": "40"
+    },
+    {
+        "front": "[紙が～]破れます",
+        "kanji": "CHỈ PHÁ",
+        "pronunciation": "[かみが～]やぶれます",
+        "back": "rách [tờ giấy bị ~]",
+        "collection_id": "40"
+    },
+    {
+        "front": "[服が～]汚れます",
+        "kanji": "PHỤC Ô",
+        "pronunciation": "[ふくが～]よごれます",
+        "back": "bẩn [quần áo bị ~]",
+        "collection_id": "40"
+    },
+    {
+        "front": "[ポケットが～]付きます",
+        "kanji": "PHÓ",
+        "pronunciation": "[ポケットが～]つきます",
+        "back": "có, có gắn, có kèm theo [túi]",
+        "collection_id": "40"
+    },
+    {
+        "front": "[ボタンが～]外れます",
+        "kanji": "NGOẠI",
+        "pronunciation": "[ボタンが～]はずれます",
+        "back": "tuột, bung [cái cúc bị ~]",
+        "collection_id": "40"
+    },
+    {
+        "front": "[エレベーターが～]止まります",
+        "kanji": "CHỈ",
+        "pronunciation": "[エレベーターが～]とまります",
+        "back": "dừng [thang máy ~]",
+        "collection_id": "40"
+    },
+    {
+        "front": "まちがえます",
+        "kanji": null,
+        "pronunciation": "まちがえます",
+        "back": "nhầm, sai",
+        "collection_id": "40"
+    },
+    {
+        "front": "落とします",
+        "kanji": "LẠC",
+        "pronunciation": "おとします",
+        "back": "đánh rơi",
+        "collection_id": "40"
+    },
+    {
+        "front": "[かぎが～]掛かります",
+        "kanji": "QUẢI",
+        "pronunciation": "[かぎが～]かかります",
+        "back": "khóa [chìa khóa ~]",
+        "collection_id": "40"
+    },
+    {
+        "front": "[お]皿",
+        "kanji": "MÃNH",
+        "pronunciation": "[お]さら",
+        "back": "cái đĩa",
+        "collection_id": "40"
+    },
+    {
+        "front": "[お]ちゃわん",
+        "kanji": null,
+        "pronunciation": "[お]ちゃわん",
+        "back": "cái bát",
+        "collection_id": "40"
+    },
+    {
+        "front": "コップ",
+        "kanji": null,
+        "pronunciation": "コップ",
+        "back": "cái cốc",
+        "collection_id": "40"
+    },
+    {
+        "front": "ガラス",
+        "kanji": null,
+        "pronunciation": "ガラス",
+        "back": "thủy tinh (glass)",
+        "collection_id": "40"
+    },
+    {
+        "front": "袋",
+        "kanji": "ĐẠI",
+        "pronunciation": "ふくろ",
+        "back": "cái túi",
+        "collection_id": "40"
+    },
+    {
+        "front": "財布",
+        "kanji": "TÀI BỐ",
+        "pronunciation": "さいふ",
+        "back": "cái ví",
+        "collection_id": "40"
+    },
+    {
+        "front": "枝",
+        "kanji": "CHI",
+        "pronunciation": "えだ",
+        "back": "cành cây",
+        "collection_id": "40"
+    },
+    {
+        "front": "駅員",
+        "kanji": "DỊCH VIÊN",
+        "pronunciation": "えきいん",
+        "back": "nhân viên nhà ga",
+        "collection_id": "40"
+    },
+    {
+        "front": "この辺",
+        "kanji": "BIẾN",
+        "pronunciation": "このへん",
+        "back": "xung quanh đây, gần đây",
+        "collection_id": "40"
+    },
+    {
+        "front": "～辺",
+        "kanji": "BIẾN",
+        "pronunciation": "～へん",
+        "back": "xung quanh ~, chỗ ~",
+        "collection_id": "40"
+    },
+    {
+        "front": "このぐらい",
+        "kanji": null,
+        "pronunciation": "このぐらい",
+        "back": "khoảng ngần này, cỡ khoảng như thế này",
+        "collection_id": "40"
+    },
+    {
+        "front": "お先にどうぞ。",
+        "kanji": "TIÊN",
+        "pronunciation": "おさきにどうぞ。",
+        "back": "Xin mời anh/chị đi trước.",
+        "collection_id": "40"
+    },
+    {
+        "front": "[ああ、]よかった。",
+        "kanji": null,
+        "pronunciation": "[ああ、]よかった。",
+        "back": "ồ, may quá.",
+        "collection_id": "40"
+    },
+    {
+        "front": "今の電車",
+        "kanji": "KIM ĐIỆN XA",
+        "pronunciation": "いまのでんしゃ",
+        "back": "đoàn tàu vừa rồi",
+        "collection_id": "40"
+    },
+    {
+        "front": "忘れ物",
+        "kanji": "VONG VẬT",
+        "pronunciation": "わすれもの",
+        "back": "vật để quên",
+        "collection_id": "40"
+    },
+    {
+        "front": "～側",
+        "kanji": "TRẮC",
+        "pronunciation": "～がわ",
+        "back": "phía ~, bên ~",
+        "collection_id": "40"
+    },
+    {
+        "front": "ポケット",
+        "kanji": null,
+        "pronunciation": "ポケット",
+        "back": "túi áo, túi quần (pocket)",
+        "collection_id": "40"
+    },
+    {
+        "front": "覚えていません。",
+        "kanji": "GIÁC",
+        "pronunciation": "おぼえていません",
+        "back": "Tôi không nhớ.",
+        "collection_id": "40"
+    },
+    {
+        "front": "網棚",
+        "kanji": "VÕNG BẰNG",
+        "pronunciation": "あみだな",
+        "back": "giá lưới, giá hành lý (trên tàu)",
+        "collection_id": "40"
+    },
+    {
+        "front": "確か",
+        "kanji": "XÁC",
+        "pronunciation": "たしか",
+        "back": "nếu không lầm thì",
+        "collection_id": "40"
+    },
+    {
+        "front": "四ツ谷",
+        "kanji": "TỨ CỐC",
+        "pronunciation": "よつや",
+        "back": "tên một nhà ga ở Tokyo",
+        "collection_id": "40"
+    },
+    {
+        "front": "地震",
+        "kanji": "ĐỊA CHẤN",
+        "pronunciation": "じしん",
+        "back": "động đất",
+        "collection_id": "40"
+    },
+    {
+        "front": "壁",
+        "kanji": "BÍCH",
+        "pronunciation": "かべ",
+        "back": "bức tường",
+        "collection_id": "40"
+    },
+    {
+        "front": "針",
+        "kanji": "CHÂM",
+        "pronunciation": "はり",
+        "back": "kim đồng hồ",
+        "collection_id": "40"
+    },
+    {
+        "front": "指します",
+        "kanji": "CHỈ",
+        "pronunciation": "さします",
+        "back": "chỉ",
+        "collection_id": "40"
+    },
+    {
+        "front": "駅前",
+        "kanji": "DỊCH TIỀN",
+        "pronunciation": "えきまえ",
+        "back": "khu vực trước nhà ga",
+        "collection_id": "40"
+    },
+    {
+        "front": "倒れます",
+        "kanji": "ĐẢO",
+        "pronunciation": "たおれます",
+        "back": "đổ",
+        "collection_id": "40"
+    },
+    {
+        "front": "西",
+        "kanji": "TÂY",
+        "pronunciation": "にし",
+        "back": "tây, phía tây",
+        "collection_id": "40"
+    },
+    {
+        "front": "方",
+        "kanji": "PHƯƠNG",
+        "pronunciation": "ほう",
+        "back": "hướng, phương hướng",
+        "collection_id": "40"
+    },
+    {
+        "front": "三宮",
+        "kanji": "TAM CUNG",
+        "pronunciation": "さんのみや",
+        "back": "tên một địa điểm ở Kobe",
+        "collection_id": "40"
+    }
+]

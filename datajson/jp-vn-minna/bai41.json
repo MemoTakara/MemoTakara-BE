@@ -1,0 +1,380 @@
+[
+    {
+        "front": "いただきます",
+        "kanji": null,
+        "pronunciation": "いただきます",
+        "back": "nhận (khiêm nhường ngữ củaもらいます)",
+        "collection_id": "52"
+    },
+    {
+        "front": "くださいます",
+        "kanji": null,
+        "pronunciation": "くださいます",
+        "back": "Cho, tặng (tôi) (tôn kính ngữ củaくれます)",
+        "collection_id": "52"
+    },
+    {
+        "front": "やります",
+        "kanji": null,
+        "pronunciation": "やります",
+        "back": "cho, tặng (dùng với người dưới hoặc bằng vai)",
+        "collection_id": "52"
+    },
+    {
+        "front": "呼びます",
+        "kanji": "HÔ",
+        "pronunciation": "よびます",
+        "back": "mời",
+        "collection_id": "52"
+    },
+    {
+        "front": "取り替えます",
+        "kanji": "THỦ THẾ",
+        "pronunciation": "とりかえます",
+        "back": "đổi, thay",
+        "collection_id": "52"
+    },
+    {
+        "front": "親切にします",
+        "kanji": "THÂN THIẾT",
+        "pronunciation": "しんせつにします",
+        "back": "giúp đỡ, đối xử thân thiện",
+        "collection_id": "52"
+    },
+    {
+        "front": "かわいい",
+        "kanji": null,
+        "pronunciation": "かわいい",
+        "back": "xinh, đáng yêu",
+        "collection_id": "52"
+    },
+    {
+        "front": "お祝い",
+        "kanji": "CHÚC",
+        "pronunciation": "おいわい",
+        "back": "mừng, quà mừng (～をします：mừng)",
+        "collection_id": "52"
+    },
+    {
+        "front": "お年玉",
+        "kanji": "NIÊN NGỌC",
+        "pronunciation": "おとしだま",
+        "back": "tiền mừng tuổi",
+        "collection_id": "52"
+    },
+    {
+        "front": "[お]見舞い",
+        "kanji": "KIẾN VŨ",
+        "pronunciation": "[お]みまい",
+        "back": "thăm người ốm",
+        "collection_id": "52"
+    },
+    {
+        "front": "興味",
+        "kanji": "HƯNG VỊ",
+        "pronunciation": "きょうみ",
+        "back": "sở thích, quan tâm（[コンピューターに]　～が　あります：quan tâm đến [máy tính]）",
+        "collection_id": "52"
+    },
+    {
+        "front": "情報",
+        "kanji": "TÌNH BÁO",
+        "pronunciation": "じょうほう",
+        "back": "thông tin",
+        "collection_id": "52"
+    },
+    {
+        "front": "文法",
+        "kanji": "VĂN PHÁP",
+        "pronunciation": "ぶんぽう",
+        "back": "ngữ pháp",
+        "collection_id": "52"
+    },
+    {
+        "front": "発音",
+        "kanji": "PHÁT ÂM",
+        "pronunciation": "はつおん",
+        "back": "phát âm",
+        "collection_id": "52"
+    },
+    {
+        "front": "猿",
+        "kanji": "VIÊN",
+        "pronunciation": "さる",
+        "back": "con khỉ",
+        "collection_id": "52"
+    },
+    {
+        "front": "えさ",
+        "kanji": null,
+        "pronunciation": "えさ",
+        "back": "đồ ăn cho động vật, mồi",
+        "collection_id": "52"
+    },
+    {
+        "front": "おもちゃ",
+        "kanji": null,
+        "pronunciation": "おもちゃ",
+        "back": "đồ chơi",
+        "collection_id": "52"
+    },
+    {
+        "front": "えほん",
+        "kanji": null,
+        "pronunciation": "えほん",
+        "back": "quyển truyện tranh",
+        "collection_id": "52"
+    },
+    {
+        "front": "絵はがき",
+        "kanji": "HỘI",
+        "pronunciation": "えはがき",
+        "back": "bưu ảnh",
+        "collection_id": "52"
+    },
+    {
+        "front": "ドライバー",
+        "kanji": null,
+        "pronunciation": "ドライバー",
+        "back": "cái tua-vít",
+        "collection_id": "52"
+    },
+    {
+        "front": "ハンカチ",
+        "kanji": null,
+        "pronunciation": "ハンカチ",
+        "back": "khăn mùi xoa, khăn tay",
+        "collection_id": "52"
+    },
+    {
+        "front": "靴下",
+        "kanji": "NGOA HẠ",
+        "pronunciation": "くつした",
+        "back": "cái tất",
+        "collection_id": "52"
+    },
+    {
+        "front": "手袋",
+        "kanji": "THỦ ĐẠI",
+        "pronunciation": "てぶくろ",
+        "back": "cái găng tay",
+        "collection_id": "52"
+    },
+    {
+        "front": "指輪",
+        "kanji": "CHỈ LUÂN",
+        "pronunciation": "ゆびわ",
+        "back": "cái nhẫn",
+        "collection_id": "52"
+    },
+    {
+        "front": "バッグ",
+        "kanji": null,
+        "pronunciation": "バッグ",
+        "back": "cái túi (bag)",
+        "collection_id": "52"
+    },
+    {
+        "front": "祖父",
+        "kanji": "TỔ PHỤ",
+        "pronunciation": "そふ",
+        "back": "ông (dùng với bản thân)",
+        "collection_id": "52"
+    },
+    {
+        "front": "祖母",
+        "kanji": "TỔ MẪU",
+        "pronunciation": "そぼ",
+        "back": "bà (dùng với bản thân)",
+        "collection_id": "52"
+    },
+    {
+        "front": "孫",
+        "kanji": "TÔN",
+        "pronunciation": "まご",
+        "back": "cháu",
+        "collection_id": "52"
+    },
+    {
+        "front": "おじ",
+        "kanji": null,
+        "pronunciation": "おじ",
+        "back": "chú, cậu, bác (dùng với bản thân)",
+        "collection_id": "52"
+    },
+    {
+        "front": "おじさん",
+        "kanji": null,
+        "pronunciation": "おじさん",
+        "back": "Chú, cậu, bác (dùng với người khác)",
+        "collection_id": "52"
+    },
+    {
+        "front": "おば",
+        "kanji": null,
+        "pronunciation": "おば",
+        "back": "cô, dì, bác (dùng với bản thân)",
+        "collection_id": "52"
+    },
+    {
+        "front": "おばさん",
+        "kanji": null,
+        "pronunciation": "おばさん",
+        "back": "cô, dì, bác (dùng với người khác)",
+        "collection_id": "52"
+    },
+    {
+        "front": "おととし",
+        "kanji": null,
+        "pronunciation": "おととし",
+        "back": "năm kia",
+        "collection_id": "52"
+    },
+    {
+        "front": "はあ",
+        "kanji": null,
+        "pronunciation": "はあ",
+        "back": "à, ồ",
+        "collection_id": "52"
+    },
+    {
+        "front": "申し訳ありません。",
+        "kanji": "THÂN DỊCH",
+        "pronunciation": "もうしわけありません",
+        "back": "Xin lỗi.",
+        "collection_id": "52"
+    },
+    {
+        "front": "預かります",
+        "kanji": "DỰ",
+        "pronunciation": "あずかります",
+        "back": "giữ, giữ hộ, giữ cho",
+        "collection_id": "52"
+    },
+    {
+        "front": "先日",
+        "kanji": "TIÊN NHẬT",
+        "pronunciation": "せんじつ",
+        "back": "hôm trước, mấy hôm trước",
+        "collection_id": "52"
+    },
+    {
+        "front": "助かります",
+        "kanji": "TRỢ",
+        "pronunciation": "たすかります",
+        "back": "may có anh/ chị giúp",
+        "collection_id": "52"
+    },
+    {
+        "front": "昔話",
+        "kanji": "TÍCH THOẠI",
+        "pronunciation": "むかしばなし",
+        "back": "chuyện cổ tích",
+        "collection_id": "52"
+    },
+    {
+        "front": "ある",
+        "kanji": null,
+        "pronunciation": "ある",
+        "back": "～có ~, một ~",
+        "collection_id": "52"
+    },
+    {
+        "front": "男",
+        "kanji": "NAM",
+        "pronunciation": "おとこ",
+        "back": "người đàn ông, nam giới",
+        "collection_id": "52"
+    },
+    {
+        "front": "子供たち",
+        "kanji": "TỬ CUNG",
+        "pronunciation": "こどもたち",
+        "back": "trẻ em, trẻ con, bọn trẻ",
+        "collection_id": "52"
+    },
+    {
+        "front": "いじめます",
+        "kanji": null,
+        "pronunciation": "いじめます",
+        "back": "bắt nạt",
+        "collection_id": "52"
+    },
+    {
+        "front": "かめ",
+        "kanji": null,
+        "pronunciation": "かめ",
+        "back": "con rùa",
+        "collection_id": "52"
+    },
+    {
+        "front": "助けます",
+        "kanji": "TRỢ",
+        "pronunciation": "たすけます",
+        "back": "giúp, giúp đỡ",
+        "collection_id": "52"
+    },
+    {
+        "front": "[お]城",
+        "kanji": "THÀNH",
+        "pronunciation": "「お」しろ",
+        "back": "lâu đài, thành",
+        "collection_id": "52"
+    },
+    {
+        "front": "お姫様",
+        "kanji": "CƠ DẠNG",
+        "pronunciation": "おひめさま",
+        "back": "công chúa",
+        "collection_id": "52"
+    },
+    {
+        "front": "楽しく",
+        "kanji": "LẠC/NHẠC",
+        "pronunciation": "たのしく",
+        "back": "vui",
+        "collection_id": "52"
+    },
+    {
+        "front": "暮らします",
+        "kanji": "MỘ",
+        "pronunciation": "くらします",
+        "back": "sống, sinh hoạt",
+        "collection_id": "52"
+    },
+    {
+        "front": "陸",
+        "kanji": "LỤC",
+        "pronunciation": "りく",
+        "back": "đất liền, lục địa",
+        "collection_id": "52"
+    },
+    {
+        "front": "すると",
+        "kanji": null,
+        "pronunciation": "すると",
+        "back": "thế rồi, sau đó",
+        "collection_id": "52"
+    },
+    {
+        "front": "煙",
+        "kanji": "YÊN",
+        "pronunciation": "けむり",
+        "back": "khói",
+        "collection_id": "52"
+    },
+    {
+        "front": "真っ白[な]",
+        "kanji": "CHÂN BẠCH",
+        "pronunciation": "まっしろ「な」",
+        "back": "trắng toát, trắng ngần",
+        "collection_id": "52"
+    },
+    {
+        "front": "中身",
+        "kanji": "TRUNG THÂN",
+        "pronunciation": "なかみ",
+        "back": "nội dung, cái ở bên trong",
+        "collection_id": "52"
+    }
+]

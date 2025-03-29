@@ -1,0 +1,324 @@
+[
+    {
+        "front": "[質問に～]答えます",
+        "kanji": "CHẤT VẤN ĐÁP",
+        "pronunciation": "[しつもんに～]こたえます",
+        "back": "trả lời [câu hỏi]",
+        "collection_id": "50"
+    },
+    {
+        "front": "[ビルが～]倒れます",
+        "kanji": "ĐẢO",
+        "pronunciation": "[ビルが～]たおれます",
+        "back": "đổ [nhà cao tầng ~]",
+        "collection_id": "50"
+    },
+    {
+        "front": "[うちが～]焼けます",
+        "kanji": "THIÊU",
+        "pronunciation": "[うちが～]やけます",
+        "back": "cháy [nhà ~]",
+        "collection_id": "50"
+    },
+    {
+        "front": "[パンが～]焼けます",
+        "kanji": "THIÊU",
+        "pronunciation": "[パンが～]やけます",
+        "back": "được nướng [bánh mì ~]",
+        "collection_id": "50"
+    },
+    {
+        "front": "[肉が～]焼けます",
+        "kanji": "NHỤC THIÊU",
+        "pronunciation": "[にくが～]やけます",
+        "back": "được nướng [thịt ~]",
+        "collection_id": "50"
+    },
+    {
+        "front": "[道を～]通ります",
+        "kanji": "ĐẠO THÔNG",
+        "pronunciation": "[みちを～]とおります",
+        "back": "đi qua (đường)",
+        "collection_id": "50"
+    },
+    {
+        "front": "死にます",
+        "kanji": "TỬ",
+        "pronunciation": "しにます",
+        "back": "chết",
+        "collection_id": "50"
+    },
+    {
+        "front": "びっくりします",
+        "kanji": null,
+        "pronunciation": "びっくりします",
+        "back": "ngạc nhiên, giật mình",
+        "collection_id": "50"
+    },
+    {
+        "front": "がっかりします",
+        "kanji": null,
+        "pronunciation": "がっかりします",
+        "back": "thất vọng",
+        "collection_id": "50"
+    },
+    {
+        "front": "安心します",
+        "kanji": "AN TÂM",
+        "pronunciation": "あんしんします",
+        "back": "yên tâm",
+        "collection_id": "50"
+    },
+    {
+        "front": "遅刻します",
+        "kanji": "TRÌ KHẮC",
+        "pronunciation": "ちこくします",
+        "back": "đến chậm, đến muộn",
+        "collection_id": "50"
+    },
+    {
+        "front": "早退します",
+        "kanji": "TẢO THOÁI",
+        "pronunciation": "そうたいします",
+        "back": "về sớm, ra sớm (việc làm hay trường học)",
+        "collection_id": "50"
+    },
+    {
+        "front": "けんかします",
+        "kanji": null,
+        "pronunciation": "けんかします",
+        "back": "cãi nhau",
+        "collection_id": "50"
+    },
+    {
+        "front": "離婚します",
+        "kanji": "LY HÔN",
+        "pronunciation": "りこんします",
+        "back": "ly dị, ly hôn",
+        "collection_id": "50"
+    },
+    {
+        "front": "複雑[な]",
+        "kanji": "PHỨC TẠP",
+        "pronunciation": "ふくざつ[な]",
+        "back": "phức tạp",
+        "collection_id": "50"
+    },
+    {
+        "front": "邪魔[な]",
+        "kanji": "TÀ MA",
+        "pronunciation": "じゃま[な]",
+        "back": "cản trở, chiếm diện tích",
+        "collection_id": "50"
+    },
+    {
+        "front": "汚い",
+        "kanji": "Ô",
+        "pronunciation": "きたない",
+        "back": "bẩn",
+        "collection_id": "50"
+    },
+    {
+        "front": "うれしい",
+        "kanji": null,
+        "pronunciation": "うれしい",
+        "back": "vui, mừng",
+        "collection_id": "50"
+    },
+    {
+        "front": "悲しい",
+        "kanji": "BI",
+        "pronunciation": "かなしい",
+        "back": "buồn, đau thương",
+        "collection_id": "50"
+    },
+    {
+        "front": "恥ずかしい",
+        "kanji": "SỈ",
+        "pronunciation": "はずかしい",
+        "back": "xấu hổ, thẹn, hổ thẹn",
+        "collection_id": "50"
+    },
+    {
+        "front": "地震",
+        "kanji": "ĐỊA CHẤN",
+        "pronunciation": "じしん",
+        "back": "động đất",
+        "collection_id": "50"
+    },
+    {
+        "front": "台風",
+        "kanji": "ĐÀI PHONG",
+        "pronunciation": "たいふう",
+        "back": "bão",
+        "collection_id": "50"
+    },
+    {
+        "front": "火事",
+        "kanji": "HỎA SỰ",
+        "pronunciation": "かじ",
+        "back": "hỏa hoạn",
+        "collection_id": "50"
+    },
+    {
+        "front": "事故",
+        "kanji": "SỰ CỐ",
+        "pronunciation": "じこ",
+        "back": "tai nạn, sự cố",
+        "collection_id": "50"
+    },
+    {
+        "front": "[お]見合い",
+        "kanji": "KIẾN HỢP",
+        "pronunciation": "[お]みあい",
+        "back": "Nam nữ làm quen qua giới thiệu, làm mối",
+        "collection_id": "50"
+    },
+    {
+        "front": "電話代",
+        "kanji": "ĐIỆN THOẠI ĐẠI",
+        "pronunciation": "でんわだい",
+        "back": "tiền điện thoại, phí điện thoại",
+        "collection_id": "50"
+    },
+    {
+        "front": "～代",
+        "kanji": "ĐẠI",
+        "pronunciation": "～だい",
+        "back": "tiền ~, phí ~",
+        "collection_id": "50"
+    },
+    {
+        "front": "フロント",
+        "kanji": null,
+        "pronunciation": "フロント",
+        "back": "bộ phận tiếp tân, bộ phận thường trực",
+        "collection_id": "50"
+    },
+    {
+        "front": "―号室",
+        "kanji": "HIỆU THẤT",
+        "pronunciation": "―ごうしつ",
+        "back": "phòng số -",
+        "collection_id": "50"
+    },
+    {
+        "front": "汗",
+        "kanji": "HÃN",
+        "pronunciation": "あせ",
+        "back": "mồ hôi (～をかきます：ra mồ hôi)",
+        "collection_id": "50"
+    },
+    {
+        "front": "タオル",
+        "kanji": null,
+        "pronunciation": "タオル",
+        "back": "khăn lau, khăn tắm",
+        "collection_id": "50"
+    },
+    {
+        "front": "せっけん",
+        "kanji": null,
+        "pronunciation": "せっけん",
+        "back": "xà phòng",
+        "collection_id": "50"
+    },
+    {
+        "front": "大勢",
+        "kanji": "ĐẠI THẾ",
+        "pronunciation": "おおぜい",
+        "back": "nhiều người",
+        "collection_id": "50"
+    },
+    {
+        "front": "お疲れ様でした。",
+        "kanji": "BÌ DẠNG",
+        "pronunciation": "おつかれさまでした。",
+        "back": "Chắc anh chị đã mệt vì làm việc. (câu chào dùng để nói với người đã làm xong một việc gì đó)",
+        "collection_id": "50"
+    },
+    {
+        "front": "伺います。",
+        "kanji": "TỨ",
+        "pronunciation": "うかがいます。",
+        "back": "Tôi đến thăm. (cách nói khiêm nhường của いきます)",
+        "collection_id": "50"
+    },
+    {
+        "front": "途中で",
+        "kanji": "ĐỒ TRUNG",
+        "pronunciation": "とちゅうで",
+        "back": "giữa đường, dọc đường, giữa chừng",
+        "collection_id": "50"
+    },
+    {
+        "front": "トラック",
+        "kanji": null,
+        "pronunciation": "トラック",
+        "back": "xe tải",
+        "collection_id": "50"
+    },
+    {
+        "front": "ぶつかります",
+        "kanji": null,
+        "pronunciation": "ぶつかります",
+        "back": "đâm, va chạm",
+        "collection_id": "50"
+    },
+    {
+        "front": "並びます",
+        "kanji": "TỊNH",
+        "pronunciation": "ならびます",
+        "back": "xếp hàng",
+        "collection_id": "50"
+    },
+    {
+        "front": "大人",
+        "kanji": "ĐẠI NHÂN",
+        "pronunciation": "おとな",
+        "back": "người lớn",
+        "collection_id": "50"
+    },
+    {
+        "front": "洋服",
+        "kanji": "DƯƠNG PHỤC",
+        "pronunciation": "ようふく",
+        "back": "quần áo kiểu Tây Âu",
+        "collection_id": "50"
+    },
+    {
+        "front": "西洋化します",
+        "kanji": "TÂY DƯƠNG HÓA",
+        "pronunciation": "せいようかします",
+        "back": "Tây Âu hóa",
+        "collection_id": "50"
+    },
+    {
+        "front": "合います",
+        "kanji": "HỢP",
+        "pronunciation": "あいます",
+        "back": "vừa, hợp",
+        "collection_id": "50"
+    },
+    {
+        "front": "今では",
+        "kanji": "KIM",
+        "pronunciation": "いまでは",
+        "back": "bây giờ (thì)",
+        "collection_id": "50"
+    },
+    {
+        "front": "成人式",
+        "kanji": "THÀNH NHÂN THỨC",
+        "pronunciation": "せいじんしき",
+        "back": "Lễ trưởng thành, Lễ thành Nhân",
+        "collection_id": "50"
+    },
+    {
+        "front": "不思議[な]",
+        "kanji": "BẤT TƯ NGHỊ",
+        "pronunciation": "ふしぎ「な」",
+        "back": "bí ẩn, kỳ thú, khó hiểu",
+        "collection_id": "50"
+    }
+]

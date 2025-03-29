@@ -1,0 +1,205 @@
+[
+    {
+        "front": "[ビザが～]要ります",
+        "kanji": "YẾU",
+        "pronunciation": "[ビザが～]いります",
+        "back": "cần [thị thực (visa)]",
+        "collection_id": "31"
+    },
+    {
+        "front": "調べます",
+        "kanji": "ĐIỀU",
+        "pronunciation": "しらべます",
+        "back": "tìm hiểu, điều tra, xem",
+        "collection_id": "31"
+    },
+    {
+        "front": "直します",
+        "kanji": "TRỰC",
+        "pronunciation": "なおします",
+        "back": "sửa, chữa",
+        "collection_id": "31"
+    },
+    {
+        "front": "修理します",
+        "kanji": "TU LÝ",
+        "pronunciation": "しゅうりします",
+        "back": "sửa chữa, tu sửa",
+        "collection_id": "31"
+    },
+    {
+        "front": "電話します",
+        "kanji": "ĐIỆN THOẠI",
+        "pronunciation": "でんわします",
+        "back": "gọi điện thoại",
+        "collection_id": "31"
+    },
+    {
+        "front": "僕",
+        "kanji": "BỘC",
+        "pronunciation": "ぼく",
+        "back": "tớ",
+        "collection_id": "31"
+    },
+    {
+        "front": "君",
+        "kanji": "QUÂN",
+        "pronunciation": "きみ",
+        "back": "cậu, bạn",
+        "collection_id": "31"
+    },
+    {
+        "front": "～君",
+        "kanji": "QUÂN",
+        "pronunciation": "～くん",
+        "back": "(hậu tố thêm vào sau tên của em trai)",
+        "collection_id": "31"
+    },
+    {
+        "front": "うん",
+        "kanji": null,
+        "pronunciation": "うん",
+        "back": "ừ (cách nói thân mật của 「はい」)",
+        "collection_id": "31"
+    },
+    {
+        "front": "ううん",
+        "kanji": null,
+        "pronunciation": "ううん",
+        "back": "không (cách nói thân mật của 「いいえ」)",
+        "collection_id": "31"
+    },
+    {
+        "front": "サラリーマン",
+        "kanji": null,
+        "pronunciation": "サラリーマン",
+        "back": "người làm việc cho các công ty",
+        "collection_id": "31"
+    },
+    {
+        "front": "ことば",
+        "kanji": null,
+        "pronunciation": "ことば",
+        "back": "từ, tiếng",
+        "collection_id": "31"
+    },
+    {
+        "front": "物価",
+        "kanji": "VẬT GIÁ",
+        "pronunciation": "ぶっか",
+        "back": "giá cả, mức giá, vật giá",
+        "collection_id": "31"
+    },
+    {
+        "front": "着物",
+        "kanji": "TRƯỚC VẬT",
+        "pronunciation": "きもの",
+        "back": "Kimono (trang phục truyền thống của Nhật Bản)",
+        "collection_id": "31"
+    },
+    {
+        "front": "ビザ",
+        "kanji": null,
+        "pronunciation": "ビザ",
+        "back": "thị thực, Visa",
+        "collection_id": "31"
+    },
+    {
+        "front": "始め",
+        "kanji": "THỦY",
+        "pronunciation": "はじめ",
+        "back": "ban đầu, đầu tiên",
+        "collection_id": "31"
+    },
+    {
+        "front": "終わり",
+        "kanji": "CHUNG",
+        "pronunciation": "おわり",
+        "back": "kết thúc",
+        "collection_id": "31"
+    },
+    {
+        "front": "こっち",
+        "kanji": null,
+        "pronunciation": "こっち",
+        "back": "phía này, chỗ này (cách nói thân mật của 「こちら」)",
+        "collection_id": "31"
+    },
+    {
+        "front": "そっち",
+        "kanji": null,
+        "pronunciation": "そっち",
+        "back": "phía đó, chỗ đó (cách nói thân mật của 「そちら」)",
+        "collection_id": "31"
+    },
+    {
+        "front": "あっち",
+        "kanji": null,
+        "pronunciation": "あっち",
+        "back": "phía kia, chỗ kia (cách nói thân mật của 「あちら」)",
+        "collection_id": "31"
+    },
+    {
+        "front": "どっち",
+        "kanji": null,
+        "pronunciation": "どっち",
+        "back": "cái nào, phía nào, đâu (cách nói thân mật của 「どちら」)",
+        "collection_id": "31"
+    },
+    {
+        "front": "この間",
+        "kanji": "GIAN",
+        "pronunciation": "このあいだ",
+        "back": "vừa rồi, hôm nọ",
+        "collection_id": "31"
+    },
+    {
+        "front": "みんなで",
+        "kanji": null,
+        "pronunciation": "みんなで",
+        "back": "mọi người cùng",
+        "collection_id": "31"
+    },
+    {
+        "front": "～けど",
+        "kanji": null,
+        "pronunciation": "～けど",
+        "back": "nhưng (cách nói thân mật của 「が」)",
+        "collection_id": "31"
+    },
+    {
+        "front": "国へ帰るの？",
+        "kanji": "QUỐC QUY",
+        "pronunciation": "くにへかえるの？",
+        "back": "Anh/chị có về nước không?",
+        "collection_id": "31"
+    },
+    {
+        "front": "どうするの？",
+        "kanji": null,
+        "pronunciation": "どうするの？",
+        "back": "Anh/ chị tính sao? Anh/chị sẽ làm gì?",
+        "collection_id": "31"
+    },
+    {
+        "front": "どうしようかな。",
+        "kanji": null,
+        "pronunciation": "どうしようかな。",
+        "back": "Tính sao đây nhỉ?/để tôi xem.",
+        "collection_id": "31"
+    },
+    {
+        "front": "よかったら",
+        "kanji": null,
+        "pronunciation": "よかったら",
+        "back": "Nếu anh/chị thích thì",
+        "collection_id": "31"
+    },
+    {
+        "front": "いろいろ",
+        "kanji": null,
+        "pronunciation": "いろいろ",
+        "back": "nhiều thứ",
+        "collection_id": "31"
+    }
+]

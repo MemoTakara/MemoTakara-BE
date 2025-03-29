@@ -1,0 +1,226 @@
+[
+    {
+        "front": "降ろします,下ろします",
+        "kanji": "GIÁNG, HẠ",
+        "pronunciation": "おろします",
+        "back": "cho xuống, hạ xuống",
+        "collection_id": "59"
+    },
+    {
+        "front": "届けます",
+        "kanji": "GIỚI",
+        "pronunciation": "とどけます",
+        "back": "gởi đến, chuyển đến",
+        "collection_id": "59"
+    },
+    {
+        "front": "世話をします",
+        "kanji": "THẾ THOẠI",
+        "pronunciation": "せわをします",
+        "back": "chăm sóc",
+        "collection_id": "59"
+    },
+    {
+        "front": "嫌[な]",
+        "kanji": "HIỀM",
+        "pronunciation": "いや[な]",
+        "back": "ngán, không thích",
+        "collection_id": "59"
+    },
+    {
+        "front": "厳しい",
+        "kanji": "NGHIÊM",
+        "pronunciation": "きびしい",
+        "back": "nghiêm, nghiêm khắc, nghiêm ngặt",
+        "collection_id": "59"
+    },
+    {
+        "front": "塾",
+        "kanji": "THỤC",
+        "pronunciation": "じゅく",
+        "back": "cơ sở học thêm",
+        "collection_id": "59"
+    },
+    {
+        "front": "スケジュール",
+        "kanji": null,
+        "pronunciation": "スケジュール",
+        "back": "thời khóa biểu, lịch làm việc",
+        "collection_id": "59"
+    },
+    {
+        "front": "生徒",
+        "kanji": "SINH ĐỒ",
+        "pronunciation": "せいと",
+        "back": "học sinh, học trò",
+        "collection_id": "59"
+    },
+    {
+        "front": "者",
+        "kanji": "GIẢ",
+        "pronunciation": "もの",
+        "back": "người (là người thân hoặc cấp dưới)",
+        "collection_id": "59"
+    },
+    {
+        "front": "入管",
+        "kanji": "NHẬP QUẢN",
+        "pronunciation": "にゅうかん",
+        "back": "Cục quản lý nhập cảnh",
+        "collection_id": "59"
+    },
+    {
+        "front": "再入国ビザ",
+        "kanji": "TÁI NHẬP QUỐC",
+        "pronunciation": "さいにゅうこくビザ",
+        "back": "Thị thực tái nhập cảnh",
+        "collection_id": "59"
+    },
+    {
+        "front": "自由に",
+        "kanji": "TỰ DO",
+        "pronunciation": "じゆうに",
+        "back": "tự do",
+        "collection_id": "59"
+    },
+    {
+        "front": "～間",
+        "kanji": "GIAN",
+        "pronunciation": "～かん",
+        "back": "trong ~ (dùng để chỉ khoảng thời gian)",
+        "collection_id": "59"
+    },
+    {
+        "front": "いいことですね。",
+        "kanji": null,
+        "pronunciation": "いいことですね。",
+        "back": "Hay nhỉ./ Được đấy nhỉ.",
+        "collection_id": "59"
+    },
+    {
+        "front": "お忙しいですか。",
+        "kanji": "MANG",
+        "pronunciation": "おいそがしいですか",
+        "back": "Anh/chị có bận không? (được dùng khi nói với người trên)",
+        "collection_id": "59"
+    },
+    {
+        "front": "久しぶり",
+        "kanji": "CỬU",
+        "pronunciation": "ひさしぶり",
+        "back": "lâu",
+        "collection_id": "59"
+    },
+    {
+        "front": "営業",
+        "kanji": "DOANH NGHIỆP",
+        "pronunciation": "えいぎょう",
+        "back": "kinh doanh, bán hàng",
+        "collection_id": "59"
+    },
+    {
+        "front": "それまでに",
+        "kanji": null,
+        "pronunciation": "それまでに",
+        "back": "trước thời điểm đó",
+        "collection_id": "59"
+    },
+    {
+        "front": "かまいません",
+        "kanji": null,
+        "pronunciation": "かまいません",
+        "back": "Không sao./ Không có vấn đề gì.",
+        "collection_id": "59"
+    },
+    {
+        "front": "楽しみます",
+        "kanji": "LẠC/NHẠC",
+        "pronunciation": "たのしみます",
+        "back": "vui, vui thích",
+        "collection_id": "59"
+    },
+    {
+        "front": "もともと",
+        "kanji": null,
+        "pronunciation": "もともと",
+        "back": "vốn dĩ",
+        "collection_id": "59"
+    },
+    {
+        "front": "―世紀",
+        "kanji": "THẾ KỶ",
+        "pronunciation": "―せいき",
+        "back": "thế kỷ -",
+        "collection_id": "59"
+    },
+    {
+        "front": "代わりをします",
+        "kanji": "ĐẠI",
+        "pronunciation": "かわりをします",
+        "back": "thay thế",
+        "collection_id": "59"
+    },
+    {
+        "front": "スピード",
+        "kanji": null,
+        "pronunciation": "スピード",
+        "back": "tốc độ",
+        "collection_id": "59"
+    },
+    {
+        "front": "競走します",
+        "kanji": "CẠNH TẨU",
+        "pronunciation": "きょうそうします",
+        "back": "chạy đua, thi chạy",
+        "collection_id": "59"
+    },
+    {
+        "front": "サーカス",
+        "kanji": null,
+        "pronunciation": "サーカス",
+        "back": "xiếc",
+        "collection_id": "59"
+    },
+    {
+        "front": "芸",
+        "kanji": "NGHỆ",
+        "pronunciation": "げい",
+        "back": "trò diễn, tiết mục, tài năng",
+        "collection_id": "59"
+    },
+    {
+        "front": "美しい",
+        "kanji": "MỸ",
+        "pronunciation": "うつくしい",
+        "back": "đẹp",
+        "collection_id": "59"
+    },
+    {
+        "front": "姿",
+        "kanji": "TƯ",
+        "pronunciation": "すがた",
+        "back": "dáng điệu, tư thế",
+        "collection_id": "59"
+    },
+    {
+        "front": "心",
+        "kanji": "TÂM",
+        "pronunciation": "こころ",
+        "back": "trái tim, tấm lòng, cảm tình",
+        "collection_id": "59"
+    },
+    {
+        "front": "とらえます",
+        "kanji": null,
+        "pronunciation": "とらえます",
+        "back": "giành được",
+        "collection_id": "59"
+    },
+    {
+        "front": "～にとって",
+        "kanji": null,
+        "pronunciation": "～にとって",
+        "back": "đối với ~",
+        "collection_id": "59"
+    }
+]

@@ -1,0 +1,289 @@
+[
+    {
+        "front": "[人が～]集まります",
+        "kanji": "NHÂN TẬP",
+        "pronunciation": "[ひとが～] あつまります",
+        "back": "tập trung, tập hợp [người ~]",
+        "collection_id": "58"
+    },
+    {
+        "front": "[人が～]別れます",
+        "kanji": "NHÂN BIỆT",
+        "pronunciation": "[ひとが～]わかれます",
+        "back": "chia, chia nhỏ, chia ra [người ~]",
+        "collection_id": "58"
+    },
+    {
+        "front": "長生きします",
+        "kanji": "TRƯỜNG SINH",
+        "pronunciation": "ながいきします",
+        "back": "sống lâu",
+        "collection_id": "58"
+    },
+    {
+        "front": "[音／声が～]します",
+        "kanji": "ÂM/THANH",
+        "pronunciation": "[おと／こえが～]します",
+        "back": "nghe thấy, có [âm thanh/ tiếng]",
+        "collection_id": "58"
+    },
+    {
+        "front": "[味が～]します",
+        "kanji": "VỊ",
+        "pronunciation": "[あじが～] します",
+        "back": "có [vị]",
+        "collection_id": "58"
+    },
+    {
+        "front": "[においが～] します",
+        "kanji": null,
+        "pronunciation": "[においが～] します",
+        "back": "có [mùi]",
+        "collection_id": "58"
+    },
+    {
+        "front": "[傘を～]さします",
+        "kanji": "TẢN",
+        "pronunciation": "[かさを～] さします",
+        "back": "che [ô]",
+        "collection_id": "58"
+    },
+    {
+        "front": "ひどい",
+        "kanji": null,
+        "pronunciation": "ひどい",
+        "back": "tồi tệ, xấu",
+        "collection_id": "58"
+    },
+    {
+        "front": "怖い",
+        "kanji": "BỐ",
+        "pronunciation": "こわい",
+        "back": "sợ, khiếp",
+        "collection_id": "58"
+    },
+    {
+        "front": "天気予報",
+        "kanji": "THIÊN KHÍ DỰ BÁO",
+        "pronunciation": "てんきよほう",
+        "back": "dự báo thời tiết",
+        "collection_id": "58"
+    },
+    {
+        "front": "発表",
+        "kanji": "PHÁT BIỂU",
+        "pronunciation": "はっぴょう",
+        "back": "phát biểu, báo cáo",
+        "collection_id": "58"
+    },
+    {
+        "front": "実験",
+        "kanji": "THỰC NGHIỆM",
+        "pronunciation": "じっけん",
+        "back": "thực nghiệm, thí nghiệm",
+        "collection_id": "58"
+    },
+    {
+        "front": "人口",
+        "kanji": "NHÂN KHẨU",
+        "pronunciation": "じんこう",
+        "back": "dân số",
+        "collection_id": "58"
+    },
+    {
+        "front": "におい",
+        "kanji": null,
+        "pronunciation": "におい",
+        "back": "mùi",
+        "collection_id": "58"
+    },
+    {
+        "front": "科学",
+        "kanji": "KHOA HỌC",
+        "pronunciation": "かがく",
+        "back": "khoa học",
+        "collection_id": "58"
+    },
+    {
+        "front": "医学",
+        "kanji": "Y HỌC",
+        "pronunciation": "いがく",
+        "back": "y học",
+        "collection_id": "58"
+    },
+    {
+        "front": "文学",
+        "kanji": "VĂN HỌC",
+        "pronunciation": "ぶんがく",
+        "back": "văn học",
+        "collection_id": "58"
+    },
+    {
+        "front": "パトカー",
+        "kanji": null,
+        "pronunciation": "パトカー",
+        "back": "xe ô-tô cảnh sát",
+        "collection_id": "58"
+    },
+    {
+        "front": "救急車",
+        "kanji": "CỨU CẤP XA",
+        "pronunciation": "きゅうきゅうしゃ",
+        "back": "xe cấp cứu",
+        "collection_id": "58"
+    },
+    {
+        "front": "賛成",
+        "kanji": "TÁN THÀNH",
+        "pronunciation": "さんせい",
+        "back": "tán thành, đồng ý",
+        "collection_id": "58"
+    },
+    {
+        "front": "反対",
+        "kanji": "PHẢN ĐỐI",
+        "pronunciation": "はんたい",
+        "back": "phản đối",
+        "collection_id": "58"
+    },
+    {
+        "front": "男性",
+        "kanji": "NAM TÍNH",
+        "pronunciation": "だんせい",
+        "back": "nam giới, Nam",
+        "collection_id": "58"
+    },
+    {
+        "front": "女性",
+        "kanji": "NỮ TÍNH",
+        "pronunciation": "じょせい",
+        "back": "nữ giới, nữ",
+        "collection_id": "58"
+    },
+    {
+        "front": "どうも",
+        "kanji": null,
+        "pronunciation": "どうも",
+        "back": "có vẽ như là, có lẽ là",
+        "collection_id": "58"
+    },
+    {
+        "front": "～によると",
+        "kanji": null,
+        "pronunciation": "～によると",
+        "back": "theo ~ thì, căn cứ vào ~ thì",
+        "collection_id": "58"
+    },
+    {
+        "front": "バリ[島]",
+        "kanji": "ĐẢO",
+        "pronunciation": "バリ[とう]",
+        "back": "[đảo] Bali (ở Indonesia)",
+        "collection_id": "58"
+    },
+    {
+        "front": "イラン",
+        "kanji": null,
+        "pronunciation": "イラン",
+        "back": "Iran",
+        "collection_id": "58"
+    },
+    {
+        "front": "カリフォルニア",
+        "kanji": null,
+        "pronunciation": "カリフォルニア",
+        "back": "California (ở Mỹ)",
+        "collection_id": "58"
+    },
+    {
+        "front": "グアム",
+        "kanji": null,
+        "pronunciation": "グアム",
+        "back": "Guam",
+        "collection_id": "58"
+    },
+    {
+        "front": "恋人",
+        "kanji": "LUYẾN NHÂN",
+        "pronunciation": "こいびと",
+        "back": "người yêu",
+        "collection_id": "58"
+    },
+    {
+        "front": "婚約します",
+        "kanji": "HÔN ƯỚC",
+        "pronunciation": "こんやくします",
+        "back": "đính hôn",
+        "collection_id": "58"
+    },
+    {
+        "front": "相手",
+        "kanji": "TƯỚNG THỦ",
+        "pronunciation": "あいて",
+        "back": "đối tác, đối phương, người kia, “nửa còn lại”",
+        "collection_id": "58"
+    },
+    {
+        "front": "知り合います",
+        "kanji": "TRI HỢP",
+        "pronunciation": "しりあいます",
+        "back": "gặp, gặp gỡ làm quen",
+        "collection_id": "58"
+    },
+    {
+        "front": "平均寿命",
+        "kanji": "BÌNH QUÂN THỌ MỆNH",
+        "pronunciation": "へいきんじゅみょう",
+        "back": "tuổi thọ trung bình",
+        "collection_id": "58"
+    },
+    {
+        "front": "[男性と～]比べます",
+        "kanji": "[NAM TÍNH]　TỶ",
+        "pronunciation": "[だんせいと～]くらべます",
+        "back": "so sánh [với nam giới]",
+        "collection_id": "58"
+    },
+    {
+        "front": "博士",
+        "kanji": "BÁC SĨ",
+        "pronunciation": "はかせ",
+        "back": "tiến sĩ",
+        "collection_id": "58"
+    },
+    {
+        "front": "脳",
+        "kanji": "NÃO",
+        "pronunciation": "のう",
+        "back": "não",
+        "collection_id": "58"
+    },
+    {
+        "front": "ホルモン",
+        "kanji": null,
+        "pronunciation": "ホルモン",
+        "back": "hoóc-môn",
+        "collection_id": "58"
+    },
+    {
+        "front": "化粧品",
+        "kanji": "HÓA TRANG PHẨM",
+        "pronunciation": "けしょうひん",
+        "back": "mỹ phẩm",
+        "collection_id": "58"
+    },
+    {
+        "front": "調べ",
+        "kanji": "ĐIỀU",
+        "pronunciation": "しらべ",
+        "back": "điều tra, tìm hiểu",
+        "collection_id": "58"
+    },
+    {
+        "front": "化粧",
+        "kanji": "HÓA TRANG",
+        "pronunciation": "けしょう",
+        "back": "sự trang điểm (～をします：trang điểm)",
+        "collection_id": "58"
+    }
+]

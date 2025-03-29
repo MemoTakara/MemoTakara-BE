@@ -1,0 +1,602 @@
+[
+    {
+        "front": "的",
+        "back": "possessive, adjectival suffix",
+        "pronunciation": "de",
+        "collection_id": "1"
+    },
+    {
+        "front": "一",
+        "back": "one; a, an; alone",
+        "pronunciation": "yī",
+        "collection_id": "1"
+    },
+    {
+        "front": "是",
+        "back": "indeed, yes, right; to be; demonstrative pronoun, this, that",
+        "pronunciation": "shì",
+        "collection_id": "1"
+    },
+    {
+        "front": "不",
+        "back": "no, not; un-; negative prefix",
+        "pronunciation": "bù",
+        "collection_id": "1"
+    },
+    {
+        "front": "了",
+        "back": "to finish; particle of completed action",
+        "pronunciation": "le",
+        "collection_id": "1"
+    },
+    {
+        "front": "在",
+        "back": "be at, in, on; consist in, rest",
+        "pronunciation": "zài",
+        "collection_id": "1"
+    },
+    {
+        "front": "人",
+        "back": "man; people; mankind; someone else",
+        "pronunciation": "rén",
+        "collection_id": "1"
+    },
+    {
+        "front": "有",
+        "back": "have, own, possess; exist",
+        "pronunciation": "yǒu",
+        "collection_id": "1"
+    },
+    {
+        "front": "我",
+        "back": "our, us, i, me, my, we",
+        "pronunciation": "wǒ",
+        "collection_id": "1"
+    },
+    {
+        "front": "他",
+        "back": "other, another; he, she, it",
+        "pronunciation": "tā",
+        "collection_id": "1"
+    },
+    {
+        "front": "这",
+        "back": "this, the, here",
+        "pronunciation": "zhè",
+        "collection_id": "1"
+    },
+    {
+        "front": "个",
+        "back": "numerary adjunct, piece; single",
+        "pronunciation": "gè",
+        "collection_id": "1"
+    },
+    {
+        "front": "们",
+        "back": "adjunct pronoun indicate plural",
+        "pronunciation": "men",
+        "collection_id": "1"
+    },
+    {
+        "front": "中",
+        "back": "central; center, middle; in the midst of; hit (target); attain",
+        "pronunciation": "zhōng",
+        "collection_id": "1"
+    },
+    {
+        "front": "来",
+        "back": "come, coming; return, returning",
+        "pronunciation": "lái",
+        "collection_id": "1"
+    },
+    {
+        "front": "上",
+        "back": "top; superior, highest; go up, send up",
+        "pronunciation": "shàng",
+        "collection_id": "1"
+    },
+    {
+        "front": "大",
+        "back": "big, great, vast, large, high",
+        "pronunciation": "dà",
+        "collection_id": "1"
+    },
+    {
+        "front": "和",
+        "back": "harmony, peace; peaceful, calm",
+        "pronunciation": "hé",
+        "collection_id": "1"
+    },
+    {
+        "front": "国",
+        "back": "nation, country, nation-state",
+        "pronunciation": "guó",
+        "collection_id": "1"
+    },
+    {
+        "front": "说",
+        "back": "speak, say, talk; scold, upbraid",
+        "pronunciation": "shuō",
+        "collection_id": "1"
+    },
+    {
+        "front": "时",
+        "back": "time, season; era, age, period",
+        "pronunciation": "shí",
+        "collection_id": "1"
+    },
+    {
+        "front": "出",
+        "back": "go out, send out; stand; produce",
+        "pronunciation": "chū",
+        "collection_id": "1"
+    },
+    {
+        "front": "会",
+        "back": "assemble, meet together; meeting",
+        "pronunciation": "huì",
+        "collection_id": "1"
+    },
+    {
+        "front": "你",
+        "back": "you, second person pronoun",
+        "pronunciation": "nǐ",
+        "collection_id": "1"
+    },
+    {
+        "front": "对",
+        "back": "correct, right; facing, opposed",
+        "pronunciation": "duì",
+        "collection_id": "1"
+    },
+    {
+        "front": "生",
+        "back": "life, living, lifetime; birth",
+        "pronunciation": "shēng",
+        "collection_id": "1"
+    },
+    {
+        "front": "能",
+        "back": "to be able; can, permitted to; ability",
+        "pronunciation": "néng",
+        "collection_id": "1"
+    },
+    {
+        "front": "子",
+        "back": "offspring, child; fruit, seed of; 1st terrestrial branch",
+        "pronunciation": "zi",
+        "collection_id": "1"
+    },
+    {
+        "front": "那",
+        "back": "that, that one, those",
+        "pronunciation": "nà",
+        "collection_id": "1"
+    },
+    {
+        "front": "下",
+        "back": "under, underneath, below; down; inferior; bring down",
+        "pronunciation": "xià",
+        "collection_id": "1"
+    },
+    {
+        "front": "年",
+        "back": "",
+        "pronunciation": "nián",
+        "collection_id": "1"
+    },
+    {
+        "front": "后",
+        "back": "queen, empress, sovereign; (simp. for後) behind, rear, after",
+        "pronunciation": "hòu",
+        "collection_id": "1"
+    },
+    {
+        "front": "作",
+        "back": "make; work; compose, write; act, perform",
+        "pronunciation": "zuò",
+        "collection_id": "1"
+    },
+    {
+        "front": "里",
+        "back": "unit of distance; village; lane",
+        "pronunciation": "lǐ",
+        "collection_id": "1"
+    },
+    {
+        "front": "家",
+        "back": "house, home, residence; family",
+        "pronunciation": "jiā",
+        "collection_id": "1"
+    },
+    {
+        "front": "多",
+        "back": "much, many; more than, over",
+        "pronunciation": "duō",
+        "collection_id": "1"
+    },
+    {
+        "front": "么",
+        "back": "interrogative particle; repetition of a tune small; tender",
+        "pronunciation": "me",
+        "collection_id": "1"
+    },
+    {
+        "front": "去",
+        "back": "go away, leave, depart",
+        "pronunciation": "qù",
+        "collection_id": "1"
+    },
+    {
+        "front": "学",
+        "back": "learning, knowledge; school",
+        "pronunciation": "xué",
+        "collection_id": "1"
+    },
+    {
+        "front": "都",
+        "back": "metropolis, capital; all, the whole; elegant, refined",
+        "pronunciation": "dōu",
+        "collection_id": "1"
+    },
+    {
+        "front": "同",
+        "back": "same, similar; together with",
+        "pronunciation": "tóng",
+        "collection_id": "1"
+    },
+    {
+        "front": "现",
+        "back": "appear, manifest, become visible",
+        "pronunciation": "xiàn",
+        "collection_id": "1"
+    },
+    {
+        "front": "没",
+        "back": "not, have not, none; drown, sink",
+        "pronunciation": "méi",
+        "collection_id": "1"
+    },
+    {
+        "front": "面",
+        "back": "face; surface; plane; side, dimension",
+        "pronunciation": "miàn",
+        "collection_id": "1"
+    },
+    {
+        "front": "起",
+        "back": "rise, stand up; go up; begin",
+        "pronunciation": "qǐ",
+        "collection_id": "1"
+    },
+    {
+        "front": "看",
+        "back": "look, see; examine, scrutinize",
+        "pronunciation": "kàn",
+        "collection_id": "1"
+    },
+    {
+        "front": "天",
+        "back": "sky, heaven; god, celestial",
+        "pronunciation": "tiān",
+        "collection_id": "1"
+    },
+    {
+        "front": "分",
+        "back": "divide; small unit of time etc.",
+        "pronunciation": "fēn",
+        "collection_id": "1"
+    },
+    {
+        "front": "好",
+        "back": "good, excellent, fine; well",
+        "pronunciation": "hǎo",
+        "collection_id": "1"
+    },
+    {
+        "front": "小",
+        "back": "small, tiny, insignificant",
+        "pronunciation": "xiǎo",
+        "collection_id": "1"
+    },
+    {
+        "front": "些",
+        "back": "little, few; rather, somewhat",
+        "pronunciation": "xiē",
+        "collection_id": "1"
+    },
+    {
+        "front": "样",
+        "back": "shape, form, pattern, style",
+        "pronunciation": "yàng",
+        "collection_id": "1"
+    },
+    {
+        "front": "她",
+        "back": "she, her",
+        "pronunciation": "tā",
+        "collection_id": "1"
+    },
+    {
+        "front": "本",
+        "back": "root, origin, source; basis",
+        "pronunciation": "běn",
+        "collection_id": "1"
+    },
+    {
+        "front": "前",
+        "back": "in front, forward; preceding",
+        "pronunciation": "qián",
+        "collection_id": "1"
+    },
+    {
+        "front": "开",
+        "back": "open; initiate, begin, start",
+        "pronunciation": "kāi",
+        "collection_id": "1"
+    },
+    {
+        "front": "想",
+        "back": "think, speculate, plan, consider",
+        "pronunciation": "xiǎng",
+        "collection_id": "1"
+    },
+    {
+        "front": "机",
+        "back": "desk; machine; moment",
+        "pronunciation": "jī",
+        "collection_id": "1"
+    },
+    {
+        "front": "十",
+        "back": "ten, tenth; complete; perfect",
+        "pronunciation": "shí",
+        "collection_id": "1"
+    },
+    {
+        "front": "工",
+        "back": "labor, work; worker, laborer",
+        "pronunciation": "gōng",
+        "collection_id": "1"
+    },
+    {
+        "front": "明",
+        "back": "bright, light, brilliant; clear",
+        "pronunciation": "míng",
+        "collection_id": "1"
+    },
+    {
+        "front": "三",
+        "back": "three",
+        "pronunciation": "sān",
+        "collection_id": "1"
+    },
+    {
+        "front": "关",
+        "back": "frontier pass; close; relation",
+        "pronunciation": "guān",
+        "collection_id": "1"
+    },
+    {
+        "front": "点",
+        "back": "dot, speck, spot; point, degree",
+        "pronunciation": "diǎn",
+        "collection_id": "1"
+    },
+    {
+        "front": "高",
+        "back": "high, tall; lofty, elevated",
+        "pronunciation": "gāo",
+        "collection_id": "1"
+    },
+    {
+        "front": "很",
+        "back": "very, quite, much",
+        "pronunciation": "hěn",
+        "collection_id": "1"
+    },
+    {
+        "front": "见",
+        "back": "see, observe, behold; perceive",
+        "pronunciation": "jiàn",
+        "collection_id": "1"
+    },
+    {
+        "front": "什",
+        "back": "file of ten soldiers; mixed, miscellaneous",
+        "pronunciation": "shén",
+        "collection_id": "1"
+    },
+    {
+        "front": "二",
+        "back": "two; twice",
+        "pronunciation": "èr",
+        "collection_id": "1"
+    },
+    {
+        "front": "果",
+        "back": "fruit; result",
+        "pronunciation": "guǒ",
+        "collection_id": "1"
+    },
+    {
+        "front": "西",
+        "back": "west(ern); westward, occident",
+        "pronunciation": "xī",
+        "collection_id": "1"
+    },
+    {
+        "front": "月",
+        "back": "moon; month; KangXi radical 74",
+        "pronunciation": "yuè",
+        "collection_id": "1"
+    },
+    {
+        "front": "话",
+        "back": "speech, talk, language; dialect",
+        "pronunciation": "huà",
+        "collection_id": "1"
+    },
+    {
+        "front": "回",
+        "back": "return, turn around; a time",
+        "pronunciation": "huí",
+        "collection_id": "1"
+    },
+    {
+        "front": "老",
+        "back": "old, aged; experienced",
+        "pronunciation": "lǎo",
+        "collection_id": "1"
+    },
+    {
+        "front": "先",
+        "back": "first, former, previous",
+        "pronunciation": "xiān",
+        "collection_id": "1"
+    },
+    {
+        "front": "儿",
+        "back": "son, child; KangXi radical 10",
+        "pronunciation": "ér",
+        "collection_id": "1"
+    },
+    {
+        "front": "东",
+        "back": "east, eastern, eastward",
+        "pronunciation": "dōng",
+        "collection_id": "1"
+    },
+    {
+        "front": "水",
+        "back": "water, liquid, lotion, juice",
+        "pronunciation": "shuǐ",
+        "collection_id": "1"
+    },
+    {
+        "front": "名",
+        "back": "name, rank, title, position",
+        "pronunciation": "míng",
+        "collection_id": "1"
+    },
+    {
+        "front": "几",
+        "back": "small table",
+        "pronunciation": "jǐ",
+        "collection_id": "1"
+    },
+    {
+        "front": "认",
+        "back": "recognize, know, understand",
+        "pronunciation": "rèn",
+        "collection_id": "1"
+    },
+    {
+        "front": "系",
+        "back": "system; line, link, connection",
+        "pronunciation": "xì",
+        "collection_id": "1"
+    },
+    {
+        "front": "气",
+        "back": "steam, vapor; KangXi radical 84",
+        "pronunciation": "qì",
+        "collection_id": "1"
+    },
+    {
+        "front": "打",
+        "back": "strike, hit, beat; fight; attack",
+        "pronunciation": "dǎ",
+        "collection_id": "1"
+    },
+    {
+        "front": "女",
+        "back": "woman, girl; feminine; rad. 38",
+        "pronunciation": "nǚ",
+        "collection_id": "1"
+    },
+    {
+        "front": "四",
+        "back": "four",
+        "pronunciation": "sì",
+        "collection_id": "1"
+    },
+    {
+        "front": "电",
+        "back": "electricity; electric; lightning",
+        "pronunciation": "diàn",
+        "collection_id": "1"
+    },
+    {
+        "front": "少",
+        "back": "few, less, inadequate",
+        "pronunciation": "shǎo",
+        "collection_id": "1"
+    },
+    {
+        "front": "太",
+        "back": "very, too, much; big; extreme",
+        "pronunciation": "tài",
+        "collection_id": "1"
+    },
+    {
+        "front": "再",
+        "back": "again, twice, re-",
+        "pronunciation": "zài",
+        "collection_id": "1"
+    },
+    {
+        "front": "做",
+        "back": "work, make; act",
+        "pronunciation": "zuò",
+        "collection_id": "1"
+    },
+    {
+        "front": "期",
+        "back": "period of time; date; time limit",
+        "pronunciation": "qī",
+        "collection_id": "1"
+    },
+    {
+        "front": "五",
+        "back": "five; surname",
+        "pronunciation": "wǔ",
+        "collection_id": "1"
+    },
+    {
+        "front": "书",
+        "back": "book, letter, document; writings",
+        "pronunciation": "shū",
+        "collection_id": "1"
+    },
+    {
+        "front": "听",
+        "back": "hear; understand; obey, comply",
+        "pronunciation": "tīng",
+        "collection_id": "1"
+    },
+    {
+        "front": "住",
+        "back": "reside, live at, dwell, lodge; stop",
+        "pronunciation": "zhù",
+        "collection_id": "1"
+    },
+    {
+        "front": "北",
+        "back": "north; northern; northward",
+        "pronunciation": "běi",
+        "collection_id": "1"
+    },
+    {
+        "front": "觉",
+        "back": "to wake up from sleep; conscious",
+        "pronunciation": "jué",
+        "collection_id": "1"
+    },
+    {
+        "front": "师",
+        "back": "teacher, master, specialist",
+        "pronunciation": "shī",
+        "collection_id": "1"
+    }
+]

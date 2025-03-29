@@ -1,0 +1,464 @@
+[
+    {
+        "front": "数えます",
+        "kanji": "SỐ",
+        "pronunciation": "かぞえます",
+        "back": "đếm",
+        "collection_id": "51"
+    },
+    {
+        "front": "測ります、量ります",
+        "kanji": "TRẮC LƯỢNG",
+        "pronunciation": "はかります",
+        "back": "đo, cân",
+        "collection_id": "51"
+    },
+    {
+        "front": "確かめます",
+        "kanji": "XÁC",
+        "pronunciation": "たしかめます",
+        "back": "xác nhận",
+        "collection_id": "51"
+    },
+    {
+        "front": "[サイズが～]合います",
+        "kanji": "HỢP",
+        "pronunciation": "[サイズが～]あいます",
+        "back": "vừa, hợp [kích thước ~]",
+        "collection_id": "51"
+    },
+    {
+        "front": "出発します",
+        "kanji": "XUẤT PHÁT",
+        "pronunciation": "しゅっぱつします",
+        "back": "xuất phát, khởi hành, đi",
+        "collection_id": "51"
+    },
+    {
+        "front": "到着します",
+        "kanji": "ĐÁO TRƯỚC",
+        "pronunciation": "とうちゃくします",
+        "back": "đến, đến nơi",
+        "collection_id": "51"
+    },
+    {
+        "front": "酔います",
+        "kanji": "TÚY",
+        "pronunciation": "よいます",
+        "back": "say",
+        "collection_id": "51"
+    },
+    {
+        "front": "危険[な]",
+        "kanji": "NGUY HIỂM",
+        "pronunciation": "きけん[な]",
+        "back": "nguy hiểm",
+        "collection_id": "51"
+    },
+    {
+        "front": "必要[な]",
+        "kanji": "TẤT YẾU",
+        "pronunciation": "ひつよう[な]",
+        "back": "cần thiết",
+        "collection_id": "51"
+    },
+    {
+        "front": "宇宙",
+        "kanji": "VŨ TRỤ",
+        "pronunciation": "うちゅう",
+        "back": "vũ trụ",
+        "collection_id": "51"
+    },
+    {
+        "front": "地球",
+        "kanji": "ĐỊA CẦU",
+        "pronunciation": "ちきゅう",
+        "back": "trái đất",
+        "collection_id": "51"
+    },
+    {
+        "front": "忘年会",
+        "kanji": "VONG NIÊN HỘI",
+        "pronunciation": "ぼうねんかい",
+        "back": "tiệc tất niên",
+        "collection_id": "51"
+    },
+    {
+        "front": "新年会",
+        "kanji": "TÂN NIÊN HỘI",
+        "pronunciation": "しんねんかい",
+        "back": "tiệc tân niên",
+        "collection_id": "51"
+    },
+    {
+        "front": "二次会",
+        "kanji": "NHỊ THỨ HỘI",
+        "pronunciation": "にじかい",
+        "back": "bữa tiệc thứ hai, “tăng hai”",
+        "collection_id": "51"
+    },
+    {
+        "front": "大会",
+        "kanji": "ĐẠI HỘI",
+        "pronunciation": "たいかい",
+        "back": "đại hội, cuộc thi",
+        "collection_id": "51"
+    },
+    {
+        "front": "マラソン",
+        "kanji": null,
+        "pronunciation": "マラソン",
+        "back": "ma ra tông",
+        "collection_id": "51"
+    },
+    {
+        "front": "コンテスト",
+        "kanji": null,
+        "pronunciation": "コンテスト",
+        "back": "cuộc thi",
+        "collection_id": "51"
+    },
+    {
+        "front": "表",
+        "kanji": "BIỂU",
+        "pronunciation": "おもて",
+        "back": "phía trước, mặt trước",
+        "collection_id": "51"
+    },
+    {
+        "front": "裏",
+        "kanji": "LÝ",
+        "pronunciation": "うら",
+        "back": "phía sau, mặt sau",
+        "collection_id": "51"
+    },
+    {
+        "front": "返事",
+        "kanji": "PHẢN SỰ",
+        "pronunciation": "へんじ",
+        "back": "hồi âm, trả lời",
+        "collection_id": "51"
+    },
+    {
+        "front": "申し込み",
+        "kanji": "THÂN VÀO",
+        "pronunciation": "もうしこみ",
+        "back": "đăng ký",
+        "collection_id": "51"
+    },
+    {
+        "front": "ほんとう",
+        "kanji": null,
+        "pronunciation": "ほんとう",
+        "back": "thật",
+        "collection_id": "51"
+    },
+    {
+        "front": "まちがい",
+        "kanji": null,
+        "pronunciation": "まちがい",
+        "back": "sai, lỗi",
+        "collection_id": "51"
+    },
+    {
+        "front": "傷",
+        "kanji": "THƯƠNG",
+        "pronunciation": "きず",
+        "back": "vết thương",
+        "collection_id": "51"
+    },
+    {
+        "front": "ズボン",
+        "kanji": null,
+        "pronunciation": "ズボン",
+        "back": "cái quần",
+        "collection_id": "51"
+    },
+    {
+        "front": "長さ",
+        "kanji": "TRƯỜNG",
+        "pronunciation": "ながさ",
+        "back": "chiều dài",
+        "collection_id": "51"
+    },
+    {
+        "front": "重さ",
+        "kanji": "TRỌNG",
+        "pronunciation": "おもさ",
+        "back": "cân nặng, trọng lượng",
+        "collection_id": "51"
+    },
+    {
+        "front": "高さ",
+        "kanji": "CAO",
+        "pronunciation": "たかさ",
+        "back": "chiều cao",
+        "collection_id": "51"
+    },
+    {
+        "front": "大きさ",
+        "kanji": "ĐẠI",
+        "pronunciation": "おおきさ",
+        "back": "cỡ, kích thước",
+        "collection_id": "51"
+    },
+    {
+        "front": "[－]便",
+        "kanji": "TIỆN",
+        "pronunciation": "[－]びん",
+        "back": "chuyến bay [―]",
+        "collection_id": "51"
+    },
+    {
+        "front": "―号",
+        "kanji": "HIỆU",
+        "pronunciation": "―ごう",
+        "back": "số [―] (số hiệu đoàn tàu, cơn bão v.v.)",
+        "collection_id": "51"
+    },
+    {
+        "front": "－個",
+        "kanji": "CÁ",
+        "pronunciation": "―こ",
+        "back": "cái, cục, viên (đơn vị đếm vật nhỏ)",
+        "collection_id": "51"
+    },
+    {
+        "front": "―本",
+        "kanji": "BỔN",
+        "pronunciation": "―ほん（―ぽん、―ぼん）",
+        "back": "― cái (đơn vị đếm vật dài)",
+        "collection_id": "51"
+    },
+    {
+        "front": "―杯",
+        "kanji": "BÔI",
+        "pronunciation": "―はい（―ぱい、―ばい）",
+        "back": "―chén, ―cốc",
+        "collection_id": "51"
+    },
+    {
+        "front": "―キロ",
+        "kanji": null,
+        "pronunciation": "―キロ",
+        "back": "―ki-lô, ―cân",
+        "collection_id": "51"
+    },
+    {
+        "front": "―グラム",
+        "kanji": null,
+        "pronunciation": "―グラム",
+        "back": "―gam",
+        "collection_id": "51"
+    },
+    {
+        "front": "―センチ",
+        "kanji": null,
+        "pronunciation": "―センチ",
+        "back": "―xăng-ti-mét",
+        "collection_id": "51"
+    },
+    {
+        "front": "―ミリ",
+        "kanji": null,
+        "pronunciation": "―ミリ",
+        "back": "―mi-li-mét",
+        "collection_id": "51"
+    },
+    {
+        "front": "～以上",
+        "kanji": "DĨ THƯỢNG",
+        "pronunciation": "～いじょう",
+        "back": "~ trở lên, trên",
+        "collection_id": "51"
+    },
+    {
+        "front": "～以下",
+        "kanji": "DĨ HẠ ~",
+        "pronunciation": "～いか",
+        "back": "trở xuống, dưới",
+        "collection_id": "51"
+    },
+    {
+        "front": "さあ",
+        "kanji": null,
+        "pronunciation": "さあ",
+        "back": "À…,Ồ… (dùng khi không rõ về điều gì đó)",
+        "collection_id": "51"
+    },
+    {
+        "front": "ゴッホ",
+        "kanji": null,
+        "pronunciation": "ゴッホ",
+        "back": "Van-gốc (1853-1890), danh họa người Hà Lan",
+        "collection_id": "51"
+    },
+    {
+        "front": "雪祭り",
+        "kanji": "TUYẾT TẾ",
+        "pronunciation": "ゆきまつり",
+        "back": "Lễ hội tuyết (ở Sapporo)",
+        "collection_id": "51"
+    },
+    {
+        "front": "のぞみ",
+        "kanji": null,
+        "pronunciation": "のぞみ",
+        "back": "tên một loại tàu Shinkansen",
+        "collection_id": "51"
+    },
+    {
+        "front": "ＪＬ",
+        "kanji": null,
+        "pronunciation": "ＪＬ",
+        "back": "hãng hàng không Nhật Bản (Japan Airlines)",
+        "collection_id": "51"
+    },
+    {
+        "front": "どうでしょうか。",
+        "kanji": null,
+        "pronunciation": "どうでしょうか。",
+        "back": "Thế nào? (cách nói lịch sự của どうですか)",
+        "collection_id": "51"
+    },
+    {
+        "front": "クラス",
+        "kanji": null,
+        "pronunciation": "クラス",
+        "back": "lớp học",
+        "collection_id": "51"
+    },
+    {
+        "front": "テスト",
+        "kanji": null,
+        "pronunciation": "テスト",
+        "back": "Bài kiểm tra, bài thi",
+        "collection_id": "51"
+    },
+    {
+        "front": "成績",
+        "kanji": "THÀNH TÍCH",
+        "pronunciation": "せいせき",
+        "back": "kết quả, thành tích",
+        "collection_id": "51"
+    },
+    {
+        "front": "ところで",
+        "kanji": null,
+        "pronunciation": "ところで",
+        "back": "nhân tiện đây",
+        "collection_id": "51"
+    },
+    {
+        "front": "いらっしゃいます",
+        "kanji": null,
+        "pronunciation": "いらっしゃいます",
+        "back": "đến (tôn kính ngữ của きます)",
+        "collection_id": "51"
+    },
+    {
+        "front": "様子",
+        "kanji": "DẠNG TỬ",
+        "pronunciation": "ようす",
+        "back": "vẻ, tình hình",
+        "collection_id": "51"
+    },
+    {
+        "front": "事件",
+        "kanji": "SỰ KIỆN",
+        "pronunciation": "じけん",
+        "back": "vụ án",
+        "collection_id": "51"
+    },
+    {
+        "front": "オートバイ",
+        "kanji": null,
+        "pronunciation": "オートバイ",
+        "back": "xe máy",
+        "collection_id": "51"
+    },
+    {
+        "front": "爆弾",
+        "kanji": "BỘC ĐẠN",
+        "pronunciation": "ばくだん",
+        "back": "bom",
+        "collection_id": "51"
+    },
+    {
+        "front": "積みます",
+        "kanji": "TÍCH",
+        "pronunciation": "つみます",
+        "back": "chuyển lên, xếp hàng lên",
+        "collection_id": "51"
+    },
+    {
+        "front": "運転手",
+        "kanji": "VẬN CHUYỂN THỦ",
+        "pronunciation": "うんてんしゅ",
+        "back": "lái xe",
+        "collection_id": "51"
+    },
+    {
+        "front": "離れた",
+        "kanji": "LY",
+        "pronunciation": "はなれた",
+        "back": "xa cách, xa",
+        "collection_id": "51"
+    },
+    {
+        "front": "が",
+        "kanji": null,
+        "pronunciation": "が",
+        "back": "nhưng",
+        "collection_id": "51"
+    },
+    {
+        "front": "急に",
+        "kanji": "CẤP",
+        "pronunciation": "きゅうに",
+        "back": "gấp, đột nhiên",
+        "collection_id": "51"
+    },
+    {
+        "front": "動かします",
+        "kanji": "ĐỘNG",
+        "pronunciation": "うごかします",
+        "back": "khởi động, chạy",
+        "collection_id": "51"
+    },
+    {
+        "front": "一生懸命",
+        "kanji": "NHẤT SINH HUYỀN MỆNH",
+        "pronunciation": "いっしょうけんめい",
+        "back": "hết sức, chăm chỉ",
+        "collection_id": "51"
+    },
+    {
+        "front": "犯人",
+        "kanji": "PHẠM NHÂN",
+        "pronunciation": "はんにん",
+        "back": "thủ phạm",
+        "collection_id": "51"
+    },
+    {
+        "front": "手に入れます",
+        "kanji": "THỦ NHẬP",
+        "pronunciation": "てに　いれます",
+        "back": "có được, lấy được, đoạt được",
+        "collection_id": "51"
+    },
+    {
+        "front": "今でも",
+        "kanji": "KIM",
+        "pronunciation": "いまでも",
+        "back": "ngay cả bây giờ",
+        "collection_id": "51"
+    },
+    {
+        "front": "うわさします",
+        "kanji": null,
+        "pronunciation": "うわさします",
+        "back": "đồn đại",
+        "collection_id": "51"
+    }
+]

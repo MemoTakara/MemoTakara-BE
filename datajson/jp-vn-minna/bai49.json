@@ -1,0 +1,310 @@
+[
+    {
+        "front": "[会社に～]勤めます",
+        "kanji": "HỘI XÃ CẦN",
+        "pronunciation": "[かいしゃに～]つとめます",
+        "back": "làm việc ở [công ty]",
+        "collection_id": "60"
+    },
+    {
+        "front": "休みます",
+        "kanji": "HƯU",
+        "pronunciation": "やすみます",
+        "back": "nghỉ",
+        "collection_id": "60"
+    },
+    {
+        "front": "[いすに～]掛けます",
+        "kanji": "QUẢI",
+        "pronunciation": "[いすに～]かけます",
+        "back": "ngồi [ghế]",
+        "collection_id": "60"
+    },
+    {
+        "front": "過ごします",
+        "kanji": "QUÁ",
+        "pronunciation": "すごします",
+        "back": "tiêu thời gian, trải qua",
+        "collection_id": "60"
+    },
+    {
+        "front": "[銀行に～]寄ります",
+        "kanji": "NGÂN HÀNG KÝ",
+        "pronunciation": "[ぎんこうに～]よります",
+        "back": "ghé qua [ngân hàng]",
+        "collection_id": "60"
+    },
+    {
+        "front": "いらっしゃいます",
+        "kanji": null,
+        "pronunciation": "いらっしゃいます",
+        "back": "ở, có, đi, đến （tôn kính ngữ của います、いきます và きます）",
+        "collection_id": "60"
+    },
+    {
+        "front": "召し上がります",
+        "kanji": "TRIỆU THƯỢNG",
+        "pronunciation": "めしあがります",
+        "back": "ăn, uống (tôn kính ngữ của たべます và のみます)",
+        "collection_id": "60"
+    },
+    {
+        "front": "おっしゃいます",
+        "kanji": null,
+        "pronunciation": "おっしゃいます",
+        "back": "nói (tôn kính ngữ của いいます)",
+        "collection_id": "60"
+    },
+    {
+        "front": "なさいます",
+        "kanji": null,
+        "pronunciation": "なさいます",
+        "back": "làm (tôn kính ngữ của します)",
+        "collection_id": "60"
+    },
+    {
+        "front": "ご覧になります",
+        "kanji": "LÃM",
+        "pronunciation": "ごらんになります",
+        "back": "xem, nhìn (tôn kính ngữ của みます)",
+        "collection_id": "60"
+    },
+    {
+        "front": "ご存じです",
+        "kanji": "TỒN",
+        "pronunciation": "ごぞんじです",
+        "back": "biết (tôn kính ngữ của しっています)",
+        "collection_id": "60"
+    },
+    {
+        "front": "あいさつ",
+        "kanji": null,
+        "pronunciation": "あいさつ",
+        "back": "chào hỏi (～をします：chào hỏi)",
+        "collection_id": "60"
+    },
+    {
+        "front": "灰皿",
+        "kanji": "HÔI MÃNH",
+        "pronunciation": "はいざら",
+        "back": "cái gạt tàn",
+        "collection_id": "60"
+    },
+    {
+        "front": "旅館",
+        "kanji": "LỮ QUÁN",
+        "pronunciation": "りょかん",
+        "back": "khách sạn kiểu Nhật",
+        "collection_id": "60"
+    },
+    {
+        "front": "会場",
+        "kanji": "HỘI TRƯỜNG",
+        "pronunciation": "かいじょう",
+        "back": "hội trường, địa điểm tổ chức",
+        "collection_id": "60"
+    },
+    {
+        "front": "バス停",
+        "kanji": "ĐÌNH",
+        "pronunciation": "バスてい",
+        "back": "bến xe buýt, điểm lên xuống xe buýt",
+        "collection_id": "60"
+    },
+    {
+        "front": "貿易",
+        "kanji": "MẬU DỊCH",
+        "pronunciation": "ぼうえき",
+        "back": "thương mại quốc tế, mậu dịch",
+        "collection_id": "60"
+    },
+    {
+        "front": "～様",
+        "kanji": "DẠNG",
+        "pronunciation": "～さま",
+        "back": "ngài ~, ông ~, bà ~ (tôn kính ngữ của ～さん)",
+        "collection_id": "60"
+    },
+    {
+        "front": "帰りに",
+        "kanji": "QUY",
+        "pronunciation": "かえりに",
+        "back": "trên đường về",
+        "collection_id": "60"
+    },
+    {
+        "front": "たまに",
+        "kanji": null,
+        "pronunciation": "たまに",
+        "back": "thỉnh thoảng (tần suất nhỏ hơn ときどき)",
+        "collection_id": "60"
+    },
+    {
+        "front": "ちっとも",
+        "kanji": null,
+        "pronunciation": "ちっとも",
+        "back": "chẳng ~ tí nào, không hề",
+        "collection_id": "60"
+    },
+    {
+        "front": "遠慮なく",
+        "kanji": "VIỄN LỰ",
+        "pronunciation": "えんりょなく",
+        "back": "không giữ ý, không làm khách, đừng ngại ngùng",
+        "collection_id": "60"
+    },
+    {
+        "front": "―年―組",
+        "kanji": "NIÊN TỔ",
+        "pronunciation": "―ねん―くみ",
+        "back": "lớp -, năm thứ -",
+        "collection_id": "60"
+    },
+    {
+        "front": "では",
+        "kanji": null,
+        "pronunciation": "では",
+        "back": "thế thì, vậy thì (thể lịch sự củaじゃ)",
+        "collection_id": "60"
+    },
+    {
+        "front": "[熱を～]出します",
+        "kanji": "XUẤT NHIỆT",
+        "pronunciation": "「ねつ」 だします",
+        "back": "bị [sốt]",
+        "collection_id": "60"
+    },
+    {
+        "front": "よろしくお伝えください。",
+        "kanji": "TRUYỀN",
+        "pronunciation": "よろしくおつたえください",
+        "back": "Cho tôi gởi lời hỏi thăm./ hãy nhắn lại với ~.",
+        "collection_id": "60"
+    },
+    {
+        "front": "失礼いたします。",
+        "kanji": "THẤT LỄ",
+        "pronunciation": "しつれいいたします",
+        "back": "Xin phép anh/chị (khiêm nhường ngữ của しつれいします)",
+        "collection_id": "60"
+    },
+    {
+        "front": "ひまわり小学校",
+        "kanji": "TIỂU HỌC HIỆU",
+        "pronunciation": "ひまわりしょうがっこう",
+        "back": "tên một trường tiểu học (giả tưởng)",
+        "collection_id": "60"
+    },
+    {
+        "front": "講師",
+        "kanji": "GIẢNG SƯ",
+        "pronunciation": "こうし",
+        "back": "giảng viên, giáo viên",
+        "collection_id": "60"
+    },
+    {
+        "front": "多くの～",
+        "kanji": "ĐA",
+        "pronunciation": "おおくの～",
+        "back": "nhiều ~",
+        "collection_id": "60"
+    },
+    {
+        "front": "作品",
+        "kanji": "TÁC PHẨM",
+        "pronunciation": "さくひん",
+        "back": "tác phẩm",
+        "collection_id": "60"
+    },
+    {
+        "front": "受賞します",
+        "kanji": "THỤ THƯỞNG",
+        "pronunciation": "じゅしょうします",
+        "back": "nhận giải thưởng, được giải thưởng",
+        "collection_id": "60"
+    },
+    {
+        "front": "世界的に",
+        "kanji": "THẾ GIỚI",
+        "pronunciation": "せかいてきに",
+        "back": "tầm cỡ thế giới, mang tính thế giới",
+        "collection_id": "60"
+    },
+    {
+        "front": "作家",
+        "kanji": "TÁC GIA",
+        "pronunciation": "さっか",
+        "back": "nhà văn",
+        "collection_id": "60"
+    },
+    {
+        "front": "～でいらっしゃいます",
+        "kanji": null,
+        "pronunciation": "～でいらっしゃいます",
+        "back": "là ~(tôn kính ngữ của です)",
+        "collection_id": "60"
+    },
+    {
+        "front": "長男",
+        "kanji": "TRƯỞNG NAM",
+        "pronunciation": "ちょうなん",
+        "back": "trưởng nam",
+        "collection_id": "60"
+    },
+    {
+        "front": "障害",
+        "kanji": "CHƯỚNG HẠI",
+        "pronunciation": "しょうがい",
+        "back": "khuyết tật, tàn tật",
+        "collection_id": "60"
+    },
+    {
+        "front": "お持ちです",
+        "kanji": "TRÌ",
+        "pronunciation": "おもちです",
+        "back": "có (cách nói tôn kính ngữ của もっています)",
+        "collection_id": "60"
+    },
+    {
+        "front": "作曲",
+        "kanji": "TÁC KHÚC",
+        "pronunciation": "さっきょく",
+        "back": "sáng tác nhạc",
+        "collection_id": "60"
+    },
+    {
+        "front": "活動",
+        "kanji": "HOẠT ĐỘNG",
+        "pronunciation": "かつどう",
+        "back": "hoạt động",
+        "collection_id": "60"
+    },
+    {
+        "front": "それでは",
+        "kanji": null,
+        "pronunciation": "それでは",
+        "back": "bây giờ thì, đến đây",
+        "collection_id": "60"
+    },
+    {
+        "front": "大江健三郎",
+        "kanji": "ĐẠI GIANG KIỆN TAM LANG",
+        "pronunciation": "おおえけんざぶろう",
+        "back": "một nhà văn người Nhật (1935-)",
+        "collection_id": "60"
+    },
+    {
+        "front": "東京大学",
+        "kanji": "ĐÔNG KINH ĐẠI HỌC",
+        "pronunciation": "とうきょうだいがく",
+        "back": "đại học Tokyo",
+        "collection_id": "60"
+    },
+    {
+        "front": "ノーベル文学賞",
+        "kanji": "VĂN HỌC THƯỞNG",
+        "pronunciation": "ノーベルぶんがくしょう",
+        "back": "giải thưởng Nobel văn học",
+        "collection_id": "60"
+    }
+]

@@ -1,0 +1,359 @@
+[
+    {
+        "front": "[歯を～]磨きます",
+        "kanji": "XỈ MA",
+        "pronunciation": "[はを～]みがきます",
+        "back": "mài, đánh [răng]",
+        "collection_id": "45"
+    },
+    {
+        "front": "組み立てます",
+        "kanji": "TỔ LẬP",
+        "pronunciation": "くみたてます",
+        "back": "lắp, lắp ráp, lắp đặt",
+        "collection_id": "45"
+    },
+    {
+        "front": "折ります",
+        "kanji": "TRIẾT",
+        "pronunciation": "おります",
+        "back": "gấp, gập, bẻ gãy",
+        "collection_id": "45"
+    },
+    {
+        "front": "[忘れ物に～]気がつきます",
+        "kanji": "VONG VẬT KHÍ",
+        "pronunciation": "[わすれものに～] きがつきます",
+        "back": "nhận thấy, phát hiện [đồ bỏ quên]",
+        "collection_id": "45"
+    },
+    {
+        "front": "[しょうゆを～] つけます",
+        "kanji": null,
+        "pronunciation": "[しょうゆを～] つけます",
+        "back": "chấm [xì-dầu]",
+        "collection_id": "45"
+    },
+    {
+        "front": "[かぎが～]見つかります",
+        "kanji": "KIẾN",
+        "pronunciation": "[かぎが～]みつかります",
+        "back": "được tìm thấy [chìa khóa ~]",
+        "collection_id": "45"
+    },
+    {
+        "front": "[ネクタイを～]します",
+        "kanji": null,
+        "pronunciation": "[ネクタイを～]します",
+        "back": "đeo, thắt [cà-vạt]",
+        "collection_id": "45"
+    },
+    {
+        "front": "質問します",
+        "kanji": "CHẤT VẤN",
+        "pronunciation": "しつもんします",
+        "back": "hỏi",
+        "collection_id": "45"
+    },
+    {
+        "front": "細い",
+        "kanji": "TẾ",
+        "pronunciation": "ほそい",
+        "back": "gầy, hẹp, thon",
+        "collection_id": "45"
+    },
+    {
+        "front": "太い",
+        "kanji": "THÁI",
+        "pronunciation": "ふとい",
+        "back": "béo, to",
+        "collection_id": "45"
+    },
+    {
+        "front": "盆踊り",
+        "kanji": "BỒN DŨNG",
+        "pronunciation": "ぼんおどり",
+        "back": "múa trong hội Bon",
+        "collection_id": "45"
+    },
+    {
+        "front": "スポーツクラブ",
+        "kanji": null,
+        "pronunciation": "スポーツクラブ",
+        "back": "câu lạc bộ thể thao, câu lạc bộ thể hình",
+        "collection_id": "45"
+    },
+    {
+        "front": "家具",
+        "kanji": "GIA CỤ",
+        "pronunciation": "かぐ",
+        "back": "gia cụ, đồ dùng nội thất",
+        "collection_id": "45"
+    },
+    {
+        "front": "キー",
+        "kanji": null,
+        "pronunciation": "キー",
+        "back": "chìa khóa",
+        "collection_id": "45"
+    },
+    {
+        "front": "シートベルト",
+        "kanji": null,
+        "pronunciation": "シートベルト",
+        "back": "dây an toàn (ở ghế ngồi)",
+        "collection_id": "45"
+    },
+    {
+        "front": "説明書",
+        "kanji": "THUYẾT MINH THƯ",
+        "pronunciation": "せつめいしょ",
+        "back": "quyển hướng dẫn",
+        "collection_id": "45"
+    },
+    {
+        "front": "図",
+        "kanji": "ĐỒ",
+        "pronunciation": "ず",
+        "back": "sơ đồ, hình vẽ",
+        "collection_id": "45"
+    },
+    {
+        "front": "線",
+        "kanji": "TUYẾN",
+        "pronunciation": "せん",
+        "back": "đường",
+        "collection_id": "45"
+    },
+    {
+        "front": "矢印",
+        "kanji": "THỈ ẤN",
+        "pronunciation": "やじるし",
+        "back": "dấu mũi tên",
+        "collection_id": "45"
+    },
+    {
+        "front": "黒",
+        "kanji": "HẮC",
+        "pronunciation": "くろ",
+        "back": "màu đen",
+        "collection_id": "45"
+    },
+    {
+        "front": "白",
+        "kanji": "BẠCH",
+        "pronunciation": "しろ",
+        "back": "màu trắng",
+        "collection_id": "45"
+    },
+    {
+        "front": "赤",
+        "kanji": "XÍCH",
+        "pronunciation": "あか",
+        "back": "màu đỏ",
+        "collection_id": "45"
+    },
+    {
+        "front": "青",
+        "kanji": "THANH",
+        "pronunciation": "あお",
+        "back": "màu xanh da trời",
+        "collection_id": "45"
+    },
+    {
+        "front": "紺",
+        "kanji": "CÁM",
+        "pronunciation": "こん",
+        "back": "màu xanh lam",
+        "collection_id": "45"
+    },
+    {
+        "front": "黄色",
+        "kanji": "HOÀNG SẮC",
+        "pronunciation": "きいろ",
+        "back": "màu vàng",
+        "collection_id": "45"
+    },
+    {
+        "front": "しょうゆ",
+        "kanji": null,
+        "pronunciation": "しょうゆ",
+        "back": "xì dầu",
+        "collection_id": "45"
+    },
+    {
+        "front": "ソース",
+        "kanji": null,
+        "pronunciation": "ソース",
+        "back": "nước chấm, nước xốt",
+        "collection_id": "45"
+    },
+    {
+        "front": "～か～",
+        "kanji": null,
+        "pronunciation": "～か～",
+        "back": "~hay ~",
+        "collection_id": "45"
+    },
+    {
+        "front": "ゆうべ",
+        "kanji": null,
+        "pronunciation": "ゆうべ",
+        "back": "tối qua, đêm qua",
+        "collection_id": "45"
+    },
+    {
+        "front": "さっき",
+        "kanji": null,
+        "pronunciation": "さっき",
+        "back": "vừa rồi, vừa lúc nãy",
+        "collection_id": "45"
+    },
+    {
+        "front": "茶道",
+        "kanji": "TRÀ ĐẠO",
+        "pronunciation": "さどう",
+        "back": "trà đạo",
+        "collection_id": "45"
+    },
+    {
+        "front": "お茶をたてます",
+        "kanji": "TRÀ",
+        "pronunciation": "おちゃをたてます",
+        "back": "pha trà, khuấy trà",
+        "collection_id": "45"
+    },
+    {
+        "front": "先に",
+        "kanji": "TIÊN",
+        "pronunciation": "さきに",
+        "back": "trước",
+        "collection_id": "45"
+    },
+    {
+        "front": "載せます",
+        "kanji": "TẢI",
+        "pronunciation": "のせます",
+        "back": "để lên, đặt lên",
+        "collection_id": "45"
+    },
+    {
+        "front": "これでいいですか。",
+        "kanji": null,
+        "pronunciation": "これでいいですか。",
+        "back": "Thế này có được không?/thế này đã được chưa?",
+        "collection_id": "45"
+    },
+    {
+        "front": "苦い",
+        "kanji": "KHỔ",
+        "pronunciation": "にがい",
+        "back": "đắng",
+        "collection_id": "45"
+    },
+    {
+        "front": "親子どんぶり",
+        "kanji": "THÂN TỬ",
+        "pronunciation": "おやこどんぶり",
+        "back": "món oyako-don (món cơm bát tô có thịt trứng ở trên)",
+        "collection_id": "45"
+    },
+    {
+        "front": "材料",
+        "kanji": "TÀI LIỆU",
+        "pronunciation": "ざいりょう",
+        "back": "nguyên liệu",
+        "collection_id": "45"
+    },
+    {
+        "front": "―分",
+        "kanji": "PHÂN",
+        "pronunciation": "―ぶん-",
+        "back": "-suất, – người",
+        "collection_id": "45"
+    },
+    {
+        "front": "鳥肉",
+        "kanji": "ĐIỂU NHỤC",
+        "pronunciation": "とりにく",
+        "back": "thịt gà",
+        "collection_id": "45"
+    },
+    {
+        "front": "―グラム",
+        "kanji": null,
+        "pronunciation": "―グラム",
+        "back": "- gam",
+        "collection_id": "45"
+    },
+    {
+        "front": "―個",
+        "kanji": "CÁ",
+        "pronunciation": "―こ-",
+        "back": "-cái, -quả, - miếng (dùng để đếm vật nhỏ)",
+        "collection_id": "45"
+    },
+    {
+        "front": "たまねぎ",
+        "kanji": null,
+        "pronunciation": "たまねぎ",
+        "back": "hành củ",
+        "collection_id": "45"
+    },
+    {
+        "front": "4分の１　（１/４）",
+        "kanji": "PHÂN",
+        "pronunciation": "よんぶんのいち",
+        "back": "một phần tư",
+        "collection_id": "45"
+    },
+    {
+        "front": "調味料",
+        "kanji": "ĐIỀU VỊ LIỆU",
+        "pronunciation": "ちょうみりょう",
+        "back": "gia vị",
+        "collection_id": "45"
+    },
+    {
+        "front": "なべ",
+        "kanji": null,
+        "pronunciation": "なべ",
+        "back": "cái chảo, cái nồi",
+        "collection_id": "45"
+    },
+    {
+        "front": "火",
+        "kanji": "HỎA",
+        "pronunciation": "ひ",
+        "back": "lửa",
+        "collection_id": "45"
+    },
+    {
+        "front": "火にかけます",
+        "kanji": "HỎA",
+        "pronunciation": "ひにかけます",
+        "back": "cho qua lửa, đun",
+        "collection_id": "45"
+    },
+    {
+        "front": "煮ます",
+        "kanji": "CHỬ",
+        "pronunciation": "にます",
+        "back": "nấu",
+        "collection_id": "45"
+    },
+    {
+        "front": "煮えます",
+        "kanji": "CHỬ",
+        "pronunciation": "にえます",
+        "back": "chín, được nấu",
+        "collection_id": "45"
+    },
+    {
+        "front": "どんぶり",
+        "kanji": null,
+        "pronunciation": "どんぶり",
+        "back": "cái bát",
+        "collection_id": "45"
+    }
+]

@@ -1,0 +1,268 @@
+[
+    {
+        "front": "思います",
+        "kanji": "TƯ",
+        "pronunciation": "おもいます",
+        "back": "nghĩ",
+        "collection_id": "32"
+    },
+    {
+        "front": "言います",
+        "kanji": "NGÔN",
+        "pronunciation": "いいます",
+        "back": "nói",
+        "collection_id": "32"
+    },
+    {
+        "front": "足ります",
+        "kanji": "TÚC",
+        "pronunciation": "たります",
+        "back": "đủ",
+        "collection_id": "32"
+    },
+    {
+        "front": "勝ちます",
+        "kanji": "THẮNG",
+        "pronunciation": "かちます",
+        "back": "thắng",
+        "collection_id": "32"
+    },
+    {
+        "front": "負けます",
+        "kanji": "PHỤ",
+        "pronunciation": "まけます",
+        "back": "thua",
+        "collection_id": "32"
+    },
+    {
+        "front": "[お祭りが～]あります",
+        "kanji": "TẾ",
+        "pronunciation": "[おまつりが～] あります",
+        "back": "được tổ chức, diễn ra, có [lễ hội~]",
+        "collection_id": "32"
+    },
+    {
+        "front": "役に立ちます",
+        "kanji": "DỊCH LẬP",
+        "pronunciation": "やくにたちます",
+        "back": "giúp ích",
+        "collection_id": "32"
+    },
+    {
+        "front": "むだ[な]",
+        "kanji": null,
+        "pronunciation": "むだ[な]",
+        "back": "lãng phí, vô ích",
+        "collection_id": "32"
+    },
+    {
+        "front": "不便[な]",
+        "kanji": "BẤT TIỆN",
+        "pronunciation": "ふべん[な]",
+        "back": "bất tiện",
+        "collection_id": "32"
+    },
+    {
+        "front": "おなじ",
+        "kanji": null,
+        "pronunciation": "おなじ",
+        "back": "giống",
+        "collection_id": "32"
+    },
+    {
+        "front": "すごい",
+        "kanji": null,
+        "pronunciation": "すごい",
+        "back": "ghê quá, giỏi quá",
+        "collection_id": "32"
+    },
+    {
+        "front": "首相",
+        "kanji": "THỦ TƯỚNG",
+        "pronunciation": "しゅしょう",
+        "back": "thủ tướng",
+        "collection_id": "32"
+    },
+    {
+        "front": "大統領",
+        "kanji": "ĐẠI THỐNG LÃNH",
+        "pronunciation": "だいとうりょう",
+        "back": "tổng thống",
+        "collection_id": "32"
+    },
+    {
+        "front": "政治",
+        "kanji": "CHÍNH TRỊ",
+        "pronunciation": "せいじ",
+        "back": "chính trị",
+        "collection_id": "32"
+    },
+    {
+        "front": "ニュース",
+        "kanji": null,
+        "pronunciation": "ニュース",
+        "back": "tin tức, bản tin",
+        "collection_id": "32"
+    },
+    {
+        "front": "スピーチ",
+        "kanji": null,
+        "pronunciation": "スピーチ",
+        "back": "bài diễn thuyết, bài phát biểu (～をします: diễn thuyết)",
+        "collection_id": "32"
+    },
+    {
+        "front": "試合",
+        "kanji": "THÍ HỢP",
+        "pronunciation": "しあい",
+        "back": "trận đấu",
+        "collection_id": "32"
+    },
+    {
+        "front": "アルバイト",
+        "kanji": null,
+        "pronunciation": "アルバイト",
+        "back": "công việc làm thêm (～をします: làm thêm)",
+        "collection_id": "32"
+    },
+    {
+        "front": "意見",
+        "kanji": "Ý KIẾN",
+        "pronunciation": "いけん",
+        "back": "ý kiến",
+        "collection_id": "32"
+    },
+    {
+        "front": "[お]話",
+        "kanji": "THOẠI",
+        "pronunciation": "[お]はなし",
+        "back": "I câu chuyện, bài nói chuyện (～をします: Nói chuyện)",
+        "collection_id": "32"
+    },
+    {
+        "front": "ユーモア",
+        "kanji": null,
+        "pronunciation": "ユーモア",
+        "back": "hài hước",
+        "collection_id": "32"
+    },
+    {
+        "front": "むだ",
+        "kanji": null,
+        "pronunciation": "むだ",
+        "back": "sự lãng phí",
+        "collection_id": "32"
+    },
+    {
+        "front": "デザイン",
+        "kanji": null,
+        "pronunciation": "デザイン",
+        "back": "thiết kế",
+        "collection_id": "32"
+    },
+    {
+        "front": "交通",
+        "kanji": "GIAO THÔNG",
+        "pronunciation": "こうつう",
+        "back": "giao thông, đi lại",
+        "collection_id": "32"
+    },
+    {
+        "front": "ラッシュ",
+        "kanji": null,
+        "pronunciation": "ラッシュ",
+        "back": "giờ cao điểm",
+        "collection_id": "32"
+    },
+    {
+        "front": "最近",
+        "kanji": "TỐI CẬN",
+        "pronunciation": "さいきん",
+        "back": "gần đây",
+        "collection_id": "32"
+    },
+    {
+        "front": "たぶん",
+        "kanji": null,
+        "pronunciation": "たぶん",
+        "back": "chắc, có thể",
+        "collection_id": "32"
+    },
+    {
+        "front": "きっと",
+        "kanji": null,
+        "pronunciation": "きっと",
+        "back": "chắc chắn, nhất định",
+        "collection_id": "32"
+    },
+    {
+        "front": "ほんとうに",
+        "kanji": null,
+        "pronunciation": "ほんとうに",
+        "back": "thật sự",
+        "collection_id": "32"
+    },
+    {
+        "front": "そんなに",
+        "kanji": null,
+        "pronunciation": "そんなに",
+        "back": "(không)~ lắm",
+        "collection_id": "32"
+    },
+    {
+        "front": "～について",
+        "kanji": null,
+        "pronunciation": "～について",
+        "back": "về~",
+        "collection_id": "32"
+    },
+    {
+        "front": "しかたが　ありません。",
+        "kanji": null,
+        "pronunciation": "しかたが　ありません。",
+        "back": "Không có cách nào khác./đành chịu vậy/ Chuyện đã rồi.",
+        "collection_id": "32"
+    },
+    {
+        "front": "しばらくですね。",
+        "kanji": null,
+        "pronunciation": "しばらくですね。",
+        "back": "Lâu không gặp nhỉ.",
+        "collection_id": "32"
+    },
+    {
+        "front": "～でも飲みませんか。",
+        "kanji": "ẤM",
+        "pronunciation": "～でものみませんか。",
+        "back": "Anh/chị uống~ (cà-phê, rựu hay cái gì đó) nhé.",
+        "collection_id": "32"
+    },
+    {
+        "front": "見ないと…。",
+        "kanji": "KIẾN",
+        "pronunciation": "みないと…。",
+        "back": "Tôi phải xem",
+        "collection_id": "32"
+    },
+    {
+        "front": "もちろん",
+        "kanji": null,
+        "pronunciation": "もちろん",
+        "back": "tất nhiên",
+        "collection_id": "32"
+    },
+    {
+        "front": "カンガルー",
+        "kanji": null,
+        "pronunciation": "カンガルー",
+        "back": "con kăng-gu-ru, chuột túi",
+        "collection_id": "32"
+    },
+    {
+        "front": "キャプテン・クック",
+        "kanji": null,
+        "pronunciation": "キャプテン・クック",
+        "back": "thuyền trưởng Cook (James Cook 1728 – 79)",
+        "collection_id": "32"
+    }
+]

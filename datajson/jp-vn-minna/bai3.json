@@ -1,0 +1,317 @@
+[
+    {
+        "front": "ここ",
+        "kanji": null,
+        "pronunciation": "ここ",
+        "back": "chỗ này, đây",
+        "collection_id": "14"
+    },
+    {
+        "front": "そこ",
+        "kanji": null,
+        "pronunciation": "そこ",
+        "back": "chỗ đó, đó",
+        "collection_id": "14"
+    },
+    {
+        "front": "あそこ",
+        "kanji": null,
+        "pronunciation": "あそこ",
+        "back": "chỗ kia, kia",
+        "collection_id": "14"
+    },
+    {
+        "front": "どこ",
+        "kanji": null,
+        "pronunciation": "どこ",
+        "back": "chỗ nào, đâu",
+        "collection_id": "14"
+    },
+    {
+        "front": "こちら",
+        "kanji": null,
+        "pronunciation": "こちら",
+        "back": "phía này, đằng này, chỗ này, đây",
+        "collection_id": "14"
+    },
+    {
+        "front": "そちら",
+        "kanji": null,
+        "pronunciation": "そちら",
+        "back": "phía đó, đằng đó, chỗ đó, đó",
+        "collection_id": "14"
+    },
+    {
+        "front": "あちら",
+        "kanji": null,
+        "pronunciation": "あちら",
+        "back": "phía kia, đằng kia, chỗ kia, kia",
+        "collection_id": "14"
+    },
+    {
+        "front": "どちら",
+        "kanji": null,
+        "pronunciation": "どちら",
+        "back": "phía nào, đằng nào, chỗ nào, đâu",
+        "collection_id": "14"
+    },
+    {
+        "front": "教室",
+        "kanji": "GIÁO THẤT",
+        "pronunciation": "きょうしつ",
+        "back": "lớp học, phòng học",
+        "collection_id": "14"
+    },
+    {
+        "front": "食堂",
+        "kanji": "THỰC ĐƯỜNG",
+        "pronunciation": "しょくどう",
+        "back": "nhà ăn",
+        "collection_id": "14"
+    },
+    {
+        "front": "事務所",
+        "kanji": "SỰ VỤ SỞ",
+        "pronunciation": "じむしょ",
+        "back": "văn phòng",
+        "collection_id": "14"
+    },
+    {
+        "front": "会議室",
+        "kanji": "HỘI NGHỊ THẤT",
+        "pronunciation": "かいぎしつ",
+        "back": "phòng họp",
+        "collection_id": "14"
+    },
+    {
+        "front": "受付",
+        "kanji": "THỤ PHÓ",
+        "pronunciation": "うけつけ",
+        "back": "bộ phận tiếp tân, phòng thường trực",
+        "collection_id": "14"
+    },
+    {
+        "front": "ロビー",
+        "kanji": null,
+        "pronunciation": "ロビー",
+        "back": "hành lang, đại sảnh",
+        "collection_id": "14"
+    },
+    {
+        "front": "部屋",
+        "kanji": "BỘ ỐC",
+        "pronunciation": "へや",
+        "back": "căn phòng",
+        "collection_id": "14"
+    },
+    {
+        "front": "（お手洗い）",
+        "kanji": "THỦ TẨY",
+        "pronunciation": "トイレ（おてあらい）",
+        "back": "nhà vệ sinh, phòng vệ sinh, toa-lét",
+        "collection_id": "14"
+    },
+    {
+        "front": "階段",
+        "kanji": "GIAI ĐOẠN",
+        "pronunciation": "かいだん",
+        "back": "cầu thang",
+        "collection_id": "14"
+    },
+    {
+        "front": "エレベーター",
+        "kanji": null,
+        "pronunciation": "エレベーター",
+        "back": "thang máy",
+        "collection_id": "14"
+    },
+    {
+        "front": "エスカレーター",
+        "kanji": null,
+        "pronunciation": "エスカレーター",
+        "back": "thang cuốn",
+        "collection_id": "14"
+    },
+    {
+        "front": "[お]国",
+        "kanji": "QUỐC",
+        "pronunciation": "[お]くに",
+        "back": "đất nước (của anh/chị)",
+        "collection_id": "14"
+    },
+    {
+        "front": "会社",
+        "kanji": "HỘI XÃ",
+        "pronunciation": "かいしゃ",
+        "back": "công ty",
+        "collection_id": "14"
+    },
+    {
+        "front": "うち",
+        "kanji": null,
+        "pronunciation": "うち",
+        "back": "nhà",
+        "collection_id": "14"
+    },
+    {
+        "front": "電話",
+        "kanji": "ĐIỆN THOẠI",
+        "pronunciation": "でんわ",
+        "back": "máy điện thoại, điện thoại",
+        "collection_id": "14"
+    },
+    {
+        "front": "靴",
+        "kanji": "NGOA",
+        "pronunciation": "くつ",
+        "back": "giầy",
+        "collection_id": "14"
+    },
+    {
+        "front": "ネクタイ",
+        "kanji": null,
+        "pronunciation": "ネクタイ",
+        "back": "cà vạt",
+        "collection_id": "14"
+    },
+    {
+        "front": "ワイン",
+        "kanji": null,
+        "pronunciation": "ワイン",
+        "back": "rượu vang",
+        "collection_id": "14"
+    },
+    {
+        "front": "たばこ",
+        "kanji": null,
+        "pronunciation": "たばこ",
+        "back": "thuốc lá",
+        "collection_id": "14"
+    },
+    {
+        "front": "売り場",
+        "kanji": "MẠI TRƯỜNG",
+        "pronunciation": "うりば",
+        "back": "quầy bán (trong một cửa hàng bách hóa)",
+        "collection_id": "14"
+    },
+    {
+        "front": "地下",
+        "kanji": "ĐỊA HẠ",
+        "pronunciation": "ちか",
+        "back": "tầng hầm, dưới mặt đất",
+        "collection_id": "14"
+    },
+    {
+        "front": "－階",
+        "kanji": "GIAI",
+        "pronunciation": "―かい（－がい）",
+        "back": "tầng thứ -",
+        "collection_id": "14"
+    },
+    {
+        "front": "何階",
+        "kanji": "HÀ GIAI",
+        "pronunciation": "なんがい",
+        "back": "tầng mấy",
+        "collection_id": "14"
+    },
+    {
+        "front": "―円",
+        "kanji": "VIÊN",
+        "pronunciation": "―えん",
+        "back": "-yên",
+        "collection_id": "14"
+    },
+    {
+        "front": "いくら",
+        "kanji": null,
+        "pronunciation": "いくら",
+        "back": "bao nhiêu tiền",
+        "collection_id": "14"
+    },
+    {
+        "front": "百",
+        "kanji": "BÁCH",
+        "pronunciation": "ひゃく",
+        "back": "trăm",
+        "collection_id": "14"
+    },
+    {
+        "front": "千",
+        "kanji": "THIÊN",
+        "pronunciation": "せん",
+        "back": "nghìn",
+        "collection_id": "14"
+    },
+    {
+        "front": "万",
+        "kanji": "VẠN",
+        "pronunciation": "まん",
+        "back": "mười nghìn, vạn",
+        "collection_id": "14"
+    },
+    {
+        "front": "すみません",
+        "kanji": null,
+        "pronunciation": "すみません",
+        "back": "Xin lỗi",
+        "collection_id": "14"
+    },
+    {
+        "front": "～でございます",
+        "kanji": null,
+        "pronunciation": "～でございます",
+        "back": "(cách nói lịch sự của 「です」)",
+        "collection_id": "14"
+    },
+    {
+        "front": "[～を]見せてください",
+        "kanji": "KIẾN",
+        "pronunciation": "みせてください",
+        "back": "cho tôi xem [~]",
+        "collection_id": "14"
+    },
+    {
+        "front": "じゃ",
+        "kanji": null,
+        "pronunciation": "じゃ",
+        "back": "thế thì, vậy thì",
+        "collection_id": "14"
+    },
+    {
+        "front": "[～を]ください",
+        "kanji": null,
+        "pronunciation": "[～を]ください",
+        "back": "cho tôi [~]",
+        "collection_id": "14"
+    },
+    {
+        "front": "新大阪",
+        "kanji": "TÂN ĐẠI PHẢN",
+        "pronunciation": "しんおおさか",
+        "back": "tên một nhà ga ở Osaka",
+        "collection_id": "14"
+    },
+    {
+        "front": "イタリア",
+        "kanji": null,
+        "pronunciation": "イタリア",
+        "back": "Ý",
+        "collection_id": "14"
+    },
+    {
+        "front": "スイス",
+        "kanji": null,
+        "pronunciation": "スイス",
+        "back": "Thụy Sĩ",
+        "collection_id": "14"
+    },
+    {
+        "front": "ＭＴ/ヨーネン/アキックス",
+        "kanji": null,
+        "pronunciation": "ＭＴ/ヨーネン/アキックス",
+        "back": "tên các công ty giả tưởng",
+        "collection_id": "14"
+    }
+]

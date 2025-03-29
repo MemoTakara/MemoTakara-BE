@@ -1,0 +1,240 @@
+[
+    {
+        "front": "[先生に～]聞きます",
+        "kanji": "TIÊN SINH VĂN",
+        "pronunciation": "[せんせいに～]ききます",
+        "back": "hỏi [giáo viên]",
+        "collection_id": "34"
+    },
+    {
+        "front": "回します",
+        "kanji": "HỒI",
+        "pronunciation": "まわします",
+        "back": "vặn (núm)",
+        "collection_id": "34"
+    },
+    {
+        "front": "引きます",
+        "kanji": "DẪN",
+        "pronunciation": "ひきます",
+        "back": "chơi (nhạc cụ)",
+        "collection_id": "34"
+    },
+    {
+        "front": "変えます",
+        "kanji": "BIẾN",
+        "pronunciation": "かえます",
+        "back": "đổi",
+        "collection_id": "34"
+    },
+    {
+        "front": "触ります",
+        "kanji": "XÚC",
+        "pronunciation": "[ドアに～]さわります",
+        "back": "sờ, chạm vào [cửa]",
+        "collection_id": "34"
+    },
+    {
+        "front": "[お釣りが～]出ます",
+        "kanji": "ĐIẾU XUẤT",
+        "pronunciation": "[おつりが～]でます",
+        "back": "ra, đi ra [tiền thừa ~]",
+        "collection_id": "34"
+    },
+    {
+        "front": "[時計が～]動きます",
+        "kanji": "THỜI KẾ ĐỘNG",
+        "pronunciation": "[とけいが～] うごきます",
+        "back": "chuyển động, chạy [đồng hồ ~]",
+        "collection_id": "34"
+    },
+    {
+        "front": "[道を～]歩きます",
+        "kanji": "ĐẠO BỘ",
+        "pronunciation": "[みちを～]あるきます",
+        "back": "đi bộ [trên đường]",
+        "collection_id": "34"
+    },
+    {
+        "front": "[橋を～]渡ります",
+        "kanji": "KIỀU ĐỘ",
+        "pronunciation": "[はしを～]わたります",
+        "back": "qua, đi qua [cầu]",
+        "collection_id": "34"
+    },
+    {
+        "front": "[車に～]気をつけます",
+        "kanji": "XA KHÍ",
+        "pronunciation": "[くるまに～]きを　つけます",
+        "back": "chú ý, cẩn thận [với ô-tô]",
+        "collection_id": "34"
+    },
+    {
+        "front": "引っ越しします",
+        "kanji": "DẪN VIỆT",
+        "pronunciation": "ひっこしします",
+        "back": "chuyển nhà",
+        "collection_id": "34"
+    },
+    {
+        "front": "電気屋",
+        "kanji": "ĐIỆN KHÍ ỐC",
+        "pronunciation": "でんきや",
+        "back": "cửa hàng đồ điện",
+        "collection_id": "34"
+    },
+    {
+        "front": "～屋",
+        "kanji": "ỐC",
+        "pronunciation": "～や",
+        "back": "cửa hàng ~",
+        "collection_id": "34"
+    },
+    {
+        "front": "サイズ",
+        "kanji": null,
+        "pronunciation": "サイズ",
+        "back": "cỡ, kích thước",
+        "collection_id": "34"
+    },
+    {
+        "front": "音",
+        "kanji": "ÂM",
+        "pronunciation": "おと",
+        "back": "âm thanh",
+        "collection_id": "34"
+    },
+    {
+        "front": "機械",
+        "kanji": "CƠ GIỚI",
+        "pronunciation": "きかい",
+        "back": "máy, máy móc",
+        "collection_id": "34"
+    },
+    {
+        "front": "つまみ",
+        "kanji": null,
+        "pronunciation": "つまみ",
+        "back": "núm vặn",
+        "collection_id": "34"
+    },
+    {
+        "front": "故障",
+        "kanji": "CỐ CHƯỚNG",
+        "pronunciation": "こしょう",
+        "back": "hỏng (~します：bị hỏng)",
+        "collection_id": "34"
+    },
+    {
+        "front": "道",
+        "kanji": "ĐẠO",
+        "pronunciation": "みち",
+        "back": "đường",
+        "collection_id": "34"
+    },
+    {
+        "front": "交差点",
+        "kanji": "GIAO SAI ĐIỂM",
+        "pronunciation": "こうさてん",
+        "back": "ngã tư",
+        "collection_id": "34"
+    },
+    {
+        "front": "信号",
+        "kanji": "TÍN HIỆU",
+        "pronunciation": "しんごう",
+        "back": "đèn tín hiệu",
+        "collection_id": "34"
+    },
+    {
+        "front": "角",
+        "kanji": "GIÁC",
+        "pronunciation": "かど",
+        "back": "góc",
+        "collection_id": "34"
+    },
+    {
+        "front": "橋",
+        "kanji": "KIỀU",
+        "pronunciation": "はし",
+        "back": "đũa",
+        "collection_id": "34"
+    },
+    {
+        "front": "駐車場",
+        "kanji": "TRÚ XA TRƯỜNG",
+        "pronunciation": "ちゅうしゃじょう",
+        "back": "bãi đỗ xe",
+        "collection_id": "34"
+    },
+    {
+        "front": "―目",
+        "kanji": "MỤC",
+        "pronunciation": "―め",
+        "back": "thứ - , số - (biểu thị thứ tự)",
+        "collection_id": "34"
+    },
+    {
+        "front": "[お]正月",
+        "kanji": "CHÍNH NGUYỆT",
+        "pronunciation": "[お]しょうがつ",
+        "back": "Tết (Dương lịch)",
+        "collection_id": "34"
+    },
+    {
+        "front": "ごちそうさま[でした]。",
+        "kanji": null,
+        "pronunciation": "ごちそうさま[でした]。",
+        "back": "Xin cám ơn anh/chị đã đãi tôi bữa cơm.",
+        "collection_id": "34"
+    },
+    {
+        "front": "建物",
+        "kanji": "KIẾN VẬT",
+        "pronunciation": "たてもの",
+        "back": "tòa nhà",
+        "collection_id": "34"
+    },
+    {
+        "front": "外国人登録証",
+        "kanji": "NGOẠI QUỐC NHÂN",
+        "pronunciation": "がいこくじんとうろくしょう",
+        "back": "thẻ đăng ký người nước ngoài,",
+        "collection_id": "34"
+    },
+    {
+        "front": "聖徳太子",
+        "kanji": "THÁNH ĐỨC THÁI TỬ",
+        "pronunciation": "しょうとくたいし",
+        "back": "Thái tử Shotoku (574 – 622)",
+        "collection_id": "34"
+    },
+    {
+        "front": "法隆寺",
+        "kanji": "PHÁP LONG TỰ",
+        "pronunciation": "ほうりゅうじ",
+        "back": "Chùa Horyu-ji",
+        "collection_id": "34"
+    },
+    {
+        "front": "元気茶",
+        "kanji": "NGUYÊN KHÍ TRÀ",
+        "pronunciation": "げんきちゃ",
+        "back": "tên một loại trà (giả tưởng)",
+        "collection_id": "34"
+    },
+    {
+        "front": "本田駅",
+        "kanji": "BẢN ĐIỀN DỊCH",
+        "pronunciation": "ほんだえき",
+        "back": "tên một nhà ga (giả tưởng)",
+        "collection_id": "34"
+    },
+    {
+        "front": "図書館前",
+        "kanji": "ĐỒ THƯ QUÁN TIỀN",
+        "pronunciation": "としょかんまえ",
+        "back": "tên một bến xe buýt (giả tưởng",
+        "collection_id": "34"
+    }
+]

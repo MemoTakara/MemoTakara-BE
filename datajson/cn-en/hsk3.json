@@ -1,0 +1,602 @@
+[
+    {
+        "front": "地",
+        "back": "earth; soil, ground; region",
+        "pronunciation": "de",
+        "collection_id": "3"
+    },
+    {
+        "front": "而",
+        "back": "and; and then; and yet; but",
+        "pronunciation": "ér",
+        "collection_id": "3"
+    },
+    {
+        "front": "于",
+        "back": "in, on, at; go to; surname",
+        "pronunciation": "yú",
+        "collection_id": "3"
+    },
+    {
+        "front": "自",
+        "back": "self, private, personal; from",
+        "pronunciation": "zì",
+        "collection_id": "3"
+    },
+    {
+        "front": "发",
+        "back": "issue, dispatch, send out; hair",
+        "pronunciation": "fā",
+        "collection_id": "3"
+    },
+    {
+        "front": "用",
+        "back": "use, employ, apply, operate; use",
+        "pronunciation": "yòng",
+        "collection_id": "3"
+    },
+    {
+        "front": "行",
+        "back": "go; walk; move, travel; circulate",
+        "pronunciation": "xíng",
+        "collection_id": "3"
+    },
+    {
+        "front": "种",
+        "back": "seed; race, breed; to plant",
+        "pronunciation": "zhǒng",
+        "collection_id": "3"
+    },
+    {
+        "front": "成",
+        "back": "completed, finished, fixed",
+        "pronunciation": "chéng",
+        "collection_id": "3"
+    },
+    {
+        "front": "方",
+        "back": "a square, rectangle; a region; local",
+        "pronunciation": "fāng",
+        "collection_id": "3"
+    },
+    {
+        "front": "法",
+        "back": "law, rule, regulation, statute; France, French",
+        "pronunciation": "fǎ",
+        "collection_id": "3"
+    },
+    {
+        "front": "如",
+        "back": "if, supposing; as if; like, as",
+        "pronunciation": "rú",
+        "collection_id": "3"
+    },
+    {
+        "front": "当",
+        "back": "bear, accept, undertake; just",
+        "pronunciation": "dāng",
+        "collection_id": "3"
+    },
+    {
+        "front": "定",
+        "back": "decide, settle, fix",
+        "pronunciation": "dìng",
+        "collection_id": "3"
+    },
+    {
+        "front": "其",
+        "back": "his, her, its, their; that",
+        "pronunciation": "qí",
+        "collection_id": "3"
+    },
+    {
+        "front": "主",
+        "back": "master, chief owner; host; lord",
+        "pronunciation": "zhǔ",
+        "collection_id": "3"
+    },
+    {
+        "front": "理",
+        "back": "reason, logic; manage",
+        "pronunciation": "lǐ",
+        "collection_id": "3"
+    },
+    {
+        "front": "心",
+        "back": "heart; mind, intelligence; soul",
+        "pronunciation": "xīn",
+        "collection_id": "3"
+    },
+    {
+        "front": "只",
+        "back": "only, just, simply",
+        "pronunciation": "zhǐ",
+        "collection_id": "3"
+    },
+    {
+        "front": "实",
+        "back": "real, true; honest, sincere",
+        "pronunciation": "shí",
+        "collection_id": "3"
+    },
+    {
+        "front": "者",
+        "back": "that which; he who; those who",
+        "pronunciation": "zhě",
+        "collection_id": "3"
+    },
+    {
+        "front": "力",
+        "back": "power, capability, influence",
+        "pronunciation": "lì",
+        "collection_id": "3"
+    },
+    {
+        "front": "把",
+        "back": "hold, take; guard; regard as",
+        "pronunciation": "bǎ",
+        "collection_id": "3"
+    },
+    {
+        "front": "又",
+        "back": "and, also, again, in addition",
+        "pronunciation": "yòu",
+        "collection_id": "3"
+    },
+    {
+        "front": "业",
+        "back": "profession, business; GB radical 111",
+        "pronunciation": "yè",
+        "collection_id": "3"
+    },
+    {
+        "front": "重",
+        "back": "heavy, weighty; double",
+        "pronunciation": "zhòng",
+        "collection_id": "3"
+    },
+    {
+        "front": "物",
+        "back": "thing, substance, creature",
+        "pronunciation": "wù",
+        "collection_id": "3"
+    },
+    {
+        "front": "应",
+        "back": "should, ought to, must",
+        "pronunciation": "yīng",
+        "collection_id": "3"
+    },
+    {
+        "front": "向",
+        "back": "toward, direction, trend",
+        "pronunciation": "xiàng",
+        "collection_id": "3"
+    },
+    {
+        "front": "头",
+        "back": "head; top; chief, first; boss",
+        "pronunciation": "tóu",
+        "collection_id": "3"
+    },
+    {
+        "front": "文",
+        "back": "literature, culture, writing",
+        "pronunciation": "wén",
+        "collection_id": "3"
+    },
+    {
+        "front": "相",
+        "back": "mutual, reciprocal, each other",
+        "pronunciation": "xiāng",
+        "collection_id": "3"
+    },
+    {
+        "front": "被",
+        "back": "",
+        "pronunciation": "bèi",
+        "collection_id": "3"
+    },
+    {
+        "front": "或",
+        "back": "or, either, else; perhaps, maybe",
+        "pronunciation": "huò",
+        "collection_id": "3"
+    },
+    {
+        "front": "己",
+        "back": "self, oneself; personal, private; 6th heavenly stem",
+        "pronunciation": "jǐ",
+        "collection_id": "3"
+    },
+    {
+        "front": "加",
+        "back": "add to, increase, augment",
+        "pronunciation": "jiā",
+        "collection_id": "3"
+    },
+    {
+        "front": "特",
+        "back": "special, unique, distinguished",
+        "pronunciation": "tè",
+        "collection_id": "3"
+    },
+    {
+        "front": "信",
+        "back": "trust, believe; letter",
+        "pronunciation": "xìn",
+        "collection_id": "3"
+    },
+    {
+        "front": "化",
+        "back": "change, convert, reform; -ize",
+        "pronunciation": "huà",
+        "collection_id": "3"
+    },
+    {
+        "front": "世",
+        "back": "generation; world; era",
+        "pronunciation": "shì",
+        "collection_id": "3"
+    },
+    {
+        "front": "位",
+        "back": "throne; position, post; rank, status; seat",
+        "pronunciation": "wèi",
+        "collection_id": "3"
+    },
+    {
+        "front": "声",
+        "back": "sound, voice, noise; tone; music",
+        "pronunciation": "shēng",
+        "collection_id": "3"
+    },
+    {
+        "front": "提",
+        "back": "hold in hand; lift in hand",
+        "pronunciation": "tí",
+        "collection_id": "3"
+    },
+    {
+        "front": "解",
+        "back": "loosen, unfasten, untie; explain",
+        "pronunciation": "jiě",
+        "collection_id": "3"
+    },
+    {
+        "front": "口",
+        "back": "mouth; open end; entrance, gate",
+        "pronunciation": "kǒu",
+        "collection_id": "3"
+    },
+    {
+        "front": "平",
+        "back": "flat, level, even; peaceful",
+        "pronunciation": "píng",
+        "collection_id": "3"
+    },
+    {
+        "front": "更",
+        "back": "more, still further, much more",
+        "pronunciation": "gèng",
+        "collection_id": "3"
+    },
+    {
+        "front": "变",
+        "back": "change, transform, alter; rebel",
+        "pronunciation": "biàn",
+        "collection_id": "3"
+    },
+    {
+        "front": "总",
+        "back": "collect; overall, altogether",
+        "pronunciation": "zǒng",
+        "collection_id": "3"
+    },
+    {
+        "front": "数",
+        "back": "number; several, count; fate",
+        "pronunciation": "shù",
+        "collection_id": "3"
+    },
+    {
+        "front": "安",
+        "back": "peaceful, tranquil, quiet",
+        "pronunciation": "ān",
+        "collection_id": "3"
+    },
+    {
+        "front": "才",
+        "back": "talent, ability; just, only",
+        "pronunciation": "cái",
+        "collection_id": "3"
+    },
+    {
+        "front": "结",
+        "back": "knot, tie; join, connect",
+        "pronunciation": "jié",
+        "collection_id": "3"
+    },
+    {
+        "front": "目",
+        "back": "eye; look, see; division, topic",
+        "pronunciation": "mù",
+        "collection_id": "3"
+    },
+    {
+        "front": "感",
+        "back": "feel, perceive, emotion",
+        "pronunciation": "gǎn",
+        "collection_id": "3"
+    },
+    {
+        "front": "接",
+        "back": "receive; continue; catch; connect",
+        "pronunciation": "jiē",
+        "collection_id": "3"
+    },
+    {
+        "front": "必",
+        "back": "surely, most certainly; must",
+        "pronunciation": "bì",
+        "collection_id": "3"
+    },
+    {
+        "front": "市",
+        "back": "market, fair; city, town; trade",
+        "pronunciation": "shì",
+        "collection_id": "3"
+    },
+    {
+        "front": "直",
+        "back": "straight, erect, vertical",
+        "pronunciation": "zhí",
+        "collection_id": "3"
+    },
+    {
+        "front": "山",
+        "back": "mountain, hill, peak",
+        "pronunciation": "shān",
+        "collection_id": "3"
+    },
+    {
+        "front": "空",
+        "back": "empty, hollow, bare, deserted",
+        "pronunciation": "kōng",
+        "collection_id": "3"
+    },
+    {
+        "front": "决",
+        "back": "decide, determine, judge",
+        "pronunciation": "jué",
+        "collection_id": "3"
+    },
+    {
+        "front": "马",
+        "back": "horse; surname; KangXi radical 187",
+        "pronunciation": "mǎ",
+        "collection_id": "3"
+    },
+    {
+        "front": "界",
+        "back": "boundary, limit; domain; society; the world",
+        "pronunciation": "jiè",
+        "collection_id": "3"
+    },
+    {
+        "front": "放",
+        "back": "put, release, free, liberate",
+        "pronunciation": "fàng",
+        "collection_id": "3"
+    },
+    {
+        "front": "像",
+        "back": "a picture, image, figure; to resemble",
+        "pronunciation": "xiàng",
+        "collection_id": "3"
+    },
+    {
+        "front": "且",
+        "back": "moreover, also (post-subject); about to, will soon (pre-verb)",
+        "pronunciation": "qiě",
+        "collection_id": "3"
+    },
+    {
+        "front": "难",
+        "back": "difficult, arduous, hard; unable",
+        "pronunciation": "nán",
+        "collection_id": "3"
+    },
+    {
+        "front": "记",
+        "back": "record; keep in mind, remember",
+        "pronunciation": "jì",
+        "collection_id": "3"
+    },
+    {
+        "front": "南",
+        "back": "south; southern part; southward",
+        "pronunciation": "nán",
+        "collection_id": "3"
+    },
+    {
+        "front": "求",
+        "back": "seek; demand, request; beseech",
+        "pronunciation": "qiú",
+        "collection_id": "3"
+    },
+    {
+        "front": "据",
+        "back": "to occupy, take possession of; a base, position",
+        "pronunciation": "jù",
+        "collection_id": "3"
+    },
+    {
+        "front": "张",
+        "back": "stretch, extend, expand; sheet",
+        "pronunciation": "zhāng",
+        "collection_id": "3"
+    },
+    {
+        "front": "该",
+        "back": "should, ought to, need to",
+        "pronunciation": "gāi",
+        "collection_id": "3"
+    },
+    {
+        "front": "万",
+        "back": "ten thousand; innumerable",
+        "pronunciation": "wàn",
+        "collection_id": "3"
+    },
+    {
+        "front": "清",
+        "back": "clear, pure, clean; peaceful",
+        "pronunciation": "qīng",
+        "collection_id": "3"
+    },
+    {
+        "front": "带",
+        "back": "belt, girdle, band, strap, zone",
+        "pronunciation": "dài",
+        "collection_id": "3"
+    },
+    {
+        "front": "风",
+        "back": "wind; air; manners, atmosphere",
+        "pronunciation": "fēng",
+        "collection_id": "3"
+    },
+    {
+        "front": "根",
+        "back": "root, base(d on); foundation",
+        "pronunciation": "gēn",
+        "collection_id": "3"
+    },
+    {
+        "front": "干",
+        "back": "oppose, offend; invade; dried",
+        "pronunciation": "gàn",
+        "collection_id": "3"
+    },
+    {
+        "front": "极",
+        "back": "extreme, utmost, furthest, final",
+        "pronunciation": "jí",
+        "collection_id": "3"
+    },
+    {
+        "front": "办",
+        "back": "manage, do, handle; deal with",
+        "pronunciation": "bàn",
+        "collection_id": "3"
+    },
+    {
+        "front": "议",
+        "back": "consult, talk over, discuss",
+        "pronunciation": "yì",
+        "collection_id": "3"
+    },
+    {
+        "front": "元",
+        "back": "first; dollar; origin; head",
+        "pronunciation": "yuán",
+        "collection_id": "3"
+    },
+    {
+        "front": "单",
+        "back": "single, individual, only; lone",
+        "pronunciation": "dān",
+        "collection_id": "3"
+    },
+    {
+        "front": "调",
+        "back": "transfer, move, change; tune",
+        "pronunciation": "diào",
+        "collection_id": "3"
+    },
+    {
+        "front": "算",
+        "back": "count, calculate, figure; plan",
+        "pronunciation": "suàn",
+        "collection_id": "3"
+    },
+    {
+        "front": "需",
+        "back": "need, require, must",
+        "pronunciation": "xū",
+        "collection_id": "3"
+    },
+    {
+        "front": "花",
+        "back": "flower; blossoms",
+        "pronunciation": "huā",
+        "collection_id": "3"
+    },
+    {
+        "front": "城",
+        "back": "castle; city, town; municipality",
+        "pronunciation": "chéng",
+        "collection_id": "3"
+    },
+    {
+        "front": "级",
+        "back": "level, rank, class; grade",
+        "pronunciation": "jí",
+        "collection_id": "3"
+    },
+    {
+        "front": "复",
+        "back": "return; repeat; repeatedly",
+        "pronunciation": "fù",
+        "collection_id": "3"
+    },
+    {
+        "front": "满",
+        "back": "fill; full, satisfied",
+        "pronunciation": "mǎn",
+        "collection_id": "3"
+    },
+    {
+        "front": "越",
+        "back": "exceed, go beyond; the more ...",
+        "pronunciation": "yuè",
+        "collection_id": "3"
+    },
+    {
+        "front": "容",
+        "back": "looks, appearance; figure, form",
+        "pronunciation": "róng",
+        "collection_id": "3"
+    },
+    {
+        "front": "照",
+        "back": "shine, illumine, reflect",
+        "pronunciation": "zhào",
+        "collection_id": "3"
+    },
+    {
+        "front": "须",
+        "back": "must, have to, necessary",
+        "pronunciation": "xū",
+        "collection_id": "3"
+    },
+    {
+        "front": "包",
+        "back": "wrap, pack, bundle; package",
+        "pronunciation": "bāo",
+        "collection_id": "3"
+    },
+    {
+        "front": "片",
+        "back": "slice, splinter, strip; rad. 91",
+        "pronunciation": "piàn",
+        "collection_id": "3"
+    },
+    {
+        "front": "史",
+        "back": "history, chronicle, annals",
+        "pronunciation": "shǐ",
+        "collection_id": "3"
+    }
+]

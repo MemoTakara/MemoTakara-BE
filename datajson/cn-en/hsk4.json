@@ -1,0 +1,602 @@
+[
+    {
+        "front": "之",
+        "back": "marks preceding phrase as modifier of following phrase; it, him her, them; go to",
+        "pronunciation": "zhī",
+        "collection_id": "4"
+    },
+    {
+        "front": "部",
+        "back": "part, division, section",
+        "pronunciation": "bù",
+        "collection_id": "4"
+    },
+    {
+        "front": "无",
+        "back": "negative, no, not; KangXi radical 71",
+        "pronunciation": "wú",
+        "collection_id": "4"
+    },
+    {
+        "front": "与",
+        "back": "and; with; to; for; give, grant",
+        "pronunciation": "yǔ",
+        "collection_id": "4"
+    },
+    {
+        "front": "民",
+        "back": "people, subjects, citizens",
+        "pronunciation": "mín",
+        "collection_id": "4"
+    },
+    {
+        "front": "此",
+        "back": "this, these; in this case, then",
+        "pronunciation": "cǐ",
+        "collection_id": "4"
+    },
+    {
+        "front": "使",
+        "back": "cause, send on a mission, order; envoy, messenger, ambassador",
+        "pronunciation": "shǐ",
+        "collection_id": "4"
+    },
+    {
+        "front": "性",
+        "back": "nature, character, sex",
+        "pronunciation": "xìng",
+        "collection_id": "4"
+    },
+    {
+        "front": "全",
+        "back": "maintain, keep whole or intact",
+        "pronunciation": "quán",
+        "collection_id": "4"
+    },
+    {
+        "front": "将",
+        "back": "will, going to, future; general",
+        "pronunciation": "jiāng",
+        "collection_id": "4"
+    },
+    {
+        "front": "由",
+        "back": "cause, reason; from",
+        "pronunciation": "yóu",
+        "collection_id": "4"
+    },
+    {
+        "front": "并",
+        "back": "",
+        "pronunciation": "bìng",
+        "collection_id": "4"
+    },
+    {
+        "front": "美",
+        "back": "beautiful, pretty; pleasing",
+        "pronunciation": "měi",
+        "collection_id": "4"
+    },
+    {
+        "front": "利",
+        "back": "gains, advantage, profit, merit",
+        "pronunciation": "lì",
+        "collection_id": "4"
+    },
+    {
+        "front": "合",
+        "back": "combine, unite, join; gather",
+        "pronunciation": "hé",
+        "collection_id": "4"
+    },
+    {
+        "front": "内",
+        "back": "inside",
+        "pronunciation": "nèi",
+        "collection_id": "4"
+    },
+    {
+        "front": "度",
+        "back": "degree, system; manner; to consider",
+        "pronunciation": "dù",
+        "collection_id": "4"
+    },
+    {
+        "front": "任",
+        "back": "trust to, rely on, appoint; to bear, duty, office; allow",
+        "pronunciation": "rèn",
+        "collection_id": "4"
+    },
+    {
+        "front": "海",
+        "back": "sea, ocean; maritime",
+        "pronunciation": "hǎi",
+        "collection_id": "4"
+    },
+    {
+        "front": "通",
+        "back": "pass through, common, communicate",
+        "pronunciation": "tōng",
+        "collection_id": "4"
+    },
+    {
+        "front": "原",
+        "back": "source, origin, beginning",
+        "pronunciation": "yuán",
+        "collection_id": "4"
+    },
+    {
+        "front": "及",
+        "back": "extend; reach; come up to; and",
+        "pronunciation": "jí",
+        "collection_id": "4"
+    },
+    {
+        "front": "论",
+        "back": "debate; discuss; discourse",
+        "pronunciation": "lùn",
+        "collection_id": "4"
+    },
+    {
+        "front": "处",
+        "back": "place, locale; department",
+        "pronunciation": "chù",
+        "collection_id": "4"
+    },
+    {
+        "front": "各",
+        "back": "each, individually, every, all",
+        "pronunciation": "gè",
+        "collection_id": "4"
+    },
+    {
+        "front": "入",
+        "back": "enter, come in(to), join",
+        "pronunciation": "rù",
+        "collection_id": "4"
+    },
+    {
+        "front": "活",
+        "back": "live, exist, survive; lively",
+        "pronunciation": "huó",
+        "collection_id": "4"
+    },
+    {
+        "front": "尔",
+        "back": "you; that, those; final particle",
+        "pronunciation": "ěr",
+        "collection_id": "4"
+    },
+    {
+        "front": "何",
+        "back": "what, why, where, which, how",
+        "pronunciation": "hé",
+        "collection_id": "4"
+    },
+    {
+        "front": "反",
+        "back": "reverse, opposite, contrary, anti",
+        "pronunciation": "fǎn",
+        "collection_id": "4"
+    },
+    {
+        "front": "受",
+        "back": "receive, accept, get; bear, stand",
+        "pronunciation": "shòu",
+        "collection_id": "4"
+    },
+    {
+        "front": "量",
+        "back": "measure, quantity, capacity",
+        "pronunciation": "liàng",
+        "collection_id": "4"
+    },
+    {
+        "front": "建",
+        "back": "build, establish, erect, found",
+        "pronunciation": "jiàn",
+        "collection_id": "4"
+    },
+    {
+        "front": "计",
+        "back": "plan, plot; strategem; scheme",
+        "pronunciation": "jì",
+        "collection_id": "4"
+    },
+    {
+        "front": "管",
+        "back": "pipe, tube, duct; woodwind music",
+        "pronunciation": "guǎn",
+        "collection_id": "4"
+    },
+    {
+        "front": "资",
+        "back": "property; wealth; capital",
+        "pronunciation": "zī",
+        "collection_id": "4"
+    },
+    {
+        "front": "命",
+        "back": "life; destiny, fate, luck; an order, instruction",
+        "pronunciation": "mìng",
+        "collection_id": "4"
+    },
+    {
+        "front": "金",
+        "back": "gold; metals in general; money",
+        "pronunciation": "jīn",
+        "collection_id": "4"
+    },
+    {
+        "front": "指",
+        "back": "finger, toe; point, indicate",
+        "pronunciation": "zhǐ",
+        "collection_id": "4"
+    },
+    {
+        "front": "克",
+        "back": "gram; overcome; transliteration",
+        "pronunciation": "kè",
+        "collection_id": "4"
+    },
+    {
+        "front": "许",
+        "back": "allow, permit; promise; betroth",
+        "pronunciation": "xǔ",
+        "collection_id": "4"
+    },
+    {
+        "front": "区",
+        "back": "area, district, region, ward",
+        "pronunciation": "qū",
+        "collection_id": "4"
+    },
+    {
+        "front": "保",
+        "back": "protect, safeguard, defend, care",
+        "pronunciation": "bǎo",
+        "collection_id": "4"
+    },
+    {
+        "front": "至",
+        "back": "reach, arrive; extremely, very",
+        "pronunciation": "zhì",
+        "collection_id": "4"
+    },
+    {
+        "front": "队",
+        "back": "team, group; army unit",
+        "pronunciation": "duì",
+        "collection_id": "4"
+    },
+    {
+        "front": "社",
+        "back": "god of the soil and altars to him; group of families; company, society",
+        "pronunciation": "shè",
+        "collection_id": "4"
+    },
+    {
+        "front": "展",
+        "back": "open, unfold; stretch, extend",
+        "pronunciation": "zhǎn",
+        "collection_id": "4"
+    },
+    {
+        "front": "科",
+        "back": "section, department, science",
+        "pronunciation": "kē",
+        "collection_id": "4"
+    },
+    {
+        "front": "基",
+        "back": "foundation, base",
+        "pronunciation": "jī",
+        "collection_id": "4"
+    },
+    {
+        "front": "则",
+        "back": "rule, law, regulation; grades",
+        "pronunciation": "zé",
+        "collection_id": "4"
+    },
+    {
+        "front": "却",
+        "back": "still, but; decline; retreat",
+        "pronunciation": "què",
+        "collection_id": "4"
+    },
+    {
+        "front": "光",
+        "back": "light, brilliant, shine; only",
+        "pronunciation": "guāng",
+        "collection_id": "4"
+    },
+    {
+        "front": "即",
+        "back": "promptly, quickly, immediately",
+        "pronunciation": "jí",
+        "collection_id": "4"
+    },
+    {
+        "front": "象",
+        "back": "elephant; ivory; figure, image",
+        "pronunciation": "xiàng",
+        "collection_id": "4"
+    },
+    {
+        "front": "式",
+        "back": "style, system, formula, rule",
+        "pronunciation": "shì",
+        "collection_id": "4"
+    },
+    {
+        "front": "程",
+        "back": "journey, trip; schedule, agenda",
+        "pronunciation": "chéng",
+        "collection_id": "4"
+    },
+    {
+        "front": "死",
+        "back": "die; dead; death",
+        "pronunciation": "sǐ",
+        "collection_id": "4"
+    },
+    {
+        "front": "交",
+        "back": "mix; intersect; exchange, communicate; deliver",
+        "pronunciation": "jiāo",
+        "collection_id": "4"
+    },
+    {
+        "front": "规",
+        "back": "rules, regulations, customs, law",
+        "pronunciation": "guī",
+        "collection_id": "4"
+    },
+    {
+        "front": "取",
+        "back": "take, receive, obtain; select",
+        "pronunciation": "qǔ",
+        "collection_id": "4"
+    },
+    {
+        "front": "拉",
+        "back": "pull, drag; seize, hold; lengthen",
+        "pronunciation": "lā",
+        "collection_id": "4"
+    },
+    {
+        "front": "格",
+        "back": "pattern, standard, form; style",
+        "pronunciation": "gé",
+        "collection_id": "4"
+    },
+    {
+        "front": "术",
+        "back": "art, skill, special feat; method, technique",
+        "pronunciation": "shù",
+        "collection_id": "4"
+    },
+    {
+        "front": "确",
+        "back": "sure, certain; real, true",
+        "pronunciation": "què",
+        "collection_id": "4"
+    },
+    {
+        "front": "传",
+        "back": "summon; propagate, transmit",
+        "pronunciation": "chuán",
+        "collection_id": "4"
+    },
+    {
+        "front": "观",
+        "back": "see, observe, view; appearance",
+        "pronunciation": "guān",
+        "collection_id": "4"
+    },
+    {
+        "front": "切",
+        "back": "cut, mince, slice, carve",
+        "pronunciation": "qiè",
+        "collection_id": "4"
+    },
+    {
+        "front": "导",
+        "back": "direct, guide, lead, conduct",
+        "pronunciation": "dǎo",
+        "collection_id": "4"
+    },
+    {
+        "front": "争",
+        "back": "dispute, fight, contend, strive",
+        "pronunciation": "zhēng",
+        "collection_id": "4"
+    },
+    {
+        "front": "改",
+        "back": "change, alter; improve, remodel",
+        "pronunciation": "gǎi",
+        "collection_id": "4"
+    },
+    {
+        "front": "收",
+        "back": "gather together, collect; harvest",
+        "pronunciation": "shōu",
+        "collection_id": "4"
+    },
+    {
+        "front": "言",
+        "back": "words, speech; speak, say",
+        "pronunciation": "yán",
+        "collection_id": "4"
+    },
+    {
+        "front": "联",
+        "back": "connect, join; associate, ally",
+        "pronunciation": "lián",
+        "collection_id": "4"
+    },
+    {
+        "front": "持",
+        "back": "sustain, support; hold, grasp",
+        "pronunciation": "chí",
+        "collection_id": "4"
+    },
+    {
+        "front": "济",
+        "back": "help, aid, relieve; ferry, cross",
+        "pronunciation": "jì",
+        "collection_id": "4"
+    },
+    {
+        "front": "亲",
+        "back": "relatives, parents; intimate the hazel nut or filbert tree a thorny tree",
+        "pronunciation": "qīn",
+        "collection_id": "4"
+    },
+    {
+        "front": "林",
+        "back": "forest, grove; surname",
+        "pronunciation": "lín",
+        "collection_id": "4"
+    },
+    {
+        "front": "士",
+        "back": "scholar, gentleman; soldier",
+        "pronunciation": "shì",
+        "collection_id": "4"
+    },
+    {
+        "front": "证",
+        "back": "prove, confirm, verify; proof",
+        "pronunciation": "zhèng",
+        "collection_id": "4"
+    },
+    {
+        "front": "失",
+        "back": "lose; make mistake, neglect",
+        "pronunciation": "shī",
+        "collection_id": "4"
+    },
+    {
+        "front": "转",
+        "back": "shift, move, turn",
+        "pronunciation": "zhuǎn",
+        "collection_id": "4"
+    },
+    {
+        "front": "存",
+        "back": "exist, live, be; survive; remain",
+        "pronunciation": "cún",
+        "collection_id": "4"
+    },
+    {
+        "front": "台",
+        "back": "platform; unit; term of address",
+        "pronunciation": "tái",
+        "collection_id": "4"
+    },
+    {
+        "front": "具",
+        "back": "tool, implement; draw up, write",
+        "pronunciation": "jù",
+        "collection_id": "4"
+    },
+    {
+        "front": "流",
+        "back": "flow, circulate, drift; class",
+        "pronunciation": "liú",
+        "collection_id": "4"
+    },
+    {
+        "front": "连",
+        "back": "join, connect; continuous; even",
+        "pronunciation": "lián",
+        "collection_id": "4"
+    },
+    {
+        "front": "深",
+        "back": "deep; depth; far; very, extreme",
+        "pronunciation": "shēn",
+        "collection_id": "4"
+    },
+    {
+        "front": "质",
+        "back": "matter, material, substance",
+        "pronunciation": "zhì",
+        "collection_id": "4"
+    },
+    {
+        "front": "价",
+        "back": "price, value",
+        "pronunciation": "jià",
+        "collection_id": "4"
+    },
+    {
+        "front": "整",
+        "back": "orderly, neat, tidy; whole",
+        "pronunciation": "zhěng",
+        "collection_id": "4"
+    },
+    {
+        "front": "况",
+        "back": "condition, situation; furthermore",
+        "pronunciation": "kuàng",
+        "collection_id": "4"
+    },
+    {
+        "front": "亚",
+        "back": "Asia; second",
+        "pronunciation": "yà",
+        "collection_id": "4"
+    },
+    {
+        "front": "技",
+        "back": "skill, ability, talent, ingenuity",
+        "pronunciation": "jì",
+        "collection_id": "4"
+    },
+    {
+        "front": "际",
+        "back": "border, boundary, juncture",
+        "pronunciation": "jì",
+        "collection_id": "4"
+    },
+    {
+        "front": "约",
+        "back": "treaty, agreement, covenant",
+        "pronunciation": "yuē",
+        "collection_id": "4"
+    },
+    {
+        "front": "示",
+        "back": "show, manifest; demonstrate",
+        "pronunciation": "shì",
+        "collection_id": "4"
+    },
+    {
+        "front": "究",
+        "back": "examine, investigate",
+        "pronunciation": "jiū",
+        "collection_id": "4"
+    },
+    {
+        "front": "线",
+        "back": "line, thread, wire; clue",
+        "pronunciation": "xiàn",
+        "collection_id": "4"
+    },
+    {
+        "front": "断",
+        "back": "sever, cut off; interrupt",
+        "pronunciation": "duàn",
+        "collection_id": "4"
+    },
+    {
+        "front": "精",
+        "back": "essence; semen; spirit",
+        "pronunciation": "jīng",
+        "collection_id": "4"
+    }
+]

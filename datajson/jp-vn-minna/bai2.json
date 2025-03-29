@@ -1,0 +1,331 @@
+[
+    {
+        "front": "これ",
+        "kanji": null,
+        "pronunciation": "これ",
+        "back": "cái này, đây (vật ở gần người nói)",
+        "collection_id": "13"
+    },
+    {
+        "front": "それ",
+        "kanji": null,
+        "pronunciation": "それ",
+        "back": "cái đó, đó (vật ở gần người nghe)",
+        "collection_id": "13"
+    },
+    {
+        "front": "あれ",
+        "kanji": null,
+        "pronunciation": "あれ",
+        "back": "cái kia, kia (vật ở xa cả người nói và người nghe)",
+        "collection_id": "13"
+    },
+    {
+        "front": "この～",
+        "kanji": null,
+        "pronunciation": "この～",
+        "back": "~ này",
+        "collection_id": "13"
+    },
+    {
+        "front": "その～",
+        "kanji": null,
+        "pronunciation": "その～",
+        "back": "~ đó",
+        "collection_id": "13"
+    },
+    {
+        "front": "あの～",
+        "kanji": null,
+        "pronunciation": "あの～",
+        "back": "~ kia",
+        "collection_id": "13"
+    },
+    {
+        "front": "本",
+        "kanji": "BẢN/BỔN",
+        "pronunciation": "ほん",
+        "back": "sách",
+        "collection_id": "13"
+    },
+    {
+        "front": "辞書",
+        "kanji": "TỪ THƯ",
+        "pronunciation": "じしょ",
+        "back": "từ điển",
+        "collection_id": "13"
+    },
+    {
+        "front": "雑誌",
+        "kanji": "TẠP CHÍ",
+        "pronunciation": "ざっし",
+        "back": "tạp chí",
+        "collection_id": "13"
+    },
+    {
+        "front": "新聞",
+        "kanji": "TÂN VĂN",
+        "pronunciation": "しんぶん",
+        "back": "báo",
+        "collection_id": "13"
+    },
+    {
+        "front": "ノート",
+        "kanji": null,
+        "pronunciation": "ノート",
+        "back": "vở",
+        "collection_id": "13"
+    },
+    {
+        "front": "手帳",
+        "kanji": "THỦ TRƯƠNG",
+        "pronunciation": "てちょう",
+        "back": "sổ tay",
+        "collection_id": "13"
+    },
+    {
+        "front": "名刺",
+        "kanji": "DANH THÍCH",
+        "pronunciation": "めいし",
+        "back": "danh thiếp",
+        "collection_id": "13"
+    },
+    {
+        "front": "カード",
+        "kanji": null,
+        "pronunciation": "カード",
+        "back": "thẻ, cạc",
+        "collection_id": "13"
+    },
+    {
+        "front": "テレホンカード",
+        "kanji": null,
+        "pronunciation": "テレホンカード",
+        "back": "thẻ điện thoại",
+        "collection_id": "13"
+    },
+    {
+        "front": "鉛筆",
+        "kanji": "DUYÊN BÚT",
+        "pronunciation": "えんぴつ",
+        "back": "bút chì",
+        "collection_id": "13"
+    },
+    {
+        "front": "ボールペン",
+        "kanji": null,
+        "pronunciation": "ボールペン",
+        "back": "bút bi",
+        "collection_id": "13"
+    },
+    {
+        "front": "シャープペンシル",
+        "kanji": null,
+        "pronunciation": "シャープペンシル",
+        "back": "bút chì kim, bút chì bấm",
+        "collection_id": "13"
+    },
+    {
+        "front": "かぎ",
+        "kanji": null,
+        "pronunciation": "かぎ",
+        "back": "chìa khóa",
+        "collection_id": "13"
+    },
+    {
+        "front": "時計",
+        "kanji": "THỜI KẾ",
+        "pronunciation": "とけい",
+        "back": "đồng hồ",
+        "collection_id": "13"
+    },
+    {
+        "front": "傘",
+        "kanji": "TẢN",
+        "pronunciation": "かさ",
+        "back": "ô, dù",
+        "collection_id": "13"
+    },
+    {
+        "front": "かばん",
+        "kanji": null,
+        "pronunciation": "かばん",
+        "back": "cặp sách, túi sách",
+        "collection_id": "13"
+    },
+    {
+        "front": "[カセット]テープ",
+        "kanji": null,
+        "pronunciation": "[カセット]テープ",
+        "back": "băng [cát-xét]",
+        "collection_id": "13"
+    },
+    {
+        "front": "テープレコーダー",
+        "kanji": null,
+        "pronunciation": "テープレコーダー",
+        "back": "máy ghi âm",
+        "collection_id": "13"
+    },
+    {
+        "front": "テレビ",
+        "kanji": null,
+        "pronunciation": "テレビ",
+        "back": "tivi",
+        "collection_id": "13"
+    },
+    {
+        "front": "ラジオ",
+        "kanji": null,
+        "pronunciation": "ラジオ",
+        "back": "Radio",
+        "collection_id": "13"
+    },
+    {
+        "front": "カメラ",
+        "kanji": null,
+        "pronunciation": "カメラ",
+        "back": "máy ảnh",
+        "collection_id": "13"
+    },
+    {
+        "front": "コンピューター",
+        "kanji": null,
+        "pronunciation": "コンピューター",
+        "back": "máy vi tính",
+        "collection_id": "13"
+    },
+    {
+        "front": "自動車",
+        "kanji": "TỰ ĐỘNG XA",
+        "pronunciation": "じどうしゃ",
+        "back": "ô tô, xe hơi",
+        "collection_id": "13"
+    },
+    {
+        "front": "つくえ",
+        "kanji": null,
+        "pronunciation": "つくえ",
+        "back": "cái bàn",
+        "collection_id": "13"
+    },
+    {
+        "front": "いす",
+        "kanji": null,
+        "pronunciation": "いす",
+        "back": "cái ghế",
+        "collection_id": "13"
+    },
+    {
+        "front": "チョコレート",
+        "kanji": null,
+        "pronunciation": "チョコレート",
+        "back": "Socola",
+        "collection_id": "13"
+    },
+    {
+        "front": "コーヒー",
+        "kanji": null,
+        "pronunciation": "コーヒー",
+        "back": "cà phê",
+        "collection_id": "13"
+    },
+    {
+        "front": "えいご",
+        "kanji": null,
+        "pronunciation": "えいご",
+        "back": "tiếng anh",
+        "collection_id": "13"
+    },
+    {
+        "front": "にほんご",
+        "kanji": null,
+        "pronunciation": "にほんご",
+        "back": "tiếng nhật",
+        "collection_id": "13"
+    },
+    {
+        "front": "なに",
+        "kanji": null,
+        "pronunciation": "なに",
+        "back": "cái gì",
+        "collection_id": "13"
+    },
+    {
+        "front": "なん",
+        "kanji": null,
+        "pronunciation": "なん",
+        "back": "cái gì",
+        "collection_id": "13"
+    },
+    {
+        "front": "そう",
+        "kanji": null,
+        "pronunciation": "そう",
+        "back": "đúng rồi",
+        "collection_id": "13"
+    },
+    {
+        "front": "違います",
+        "kanji": "VI",
+        "pronunciation": "ちがいます",
+        "back": "không phải, không đúng, sai rồi",
+        "collection_id": "13"
+    },
+    {
+        "front": "そうですか",
+        "kanji": null,
+        "pronunciation": "そうですか",
+        "back": "thế à, vậy à",
+        "collection_id": "13"
+    },
+    {
+        "front": "あのう",
+        "kanji": null,
+        "pronunciation": "あのう",
+        "back": "à, ờ",
+        "collection_id": "13"
+    },
+    {
+        "front": "ほんの気持ち",
+        "kanji": "KHÍ TRÌ",
+        "pronunciation": "ほんのきもち",
+        "back": "chỉ là chút lòng thành thôi",
+        "collection_id": "13"
+    },
+    {
+        "front": "どうぞ",
+        "kanji": null,
+        "pronunciation": "どうぞ",
+        "back": "xin mời",
+        "collection_id": "13"
+    },
+    {
+        "front": "どうも",
+        "kanji": null,
+        "pronunciation": "どうも",
+        "back": "cám ơn",
+        "collection_id": "13"
+    },
+    {
+        "front": "どうもありがとうございます",
+        "kanji": null,
+        "pronunciation": "どうもありがとうございます",
+        "back": "xin chân thành cám ơn",
+        "collection_id": "13"
+    },
+    {
+        "front": "これからおせわになります",
+        "kanji": null,
+        "pronunciation": "これからおせわになります",
+        "back": "từ nay tôi rất mong sự giúp đỡ của anh chị",
+        "collection_id": "13"
+    },
+    {
+        "front": "こちらこそ　よろしく",
+        "kanji": null,
+        "pronunciation": "こちらこそ　よろしく",
+        "back": "chính tôi mới phải xin ông giúp đỡ cho",
+        "collection_id": "13"
+    }
+]

@@ -1,0 +1,359 @@
+[
+    {
+        "front": "簡単「な」",
+        "kanji": "GIẢN ĐƠN",
+        "pronunciation": "かんたん「な」",
+        "back": "đơn giản, dễ",
+        "collection_id": "23"
+    },
+    {
+        "front": "近い",
+        "kanji": "CẬN",
+        "pronunciation": "ちかい",
+        "back": "gần",
+        "collection_id": "23"
+    },
+    {
+        "front": "遠い",
+        "kanji": "VIỄN",
+        "pronunciation": "とおい",
+        "back": "xa",
+        "collection_id": "23"
+    },
+    {
+        "front": "速い, 早い",
+        "kanji": "TỐC、TẢO",
+        "pronunciation": "はやい",
+        "back": "nhanh, sớm",
+        "collection_id": "23"
+    },
+    {
+        "front": "遅い",
+        "kanji": "TRÌ",
+        "pronunciation": "おそい",
+        "back": "chậm, muộn",
+        "collection_id": "23"
+    },
+    {
+        "front": "[人が～]多い",
+        "kanji": "NHÂN ĐA",
+        "pronunciation": "[ひとが～] おおい",
+        "back": "nhiều [người]",
+        "collection_id": "23"
+    },
+    {
+        "front": "[人が～]少ない",
+        "kanji": "NHÂN, THIỂU/THIẾU",
+        "pronunciation": "[ひとが～]すくない",
+        "back": "ít [người]",
+        "collection_id": "23"
+    },
+    {
+        "front": "温かい,暖かい",
+        "kanji": "ÔN、NOÃN",
+        "pronunciation": "あたたかい",
+        "back": "ấm",
+        "collection_id": "23"
+    },
+    {
+        "front": "涼しい",
+        "kanji": "LƯƠNG",
+        "pronunciation": "すずしい",
+        "back": "mát",
+        "collection_id": "23"
+    },
+    {
+        "front": "甘い",
+        "kanji": "CAM",
+        "pronunciation": "あまい",
+        "back": "ngọt",
+        "collection_id": "23"
+    },
+    {
+        "front": "辛い",
+        "kanji": "TÂN",
+        "pronunciation": "からい",
+        "back": "cay",
+        "collection_id": "23"
+    },
+    {
+        "front": "重い",
+        "kanji": "TRỌNG",
+        "pronunciation": "おもい",
+        "back": "nặng",
+        "collection_id": "23"
+    },
+    {
+        "front": "軽い",
+        "kanji": "KHINH",
+        "pronunciation": "かるい",
+        "back": "nhẹ",
+        "collection_id": "23"
+    },
+    {
+        "front": "[コーヒーが～]いい",
+        "kanji": null,
+        "pronunciation": "[コーヒーが～]いい",
+        "back": "thích, chọn, dùng [cafe]",
+        "collection_id": "23"
+    },
+    {
+        "front": "季節",
+        "kanji": "QUÝ TIẾT",
+        "pronunciation": "きせつ",
+        "back": "mùa",
+        "collection_id": "23"
+    },
+    {
+        "front": "春",
+        "kanji": "XUÂN",
+        "pronunciation": "はる",
+        "back": "mùa xuân",
+        "collection_id": "23"
+    },
+    {
+        "front": "夏",
+        "kanji": "HẠ",
+        "pronunciation": "なつ",
+        "back": "mùa hè",
+        "collection_id": "23"
+    },
+    {
+        "front": "秋",
+        "kanji": "THU",
+        "pronunciation": "あき",
+        "back": "mùa thu",
+        "collection_id": "23"
+    },
+    {
+        "front": "冬",
+        "kanji": "ĐÔNG",
+        "pronunciation": "ふゆ",
+        "back": "mùa đông",
+        "collection_id": "23"
+    },
+    {
+        "front": "天気",
+        "kanji": "THIÊN KHÍ",
+        "pronunciation": "てんき",
+        "back": "thời tiết",
+        "collection_id": "23"
+    },
+    {
+        "front": "雨",
+        "kanji": "VŨ",
+        "pronunciation": "あめ",
+        "back": "mưa",
+        "collection_id": "23"
+    },
+    {
+        "front": "雪",
+        "kanji": "TUYẾT",
+        "pronunciation": "ゆき",
+        "back": "tuyết",
+        "collection_id": "23"
+    },
+    {
+        "front": "曇り",
+        "kanji": "ĐÀM",
+        "pronunciation": "くもり",
+        "back": "có mây",
+        "collection_id": "23"
+    },
+    {
+        "front": "ホテル",
+        "kanji": null,
+        "pronunciation": "ホテル",
+        "back": "khách sạn",
+        "collection_id": "23"
+    },
+    {
+        "front": "空港",
+        "kanji": "KHÔNG CẢNG",
+        "pronunciation": "くうこう",
+        "back": "sân bay",
+        "collection_id": "23"
+    },
+    {
+        "front": "海",
+        "kanji": "HẢI",
+        "pronunciation": "うみ",
+        "back": "biển, đại dương",
+        "collection_id": "23"
+    },
+    {
+        "front": "世界",
+        "kanji": "THẾ GIỚI",
+        "pronunciation": "せかい",
+        "back": "thế giới",
+        "collection_id": "23"
+    },
+    {
+        "front": "パーティー",
+        "kanji": null,
+        "pronunciation": "パーティー",
+        "back": "tiệc (~をします：tổ chức tiệc)",
+        "collection_id": "23"
+    },
+    {
+        "front": "「お」祭り",
+        "kanji": "TẾ",
+        "pronunciation": "「お」まつり",
+        "back": "lễ hội",
+        "collection_id": "23"
+    },
+    {
+        "front": "試験",
+        "kanji": "THÍ NGHIỆM",
+        "pronunciation": "しけん",
+        "back": "kỳ thi, bài thi",
+        "collection_id": "23"
+    },
+    {
+        "front": "すき焼き",
+        "kanji": "THIÊU",
+        "pronunciation": "すきやき",
+        "back": "Sukiyaki (món thịt bò nấu rau)",
+        "collection_id": "23"
+    },
+    {
+        "front": "刺身",
+        "kanji": "THÍCH THÂN",
+        "pronunciation": "さしみ",
+        "back": "Sashimi (món gỏi cá sống)",
+        "collection_id": "23"
+    },
+    {
+        "front": "「お」すし",
+        "kanji": null,
+        "pronunciation": "「お」すし",
+        "back": "Sushi",
+        "collection_id": "23"
+    },
+    {
+        "front": "てんぷら",
+        "kanji": null,
+        "pronunciation": "てんぷら",
+        "back": "Tempura (món hải sản và rau chiên tẩm bột)",
+        "collection_id": "23"
+    },
+    {
+        "front": "生け花",
+        "kanji": "SINH HOA",
+        "pronunciation": "いけばな",
+        "back": "Nghệ thuật cắm hoa (～をします：cắm hoa)",
+        "collection_id": "23"
+    },
+    {
+        "front": "紅葉",
+        "kanji": "HỒNG DIỆP",
+        "pronunciation": "もみじ",
+        "back": "lá đỏ",
+        "collection_id": "23"
+    },
+    {
+        "front": "どちら",
+        "kanji": null,
+        "pronunciation": "どちら",
+        "back": "phía nào, đằng nào, chỗ nào, đâu",
+        "collection_id": "23"
+    },
+    {
+        "front": "どちらも",
+        "kanji": null,
+        "pronunciation": "どちらも",
+        "back": "cả hai",
+        "collection_id": "23"
+    },
+    {
+        "front": "ずっと",
+        "kanji": null,
+        "pronunciation": "ずっと",
+        "back": "(hơn) hẳn",
+        "collection_id": "23"
+    },
+    {
+        "front": "初めて",
+        "kanji": "SƠ",
+        "pronunciation": "はじめて",
+        "back": "lần đầu tiên",
+        "collection_id": "23"
+    },
+    {
+        "front": "ただいま。",
+        "kanji": null,
+        "pronunciation": "ただいま。",
+        "back": "Tôi đã về đây. (dùng nói khi về đến nhà)",
+        "collection_id": "23"
+    },
+    {
+        "front": "お帰りなさい。",
+        "kanji": "QUY",
+        "pronunciation": "おかえりなさい。",
+        "back": "Anh/Chị đã về đấy à.",
+        "collection_id": "23"
+    },
+    {
+        "front": "すごいですね。",
+        "kanji": null,
+        "pronunciation": "すごいですね。",
+        "back": "Ghê quá nhỉ./ hay quá nhỉ.",
+        "collection_id": "23"
+    },
+    {
+        "front": "でも",
+        "kanji": null,
+        "pronunciation": "でも",
+        "back": "Nhưng",
+        "collection_id": "23"
+    },
+    {
+        "front": "疲れました。",
+        "kanji": "BÌ",
+        "pronunciation": "つかれました。",
+        "back": "Tôi mệt rồi",
+        "collection_id": "23"
+    },
+    {
+        "front": "祗園祭",
+        "kanji": "KỲ VIÊN TẾ",
+        "pronunciation": "ぎおんまつり",
+        "back": "Lễ hội Gi-ôn (lễ hội nổi tiếng nhất ở Kyoto)",
+        "collection_id": "23"
+    },
+    {
+        "front": "香港",
+        "kanji": "HƯƠNG CẢNG",
+        "pronunciation": "ホンコン",
+        "back": "Hồng Kông",
+        "collection_id": "23"
+    },
+    {
+        "front": "シンガポール",
+        "kanji": null,
+        "pronunciation": "シンガポール",
+        "back": "Singapore",
+        "collection_id": "23"
+    },
+    {
+        "front": "毎日屋",
+        "kanji": "MỖI NHẬT ỐC",
+        "pronunciation": "まいにちや",
+        "back": "tên một siêu thị (giả tưởng)",
+        "collection_id": "23"
+    },
+    {
+        "front": "ＡＣＢストア",
+        "kanji": null,
+        "pronunciation": "ＡＣＢストア",
+        "back": "tên một siêu thị (giả tưởng)",
+        "collection_id": "23"
+    },
+    {
+        "front": "ジャパン",
+        "kanji": null,
+        "pronunciation": "ジャパン",
+        "back": "tên một siêu thị (giả tưởng)",
+        "collection_id": "23"
+    }
+]

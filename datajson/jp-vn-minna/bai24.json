@@ -1,0 +1,135 @@
+[
+    {
+        "front": "くれます",
+        "kanji": null,
+        "pronunciation": "くれます",
+        "back": "cho, tặng (tôi)",
+        "collection_id": "35"
+    },
+    {
+        "front": "連れて行きます",
+        "kanji": "LIÊN HÀNH",
+        "pronunciation": "つれていきます",
+        "back": "dẫn đi",
+        "collection_id": "35"
+    },
+    {
+        "front": "連れて来ます",
+        "kanji": "LIÊN LAI",
+        "pronunciation": "つれてきます",
+        "back": "dẫn đến",
+        "collection_id": "35"
+    },
+    {
+        "front": "[人を～]送ります",
+        "kanji": "NHÂN TỐNG",
+        "pronunciation": "[ひとを～]おくります",
+        "back": "đưa đi, đưa đến, tiễn [một ai đó]",
+        "collection_id": "35"
+    },
+    {
+        "front": "紹介します",
+        "kanji": "THIỆU GIỚI",
+        "pronunciation": "しょうかいします",
+        "back": "giới thiệu",
+        "collection_id": "35"
+    },
+    {
+        "front": "案内します",
+        "kanji": "ÁN NỘI",
+        "pronunciation": "あんないします",
+        "back": "hướng dẫn, giới thiệu, dẫn đường",
+        "collection_id": "35"
+    },
+    {
+        "front": "説明します",
+        "kanji": "THUYẾT MINH",
+        "pronunciation": "せつめいします",
+        "back": "giải thích, trình bày",
+        "collection_id": "35"
+    },
+    {
+        "front": "[コーヒーを～]いれます",
+        "kanji": null,
+        "pronunciation": "[コーヒーを～]いれます",
+        "back": "pha [cà-phê]",
+        "collection_id": "35"
+    },
+    {
+        "front": "おじいさん／おじいちゃん",
+        "kanji": null,
+        "pronunciation": "おじいさん／おじいちゃん",
+        "back": "ông nội, ông ngoại, ông",
+        "collection_id": "35"
+    },
+    {
+        "front": "おばあさん／おばあちゃん",
+        "kanji": null,
+        "pronunciation": "おばあさん／おばあちゃん",
+        "back": "bà nội, bà ngoại, bà",
+        "collection_id": "35"
+    },
+    {
+        "front": "準備",
+        "kanji": "CHUẨN BỊ",
+        "pronunciation": "じゅんび",
+        "back": "chuẩn bị [～します:chuẩn bị]",
+        "collection_id": "35"
+    },
+    {
+        "front": "意味",
+        "kanji": "Ý VỊ",
+        "pronunciation": "いみ",
+        "back": "ý nghĩa",
+        "collection_id": "35"
+    },
+    {
+        "front": "[お]菓子",
+        "kanji": "QUẢ TỬ",
+        "pronunciation": "[お]かし",
+        "back": "bánh kẹo",
+        "collection_id": "35"
+    },
+    {
+        "front": "全部",
+        "kanji": "TOÀN BỘ",
+        "pronunciation": "ぜんぶ",
+        "back": "toàn bộ, tất cả",
+        "collection_id": "35"
+    },
+    {
+        "front": "自分で",
+        "kanji": "TỰ PHÂN",
+        "pronunciation": "じぶんで",
+        "back": "tự (mình)",
+        "collection_id": "35"
+    },
+    {
+        "front": "ほかに",
+        "kanji": null,
+        "pronunciation": "ほかに",
+        "back": "ngoài ra, bên cạnh đó",
+        "collection_id": "35"
+    },
+    {
+        "front": "ワゴン車",
+        "kanji": "XA",
+        "pronunciation": "ワゴンしゃ",
+        "back": "xe ô-tô kiểu Wagon (có thùng đóng kín)",
+        "collection_id": "35"
+    },
+    {
+        "front": "[お]弁当",
+        "kanji": "BIỆN ĐƯƠNG",
+        "pronunciation": "「お」べんとう",
+        "back": "cơm hộp",
+        "collection_id": "35"
+    },
+    {
+        "front": "母の日",
+        "kanji": "MẪU NHẬT",
+        "pronunciation": "ははのひ",
+        "back": "ngày Mẹ",
+        "collection_id": "35"
+    }
+]

@@ -1,0 +1,380 @@
+[
+    {
+        "front": "逃げます",
+        "kanji": "ĐÀO",
+        "pronunciation": "にげます",
+        "back": "chạy trốn, bỏ chạy",
+        "collection_id": "44"
+    },
+    {
+        "front": "騒ぎます",
+        "kanji": "TAO",
+        "pronunciation": "さわぎます",
+        "back": "làm ồn, làm rùm beng",
+        "collection_id": "44"
+    },
+    {
+        "front": "あきらめます",
+        "kanji": null,
+        "pronunciation": "あきらめます",
+        "back": "từ bỏ, đầu hàng",
+        "collection_id": "44"
+    },
+    {
+        "front": "投げます",
+        "kanji": "ĐẦU",
+        "pronunciation": "なげます",
+        "back": "ném",
+        "collection_id": "44"
+    },
+    {
+        "front": "守ります",
+        "kanji": "THỦ",
+        "pronunciation": "まもります",
+        "back": "bảo vệ, tuân thủ, giữ",
+        "collection_id": "44"
+    },
+    {
+        "front": "上げます",
+        "kanji": "THƯỢNG",
+        "pronunciation": "あげます",
+        "back": "nâng, nâng lên, tăng lên",
+        "collection_id": "44"
+    },
+    {
+        "front": "下げます",
+        "kanji": "HẠ",
+        "pronunciation": "さげます",
+        "back": "hạ, hạ xuống, giảm xuống",
+        "collection_id": "44"
+    },
+    {
+        "front": "伝えます",
+        "kanji": "TRUYỀN",
+        "pronunciation": "つたえます",
+        "back": "truyền, truyền đạt",
+        "collection_id": "44"
+    },
+    {
+        "front": "[車に～]注意します",
+        "kanji": "XA CHÚ Ý",
+        "pronunciation": "[くるまに～]ちゅういします",
+        "back": "chú ý [ô tô]",
+        "collection_id": "44"
+    },
+    {
+        "front": "[席を～]外します",
+        "kanji": "TỊCH NGOẠI",
+        "pronunciation": "[せきを～] はずします",
+        "back": "rời, không có ở [chỗ ngồi]",
+        "collection_id": "44"
+    },
+    {
+        "front": "だめ[な]",
+        "kanji": null,
+        "pronunciation": "だめ[な]",
+        "back": "hỏng, không được, không thể",
+        "collection_id": "44"
+    },
+    {
+        "front": "席",
+        "kanji": "TỊCH",
+        "pronunciation": "せき",
+        "back": "chỗ ngồi, ghế",
+        "collection_id": "44"
+    },
+    {
+        "front": "ファイト",
+        "kanji": null,
+        "pronunciation": "ファイト",
+        "back": "“quyết chiến”, “cố lên”",
+        "collection_id": "44"
+    },
+    {
+        "front": "マーク",
+        "kanji": null,
+        "pronunciation": "マーク",
+        "back": "ký hiệu (Mark)",
+        "collection_id": "44"
+    },
+    {
+        "front": "ボール",
+        "kanji": null,
+        "pronunciation": "ボール",
+        "back": "quả bóng",
+        "collection_id": "44"
+    },
+    {
+        "front": "洗濯機",
+        "kanji": "TẨY TRẠC CƠ",
+        "pronunciation": "せんたくき",
+        "back": "máy giặt",
+        "collection_id": "44"
+    },
+    {
+        "front": "～機",
+        "kanji": "CƠ",
+        "pronunciation": "～き",
+        "back": "máy ~",
+        "collection_id": "44"
+    },
+    {
+        "front": "規則",
+        "kanji": "QUY TẮC",
+        "pronunciation": "きそく",
+        "back": "quy tắc, kỷ luật",
+        "collection_id": "44"
+    },
+    {
+        "front": "使用禁止",
+        "kanji": "SỬ DỤNG CẤM CHỈ",
+        "pronunciation": "しようきんし",
+        "back": "cấm sử dụng",
+        "collection_id": "44"
+    },
+    {
+        "front": "立入禁止",
+        "kanji": "LẬP NHẬP CẤM CHỈ",
+        "pronunciation": "たちいりきんし",
+        "back": "cấm vào",
+        "collection_id": "44"
+    },
+    {
+        "front": "入口",
+        "kanji": "NHẬP KHẨU",
+        "pronunciation": "いりぐち",
+        "back": "cửa vào",
+        "collection_id": "44"
+    },
+    {
+        "front": "出口",
+        "kanji": "XUẤT KHẨU",
+        "pronunciation": "でぐち",
+        "back": "cửa ra",
+        "collection_id": "44"
+    },
+    {
+        "front": "非常口",
+        "kanji": "PHI THƯỜNG KHẨU",
+        "pronunciation": "ひじょうぐち",
+        "back": "cửa thoát hiểm",
+        "collection_id": "44"
+    },
+    {
+        "front": "無料",
+        "kanji": "VÔ LIỆU",
+        "pronunciation": "むりょう",
+        "back": "miễn phí",
+        "collection_id": "44"
+    },
+    {
+        "front": "本日休業",
+        "kanji": "BẢN NHẬT HƯU NGHIỆP",
+        "pronunciation": "ほんじつきゅうぎょう",
+        "back": "hôm nay đóng cửa, hôm nay nghỉ",
+        "collection_id": "44"
+    },
+    {
+        "front": "営業中",
+        "kanji": "DOANH NGHIỆP TRUNG",
+        "pronunciation": "えいぎょうちゅう",
+        "back": "đang mở cửa",
+        "collection_id": "44"
+    },
+    {
+        "front": "使用中",
+        "kanji": "SỬ DỤNG TRUNG",
+        "pronunciation": "しようちゅう",
+        "back": "đang sử dụng",
+        "collection_id": "44"
+    },
+    {
+        "front": "～中",
+        "kanji": "TRUNG",
+        "pronunciation": "～ちゅう",
+        "back": "đang ~",
+        "collection_id": "44"
+    },
+    {
+        "front": "どういう～",
+        "kanji": null,
+        "pronunciation": "どういう～",
+        "back": "~ gì, ~ thế nào",
+        "collection_id": "44"
+    },
+    {
+        "front": "もう",
+        "kanji": null,
+        "pronunciation": "もう",
+        "back": "không ~ nữa",
+        "collection_id": "44"
+    },
+    {
+        "front": "あと～",
+        "kanji": null,
+        "pronunciation": "あと～",
+        "back": "còn ~",
+        "collection_id": "44"
+    },
+    {
+        "front": "駐車違反",
+        "kanji": "TRÚ XA VI PHẢN",
+        "pronunciation": "ちゅうしゃいはん",
+        "back": "đỗ xe trái phép",
+        "collection_id": "44"
+    },
+    {
+        "front": "そりゃあ",
+        "kanji": null,
+        "pronunciation": "そりゃあ",
+        "back": "thế thì, ồ",
+        "collection_id": "44"
+    },
+    {
+        "front": "～以内",
+        "kanji": "DĨ NỘI",
+        "pronunciation": "～いない",
+        "back": "trong khoảng ~, trong vòng ~",
+        "collection_id": "44"
+    },
+    {
+        "front": "警察",
+        "kanji": "CẢNH SÁT",
+        "pronunciation": "けいさつ",
+        "back": "cảnh sát",
+        "collection_id": "44"
+    },
+    {
+        "front": "罰金",
+        "kanji": "PHẠT KIM",
+        "pronunciation": "ばっきん",
+        "back": "tiền phạt",
+        "collection_id": "44"
+    },
+    {
+        "front": "電報",
+        "kanji": "ĐIỆN BÁO",
+        "pronunciation": "でんぽう",
+        "back": "bức điện, điện báo",
+        "collection_id": "44"
+    },
+    {
+        "front": "人々",
+        "kanji": "NHÂN(KÉP)",
+        "pronunciation": "ひとびと",
+        "back": "người, những người",
+        "collection_id": "44"
+    },
+    {
+        "front": "急用",
+        "kanji": "CẤP DỤNG",
+        "pronunciation": "きゅうよう",
+        "back": "việc gấp, việc khẩn",
+        "collection_id": "44"
+    },
+    {
+        "front": "[電報を～]打ちます",
+        "kanji": "ĐIỆN BÁO ĐẢ",
+        "pronunciation": "うちます",
+        "back": "gửi [bức điện]",
+        "collection_id": "44"
+    },
+    {
+        "front": "電報代",
+        "kanji": "ĐIỆN BÁO ĐẠI",
+        "pronunciation": "でんぽうだい",
+        "back": "tiền cước điện báo",
+        "collection_id": "44"
+    },
+    {
+        "front": "できるだけ",
+        "kanji": null,
+        "pronunciation": "できるだけ",
+        "back": "cố gắng, trong khả năng có thể",
+        "collection_id": "44"
+    },
+    {
+        "front": "短く",
+        "kanji": "ĐOẢN",
+        "pronunciation": "みじかく",
+        "back": "ngắn gọn, đơn giản",
+        "collection_id": "44"
+    },
+    {
+        "front": "また",
+        "kanji": null,
+        "pronunciation": "また",
+        "back": "thêm nữa",
+        "collection_id": "44"
+    },
+    {
+        "front": "例えば",
+        "kanji": "LỆ",
+        "pronunciation": "たとえば",
+        "back": "ví dụ",
+        "collection_id": "44"
+    },
+    {
+        "front": "（危篤）",
+        "kanji": "NGUY ĐỐC",
+        "pronunciation": "キトク",
+        "back": "tình trạng hiểm nghèo",
+        "collection_id": "44"
+    },
+    {
+        "front": "重い病気",
+        "kanji": "TRỌNG BỆNH KHÍ",
+        "pronunciation": "おもいびょうき",
+        "back": "bệnh nặng",
+        "collection_id": "44"
+    },
+    {
+        "front": "明日",
+        "kanji": "MINH NHẬT",
+        "pronunciation": "あす",
+        "back": "ngày mai",
+        "collection_id": "44"
+    },
+    {
+        "front": "留守",
+        "kanji": "LƯU THỦ",
+        "pronunciation": "るす",
+        "back": "vắng nhà",
+        "collection_id": "44"
+    },
+    {
+        "front": "留守番",
+        "kanji": "LƯU THỦ PHIÊN",
+        "pronunciation": "るすばん",
+        "back": "trông nhà, giữ nhà",
+        "collection_id": "44"
+    },
+    {
+        "front": "[お]祝い",
+        "kanji": "CHÚC",
+        "pronunciation": "「お」いわい",
+        "back": "việc mừng, vật mừng",
+        "collection_id": "44"
+    },
+    {
+        "front": "亡くなります",
+        "kanji": "VONG",
+        "pronunciation": "なくなります",
+        "back": "chết, mất",
+        "collection_id": "44"
+    },
+    {
+        "front": "悲しみ",
+        "kanji": "BI",
+        "pronunciation": "かなしみ",
+        "back": "buồn",
+        "collection_id": "44"
+    },
+    {
+        "front": "利用します",
+        "kanji": "LỢI DỤNG",
+        "pronunciation": "りようします",
+        "back": "sử dụng, lợi dụng, tận dụng, dùng",
+        "collection_id": "44"
+    }
+]

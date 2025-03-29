@@ -1,0 +1,450 @@
+[
+    {
+        "front": "起きます",
+        "kanji": "KHỞI",
+        "pronunciation": "おきます",
+        "back": "dậy, thức dậy",
+        "collection_id": "15"
+    },
+    {
+        "front": "寝ます",
+        "kanji": "TẨM",
+        "pronunciation": "ねます",
+        "back": "ngủ, đi ngủ",
+        "collection_id": "15"
+    },
+    {
+        "front": "働きます",
+        "kanji": "ĐỘNG",
+        "pronunciation": "はたらきます",
+        "back": "làm việc",
+        "collection_id": "15"
+    },
+    {
+        "front": "休みます",
+        "kanji": "HƯU",
+        "pronunciation": "やすみます",
+        "back": "nghỉ, nghỉ ngơi",
+        "collection_id": "15"
+    },
+    {
+        "front": "勉強します",
+        "kanji": "MIỄN CƯỜNG",
+        "pronunciation": "べんきょうします",
+        "back": "học",
+        "collection_id": "15"
+    },
+    {
+        "front": "終わります",
+        "kanji": "CHUNG",
+        "pronunciation": "おわります",
+        "back": "hết, kết thúc, xong",
+        "collection_id": "15"
+    },
+    {
+        "front": "デパート",
+        "kanji": null,
+        "pronunciation": "デパート",
+        "back": "bách hóa",
+        "collection_id": "15"
+    },
+    {
+        "front": "銀行",
+        "kanji": "NGÂN HÀNH",
+        "pronunciation": "ぎんこう",
+        "back": "ngân hàng",
+        "collection_id": "15"
+    },
+    {
+        "front": "郵便局",
+        "kanji": "BƯU TIỆN CỤC",
+        "pronunciation": "ゆうびんきょく",
+        "back": "bưu điện",
+        "collection_id": "15"
+    },
+    {
+        "front": "図書館",
+        "kanji": "ĐỒ THƯ QUÁN",
+        "pronunciation": "としょかん",
+        "back": "thư viện",
+        "collection_id": "15"
+    },
+    {
+        "front": "美術館",
+        "kanji": "MỸ THUẬT QUÁN",
+        "pronunciation": "びじゅつかん",
+        "back": "bảo tàng mỹ thuật",
+        "collection_id": "15"
+    },
+    {
+        "front": "今",
+        "kanji": "KIM",
+        "pronunciation": "いま",
+        "back": "bây giờ",
+        "collection_id": "15"
+    },
+    {
+        "front": "－時",
+        "kanji": "THỜI",
+        "pronunciation": "―じ",
+        "back": "-giờ",
+        "collection_id": "15"
+    },
+    {
+        "front": "―分",
+        "kanji": "PHÂN",
+        "pronunciation": "―ふん（－ぷん）",
+        "back": "- phút",
+        "collection_id": "15"
+    },
+    {
+        "front": "半",
+        "kanji": "BÁN",
+        "pronunciation": "はん",
+        "back": "rưỡi, nửa",
+        "collection_id": "15"
+    },
+    {
+        "front": "何時",
+        "kanji": "HÀ THỜI",
+        "pronunciation": "なんじ",
+        "back": "mấy giờ",
+        "collection_id": "15"
+    },
+    {
+        "front": "何分",
+        "kanji": "HÀ PHÂN",
+        "pronunciation": "なんぷん",
+        "back": "mấy phút",
+        "collection_id": "15"
+    },
+    {
+        "front": "午前",
+        "kanji": "NGỌ TIỀN",
+        "pronunciation": "ごぜん",
+        "back": "sáng, trước 12 giờ trưa",
+        "collection_id": "15"
+    },
+    {
+        "front": "午後",
+        "kanji": "NGỌ HẬU",
+        "pronunciation": "ごご",
+        "back": "chiều, sau 12 giờ trưa",
+        "collection_id": "15"
+    },
+    {
+        "front": "朝",
+        "kanji": "TRIỀU",
+        "pronunciation": "あさ",
+        "back": "buổi sáng, sáng",
+        "collection_id": "15"
+    },
+    {
+        "front": "昼",
+        "kanji": "TRÚ",
+        "pronunciation": "ひる",
+        "back": "buổi trưa, trưa",
+        "collection_id": "15"
+    },
+    {
+        "front": "晩(夜)",
+        "kanji": "VÃN(DẠ)",
+        "pronunciation": "ばん（よる）",
+        "back": "buổi tối, tối",
+        "collection_id": "15"
+    },
+    {
+        "front": "おととい",
+        "kanji": null,
+        "pronunciation": "おととい",
+        "back": "hôm kia",
+        "collection_id": "15"
+    },
+    {
+        "front": "きのう",
+        "kanji": null,
+        "pronunciation": "きのう",
+        "back": "hôm qua",
+        "collection_id": "15"
+    },
+    {
+        "front": "きょう",
+        "kanji": null,
+        "pronunciation": "きょう",
+        "back": "hôm nay",
+        "collection_id": "15"
+    },
+    {
+        "front": "あした",
+        "kanji": null,
+        "pronunciation": "あした",
+        "back": "ngày mai",
+        "collection_id": "15"
+    },
+    {
+        "front": "あさって",
+        "kanji": null,
+        "pronunciation": "あさって",
+        "back": "ngày kia",
+        "collection_id": "15"
+    },
+    {
+        "front": "けさ",
+        "kanji": null,
+        "pronunciation": "けさ",
+        "back": "sáng nay",
+        "collection_id": "15"
+    },
+    {
+        "front": "今晩",
+        "kanji": "KIM VÃN",
+        "pronunciation": "こんばん",
+        "back": "tối nay",
+        "collection_id": "15"
+    },
+    {
+        "front": "休み",
+        "kanji": "HƯU",
+        "pronunciation": "やすみ",
+        "back": "nghỉ, nghỉ phép, ngày nghỉ",
+        "collection_id": "15"
+    },
+    {
+        "front": "昼休み",
+        "kanji": "TRÚ HƯU",
+        "pronunciation": "ひるやすみ",
+        "back": "nghỉ trưa",
+        "collection_id": "15"
+    },
+    {
+        "front": "毎朝",
+        "kanji": "MỖI TRIỀU",
+        "pronunciation": "まいあさ",
+        "back": "hàng sáng, mỗi sáng",
+        "collection_id": "15"
+    },
+    {
+        "front": "毎晩",
+        "kanji": "MỖI VÃN",
+        "pronunciation": "まいばん",
+        "back": "hàng tối, mỗi tối",
+        "collection_id": "15"
+    },
+    {
+        "front": "毎日",
+        "kanji": "MỖI NHẬT",
+        "pronunciation": "まいにち",
+        "back": "hàng ngày, mỗi ngày",
+        "collection_id": "15"
+    },
+    {
+        "front": "月曜日",
+        "kanji": "NGUYỆT DIỆU NHẬT",
+        "pronunciation": "げつようび",
+        "back": "thứ hai",
+        "collection_id": "15"
+    },
+    {
+        "front": "火曜日",
+        "kanji": "HỎA DIỆU NHẬT",
+        "pronunciation": "かようび",
+        "back": "thứ ba",
+        "collection_id": "15"
+    },
+    {
+        "front": "水曜日",
+        "kanji": "THỦY DIỆU NHẬT",
+        "pronunciation": "すいようび",
+        "back": "thứ tư",
+        "collection_id": "15"
+    },
+    {
+        "front": "木曜日",
+        "kanji": "MỘC DIỆU NHẬT",
+        "pronunciation": "もくようび",
+        "back": "thứ năm",
+        "collection_id": "15"
+    },
+    {
+        "front": "金曜日",
+        "kanji": "KIM DIỆU NHẬT",
+        "pronunciation": "きんようび",
+        "back": "thứ sáu",
+        "collection_id": "15"
+    },
+    {
+        "front": "土曜日",
+        "kanji": "THỔ DIỆU NHẬT",
+        "pronunciation": "どようび",
+        "back": "thứ bảy",
+        "collection_id": "15"
+    },
+    {
+        "front": "日曜日",
+        "kanji": "NHẬT DIỆU NHẬT",
+        "pronunciation": "にちようび",
+        "back": "chủ nhật",
+        "collection_id": "15"
+    },
+    {
+        "front": "何曜日",
+        "kanji": "HÀ DIỆU NHẬT",
+        "pronunciation": "なんようび",
+        "back": "thứ mấy",
+        "collection_id": "15"
+    },
+    {
+        "front": "番号",
+        "kanji": "PHIÊN HIỆU",
+        "pronunciation": "ばんごう",
+        "back": "số (số điện thoại, số phòng)",
+        "collection_id": "15"
+    },
+    {
+        "front": "何番",
+        "kanji": "HÀ PHIÊN",
+        "pronunciation": "なんばん",
+        "back": "số bao nhiêu, số mấy",
+        "collection_id": "15"
+    },
+    {
+        "front": "～から",
+        "kanji": null,
+        "pronunciation": "～から",
+        "back": "~ từ",
+        "collection_id": "15"
+    },
+    {
+        "front": "～まで",
+        "kanji": null,
+        "pronunciation": "～まで",
+        "back": "~ đến",
+        "collection_id": "15"
+    },
+    {
+        "front": "～と",
+        "kanji": null,
+        "pronunciation": "～と",
+        "back": "~ và (dùng để nối hai danh từ)",
+        "collection_id": "15"
+    },
+    {
+        "front": "そちら",
+        "kanji": null,
+        "pronunciation": "そちら",
+        "back": "phía đó, đằng đó, chỗ đó, đó",
+        "collection_id": "15"
+    },
+    {
+        "front": "大変ですね",
+        "kanji": "ĐẠI BIẾN",
+        "pronunciation": "たいへんですね",
+        "back": "Anh/chị vất vả quá.",
+        "collection_id": "15"
+    },
+    {
+        "front": "えーと",
+        "kanji": null,
+        "pronunciation": "えーと",
+        "back": "ừ, à",
+        "collection_id": "15"
+    },
+    {
+        "front": "104",
+        "kanji": null,
+        "pronunciation": "104",
+        "back": "Số điện thoại của dịch vụ hướng dẫn số điện thoại",
+        "collection_id": "15"
+    },
+    {
+        "front": "お願いします",
+        "kanji": "NGUYÊỆN",
+        "pronunciation": "おねがいします",
+        "back": "Nhờ anh/chị. Phiền anh/chị. Xin vui lòng giúp đỡ",
+        "collection_id": "15"
+    },
+    {
+        "front": "かしこまりました",
+        "kanji": null,
+        "pronunciation": "かしこまりました",
+        "back": "Tôi hiểu rồi ạ./ vâng, được rồi ạ.",
+        "collection_id": "15"
+    },
+    {
+        "front": "お問い合わせの番号",
+        "kanji": "VẤN HỢP PHIÊN HIỆU",
+        "pronunciation": "おといあわせのばんごう",
+        "back": "Số điện thoại mà ông/ bà muốn hỏi",
+        "collection_id": "15"
+    },
+    {
+        "front": "[どうも]ありがとうございました。",
+        "kanji": null,
+        "pronunciation": "[どうも]ありがとうございました。",
+        "back": "Xin cám ơn ông/bà",
+        "collection_id": "15"
+    },
+    {
+        "front": "ニューヨーク",
+        "kanji": null,
+        "pronunciation": "ニューヨーク",
+        "back": "New York",
+        "collection_id": "15"
+    },
+    {
+        "front": "ペキン",
+        "kanji": null,
+        "pronunciation": "ペキン",
+        "back": "Bắc Kinh",
+        "collection_id": "15"
+    },
+    {
+        "front": "ロンドン",
+        "kanji": null,
+        "pronunciation": "ロンドン",
+        "back": "Luân Đôn",
+        "collection_id": "15"
+    },
+    {
+        "front": "バンコク",
+        "kanji": null,
+        "pronunciation": "バンコク",
+        "back": "Băng Cốc",
+        "collection_id": "15"
+    },
+    {
+        "front": "ロサンゼルス",
+        "kanji": null,
+        "pronunciation": "ロサンゼルス",
+        "back": "Los Angeles",
+        "collection_id": "15"
+    },
+    {
+        "front": "やまと美術館",
+        "kanji": "MỸ THUẬT QUÁN",
+        "pronunciation": "やまとびじゅつかん",
+        "back": "tên một bảo tàng Mỹ thuật (giả tưởng)",
+        "collection_id": "15"
+    },
+    {
+        "front": "大阪デパート",
+        "kanji": "ĐẠI PHẢN",
+        "pronunciation": "おおさかデパート",
+        "back": "tên một bách hóa (giả tưởng)",
+        "collection_id": "15"
+    },
+    {
+        "front": "みどり図書館",
+        "kanji": "ĐỒ THƯ QUÁN",
+        "pronunciation": "みどりとしょかん",
+        "back": "tên một thư viện (giả tưởng)",
+        "collection_id": "15"
+    },
+    {
+        "front": "アップル銀行",
+        "kanji": "NGÂN HÀNH",
+        "pronunciation": "アップルぎんこう",
+        "back": "tên một ngân hàng (giả tưởng)",
+        "collection_id": "15"
+    }
+]

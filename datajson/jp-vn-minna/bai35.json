@@ -1,0 +1,352 @@
+[
+    {
+        "front": "[花が～]咲きます",
+        "kanji": "HOA TIẾU",
+        "pronunciation": "[はなが～]さきます",
+        "back": "nở [hoa ~]",
+        "collection_id": "46"
+    },
+    {
+        "front": "[色が～] 変わります",
+        "kanji": "SẮC BIẾN",
+        "pronunciation": "[いろが～] かわります",
+        "back": "thay đổi, đổi [màu]",
+        "collection_id": "46"
+    },
+    {
+        "front": "困ります",
+        "kanji": "KHỐN",
+        "pronunciation": "こまります",
+        "back": "rắc rối, khó xử, có vấn đề",
+        "collection_id": "46"
+    },
+    {
+        "front": "[丸を～]付けます",
+        "kanji": "HOÀN PHÓ",
+        "pronunciation": "[まるを～] つけます",
+        "back": "vẽ, đánh dấu [tròn]",
+        "collection_id": "46"
+    },
+    {
+        "front": "拾います",
+        "kanji": "THẬP",
+        "pronunciation": "ひろいます",
+        "back": "nhặt, nhặt lên",
+        "collection_id": "46"
+    },
+    {
+        "front": "[電話が～]",
+        "kanji": "ĐIỆN THOẠI",
+        "pronunciation": "[でんわが～]かかります",
+        "back": "có điện thoại",
+        "collection_id": "46"
+    },
+    {
+        "front": "楽[な]",
+        "kanji": "LẠC/NHẠC",
+        "pronunciation": "らく[な]",
+        "back": "thoải mái, nhàn hạ, dễ dàng",
+        "collection_id": "46"
+    },
+    {
+        "front": "正しい",
+        "kanji": "CHÍNH",
+        "pronunciation": "ただしい",
+        "back": "đúng, chính xác",
+        "collection_id": "46"
+    },
+    {
+        "front": "珍しい",
+        "kanji": "TRÂN",
+        "pronunciation": "めずらしい",
+        "back": "hiếm, hiếm có",
+        "collection_id": "46"
+    },
+    {
+        "front": "方",
+        "kanji": "PHƯƠNG",
+        "pronunciation": "かた",
+        "back": "vị, người (cách nói kính trọng của ひと)",
+        "collection_id": "46"
+    },
+    {
+        "front": "向こう",
+        "kanji": "HƯỚNG",
+        "pronunciation": "むこう",
+        "back": "bên kia, bên đấy, phía đằng kia",
+        "collection_id": "46"
+    },
+    {
+        "front": "島",
+        "kanji": "ĐẢO",
+        "pronunciation": "しま",
+        "back": "đảo, hòn đảo",
+        "collection_id": "46"
+    },
+    {
+        "front": "村",
+        "kanji": "THÔN",
+        "pronunciation": "むら",
+        "back": "làng",
+        "collection_id": "46"
+    },
+    {
+        "front": "港",
+        "kanji": "CẢNG",
+        "pronunciation": "みなと",
+        "back": "cảng, bến cảng",
+        "collection_id": "46"
+    },
+    {
+        "front": "近所",
+        "kanji": "CẬN SỞ",
+        "pronunciation": "きんじょ",
+        "back": "hàng xóm, khu vực lân cận",
+        "collection_id": "46"
+    },
+    {
+        "front": "屋上",
+        "kanji": "ỐC THƯỢNG",
+        "pronunciation": "おくじょう",
+        "back": "mái nhà, nóc nhà",
+        "collection_id": "46"
+    },
+    {
+        "front": "海外",
+        "kanji": "HẢI NGOẠI",
+        "pronunciation": "かいがい",
+        "back": "nước ngoài hải ngoại",
+        "collection_id": "46"
+    },
+    {
+        "front": "山登り",
+        "kanji": "SƠN ĐĂNG",
+        "pronunciation": "やまのぼり",
+        "back": "leo núi",
+        "collection_id": "46"
+    },
+    {
+        "front": "ハイキング",
+        "kanji": null,
+        "pronunciation": "ハイキング",
+        "back": "leo núi, đi bộ trên núi",
+        "collection_id": "46"
+    },
+    {
+        "front": "機会",
+        "kanji": "CƠ HỘI",
+        "pronunciation": "きかい",
+        "back": "cơ hội",
+        "collection_id": "46"
+    },
+    {
+        "front": "許可",
+        "kanji": "HỨA KHẢ",
+        "pronunciation": "きょか",
+        "back": "phép, giấy phép",
+        "collection_id": "46"
+    },
+    {
+        "front": "丸",
+        "kanji": "HOÀN",
+        "pronunciation": "まる",
+        "back": "tròn, vòng tròn",
+        "collection_id": "46"
+    },
+    {
+        "front": "操作",
+        "kanji": "THAO TÁC",
+        "pronunciation": "そうさ",
+        "back": "thao tác",
+        "collection_id": "46"
+    },
+    {
+        "front": "方法",
+        "kanji": "PHƯƠNG PHÁP",
+        "pronunciation": "ほうほう",
+        "back": "phương pháp",
+        "collection_id": "46"
+    },
+    {
+        "front": "設備",
+        "kanji": "THIẾT BỊ",
+        "pronunciation": "せつび",
+        "back": "thiết bị",
+        "collection_id": "46"
+    },
+    {
+        "front": "カーテン",
+        "kanji": null,
+        "pronunciation": "カーテン",
+        "back": "cái rèm",
+        "collection_id": "46"
+    },
+    {
+        "front": "ひも",
+        "kanji": null,
+        "pronunciation": "ひも",
+        "back": "sợi dây",
+        "collection_id": "46"
+    },
+    {
+        "front": "ふた",
+        "kanji": null,
+        "pronunciation": "ふた",
+        "back": "cái nắp",
+        "collection_id": "46"
+    },
+    {
+        "front": "葉",
+        "kanji": "DIỆP",
+        "pronunciation": "は",
+        "back": "cái lá",
+        "collection_id": "46"
+    },
+    {
+        "front": "曲",
+        "kanji": "KHÚC",
+        "pronunciation": "きょく",
+        "back": "bài hát, bản nhạc",
+        "collection_id": "46"
+    },
+    {
+        "front": "楽しみ",
+        "kanji": "NHẠC",
+        "pronunciation": "たのしみ",
+        "back": "niềm vui, điều vui",
+        "collection_id": "46"
+    },
+    {
+        "front": "もっと",
+        "kanji": null,
+        "pronunciation": "もっと",
+        "back": "hơn, nữa",
+        "collection_id": "46"
+    },
+    {
+        "front": "初めに",
+        "kanji": "SƠ",
+        "pronunciation": "はじめに",
+        "back": "đầu tiên, trước hết",
+        "collection_id": "46"
+    },
+    {
+        "front": "これで終わります。",
+        "kanji": "CHUNG",
+        "pronunciation": "これでおわります。",
+        "back": "Đến đây là hết./ Chúng ta dừng lại ở đây.",
+        "collection_id": "46"
+    },
+    {
+        "front": "箱根",
+        "kanji": "TƯƠNG CĂN",
+        "pronunciation": "はこね",
+        "back": "một địa điểm nghỉ ngơi ở tỉnh Kanagawa",
+        "collection_id": "46"
+    },
+    {
+        "front": "日光",
+        "kanji": "NHẬT QUANG",
+        "pronunciation": "にっこう",
+        "back": "một địa điểm du lịch ở Tochigi",
+        "collection_id": "46"
+    },
+    {
+        "front": "白馬",
+        "kanji": "BẠCH MÃ",
+        "pronunciation": "しろうま",
+        "back": "một địa điểm du lịch ở tỉnh Nagano",
+        "collection_id": "46"
+    },
+    {
+        "front": "アフリカ",
+        "kanji": null,
+        "pronunciation": "アフリカ",
+        "back": "châu Phi (Africa)",
+        "collection_id": "46"
+    },
+    {
+        "front": "それなら",
+        "kanji": null,
+        "pronunciation": "それなら",
+        "back": "nếu thế thì, vậy thì",
+        "collection_id": "46"
+    },
+    {
+        "front": "夜行バス",
+        "kanji": "DẠ HÀNH",
+        "pronunciation": "やこうバス",
+        "back": "(chuyến) xe buýt chạy đêm",
+        "collection_id": "46"
+    },
+    {
+        "front": "旅行社",
+        "kanji": "LỮ HÀNH XÃ",
+        "pronunciation": "りょこうしゃ",
+        "back": "công ty du lịch",
+        "collection_id": "46"
+    },
+    {
+        "front": "詳しい",
+        "kanji": "TƯỜNG",
+        "pronunciation": "くわしい",
+        "back": "cụ thể, chi tiết",
+        "collection_id": "46"
+    },
+    {
+        "front": "スキー場",
+        "kanji": "TRƯỜNG",
+        "pronunciation": "スキーじょう",
+        "back": "địa điểm trượt tuyết, bãi trượt tuyết",
+        "collection_id": "46"
+    },
+    {
+        "front": "草津",
+        "kanji": "THẢO TÂN",
+        "pronunciation": "くさつ",
+        "back": "một địa điểm du lịch ở tỉnh Gunma",
+        "collection_id": "46"
+    },
+    {
+        "front": "志賀高原",
+        "kanji": "CHÍ HẠ CAO NGUYÊN",
+        "pronunciation": "しがこうげん",
+        "back": "một công viên quốc gia ở tỉnh Nagano",
+        "collection_id": "46"
+    },
+    {
+        "front": "朱",
+        "kanji": "CHÂU/CHU",
+        "pronunciation": "しゅ",
+        "back": "đỏ, màu đỏ",
+        "collection_id": "46"
+    },
+    {
+        "front": "交わります",
+        "kanji": "GIAO",
+        "pronunciation": "まじわります",
+        "back": "giao lưu với, quan hệ với",
+        "collection_id": "46"
+    },
+    {
+        "front": "ことわざ",
+        "kanji": null,
+        "pronunciation": "ことわざ",
+        "back": "ngạn ngữ, tục ngữ (proverb)",
+        "collection_id": "46"
+    },
+    {
+        "front": "仲よくします",
+        "kanji": "TRỌNG",
+        "pronunciation": "なかよくします",
+        "back": "quan hệ tốt với, chơi thân với",
+        "collection_id": "46"
+    },
+    {
+        "front": "必要[な]",
+        "kanji": "TẤT YẾU",
+        "pronunciation": "ひつよう「な」",
+        "back": "cần thiết",
+        "collection_id": "46"
+    }
+]

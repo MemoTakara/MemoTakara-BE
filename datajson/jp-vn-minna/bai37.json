@@ -1,0 +1,408 @@
+[
+    {
+        "front": "褒めます",
+        "kanji": "BAO",
+        "pronunciation": "ほめます",
+        "back": "khen",
+        "collection_id": "48"
+    },
+    {
+        "front": "しかります",
+        "kanji": null,
+        "pronunciation": "しかります",
+        "back": "mắng",
+        "collection_id": "48"
+    },
+    {
+        "front": "誘います",
+        "kanji": "DỤ",
+        "pronunciation": "さそいます",
+        "back": "mời, rủ",
+        "collection_id": "48"
+    },
+    {
+        "front": "起こします",
+        "kanji": "KHỞI",
+        "pronunciation": "おこします",
+        "back": "đánh thức",
+        "collection_id": "48"
+    },
+    {
+        "front": "招待します",
+        "kanji": "CHIÊU ĐÃI",
+        "pronunciation": "しょうたいします",
+        "back": "mời",
+        "collection_id": "48"
+    },
+    {
+        "front": "頼みます",
+        "kanji": "LẠI",
+        "pronunciation": "たのみます",
+        "back": "nhờ",
+        "collection_id": "48"
+    },
+    {
+        "front": "注意します",
+        "kanji": "CHÚ Ý",
+        "pronunciation": "ちゅういします",
+        "back": "chú ý, nhắc nhở",
+        "collection_id": "48"
+    },
+    {
+        "front": "とります",
+        "kanji": null,
+        "pronunciation": "とります",
+        "back": "ăn trộm, lấy cắp",
+        "collection_id": "48"
+    },
+    {
+        "front": "踏みます",
+        "kanji": "ĐẠP",
+        "pronunciation": "ふみます",
+        "back": "giẫm, giẫm lên, giẫm vào",
+        "collection_id": "48"
+    },
+    {
+        "front": "壊します",
+        "kanji": "HOẠI",
+        "pronunciation": "こわします",
+        "back": "phá, làm hỏng",
+        "collection_id": "48"
+    },
+    {
+        "front": "汚します",
+        "kanji": "Ô",
+        "pronunciation": "よごします",
+        "back": "làm bẩn",
+        "collection_id": "48"
+    },
+    {
+        "front": "行います",
+        "kanji": "HÀNH",
+        "pronunciation": "おこないます",
+        "back": "thực hiện, tiến hành",
+        "collection_id": "48"
+    },
+    {
+        "front": "輸出します",
+        "kanji": "THÂU XUẤT",
+        "pronunciation": "ゆしゅつします",
+        "back": "xuất khẩu",
+        "collection_id": "48"
+    },
+    {
+        "front": "輸入します",
+        "kanji": "THÂU NHẬP",
+        "pronunciation": "ゆにゅうします",
+        "back": "nhập khẩu",
+        "collection_id": "48"
+    },
+    {
+        "front": "翻訳します",
+        "kanji": "PHIÊN DỊCH",
+        "pronunciation": "ほんやくします",
+        "back": "dịch (sách, tài liệu)",
+        "collection_id": "48"
+    },
+    {
+        "front": "発明します",
+        "kanji": "PHÁT MINH",
+        "pronunciation": "はつめいします",
+        "back": "phát minh",
+        "collection_id": "48"
+    },
+    {
+        "front": "発見します",
+        "kanji": "PHÁT KIẾN",
+        "pronunciation": "はっけんします",
+        "back": "phát kiến, tìm ra, tìm thấy",
+        "collection_id": "48"
+    },
+    {
+        "front": "設計します",
+        "kanji": "THIẾT KẾ",
+        "pronunciation": "せっけいします",
+        "back": "thiết kế",
+        "collection_id": "48"
+    },
+    {
+        "front": "米",
+        "kanji": "MỄ",
+        "pronunciation": "こめ",
+        "back": "gạo",
+        "collection_id": "48"
+    },
+    {
+        "front": "麦",
+        "kanji": "MẠCH",
+        "pronunciation": "むぎ",
+        "back": "lúa mạch",
+        "collection_id": "48"
+    },
+    {
+        "front": "石油",
+        "kanji": "THẠCH DU",
+        "pronunciation": "せきゆ",
+        "back": "dầu mỏ",
+        "collection_id": "48"
+    },
+    {
+        "front": "原料",
+        "kanji": "NGUYÊN LIỆU",
+        "pronunciation": "げんりょう",
+        "back": "nguyên liệu",
+        "collection_id": "48"
+    },
+    {
+        "front": "デート",
+        "kanji": null,
+        "pronunciation": "デート",
+        "back": "cuộc hẹn hò (của nam nữ)",
+        "collection_id": "48"
+    },
+    {
+        "front": "泥棒",
+        "kanji": "NÊ BỔNG",
+        "pronunciation": "どろぼう",
+        "back": "kẻ trộm",
+        "collection_id": "48"
+    },
+    {
+        "front": "警官",
+        "kanji": "CẢNH QUAN",
+        "pronunciation": "けいかん",
+        "back": "cảnh sát",
+        "collection_id": "48"
+    },
+    {
+        "front": "建築家",
+        "kanji": "KIẾN TRÚC GIA",
+        "pronunciation": "けんちくか",
+        "back": "kiến trúc sư",
+        "collection_id": "48"
+    },
+    {
+        "front": "科学者",
+        "kanji": "KHOA HỌC GIẢ",
+        "pronunciation": "かがくしゃ",
+        "back": "nhà khoa học",
+        "collection_id": "48"
+    },
+    {
+        "front": "漫画",
+        "kanji": "MẠN HỌA",
+        "pronunciation": "まんが",
+        "back": "truyện tranh",
+        "collection_id": "48"
+    },
+    {
+        "front": "世界中",
+        "kanji": "THẾ GIỚI TRUNG",
+        "pronunciation": "せかいじゅう",
+        "back": "khắp thế giới, toàn thế giới",
+        "collection_id": "48"
+    },
+    {
+        "front": "～中",
+        "kanji": "TRUNG",
+        "pronunciation": "～じゅう",
+        "back": "khắp ~, toàn ~",
+        "collection_id": "48"
+    },
+    {
+        "front": "～によって",
+        "kanji": null,
+        "pronunciation": "～によって",
+        "back": "do ~",
+        "collection_id": "48"
+    },
+    {
+        "front": "よかったですね。",
+        "kanji": null,
+        "pronunciation": "よかったですね。",
+        "back": "May nhỉ./ may cho anh/chị nhỉ.",
+        "collection_id": "48"
+    },
+    {
+        "front": "ドミニカ",
+        "kanji": null,
+        "pronunciation": "ドミニカ",
+        "back": "Dominica, tên một quốc gia ở Trung Mỹ",
+        "collection_id": "48"
+    },
+    {
+        "front": "ライト兄弟",
+        "kanji": "HUYNH ĐỆ",
+        "pronunciation": "ライトきょうだい",
+        "back": "anh em nhà Wright, hai anh em người Mỹ đi tiên phong trong ngành hàng không Wilbur Wright (1867-1912) và Orville Wright (1871-1948)",
+        "collection_id": "48"
+    },
+    {
+        "front": "源氏物語",
+        "kanji": "NGUYÊN THỊ VẬT NGỮ",
+        "pronunciation": "げんじものがたり",
+        "back": "“chuyện Genji”",
+        "collection_id": "48"
+    },
+    {
+        "front": "紫式部",
+        "kanji": "TỬ THỨC BỘ",
+        "pronunciation": "むらさきしきぶ",
+        "back": "Nữ tác giả viết “chuyện Genji” sống trong thời Heian",
+        "collection_id": "48"
+    },
+    {
+        "front": "グラハム・ベル",
+        "kanji": null,
+        "pronunciation": "グラハム・ベル",
+        "back": "Alexander Graham Bell (1847-1922), nhà phát minh người Mỹ",
+        "collection_id": "48"
+    },
+    {
+        "front": "東照宮",
+        "kanji": "ĐÔNG CHIẾU CUNG",
+        "pronunciation": "とうしょうぐう",
+        "back": "tên đền thờ Tokugawa Ieyasu ở Nikko, tỉnh Tochigi",
+        "collection_id": "48"
+    },
+    {
+        "front": "江戸時代",
+        "kanji": "GIANG HỘ THỜI ĐẠI",
+        "pronunciation": "えどじだい",
+        "back": "thời Edo (1603-1868)",
+        "collection_id": "48"
+    },
+    {
+        "front": "サウジアラビア",
+        "kanji": null,
+        "pronunciation": "サウジアラビア",
+        "back": "Ả-rập Xê-út (Saudi Arabia)",
+        "collection_id": "48"
+    },
+    {
+        "front": "埋め立てます",
+        "kanji": "MAI LẬP",
+        "pronunciation": "うめたてます",
+        "back": "lấp (biển)",
+        "collection_id": "48"
+    },
+    {
+        "front": "技術",
+        "kanji": "KỸ THUẬT",
+        "pronunciation": "ぎじゅつ",
+        "back": "kỹ thuật",
+        "collection_id": "48"
+    },
+    {
+        "front": "土地",
+        "kanji": "THỔ ĐỊA",
+        "pronunciation": "とち",
+        "back": "đất, diện tích đất",
+        "collection_id": "48"
+    },
+    {
+        "front": "騒音",
+        "kanji": "TAO ÂM",
+        "pronunciation": "そうおん",
+        "back": "tiếng ồn",
+        "collection_id": "48"
+    },
+    {
+        "front": "利用します",
+        "kanji": "LỢI DỤNG",
+        "pronunciation": "りようします",
+        "back": "lợi dụng, sử dụng",
+        "collection_id": "48"
+    },
+    {
+        "front": "アクセス",
+        "kanji": null,
+        "pronunciation": "アクセス",
+        "back": "nối, giao thông đi đến",
+        "collection_id": "48"
+    },
+    {
+        "front": "―世紀",
+        "kanji": "THẾ KỶ",
+        "pronunciation": "―せいき",
+        "back": "thế kỷ -",
+        "collection_id": "48"
+    },
+    {
+        "front": "豪華[な]",
+        "kanji": "HÀO HOA",
+        "pronunciation": "ごうか「な」",
+        "back": "hào hoa, sang trọng",
+        "collection_id": "48"
+    },
+    {
+        "front": "彫刻",
+        "kanji": "ĐIÊU KHẮC",
+        "pronunciation": "ちょうこく",
+        "back": "điêu khắc",
+        "collection_id": "48"
+    },
+    {
+        "front": "眠ります",
+        "kanji": "MIÊN",
+        "pronunciation": "ねむります",
+        "back": "ngủ",
+        "collection_id": "48"
+    },
+    {
+        "front": "彫ります",
+        "kanji": "ĐIÊU",
+        "pronunciation": "ほります",
+        "back": "khắc",
+        "collection_id": "48"
+    },
+    {
+        "front": "仲間",
+        "kanji": "TRỌNG GIAN",
+        "pronunciation": "なかま",
+        "back": "bạn bè, đồng nghiệp",
+        "collection_id": "48"
+    },
+    {
+        "front": "そのあと",
+        "kanji": null,
+        "pronunciation": "そのあと",
+        "back": "sau đó",
+        "collection_id": "48"
+    },
+    {
+        "front": "一生懸命",
+        "kanji": "NHẤT SINH HUYỀN MỆNH",
+        "pronunciation": "いっしょうけんめい",
+        "back": "(cố gắng) hết sức, chăm chỉ, miệt mài",
+        "collection_id": "48"
+    },
+    {
+        "front": "ねずみ",
+        "kanji": null,
+        "pronunciation": "ねずみ",
+        "back": "con chuột",
+        "collection_id": "48"
+    },
+    {
+        "front": "一匹もいません。",
+        "kanji": null,
+        "pronunciation": "いっぴきもいません。",
+        "back": "Không có con nào cả.",
+        "collection_id": "48"
+    },
+    {
+        "front": "眠り猫",
+        "kanji": "MIÊN MIÊU",
+        "pronunciation": "ねむりねこ",
+        "back": "“con mèo ngủ”, tác phẩm điêu khắc của Jingoro ở Tosho-gu",
+        "collection_id": "48"
+    },
+    {
+        "front": "左甚五郎",
+        "kanji": "TẢ THẬM NGŨ LANG",
+        "pronunciation": "ひだりじんごろう",
+        "back": "tên một nhà điêu khắc nỗi tiếng thời Edo (1594-1651)",
+        "collection_id": "48"
+    }
+]

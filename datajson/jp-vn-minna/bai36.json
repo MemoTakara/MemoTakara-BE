@@ -1,0 +1,345 @@
+[
+  {
+    "front": "[荷物が～]届きます",
+    "kanji": "HÀ VẬT GIỚI",
+    "pronunciation": "[にもつが～] とどきます",
+    "back": "được gởi đến, được chuyển đến [hành lý ~]",
+    "collection_id": "47"
+  },
+  {
+    "front": "[試合に～]出ます",
+    "kanji": "THÍ HỢP XUẤT",
+    "pronunciation": "[しあいに～] でます",
+    "back": "tham gia, tham dự [trận đấu]",
+    "collection_id": "47"
+  },
+  {
+    "front": "[ワープロを～]打ちます",
+    "kanji": "ĐẢ",
+    "pronunciation": "[ワープロを～]うちます",
+    "back": "đánh [máy chữ]",
+    "collection_id": "47"
+  },
+  {
+    "front": "貯金します",
+    "kanji": "TRỮ KIM",
+    "pronunciation": "ちょきんします",
+    "back": "tiết kiệm tiền, để dành tiền",
+    "collection_id": "47"
+  },
+  {
+    "front": "太ります",
+    "kanji": "THÁI",
+    "pronunciation": "ふとります",
+    "back": "béo lên, tăng cân",
+    "collection_id": "47"
+  },
+  {
+    "front": "やせます",
+    "kanji": null,
+    "pronunciation": "やせます",
+    "back": "gầy đi, giảm cân",
+    "collection_id": "47"
+  },
+  {
+    "front": "[７時を～]過ぎます",
+    "kanji": "THÌ QUÁ",
+    "pronunciation": "[７じを～] すぎます",
+    "back": "quá, qua [7 giờ]",
+    "collection_id": "47"
+  },
+  {
+    "front": "[習慣に～]慣れます",
+    "kanji": "TẬP QUÁN QUÁN",
+    "pronunciation": "[しゅうかんに～] なれます",
+    "back": "làm quen với [tập quán]",
+    "collection_id": "47"
+  },
+  {
+    "front": "硬い",
+    "kanji": "NGẠNH",
+    "pronunciation": "かたい",
+    "back": "cứng",
+    "collection_id": "47"
+  },
+  {
+    "front": "軟らかい",
+    "kanji": "NHUYỄN",
+    "pronunciation": "やわらかい",
+    "back": "mềm",
+    "collection_id": "47"
+  },
+  {
+    "front": "電子～",
+    "kanji": "ĐIỆN TỬ",
+    "pronunciation": "でんし～",
+    "back": "~ điện tử",
+    "collection_id": "47"
+  },
+  {
+    "front": "携帯～",
+    "kanji": "HUỀ ĐỚI ~",
+    "pronunciation": "けいたい～",
+    "back": "cầm tay",
+    "collection_id": "47"
+  },
+  {
+    "front": "工場",
+    "kanji": "CÔNG TRƯỜNG",
+    "pronunciation": "こうじょう",
+    "back": "nhà máy, phân xưởng",
+    "collection_id": "47"
+  },
+  {
+    "front": "健康",
+    "kanji": "KIỆN KHANG",
+    "pronunciation": "けんこう",
+    "back": "sức khỏe",
+    "collection_id": "47"
+  },
+  {
+    "front": "剣道",
+    "kanji": "KIẾM ĐẠO",
+    "pronunciation": "けんどう",
+    "back": "kiếm đạo",
+    "collection_id": "47"
+  },
+  {
+    "front": "毎週",
+    "kanji": "MỖI CHU",
+    "pronunciation": "まいしゅう",
+    "back": "hàng tuần",
+    "collection_id": "47"
+  },
+  {
+    "front": "毎月",
+    "kanji": "MỖI NGUYỆT",
+    "pronunciation": "まいつき",
+    "back": "hàng tháng",
+    "collection_id": "47"
+  },
+  {
+    "front": "毎年",
+    "kanji": "MỖI NIÊN",
+    "pronunciation": "まいとし（まいねん）",
+    "back": "hàng năm",
+    "collection_id": "47"
+  },
+  {
+    "front": "やっと",
+    "kanji": null,
+    "pronunciation": "やっと",
+    "back": "cuối cùng thì",
+    "collection_id": "47"
+  },
+  {
+    "front": "かなり",
+    "kanji": null,
+    "pronunciation": "かなり",
+    "back": "khá, tương đối",
+    "collection_id": "47"
+  },
+  {
+    "front": "必ず",
+    "kanji": "TẤT",
+    "pronunciation": "かならず",
+    "back": "nhất định",
+    "collection_id": "47"
+  },
+  {
+    "front": "絶対に",
+    "kanji": "TUYỆT ĐỐI",
+    "pronunciation": "ぜったいに",
+    "back": "nhất định, tuyệt đối",
+    "collection_id": "47"
+  },
+  {
+    "front": "上手に",
+    "kanji": "THƯỢNG THỦ",
+    "pronunciation": "じょうずに",
+    "back": "giỏi, khéo",
+    "collection_id": "47"
+  },
+  {
+    "front": "できるだけ",
+    "kanji": null,
+    "pronunciation": "できるだけ",
+    "back": "cố gắng",
+    "collection_id": "47"
+  },
+  {
+    "front": "このごろ",
+    "kanji": null,
+    "pronunciation": "このごろ",
+    "back": "gần đây, dạo này",
+    "collection_id": "47"
+  },
+  {
+    "front": "～ずつ",
+    "kanji": null,
+    "pronunciation": "～ずつ",
+    "back": "từng ~, ~ một",
+    "collection_id": "47"
+  },
+  {
+    "front": "そのほうが～",
+    "kanji": null,
+    "pronunciation": "そのほうが～",
+    "back": "cái đó ~ hơn, như thế ~ hơn",
+    "collection_id": "47"
+  },
+  {
+    "front": "ショパン",
+    "kanji": null,
+    "pronunciation": "ショパン",
+    "back": "Sô-panh, nhà soạn nhạc người Ba Lan (1810-1849)",
+    "collection_id": "47"
+  },
+  {
+    "front": "お客様",
+    "kanji": "KHÁCH DẠNG",
+    "pronunciation": "おきゃくさま",
+    "back": "quý khách, khách hàng",
+    "collection_id": "47"
+  },
+  {
+    "front": "特別[な]",
+    "kanji": "ĐẶC BIỆT",
+    "pronunciation": "とくべつ「な」",
+    "back": "đặc biệt",
+    "collection_id": "47"
+  },
+  {
+    "front": "していらっしゃいます",
+    "kanji": null,
+    "pronunciation": "していらっしゃいます",
+    "back": "đang làm (tôn kính ngữ của しています)",
+    "collection_id": "47"
+  },
+  {
+    "front": "水泳",
+    "kanji": "THỦY VĨNH",
+    "pronunciation": "すいえい",
+    "back": "bơi, môn bơi",
+    "collection_id": "47"
+  },
+  {
+    "front": "～とか、～とか",
+    "kanji": null,
+    "pronunciation": "～とか、～とか",
+    "back": "~ v.v.",
+    "collection_id": "47"
+  },
+  {
+    "front": "タンゴ",
+    "kanji": null,
+    "pronunciation": "タンゴ",
+    "back": "tăng-gô",
+    "collection_id": "47"
+  },
+  {
+    "front": "チャレンジします",
+    "kanji": null,
+    "pronunciation": "チャレンジします",
+    "back": "thử, thử thách, dám làm (challenge)",
+    "collection_id": "47"
+  },
+  {
+    "front": "気持ち",
+    "kanji": "KHÍ TRÌ",
+    "pronunciation": "きもち",
+    "back": "cảm giác, tâm trạng, tinh thần",
+    "collection_id": "47"
+  },
+  {
+    "front": "乗り物",
+    "kanji": "THỪA VẬT",
+    "pronunciation": "のりもの",
+    "back": "phương tiện đi lại",
+    "collection_id": "47"
+  },
+  {
+    "front": "歴史",
+    "kanji": "LỊCH SỬ",
+    "pronunciation": "れきし",
+    "back": "lịch sử",
+    "collection_id": "47"
+  },
+  {
+    "front": "―世紀",
+    "kanji": "THẾ KỶ",
+    "pronunciation": "―せいき",
+    "back": "thế kỷ -",
+    "collection_id": "47"
+  },
+  {
+    "front": "遠く",
+    "kanji": "VIỄN",
+    "pronunciation": "とおく",
+    "back": "xa, ở xa",
+    "collection_id": "47"
+  },
+  {
+    "front": "汽車",
+    "kanji": "KHÍ XA",
+    "pronunciation": "きしゃ",
+    "back": "tàu hỏa chạy bằng hơi nước",
+    "collection_id": "47"
+  },
+  {
+    "front": "汽船",
+    "kanji": "KHÍ THUYỀN",
+    "pronunciation": "きせん",
+    "back": "thuyền chạy bằng hơi nước",
+    "collection_id": "47"
+  },
+  {
+    "front": "大勢の～",
+    "kanji": "ĐẠI THẾ",
+    "pronunciation": "おおぜいの～",
+    "back": "nhiều (người)",
+    "collection_id": "47"
+  },
+  {
+    "front": "運びます",
+    "kanji": "VẬN",
+    "pronunciation": "はこびます",
+    "back": "mang, chở, vận chuyển",
+    "collection_id": "47"
+  },
+  {
+    "front": "飛びます",
+    "kanji": "PHI",
+    "pronunciation": "とびます",
+    "back": "bay",
+    "collection_id": "47"
+  },
+  {
+    "front": "安全",
+    "kanji": "AN TOÀN",
+    "pronunciation": "あんぜん",
+    "back": "an toàn",
+    "collection_id": "47"
+  },
+  {
+    "front": "宇宙",
+    "kanji": "VŨ TRỤ",
+    "pronunciation": "うちゅう",
+    "back": "vũ trụ",
+    "collection_id": "47"
+  },
+  {
+    "front": "地球",
+    "kanji": "ĐỊA CẦU",
+    "pronunciation": "ちきゅう",
+    "back": "địa cầu, trái đất",
+    "collection_id": "47"
+  },
+  {
+    "front": "ライト兄弟",
+    "kanji": "HUYNH ĐỆ",
+    "pronunciation": "ライトきょうだい",
+    "back": "anh em nhà Wright",
+    "collection_id": "47"
+  }
+]

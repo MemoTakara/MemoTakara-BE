@@ -1,0 +1,170 @@
+[
+    {
+        "front": "[シャツを～]着ます",
+        "kanji": "TRƯỚC",
+        "pronunciation": "[シャツを～]きます",
+        "back": "mặc [áo sơ mi, v.v.]",
+        "collection_id": "33"
+    },
+    {
+        "front": "[靴を～]",
+        "kanji": "NGOA",
+        "pronunciation": "[くつを～] はきます",
+        "back": "đi, mặc [giầy, quần âu, v.v.]",
+        "collection_id": "33"
+    },
+    {
+        "front": "[帽子を～]",
+        "kanji": "MẠO TỬ",
+        "pronunciation": "[ぼうしを～]かぶります",
+        "back": "đội [mũ, v.v.]",
+        "collection_id": "33"
+    },
+    {
+        "front": "[眼鏡を～]",
+        "kanji": "NHÃN KÍNH",
+        "pronunciation": "[めがねを～]かけます",
+        "back": "đeo [kính]",
+        "collection_id": "33"
+    },
+    {
+        "front": "生まれます",
+        "kanji": "SINH",
+        "pronunciation": "うまれます",
+        "back": "sinh ra",
+        "collection_id": "33"
+    },
+    {
+        "front": "コート",
+        "kanji": null,
+        "pronunciation": "コート",
+        "back": "áo khoác",
+        "collection_id": "33"
+    },
+    {
+        "front": "スーツ",
+        "kanji": null,
+        "pronunciation": "スーツ",
+        "back": "com-lê",
+        "collection_id": "33"
+    },
+    {
+        "front": "セーター",
+        "kanji": null,
+        "pronunciation": "セーター",
+        "back": "áo len",
+        "collection_id": "33"
+    },
+    {
+        "front": "帽子",
+        "kanji": "MẠO TỬ",
+        "pronunciation": "ぼうし",
+        "back": "mũ",
+        "collection_id": "33"
+    },
+    {
+        "front": "眼鏡",
+        "kanji": "NHÃN KÍNH",
+        "pronunciation": "めがね",
+        "back": "kính",
+        "collection_id": "33"
+    },
+    {
+        "front": "よく",
+        "kanji": null,
+        "pronunciation": "よく",
+        "back": "tốt, rõ (chỉ mức độ)",
+        "collection_id": "33"
+    },
+    {
+        "front": "おめでとう　ございます。",
+        "kanji": null,
+        "pronunciation": "おめでとう　ございます。",
+        "back": "Chúc mừng.",
+        "collection_id": "33"
+    },
+    {
+        "front": "こちら",
+        "kanji": null,
+        "pronunciation": "こちら",
+        "back": "phía này, đằng này, chỗ này, đây",
+        "collection_id": "33"
+    },
+    {
+        "front": "家賃",
+        "kanji": "GIA NHẪM",
+        "pronunciation": "やちん",
+        "back": "tiền thuê nhà",
+        "collection_id": "33"
+    },
+    {
+        "front": "うーん。",
+        "kanji": null,
+        "pronunciation": "うーん。",
+        "back": "ừ~./ Để tôi xem./ Thế nào nhỉ.",
+        "collection_id": "33"
+    },
+    {
+        "front": "ダイニングキチン",
+        "kanji": null,
+        "pronunciation": "ダイニングキチン",
+        "back": "bếp kèm phòng ăn",
+        "collection_id": "33"
+    },
+    {
+        "front": "和室",
+        "kanji": "HÒA THẤT",
+        "pronunciation": "わしつ",
+        "back": "phòng kiểu Nhật",
+        "collection_id": "33"
+    },
+    {
+        "front": "押入れ",
+        "kanji": "ÁP NHẬP",
+        "pronunciation": "おしいれ",
+        "back": "Chổ để chăn gối trong một căn phòng kiểu Nhật",
+        "collection_id": "33"
+    },
+    {
+        "front": "布団",
+        "kanji": "BỐ ĐOÀN",
+        "pronunciation": "ふとん",
+        "back": "chăn, đệm",
+        "collection_id": "33"
+    },
+    {
+        "front": "アパート",
+        "kanji": null,
+        "pronunciation": "アパート",
+        "back": "nhà chung cư",
+        "collection_id": "33"
+    },
+    {
+        "front": "パリ",
+        "kanji": null,
+        "pronunciation": "パリ",
+        "back": "Pari",
+        "collection_id": "33"
+    },
+    {
+        "front": "万里の長城",
+        "kanji": "VẠN LÝ TRƯỜNG THÀNH",
+        "pronunciation": "ばんりのちょうじょう",
+        "back": "Vạn Lý Trường Thành",
+        "collection_id": "33"
+    },
+    {
+        "front": "余暇開発センター",
+        "kanji": "DƯ HẠ KHAI PHÁT",
+        "pronunciation": "よかかいはつセンター",
+        "back": "Trung tâm phát triển hoạt động giải trí cho người dân",
+        "collection_id": "33"
+    },
+    {
+        "front": "レジャー白書",
+        "kanji": "BẠCH THƯ",
+        "pronunciation": "レジャーはくしょ",
+        "back": "sách trắng về sử dụng thời gian rảnh rỗi",
+        "collection_id": "33"
+    }
+]

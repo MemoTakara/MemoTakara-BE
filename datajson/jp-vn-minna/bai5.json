@@ -1,0 +1,408 @@
+[
+    {
+        "front": "行きます",
+        "kanji": "HÀNH",
+        "pronunciation": "いきます",
+        "back": "đi",
+        "collection_id": "16"
+    },
+    {
+        "front": "来ます",
+        "kanji": "LAI",
+        "pronunciation": "きます",
+        "back": "đến",
+        "collection_id": "16"
+    },
+    {
+        "front": "帰ります",
+        "kanji": "QUY",
+        "pronunciation": "かえります",
+        "back": "về",
+        "collection_id": "16"
+    },
+    {
+        "front": "学校",
+        "kanji": "HỌC HIỆU",
+        "pronunciation": "がっこう",
+        "back": "trường học",
+        "collection_id": "16"
+    },
+    {
+        "front": "スーパー",
+        "kanji": null,
+        "pronunciation": "スーパー",
+        "back": "siêu thị",
+        "collection_id": "16"
+    },
+    {
+        "front": "駅",
+        "kanji": "DỊCH",
+        "pronunciation": "えき",
+        "back": "ga, nhà ga",
+        "collection_id": "16"
+    },
+    {
+        "front": "飛行機",
+        "kanji": "PHI HÀNH CƠ",
+        "pronunciation": "ひこうき",
+        "back": "máy bay",
+        "collection_id": "16"
+    },
+    {
+        "front": "船",
+        "kanji": "THUYỀN",
+        "pronunciation": "ふね",
+        "back": "thuyền, tàu thủy",
+        "collection_id": "16"
+    },
+    {
+        "front": "電車",
+        "kanji": "ĐIỆN XA",
+        "pronunciation": "でんしゃ",
+        "back": "tàu điện",
+        "collection_id": "16"
+    },
+    {
+        "front": "地下鉄",
+        "kanji": "ĐỊA HẠ THIẾT",
+        "pronunciation": "ちかてつ",
+        "back": "tàu điện ngầm",
+        "collection_id": "16"
+    },
+    {
+        "front": "新幹線",
+        "kanji": "TÂN CÁN TUYẾN",
+        "pronunciation": "しんかんせん",
+        "back": "tàu Shinkansen (tàu điện siêu tốc của Nhật)",
+        "collection_id": "16"
+    },
+    {
+        "front": "バス",
+        "kanji": null,
+        "pronunciation": "バス",
+        "back": "xe buýt",
+        "collection_id": "16"
+    },
+    {
+        "front": "タクシー",
+        "kanji": null,
+        "pronunciation": "タクシー",
+        "back": "tắc-xi",
+        "collection_id": "16"
+    },
+    {
+        "front": "自転車",
+        "kanji": "TỰ CHUYỂN XA",
+        "pronunciation": "じてんしゃ",
+        "back": "xe đạp",
+        "collection_id": "16"
+    },
+    {
+        "front": "歩いて",
+        "kanji": "BỘ",
+        "pronunciation": "あるいて",
+        "back": "đi bộ",
+        "collection_id": "16"
+    },
+    {
+        "front": "人",
+        "kanji": "NHÂN",
+        "pronunciation": "ひと",
+        "back": "người",
+        "collection_id": "16"
+    },
+    {
+        "front": "友達",
+        "kanji": "HỮU ĐẠT",
+        "pronunciation": "ともだち",
+        "back": "bạn, bạn bè",
+        "collection_id": "16"
+    },
+    {
+        "front": "彼",
+        "kanji": "BỈ",
+        "pronunciation": "かれ",
+        "back": "anh ấy, bạn trai",
+        "collection_id": "16"
+    },
+    {
+        "front": "彼女",
+        "kanji": "BỈ NỮ",
+        "pronunciation": "かのじょ",
+        "back": "chị ấy, bạn gái",
+        "collection_id": "16"
+    },
+    {
+        "front": "家族",
+        "kanji": "GIA TỘC",
+        "pronunciation": "かぞく",
+        "back": "gia đình",
+        "collection_id": "16"
+    },
+    {
+        "front": "一人で",
+        "kanji": "NHẤT NHÂN",
+        "pronunciation": "ひとりで",
+        "back": "một mình",
+        "collection_id": "16"
+    },
+    {
+        "front": "先週",
+        "kanji": "TIÊN CHU",
+        "pronunciation": "せんしゅう",
+        "back": "tuần trước",
+        "collection_id": "16"
+    },
+    {
+        "front": "今週",
+        "kanji": "KIM CHU",
+        "pronunciation": "こんしゅう",
+        "back": "tuần này",
+        "collection_id": "16"
+    },
+    {
+        "front": "来週",
+        "kanji": "LAI CHU",
+        "pronunciation": "らいしゅう",
+        "back": "tuần sau",
+        "collection_id": "16"
+    },
+    {
+        "front": "今月",
+        "kanji": "KIM NGUYỆT",
+        "pronunciation": "こんげつ",
+        "back": "tháng này",
+        "collection_id": "16"
+    },
+    {
+        "front": "来月",
+        "kanji": "LAI NGUYỆT",
+        "pronunciation": "らいげつ",
+        "back": "tháng sau",
+        "collection_id": "16"
+    },
+    {
+        "front": "去年",
+        "kanji": "KHỨ NIÊN",
+        "pronunciation": "きょねん",
+        "back": "năm ngoái",
+        "collection_id": "16"
+    },
+    {
+        "front": "ことし",
+        "kanji": null,
+        "pronunciation": "ことし",
+        "back": "năm nay",
+        "collection_id": "16"
+    },
+    {
+        "front": "来年",
+        "kanji": "LAI NIÊN",
+        "pronunciation": "らいねん",
+        "back": "năm sau",
+        "collection_id": "16"
+    },
+    {
+        "front": "―月",
+        "kanji": "NGUYỆT",
+        "pronunciation": "―がつ",
+        "back": "tháng -",
+        "collection_id": "16"
+    },
+    {
+        "front": "何月",
+        "kanji": "HÀ NGUYỆT",
+        "pronunciation": "なんがつ",
+        "back": "tháng mấy",
+        "collection_id": "16"
+    },
+    {
+        "front": "１日",
+        "kanji": "NHẬT",
+        "pronunciation": "ついたち",
+        "back": "ngày mồng 1",
+        "collection_id": "16"
+    },
+    {
+        "front": "２日",
+        "kanji": "NHẬT",
+        "pronunciation": "ふつか",
+        "back": "ngày mồng 2, 2 ngày",
+        "collection_id": "16"
+    },
+    {
+        "front": "３日",
+        "kanji": "NHẬT",
+        "pronunciation": "みっか",
+        "back": "ngày mồng 3, 3 ngày",
+        "collection_id": "16"
+    },
+    {
+        "front": "４日",
+        "kanji": "NHẬT",
+        "pronunciation": "よっか",
+        "back": "ngày mồng 4, 4 ngày",
+        "collection_id": "16"
+    },
+    {
+        "front": "５日",
+        "kanji": "NHẬT",
+        "pronunciation": "いつか",
+        "back": "ngày mồng 5, 5 ngày",
+        "collection_id": "16"
+    },
+    {
+        "front": "６日",
+        "kanji": "NHẬT",
+        "pronunciation": "むいか",
+        "back": "ngày mồng 6, 6 ngày",
+        "collection_id": "16"
+    },
+    {
+        "front": "７日",
+        "kanji": "NHẬT",
+        "pronunciation": "なのか",
+        "back": "ngày mồng 7, 7 ngày",
+        "collection_id": "16"
+    },
+    {
+        "front": "８日",
+        "kanji": "NHẬT",
+        "pronunciation": "ようか",
+        "back": "ngày mồng 8, 8 ngày",
+        "collection_id": "16"
+    },
+    {
+        "front": "９日",
+        "kanji": "NHẬT",
+        "pronunciation": "ここのか",
+        "back": "ngày mồng 9, 9 ngày",
+        "collection_id": "16"
+    },
+    {
+        "front": "１０日",
+        "kanji": "NHẬT",
+        "pronunciation": "とおか",
+        "back": "ngày mồng 10, 10 ngày",
+        "collection_id": "16"
+    },
+    {
+        "front": "１４日",
+        "kanji": "NHẬT",
+        "pronunciation": "じゅうよっか",
+        "back": "ngày 14, 14 ngày",
+        "collection_id": "16"
+    },
+    {
+        "front": "２０日",
+        "kanji": "NHẬT",
+        "pronunciation": "はつか",
+        "back": "ngày 20, 20 ngày",
+        "collection_id": "16"
+    },
+    {
+        "front": "２４日",
+        "kanji": "NHẬT",
+        "pronunciation": "にじゅうよっか",
+        "back": "ngày 24, 24 ngày",
+        "collection_id": "16"
+    },
+    {
+        "front": "―日",
+        "kanji": "NHẬT",
+        "pronunciation": "―にち",
+        "back": "ngày -, - ngày",
+        "collection_id": "16"
+    },
+    {
+        "front": "何日",
+        "kanji": "HÀ NHẬT",
+        "pronunciation": "なんにち",
+        "back": "ngày mấy, ngày bao nhiêu, mấy ngày, bao nhiêu ngày",
+        "collection_id": "16"
+    },
+    {
+        "front": "いつ",
+        "kanji": null,
+        "pronunciation": "いつ",
+        "back": "bao giờ, khi nào",
+        "collection_id": "16"
+    },
+    {
+        "front": "誕生日",
+        "kanji": "ĐẢN SINH NHẬT",
+        "pronunciation": "たんじょうび",
+        "back": "sinh nhật",
+        "collection_id": "16"
+    },
+    {
+        "front": "普通",
+        "kanji": "PHỔ THÔNG",
+        "pronunciation": "ふつう",
+        "back": "tàu thường (dừng cả ở các ga lẻ)",
+        "collection_id": "16"
+    },
+    {
+        "front": "急行",
+        "kanji": "CẤP HÀNH",
+        "pronunciation": "きゅうこう",
+        "back": "tàu tốc hành",
+        "collection_id": "16"
+    },
+    {
+        "front": "特急",
+        "kanji": "ĐẶC CẤP",
+        "pronunciation": "とっきゅう",
+        "back": "tàu tốc hành đặc biệt",
+        "collection_id": "16"
+    },
+    {
+        "front": "次の",
+        "kanji": "THỨ",
+        "pronunciation": "つぎの",
+        "back": "tiếp theo",
+        "collection_id": "16"
+    },
+    {
+        "front": "どういたしまして",
+        "kanji": null,
+        "pronunciation": "どういたしまして",
+        "back": "Không có gì.",
+        "collection_id": "16"
+    },
+    {
+        "front": "―番線",
+        "kanji": "PHIÊN TUYẾN",
+        "pronunciation": "―ばんせん",
+        "back": "sân ga số -",
+        "collection_id": "16"
+    },
+    {
+        "front": "博多",
+        "kanji": "BÁC ĐA",
+        "pronunciation": "はかた",
+        "back": "tên một khu phố ở Kyushu",
+        "collection_id": "16"
+    },
+    {
+        "front": "伏見",
+        "kanji": "PHỤC KIẾN",
+        "pronunciation": "ふしみ",
+        "back": "tên một khu phố ở Kyoto",
+        "collection_id": "16"
+    },
+    {
+        "front": "甲子園",
+        "kanji": "GIÁP TỬ VIÊN",
+        "pronunciation": "こうしえん",
+        "back": "tên một khu phố ở Osaka",
+        "collection_id": "16"
+    },
+    {
+        "front": "大阪城",
+        "kanji": "ĐẠI PHẢN THÀNH",
+        "pronunciation": "おおさかじょう",
+        "back": "Lâu đài Osaka, một lâu đài nổi tiếng ở Osaka",
+        "collection_id": "16"
+    }
+]

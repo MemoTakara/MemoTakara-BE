@@ -1,0 +1,289 @@
+[
+    {
+        "front": "つけます",
+        "kanji": null,
+        "pronunciation": "つけます",
+        "back": "bật (điện, máy điều hòa)",
+        "collection_id": "25"
+    },
+    {
+        "front": "消します",
+        "kanji": "TIÊU",
+        "pronunciation": "けします",
+        "back": "tắt (điện, máy điều hòa)",
+        "collection_id": "25"
+    },
+    {
+        "front": "開けます",
+        "kanji": "KHAI",
+        "pronunciation": "あけます",
+        "back": "mở (cửa, cửa sổ)",
+        "collection_id": "25"
+    },
+    {
+        "front": "閉めます",
+        "kanji": "BẾ",
+        "pronunciation": "しめます",
+        "back": "đóng (cửa, cửa sổ)",
+        "collection_id": "25"
+    },
+    {
+        "front": "急ぎます",
+        "kanji": "CẤP",
+        "pronunciation": "いそぎます",
+        "back": "vội, gấp",
+        "collection_id": "25"
+    },
+    {
+        "front": "待ちます",
+        "kanji": "ĐÃI",
+        "pronunciation": "まちます",
+        "back": "đợi, chờ",
+        "collection_id": "25"
+    },
+    {
+        "front": "止めます",
+        "kanji": "CHỈ",
+        "pronunciation": "とめます",
+        "back": "dừng (băng, ôt ô), đỗ (ôtô)",
+        "collection_id": "25"
+    },
+    {
+        "front": "[右へ～]曲がります",
+        "kanji": "HỮU KHÚC",
+        "pronunciation": "[みぎへ～] まがります",
+        "back": "rẽ, quẹo [phải]",
+        "collection_id": "25"
+    },
+    {
+        "front": "持ちます",
+        "kanji": "TRÌ",
+        "pronunciation": "もちます",
+        "back": "mang, cầm",
+        "collection_id": "25"
+    },
+    {
+        "front": "取ります",
+        "kanji": "THỦ",
+        "pronunciation": "とります",
+        "back": "lấy (muối)",
+        "collection_id": "25"
+    },
+    {
+        "front": "手伝います",
+        "kanji": "THỦ TRUYỀN",
+        "pronunciation": "てつだいます",
+        "back": "giúp (làm việc)",
+        "collection_id": "25"
+    },
+    {
+        "front": "呼びます",
+        "kanji": "HÔ",
+        "pronunciation": "よびます",
+        "back": "gọi (taxi, tên)",
+        "collection_id": "25"
+    },
+    {
+        "front": "話します",
+        "kanji": "THOẠI",
+        "pronunciation": "はなします",
+        "back": "nói, nói chuyện",
+        "collection_id": "25"
+    },
+    {
+        "front": "見せます",
+        "kanji": "KIẾN",
+        "pronunciation": "みせます",
+        "back": "cho xem, trình",
+        "collection_id": "25"
+    },
+    {
+        "front": "[住所を～]教えます",
+        "kanji": "TRÚ SỞ GIÁO",
+        "pronunciation": "[じゅうしょを～]おしえます",
+        "back": "nói, cho biết [địa chỉ]",
+        "collection_id": "25"
+    },
+    {
+        "front": "始めます",
+        "kanji": "THỦY",
+        "pronunciation": "はじめます",
+        "back": "bắt đầu",
+        "collection_id": "25"
+    },
+    {
+        "front": "[雨が～]降ります",
+        "kanji": "VŨ GIÁNG/ HÀNG",
+        "pronunciation": "[あめが～] ふります",
+        "back": "rơi [mưa, tuyết~]",
+        "collection_id": "25"
+    },
+    {
+        "front": "コピーします",
+        "kanji": null,
+        "pronunciation": "コピーします",
+        "back": "copy",
+        "collection_id": "25"
+    },
+    {
+        "front": "エアコン",
+        "kanji": null,
+        "pronunciation": "エアコン",
+        "back": "máy điều hòa",
+        "collection_id": "25"
+    },
+    {
+        "front": "パスポート",
+        "kanji": null,
+        "pronunciation": "パスポート",
+        "back": "hộ chiếu",
+        "collection_id": "25"
+    },
+    {
+        "front": "名前",
+        "kanji": "DANH TIỀN",
+        "pronunciation": "なまえ",
+        "back": "tên",
+        "collection_id": "25"
+    },
+    {
+        "front": "住所",
+        "kanji": "TRÚ SỞ",
+        "pronunciation": "じゅうしょ",
+        "back": "địa chỉ",
+        "collection_id": "25"
+    },
+    {
+        "front": "地図",
+        "kanji": "ĐỊA ĐỒ",
+        "pronunciation": "ちず",
+        "back": "bản đồ",
+        "collection_id": "25"
+    },
+    {
+        "front": "塩",
+        "kanji": "DIÊM",
+        "pronunciation": "しお",
+        "back": "muối",
+        "collection_id": "25"
+    },
+    {
+        "front": "砂糖",
+        "kanji": "SA ĐƯỜNG",
+        "pronunciation": "さとう",
+        "back": "đường",
+        "collection_id": "25"
+    },
+    {
+        "front": "読み方",
+        "kanji": "ĐỘC PHƯƠNG",
+        "pronunciation": "よみかた",
+        "back": "cách đọc",
+        "collection_id": "25"
+    },
+    {
+        "front": "～方",
+        "kanji": "PHƯƠNG",
+        "pronunciation": "～かた",
+        "back": "cách ~",
+        "collection_id": "25"
+    },
+    {
+        "front": "ゆっくり",
+        "kanji": null,
+        "pronunciation": "ゆっくり",
+        "back": "chậm, thong thả, thoải mái",
+        "collection_id": "25"
+    },
+    {
+        "front": "すぐ",
+        "kanji": null,
+        "pronunciation": "すぐ",
+        "back": "ngay, lập tức",
+        "collection_id": "25"
+    },
+    {
+        "front": "また",
+        "kanji": null,
+        "pronunciation": "また",
+        "back": "lại (~đến)",
+        "collection_id": "25"
+    },
+    {
+        "front": "あとで",
+        "kanji": null,
+        "pronunciation": "あとで",
+        "back": "sau",
+        "collection_id": "25"
+    },
+    {
+        "front": "もう少し",
+        "kanji": "THIẾU",
+        "pronunciation": "もう　すこし",
+        "back": "thêm một chút nữa thôi",
+        "collection_id": "25"
+    },
+    {
+        "front": "もう～",
+        "kanji": null,
+        "pronunciation": "もう～",
+        "back": "thêm~",
+        "collection_id": "25"
+    },
+    {
+        "front": "いいですよ。",
+        "kanji": null,
+        "pronunciation": "いいですよ。",
+        "back": "Được chứ./được ạ.",
+        "collection_id": "25"
+    },
+    {
+        "front": "さあ",
+        "kanji": null,
+        "pronunciation": "さあ",
+        "back": "thôi,/nào",
+        "collection_id": "25"
+    },
+    {
+        "front": "あれ？",
+        "kanji": null,
+        "pronunciation": "あれ？",
+        "back": "Ô!",
+        "collection_id": "25"
+    },
+    {
+        "front": "信号を右へ曲がってください",
+        "kanji": "TÍN HIỆU HỮU KHÚC",
+        "pronunciation": "しんごうをみぎへまがってください",
+        "back": "Anh/ Chị rẽ phải ở chổ đèn tín hiệu.",
+        "collection_id": "25"
+    },
+    {
+        "front": "まっすぐ",
+        "kanji": null,
+        "pronunciation": "まっすぐ",
+        "back": "thẳng",
+        "collection_id": "25"
+    },
+    {
+        "front": "これでお願いします。",
+        "kanji": "NGUYỆN",
+        "pronunciation": "これでおねがいします。",
+        "back": "Gởi anh tiền này.",
+        "collection_id": "25"
+    },
+    {
+        "front": "お釣り",
+        "kanji": "ĐIẾU",
+        "pronunciation": "おつり",
+        "back": "tiền lẻ",
+        "collection_id": "25"
+    },
+    {
+        "front": "梅田",
+        "kanji": "MAI ĐIỀN",
+        "pronunciation": "うめだ",
+        "back": "tên một địa phương ở Osaka",
+        "collection_id": "25"
+    }
+]

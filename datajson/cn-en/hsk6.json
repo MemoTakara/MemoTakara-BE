@@ -1,0 +1,602 @@
+[
+    {
+        "front": "斯",
+        "back": "this, thus, such; to lop off; emphatic particle",
+        "pronunciation": "sī",
+        "collection_id": "6"
+    },
+    {
+        "front": "党",
+        "back": "political party, gang, faction",
+        "pronunciation": "dǎng",
+        "collection_id": "6"
+    },
+    {
+        "front": "陈",
+        "back": "exhibit, display; plead; a surname",
+        "pronunciation": "chén",
+        "collection_id": "6"
+    },
+    {
+        "front": "攻",
+        "back": "attack, assault; criticize",
+        "pronunciation": "gōng",
+        "collection_id": "6"
+    },
+    {
+        "front": "苏",
+        "back": "",
+        "pronunciation": "sū",
+        "collection_id": "6"
+    },
+    {
+        "front": "帝",
+        "back": "supreme ruler, emperor; god",
+        "pronunciation": "dì",
+        "collection_id": "6"
+    },
+    {
+        "front": "若",
+        "back": "if, supposing, assuming; similar",
+        "pronunciation": "ruò",
+        "collection_id": "6"
+    },
+    {
+        "front": "波",
+        "back": "waves, breakers; undulations",
+        "pronunciation": "bō",
+        "collection_id": "6"
+    },
+    {
+        "front": "异",
+        "back": "different, unusual, strange",
+        "pronunciation": "yì",
+        "collection_id": "6"
+    },
+    {
+        "front": "策",
+        "back": "scheme, plan; to whip; urge",
+        "pronunciation": "cè",
+        "collection_id": "6"
+    },
+    {
+        "front": "罪",
+        "back": "crime, sin, vice; evil; hardship",
+        "pronunciation": "zuì",
+        "collection_id": "6"
+    },
+    {
+        "front": "州",
+        "back": "administrative division, state",
+        "pronunciation": "zhōu",
+        "collection_id": "6"
+    },
+    {
+        "front": "宗",
+        "back": "lineage, ancestry; ancestor, clan",
+        "pronunciation": "zōng",
+        "collection_id": "6"
+    },
+    {
+        "front": "协",
+        "back": "be united; cooperate",
+        "pronunciation": "xié",
+        "collection_id": "6"
+    },
+    {
+        "front": "审",
+        "back": "examine, investigate; judge",
+        "pronunciation": "shěn",
+        "collection_id": "6"
+    },
+    {
+        "front": "皇",
+        "back": "royal, imperial; ruler, superior",
+        "pronunciation": "huáng",
+        "collection_id": "6"
+    },
+    {
+        "front": "副",
+        "back": "assist; supplement; assistant",
+        "pronunciation": "fù",
+        "collection_id": "6"
+    },
+    {
+        "front": "抗",
+        "back": "resist, oppose, defy, reject",
+        "pronunciation": "kàng",
+        "collection_id": "6"
+    },
+    {
+        "front": "犯",
+        "back": "commit crime, violate; criminal",
+        "pronunciation": "fàn",
+        "collection_id": "6"
+    },
+    {
+        "front": "田",
+        "back": "field, arable land, cultivated",
+        "pronunciation": "tián",
+        "collection_id": "6"
+    },
+    {
+        "front": "央",
+        "back": "center, conclude, run out; beg",
+        "pronunciation": "yāng",
+        "collection_id": "6"
+    },
+    {
+        "front": "伯",
+        "back": "",
+        "pronunciation": "bó",
+        "collection_id": "6"
+    },
+    {
+        "front": "监",
+        "back": "supervise, control, direct",
+        "pronunciation": "jiān",
+        "collection_id": "6"
+    },
+    {
+        "front": "露",
+        "back": "dew; bare, open, exposed",
+        "pronunciation": "lù",
+        "collection_id": "6"
+    },
+    {
+        "front": "野",
+        "back": "open country, field; wilderness",
+        "pronunciation": "yě",
+        "collection_id": "6"
+    },
+    {
+        "front": "舰",
+        "back": "warship",
+        "pronunciation": "jiàn",
+        "collection_id": "6"
+    },
+    {
+        "front": "湾",
+        "back": "bay, cove, inlet, bend of stream",
+        "pronunciation": "wān",
+        "collection_id": "6"
+    },
+    {
+        "front": "吉",
+        "back": "lucky, propitious, good",
+        "pronunciation": "jí",
+        "collection_id": "6"
+    },
+    {
+        "front": "剑",
+        "back": "sword, dagger, saber",
+        "pronunciation": "jiàn",
+        "collection_id": "6"
+    },
+    {
+        "front": "亦",
+        "back": "also, too; likewise",
+        "pronunciation": "yì",
+        "collection_id": "6"
+    },
+    {
+        "front": "恩",
+        "back": "kindness, mercy, charity",
+        "pronunciation": "ēn",
+        "collection_id": "6"
+    },
+    {
+        "front": "鲁",
+        "back": "foolish, stupid, rash; vulgar",
+        "pronunciation": "lǔ",
+        "collection_id": "6"
+    },
+    {
+        "front": "端",
+        "back": "end, extreme; head; beginning",
+        "pronunciation": "duān",
+        "collection_id": "6"
+    },
+    {
+        "front": "探",
+        "back": "find, locate; search, grope for",
+        "pronunciation": "tàn",
+        "collection_id": "6"
+    },
+    {
+        "front": "湖",
+        "back": "a lake; Hubei, Hunan; bluish-green",
+        "pronunciation": "hú",
+        "collection_id": "6"
+    },
+    {
+        "front": "予",
+        "back": "I, me; to give",
+        "pronunciation": "yǔ",
+        "collection_id": "6"
+    },
+    {
+        "front": "港",
+        "back": "port, harbor; small stream; bay",
+        "pronunciation": "gǎng",
+        "collection_id": "6"
+    },
+    {
+        "front": "额",
+        "back": "forehead; tablet, plaque; fixed",
+        "pronunciation": "é",
+        "collection_id": "6"
+    },
+    {
+        "front": "督",
+        "back": "supervise, oversee, direct",
+        "pronunciation": "dū",
+        "collection_id": "6"
+    },
+    {
+        "front": "泽",
+        "back": "marsh, swamp; grace, brilliance",
+        "pronunciation": "zé",
+        "collection_id": "6"
+    },
+    {
+        "front": "灭",
+        "back": "extinguish; wipe out, exterminate",
+        "pronunciation": "miè",
+        "collection_id": "6"
+    },
+    {
+        "front": "莫",
+        "back": "do not, is not, can not; negative",
+        "pronunciation": "mò",
+        "collection_id": "6"
+    },
+    {
+        "front": "亡",
+        "back": "death, destroyed; lose, perish",
+        "pronunciation": "wáng",
+        "collection_id": "6"
+    },
+    {
+        "front": "圣",
+        "back": "holy, sacred",
+        "pronunciation": "shèng",
+        "collection_id": "6"
+    },
+    {
+        "front": "诺",
+        "back": "promise; assent, approve",
+        "pronunciation": "nuò",
+        "collection_id": "6"
+    },
+    {
+        "front": "伦",
+        "back": "normal human relationships",
+        "pronunciation": "lún",
+        "collection_id": "6"
+    },
+    {
+        "front": "奥",
+        "back": "mysterious, obscure, profound",
+        "pronunciation": "ào",
+        "collection_id": "6"
+    },
+    {
+        "front": "唐",
+        "back": "Tang dynasty; Chinese",
+        "pronunciation": "táng",
+        "collection_id": "6"
+    },
+    {
+        "front": "堂",
+        "back": "hall; government office",
+        "pronunciation": "táng",
+        "collection_id": "6"
+    },
+    {
+        "front": "宫",
+        "back": "palace",
+        "pronunciation": "gōng",
+        "collection_id": "6"
+    },
+    {
+        "front": "君",
+        "back": "sovereign, monarch, ruler, chief, prince",
+        "pronunciation": "jūn",
+        "collection_id": "6"
+    },
+    {
+        "front": "谋",
+        "back": "plan, scheme; strategem",
+        "pronunciation": "móu",
+        "collection_id": "6"
+    },
+    {
+        "front": "镇",
+        "back": "town, market place; suppress",
+        "pronunciation": "zhèn",
+        "collection_id": "6"
+    },
+    {
+        "front": "凡",
+        "back": "all, any, every; ordinary, common",
+        "pronunciation": "fán",
+        "collection_id": "6"
+    },
+    {
+        "front": "诸",
+        "back": "various, all, these; surname",
+        "pronunciation": "zhū",
+        "collection_id": "6"
+    },
+    {
+        "front": "庄",
+        "back": "village, hamlet; villa, manor",
+        "pronunciation": "zhuāng",
+        "collection_id": "6"
+    },
+    {
+        "front": "祖",
+        "back": "ancestor, forefather; grandfather",
+        "pronunciation": "zǔ",
+        "collection_id": "6"
+    },
+    {
+        "front": "暴",
+        "back": "violent, brutal, tyrannical",
+        "pronunciation": "bào",
+        "collection_id": "6"
+    },
+    {
+        "front": "塔",
+        "back": "tower, spire, tall building",
+        "pronunciation": "tǎ",
+        "collection_id": "6"
+    },
+    {
+        "front": "隐",
+        "back": "hide, conceal; hidden, secret",
+        "pronunciation": "yǐn",
+        "collection_id": "6"
+    },
+    {
+        "front": "蒙",
+        "back": "cover; ignorant; suffer; mongolia",
+        "pronunciation": "méng",
+        "collection_id": "6"
+    },
+    {
+        "front": "欲",
+        "back": "desire, want, long for; intend",
+        "pronunciation": "yù",
+        "collection_id": "6"
+    },
+    {
+        "front": "遭",
+        "back": "come across, meet with, encounter",
+        "pronunciation": "zāo",
+        "collection_id": "6"
+    },
+    {
+        "front": "徒",
+        "back": "disciple, follower; go on foot",
+        "pronunciation": "tú",
+        "collection_id": "6"
+    },
+    {
+        "front": "姆",
+        "back": "",
+        "pronunciation": "mǔ",
+        "collection_id": "6"
+    },
+    {
+        "front": "曲",
+        "back": "crooked, bent; wrong, false",
+        "pronunciation": "qū",
+        "collection_id": "6"
+    },
+    {
+        "front": "塞",
+        "back": "stop up, block, seal, cork; pass, frontier; fortress",
+        "pronunciation": "sāi",
+        "collection_id": "6"
+    },
+    {
+        "front": "侵",
+        "back": "invade, encroach upon, raid",
+        "pronunciation": "qīn",
+        "collection_id": "6"
+    },
+    {
+        "front": "刑",
+        "back": "punishment, penalty; law",
+        "pronunciation": "xíng",
+        "collection_id": "6"
+    },
+    {
+        "front": "谷",
+        "back": "valley, gorge, ravine",
+        "pronunciation": "gǔ",
+        "collection_id": "6"
+    },
+    {
+        "front": "川",
+        "back": "stream, river; flow; boil",
+        "pronunciation": "chuān",
+        "collection_id": "6"
+    },
+    {
+        "front": "潜",
+        "back": "hide; hidden, secret, latent",
+        "pronunciation": "qián",
+        "collection_id": "6"
+    },
+    {
+        "front": "抵",
+        "back": "resist, oppose; deny; off-set",
+        "pronunciation": "dǐ",
+        "collection_id": "6"
+    },
+    {
+        "front": "杰",
+        "back": "hero; heroic, outstanding",
+        "pronunciation": "jié",
+        "collection_id": "6"
+    },
+    {
+        "front": "郑",
+        "back": "",
+        "pronunciation": "zhèng",
+        "collection_id": "6"
+    },
+    {
+        "front": "混",
+        "back": "to mix, blend, mingle; to bumble along",
+        "pronunciation": "hùn",
+        "collection_id": "6"
+    },
+    {
+        "front": "臣",
+        "back": "minister, statesman, official",
+        "pronunciation": "chén",
+        "collection_id": "6"
+    },
+    {
+        "front": "雅",
+        "back": "elegant, graceful, refined",
+        "pronunciation": "yǎ",
+        "collection_id": "6"
+    },
+    {
+        "front": "盛",
+        "back": "abundant, flourishing; contain; fill",
+        "pronunciation": "shèng",
+        "collection_id": "6"
+    },
+    {
+        "front": "怒",
+        "back": "anger, rage, passion; angry",
+        "pronunciation": "nù",
+        "collection_id": "6"
+    },
+    {
+        "front": "残",
+        "back": "injure, spoil; oppress; broken",
+        "pronunciation": "cán",
+        "collection_id": "6"
+    },
+    {
+        "front": "宇",
+        "back": "house; building, structure; eaves",
+        "pronunciation": "yǔ",
+        "collection_id": "6"
+    },
+    {
+        "front": "猛",
+        "back": "violent, savage, cruel; bold",
+        "pronunciation": "měng",
+        "collection_id": "6"
+    },
+    {
+        "front": "毁",
+        "back": "destroy",
+        "pronunciation": "huǐ",
+        "collection_id": "6"
+    },
+    {
+        "front": "盟",
+        "back": "swear; oath, covenant, alliance",
+        "pronunciation": "méng",
+        "collection_id": "6"
+    },
+    {
+        "front": "丁",
+        "back": "male adult; robust, vigorous; 4th heavenly stem",
+        "pronunciation": "dīng",
+        "collection_id": "6"
+    },
+    {
+        "front": "魔",
+        "back": "demon, evil spirits; magic power",
+        "pronunciation": "mó",
+        "collection_id": "6"
+    },
+    {
+        "front": "沿",
+        "back": "follow a course, go along",
+        "pronunciation": "yán",
+        "collection_id": "6"
+    },
+    {
+        "front": "啦",
+        "back": "final particle of assertion",
+        "pronunciation": "la",
+        "collection_id": "6"
+    },
+    {
+        "front": "瓦",
+        "back": "tile; earthenware pottery; girl",
+        "pronunciation": "wǎ",
+        "collection_id": "6"
+    },
+    {
+        "front": "援",
+        "back": "aid, assist; lead; cite",
+        "pronunciation": "yuán",
+        "collection_id": "6"
+    },
+    {
+        "front": "夺",
+        "back": "take by force, rob, snatch",
+        "pronunciation": "duó",
+        "collection_id": "6"
+    },
+    {
+        "front": "偏",
+        "back": "inclined one side; slanting",
+        "pronunciation": "piān",
+        "collection_id": "6"
+    },
+    {
+        "front": "袭",
+        "back": "raid, attack; inherit",
+        "pronunciation": "xí",
+        "collection_id": "6"
+    },
+    {
+        "front": "侠",
+        "back": "chivalrous person; knight-errant",
+        "pronunciation": "xiá",
+        "collection_id": "6"
+    },
+    {
+        "front": "侧",
+        "back": "side; incline, slant, lean",
+        "pronunciation": "cè",
+        "collection_id": "6"
+    },
+    {
+        "front": "债",
+        "back": "debt, loan, liabilities",
+        "pronunciation": "zhài",
+        "collection_id": "6"
+    },
+    {
+        "front": "融",
+        "back": "melt, fuse; blend, harmonize",
+        "pronunciation": "róng",
+        "collection_id": "6"
+    },
+    {
+        "front": "纵",
+        "back": "indulge in, give free reign to",
+        "pronunciation": "zòng",
+        "collection_id": "6"
+    },
+    {
+        "front": "障",
+        "back": "separate; shield; barricade",
+        "pronunciation": "zhàng",
+        "collection_id": "6"
+    }
+]

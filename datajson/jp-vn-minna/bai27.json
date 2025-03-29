@@ -1,0 +1,380 @@
+[
+    {
+        "front": "飼います",
+        "kanji": "TỰ",
+        "pronunciation": "かいます",
+        "back": "nuôi (động vật)",
+        "collection_id": "38"
+    },
+    {
+        "front": "建てます",
+        "kanji": "KIẾN",
+        "pronunciation": "たてます",
+        "back": "xây, xây dựng",
+        "collection_id": "38"
+    },
+    {
+        "front": "[道を～]走ります",
+        "kanji": "ĐẠO TẨU",
+        "pronunciation": "[みちを～]はしります",
+        "back": "chạy [trên đường]",
+        "collection_id": "38"
+    },
+    {
+        "front": "[休みを～]取ります",
+        "kanji": "HƯU THỦ",
+        "pronunciation": "[やすみを～]とります",
+        "back": "xin [nghỉ]",
+        "collection_id": "38"
+    },
+    {
+        "front": "[山が～]見えます",
+        "kanji": "SƠN/SAN KIẾN",
+        "pronunciation": "[やまが～] みえます",
+        "back": "nhìn thấy, có thể nhìn thấy [núi]",
+        "collection_id": "38"
+    },
+    {
+        "front": "[音が～]聞こえます",
+        "kanji": "ÂM VĂN",
+        "pronunciation": "[おとが～]きこえます",
+        "back": "nghe thấy, có thể nghe thấy [âm thanh]",
+        "collection_id": "38"
+    },
+    {
+        "front": "[空港が～]",
+        "kanji": "KHÔNG CẢNG",
+        "pronunciation": "[くうこうが～]できます",
+        "back": "được xây dựng lên, hoàn thành [sân bay]",
+        "collection_id": "38"
+    },
+    {
+        "front": "[教室を～]開きます",
+        "kanji": "GIÁO THẤT KHAI",
+        "pronunciation": "[きょうしつを～]ひらきます",
+        "back": "mở [lớp học]",
+        "collection_id": "38"
+    },
+    {
+        "front": "ペット",
+        "kanji": null,
+        "pronunciation": "ペット",
+        "back": "động vật cảnh (pet)",
+        "collection_id": "38"
+    },
+    {
+        "front": "鳥",
+        "kanji": "ĐIẾU",
+        "pronunciation": "とり",
+        "back": "chim",
+        "collection_id": "38"
+    },
+    {
+        "front": "声",
+        "kanji": "THANH",
+        "pronunciation": "こえ",
+        "back": "tiếng nói, giọng nói",
+        "collection_id": "38"
+    },
+    {
+        "front": "波",
+        "kanji": "BA",
+        "pronunciation": "なみ",
+        "back": "sóng",
+        "collection_id": "38"
+    },
+    {
+        "front": "花火",
+        "kanji": "HOA HỎA",
+        "pronunciation": "はなび",
+        "back": "pháo hoa",
+        "collection_id": "38"
+    },
+    {
+        "front": "景色",
+        "kanji": "CẢNH SẮC",
+        "pronunciation": "けしき",
+        "back": "phong cảnh",
+        "collection_id": "38"
+    },
+    {
+        "front": "昼間",
+        "kanji": "TRÚ GIAN",
+        "pronunciation": "ひるま",
+        "back": "thời gian ban ngày",
+        "collection_id": "38"
+    },
+    {
+        "front": "昔",
+        "kanji": "TÍCH",
+        "pronunciation": "むかし",
+        "back": "ngày xưa, trước đây",
+        "collection_id": "38"
+    },
+    {
+        "front": "道具",
+        "kanji": "ĐẠO CỤ",
+        "pronunciation": "どうぐ",
+        "back": "dụng cụ, công cụ",
+        "collection_id": "38"
+    },
+    {
+        "front": "自動販売機",
+        "kanji": "TỰ ĐỘNG PHIẾN MẠI CƠ",
+        "pronunciation": "じどうはんばいき",
+        "back": "máy bán tự động",
+        "collection_id": "38"
+    },
+    {
+        "front": "通信販売",
+        "kanji": "THÔNG TÍN PHIẾN MẠI",
+        "pronunciation": "つうしんはんばい",
+        "back": "thương mại viễn thông (mua bán hàng qua các phương tiện truyền thông)",
+        "collection_id": "38"
+    },
+    {
+        "front": "クリーニング",
+        "kanji": null,
+        "pronunciation": "クリーニング",
+        "back": "giặt ủi",
+        "collection_id": "38"
+    },
+    {
+        "front": "マンション",
+        "kanji": null,
+        "pronunciation": "マンション",
+        "back": "nhà chung cư",
+        "collection_id": "38"
+    },
+    {
+        "front": "台所",
+        "kanji": "ĐÀI SỞ",
+        "pronunciation": "だいどころ",
+        "back": "bếp",
+        "collection_id": "38"
+    },
+    {
+        "front": "～教室",
+        "kanji": "GIÁO THẤT",
+        "pronunciation": "～きょうしつ",
+        "back": "lớp học ~",
+        "collection_id": "38"
+    },
+    {
+        "front": "パーティールーム",
+        "kanji": null,
+        "pronunciation": "パーティールーム",
+        "back": "phòng tiệc",
+        "collection_id": "38"
+    },
+    {
+        "front": "～後",
+        "kanji": "HẬU",
+        "pronunciation": "～ご",
+        "back": "~ sau (khoảng thời gian)",
+        "collection_id": "38"
+    },
+    {
+        "front": "～しか",
+        "kanji": null,
+        "pronunciation": "～しか",
+        "back": "chỉ ~ (dùng với thể phủ định)",
+        "collection_id": "38"
+    },
+    {
+        "front": "ほかの",
+        "kanji": null,
+        "pronunciation": "ほかの",
+        "back": "khác",
+        "collection_id": "38"
+    },
+    {
+        "front": "はっきり",
+        "kanji": null,
+        "pronunciation": "はっきり",
+        "back": "rõ, rõ ràng",
+        "collection_id": "38"
+    },
+    {
+        "front": "ほとんど",
+        "kanji": null,
+        "pronunciation": "ほとんど",
+        "back": "hầu hết, hầu như",
+        "collection_id": "38"
+    },
+    {
+        "front": "関西空港",
+        "kanji": "QUAN TÂY KHÔNG CẢNG",
+        "pronunciation": "かんさいくうこう",
+        "back": "sân bay (quốc tế) Kansai",
+        "collection_id": "38"
+    },
+    {
+        "front": "秋葉原",
+        "kanji": "THU DIỆP NGUYÊN",
+        "pronunciation": "あきはばら",
+        "back": "tên một khu phố bán đồ điện tử nổi tiếng ở Tokyo",
+        "collection_id": "38"
+    },
+    {
+        "front": "伊豆",
+        "kanji": "Y ĐẬU",
+        "pronunciation": "いず",
+        "back": "một bán đảo thuộc tỉnh Shizuoka",
+        "collection_id": "38"
+    },
+    {
+        "front": "日曜大工",
+        "kanji": "NHẬT DIỆU ĐẠI CÔNG",
+        "pronunciation": "にちようだいく",
+        "back": "làm thợ mộc chủ nhật",
+        "collection_id": "38"
+    },
+    {
+        "front": "本棚",
+        "kanji": "BỔN BẰNG",
+        "pronunciation": "ほんだな",
+        "back": "giá sách",
+        "collection_id": "38"
+    },
+    {
+        "front": "夢",
+        "kanji": "MỘNG",
+        "pronunciation": "ゆめ",
+        "back": "giấc mơ, ước mơ (~　をします：mơ, mơ ước)",
+        "collection_id": "38"
+    },
+    {
+        "front": "いつか",
+        "kanji": null,
+        "pronunciation": "いつか",
+        "back": "một ngày nào đó, một lúc nào đó",
+        "collection_id": "38"
+    },
+    {
+        "front": "家",
+        "kanji": "GIA",
+        "pronunciation": "いえ",
+        "back": "nhà",
+        "collection_id": "38"
+    },
+    {
+        "front": "すばらしい",
+        "kanji": null,
+        "pronunciation": "すばらしい",
+        "back": "tuyệt vời",
+        "collection_id": "38"
+    },
+    {
+        "front": "子どもたち",
+        "kanji": "TỬ/TÝ",
+        "pronunciation": "こどもたち",
+        "back": "trẻ em, trẻ con, con cái",
+        "collection_id": "38"
+    },
+    {
+        "front": "大好き[な]",
+        "kanji": "ĐẠI HẢO",
+        "pronunciation": "だいすき「な」",
+        "back": "rất thích",
+        "collection_id": "38"
+    },
+    {
+        "front": "漫画",
+        "kanji": "MẠN HỌA",
+        "pronunciation": "まんが",
+        "back": "truyện tranh",
+        "collection_id": "38"
+    },
+    {
+        "front": "主人公",
+        "kanji": "CHỦ NHÂN CÔNG",
+        "pronunciation": "しゅじんこう",
+        "back": "nhân vật chính",
+        "collection_id": "38"
+    },
+    {
+        "front": "形",
+        "kanji": "HÌNH",
+        "pronunciation": "かたち",
+        "back": "hình, dạng",
+        "collection_id": "38"
+    },
+    {
+        "front": "ロボット",
+        "kanji": null,
+        "pronunciation": "ロボット",
+        "back": "người máy, Rô-bốt",
+        "collection_id": "38"
+    },
+    {
+        "front": "不思議[な]",
+        "kanji": "BẤT TƯ NGHỊ",
+        "pronunciation": "ふしぎ「な」",
+        "back": "bí ẩn, kỳ thú",
+        "collection_id": "38"
+    },
+    {
+        "front": "ポケット",
+        "kanji": null,
+        "pronunciation": "ポケット",
+        "back": "túi áo, túi quần (Pocket)",
+        "collection_id": "38"
+    },
+    {
+        "front": "例えば",
+        "kanji": "LỆ",
+        "pronunciation": "たとえば",
+        "back": "ví dụ (như)",
+        "collection_id": "38"
+    },
+    {
+        "front": "付けます",
+        "kanji": "PHÓ",
+        "pronunciation": "つけます",
+        "back": "lắp, ghép thêm",
+        "collection_id": "38"
+    },
+    {
+        "front": "自由に",
+        "kanji": "TỰ DO",
+        "pronunciation": "じゆうに",
+        "back": "tự do, tùy thích",
+        "collection_id": "38"
+    },
+    {
+        "front": "空",
+        "kanji": "KHÔNG",
+        "pronunciation": "そら",
+        "back": "bầu trời",
+        "collection_id": "38"
+    },
+    {
+        "front": "飛びます",
+        "kanji": "PHI",
+        "pronunciation": "とびます",
+        "back": "bay",
+        "collection_id": "38"
+    },
+    {
+        "front": "自分",
+        "kanji": "TỰ PHÂN",
+        "pronunciation": "じぶん",
+        "back": "bản thân, mình",
+        "collection_id": "38"
+    },
+    {
+        "front": "将来",
+        "kanji": "TƯƠNG LAI",
+        "pronunciation": "しょうらい",
+        "back": "tương lai",
+        "collection_id": "38"
+    },
+    {
+        "front": "ドラえもん",
+        "kanji": null,
+        "pronunciation": "ドラえもん",
+        "back": "tên một nhân vật trong phim hoạt hình (Doremon)",
+        "collection_id": "38"
+    }
+]

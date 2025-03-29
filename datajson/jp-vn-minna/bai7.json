@@ -1,0 +1,338 @@
+[
+    {
+        "front": "切ります",
+        "kanji": "THIẾT",
+        "pronunciation": "きります",
+        "back": "cắt",
+        "collection_id": "18"
+    },
+    {
+        "front": "送ります",
+        "kanji": "TỐNG",
+        "pronunciation": "おくります",
+        "back": "gửi",
+        "collection_id": "18"
+    },
+    {
+        "front": "あげます",
+        "kanji": null,
+        "pronunciation": "あげます",
+        "back": "cho, tặng",
+        "collection_id": "18"
+    },
+    {
+        "front": "もらいます",
+        "kanji": null,
+        "pronunciation": "もらいます",
+        "back": "nhận",
+        "collection_id": "18"
+    },
+    {
+        "front": "貸します",
+        "kanji": "THẢI",
+        "pronunciation": "かします",
+        "back": "cho mượn, cho vay",
+        "collection_id": "18"
+    },
+    {
+        "front": "借ります",
+        "kanji": "TÁ",
+        "pronunciation": "かります",
+        "back": "mượn, vay",
+        "collection_id": "18"
+    },
+    {
+        "front": "教えます",
+        "kanji": "GIÁO",
+        "pronunciation": "おしえます",
+        "back": "dạy",
+        "collection_id": "18"
+    },
+    {
+        "front": "習います",
+        "kanji": "TẬP",
+        "pronunciation": "ならいます",
+        "back": "học, tập",
+        "collection_id": "18"
+    },
+    {
+        "front": "[電話を～]かけます",
+        "kanji": "ĐIỆN THOẠI",
+        "pronunciation": "[でんわを～]かけます",
+        "back": "gọi [điện thoại]",
+        "collection_id": "18"
+    },
+    {
+        "front": "手",
+        "kanji": "THỦ",
+        "pronunciation": "て",
+        "back": "tay",
+        "collection_id": "18"
+    },
+    {
+        "front": "はし",
+        "kanji": null,
+        "pronunciation": "はし",
+        "back": "đũa",
+        "collection_id": "18"
+    },
+    {
+        "front": "スプーン",
+        "kanji": null,
+        "pronunciation": "スプーン",
+        "back": "thìa",
+        "collection_id": "18"
+    },
+    {
+        "front": "ナイフ",
+        "kanji": null,
+        "pronunciation": "ナイフ",
+        "back": "dao",
+        "collection_id": "18"
+    },
+    {
+        "front": "フォーク",
+        "kanji": null,
+        "pronunciation": "フォーク",
+        "back": "nĩa",
+        "collection_id": "18"
+    },
+    {
+        "front": "はさみ",
+        "kanji": null,
+        "pronunciation": "はさみ",
+        "back": "kéo",
+        "collection_id": "18"
+    },
+    {
+        "front": "ファクス",
+        "kanji": null,
+        "pronunciation": "ファクス",
+        "back": "fax",
+        "collection_id": "18"
+    },
+    {
+        "front": "ワープロ",
+        "kanji": null,
+        "pronunciation": "ワープロ",
+        "back": "máy đánh chữ",
+        "collection_id": "18"
+    },
+    {
+        "front": "パソコン",
+        "kanji": null,
+        "pronunciation": "パソコン",
+        "back": "máy vi tính cá nhân",
+        "collection_id": "18"
+    },
+    {
+        "front": "パンチ",
+        "kanji": null,
+        "pronunciation": "パンチ",
+        "back": "cái đục lỗ",
+        "collection_id": "18"
+    },
+    {
+        "front": "ホッチキス",
+        "kanji": null,
+        "pronunciation": "ホッチキス",
+        "back": "cái dập ghim",
+        "collection_id": "18"
+    },
+    {
+        "front": "セロテープ",
+        "kanji": null,
+        "pronunciation": "セロテープ",
+        "back": "băng dính",
+        "collection_id": "18"
+    },
+    {
+        "front": "けしゴム",
+        "kanji": null,
+        "pronunciation": "けしゴム",
+        "back": "cái tẩy",
+        "collection_id": "18"
+    },
+    {
+        "front": "紙",
+        "kanji": "CHỈ",
+        "pronunciation": "かみ",
+        "back": "giấy",
+        "collection_id": "18"
+    },
+    {
+        "front": "花",
+        "kanji": "HOA",
+        "pronunciation": "はな",
+        "back": "hoa",
+        "collection_id": "18"
+    },
+    {
+        "front": "シャツ",
+        "kanji": null,
+        "pronunciation": "シャツ",
+        "back": "áo sơ mi",
+        "collection_id": "18"
+    },
+    {
+        "front": "プレゼント",
+        "kanji": null,
+        "pronunciation": "プレゼント",
+        "back": "quà tặng, tặng phẩm",
+        "collection_id": "18"
+    },
+    {
+        "front": "荷物",
+        "kanji": "HÀ VẬT",
+        "pronunciation": "にもつ",
+        "back": "đồ đạc, hành lý",
+        "collection_id": "18"
+    },
+    {
+        "front": "お金",
+        "kanji": "KIM",
+        "pronunciation": "おかね",
+        "back": "tiền",
+        "collection_id": "18"
+    },
+    {
+        "front": "切符",
+        "kanji": "THIẾT PHÙ",
+        "pronunciation": "きっぷ",
+        "back": "vé",
+        "collection_id": "18"
+    },
+    {
+        "front": "クリスマス",
+        "kanji": null,
+        "pronunciation": "クリスマス",
+        "back": "Giáng sinh",
+        "collection_id": "18"
+    },
+    {
+        "front": "父",
+        "kanji": "PHỤ",
+        "pronunciation": "ちち",
+        "back": "bố (dùng khi nói về bố mình)",
+        "collection_id": "18"
+    },
+    {
+        "front": "母",
+        "kanji": "MẪU",
+        "pronunciation": "はは",
+        "back": "mẹ (dùng khi nói về mẹ mình)",
+        "collection_id": "18"
+    },
+    {
+        "front": "お父さん",
+        "kanji": "PHỤ",
+        "pronunciation": "おとうさん",
+        "back": "bố (dùng khi nói về bố người khác và dùng khi xưng hô với bố mình)",
+        "collection_id": "18"
+    },
+    {
+        "front": "お母さん",
+        "kanji": "MẪU",
+        "pronunciation": "おかあさん",
+        "back": "mẹ (dùng khi nói về mẹ người khác và dùng khi xưng hô với mẹ mình)",
+        "collection_id": "18"
+    },
+    {
+        "front": "もう",
+        "kanji": null,
+        "pronunciation": "もう",
+        "back": "đã, rồi",
+        "collection_id": "18"
+    },
+    {
+        "front": "まだ",
+        "kanji": null,
+        "pronunciation": "まだ",
+        "back": "chưa",
+        "collection_id": "18"
+    },
+    {
+        "front": "これから",
+        "kanji": null,
+        "pronunciation": "これから",
+        "back": "từ bây giờ, sau đây",
+        "collection_id": "18"
+    },
+    {
+        "front": "[～、]すてきですね。",
+        "kanji": null,
+        "pronunciation": "[～、]すてきですね。",
+        "back": "[~] hay nhỉ./ đẹp nhỉ.",
+        "collection_id": "18"
+    },
+    {
+        "front": "ごめんください。",
+        "kanji": null,
+        "pronunciation": "ごめんください。",
+        "back": "Xin lỗi, có ai ở nhà không?/ Tôi có thể vào được chứ?",
+        "collection_id": "18"
+    },
+    {
+        "front": "いらっしゃい。",
+        "kanji": null,
+        "pronunciation": "いらっしゃい。",
+        "back": "Chào mừng anh/chị đã đến chơi.",
+        "collection_id": "18"
+    },
+    {
+        "front": "どうぞ　おあがりください。",
+        "kanji": null,
+        "pronunciation": "どうぞ　おあがりください。",
+        "back": "Mời anh/chị vào.",
+        "collection_id": "18"
+    },
+    {
+        "front": "失礼します。",
+        "kanji": "THẤT LỄ",
+        "pronunciation": "しつれいします。",
+        "back": "Xin thất lễ",
+        "collection_id": "18"
+    },
+    {
+        "front": "[～は]いかがですか。",
+        "kanji": null,
+        "pronunciation": "[～は]いかがですか。",
+        "back": "Anh/chị dùng [~] có được không?",
+        "collection_id": "18"
+    },
+    {
+        "front": "いただきます。",
+        "kanji": null,
+        "pronunciation": "いただきます。",
+        "back": "Xin nhận ~. (cách nói dùng trước khi ăn hoặc uống)",
+        "collection_id": "18"
+    },
+    {
+        "front": "旅行",
+        "kanji": "LỮ HÀNH",
+        "pronunciation": "りょこう",
+        "back": "du lịch, chuyến du lịch (～をします: đi du lịch)",
+        "collection_id": "18"
+    },
+    {
+        "front": "お土産",
+        "kanji": "THỔ SẢN",
+        "pronunciation": "おみやげ",
+        "back": "quà",
+        "collection_id": "18"
+    },
+    {
+        "front": "ヨーロッパ",
+        "kanji": null,
+        "pronunciation": "ヨーロッパ",
+        "back": "Châu Âu",
+        "collection_id": "18"
+    },
+    {
+        "front": "スペイン",
+        "kanji": null,
+        "pronunciation": "スペイン",
+        "back": "Tây Ban Nha",
+        "collection_id": "18"
+    }
+]

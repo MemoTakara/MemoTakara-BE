@@ -1,0 +1,289 @@
+[
+    {
+        "front": "泣きます",
+        "kanji": "KHẤP",
+        "pronunciation": "なきます",
+        "back": "khóc",
+        "collection_id": "55"
+    },
+    {
+        "front": "笑います",
+        "kanji": "TIẾU",
+        "pronunciation": "わらいます",
+        "back": "cười",
+        "collection_id": "55"
+    },
+    {
+        "front": "乾きます",
+        "kanji": "CAN",
+        "pronunciation": "かわきます",
+        "back": "khô",
+        "collection_id": "55"
+    },
+    {
+        "front": "ぬれます",
+        "kanji": null,
+        "pronunciation": "ぬれます",
+        "back": "ướt",
+        "collection_id": "55"
+    },
+    {
+        "front": "滑ります",
+        "kanji": "HOẠT",
+        "pronunciation": "すべります",
+        "back": "trượt",
+        "collection_id": "55"
+    },
+    {
+        "front": "[事故が～]起きます",
+        "kanji": "SỰ CỐ KHỞI",
+        "pronunciation": "[じこが～]おきます",
+        "back": "xảy ra [tai nạn ~]",
+        "collection_id": "55"
+    },
+    {
+        "front": "調節します",
+        "kanji": "ĐIỀU TIẾT",
+        "pronunciation": "ちょうせつします",
+        "back": "điều tiết, điều chỉnh",
+        "collection_id": "55"
+    },
+    {
+        "front": "安全[な]",
+        "kanji": "AN TOÀN",
+        "pronunciation": "あんぜん[な]",
+        "back": "an toàn",
+        "collection_id": "55"
+    },
+    {
+        "front": "丁寧[な]",
+        "kanji": "ĐINH NINH",
+        "pronunciation": "ていねい[な]",
+        "back": "lịch sự, cẩn thận",
+        "collection_id": "55"
+    },
+    {
+        "front": "細かい",
+        "kanji": "TẾ",
+        "pronunciation": "こまかい",
+        "back": "chi tiết, tỉ mỉ, nhỏ",
+        "collection_id": "55"
+    },
+    {
+        "front": "濃い",
+        "kanji": "NỒNG",
+        "pronunciation": "こい",
+        "back": "nồng, đậm",
+        "collection_id": "55"
+    },
+    {
+        "front": "薄い",
+        "kanji": "BẠC",
+        "pronunciation": "うすい",
+        "back": "nhạt",
+        "collection_id": "55"
+    },
+    {
+        "front": "空気",
+        "kanji": "KHÔNG KHÍ",
+        "pronunciation": "くうき",
+        "back": "không khí",
+        "collection_id": "55"
+    },
+    {
+        "front": "涙",
+        "kanji": "LỆ",
+        "pronunciation": "なみだ",
+        "back": "nước mắt",
+        "collection_id": "55"
+    },
+    {
+        "front": "和食",
+        "kanji": "HÒA THỰC",
+        "pronunciation": "わしょく",
+        "back": "món ăn Nhật",
+        "collection_id": "55"
+    },
+    {
+        "front": "洋食",
+        "kanji": "DƯƠNG THỰC",
+        "pronunciation": "ようしょく",
+        "back": "món ăn Âu Mỹ",
+        "collection_id": "55"
+    },
+    {
+        "front": "おかず",
+        "kanji": null,
+        "pronunciation": "おかず",
+        "back": "thức ăn",
+        "collection_id": "55"
+    },
+    {
+        "front": "量",
+        "kanji": "LƯỢNG",
+        "pronunciation": "りょう",
+        "back": "lượng",
+        "collection_id": "55"
+    },
+    {
+        "front": "―倍",
+        "kanji": "BỘI",
+        "pronunciation": "―ばい",
+        "back": "- lần",
+        "collection_id": "55"
+    },
+    {
+        "front": "半分",
+        "kanji": "BÁN PHÂN",
+        "pronunciation": "はんぶん",
+        "back": "một nửa",
+        "collection_id": "55"
+    },
+    {
+        "front": "シングル",
+        "kanji": null,
+        "pronunciation": "シングル",
+        "back": "phòng đơn (1 giường)",
+        "collection_id": "55"
+    },
+    {
+        "front": "ツイン",
+        "kanji": null,
+        "pronunciation": "ツイン",
+        "back": "phòng đôi (2 giường)",
+        "collection_id": "55"
+    },
+    {
+        "front": "たんす",
+        "kanji": null,
+        "pronunciation": "たんす",
+        "back": "tủ đựng quần áo",
+        "collection_id": "55"
+    },
+    {
+        "front": "洗濯物",
+        "kanji": "TẨY TRẠC VẬT",
+        "pronunciation": "せんたくもの",
+        "back": "quần áo giặt",
+        "collection_id": "55"
+    },
+    {
+        "front": "理由",
+        "kanji": "LÝ DO",
+        "pronunciation": "りゆう",
+        "back": "lý do",
+        "collection_id": "55"
+    },
+    {
+        "front": "どうなさいますか。",
+        "kanji": null,
+        "pronunciation": "どうなさいますか。",
+        "back": "Anh/chị định như thế nào?",
+        "collection_id": "55"
+    },
+    {
+        "front": "カット",
+        "kanji": null,
+        "pronunciation": "カット",
+        "back": "cắt tóc",
+        "collection_id": "55"
+    },
+    {
+        "front": "シャンプー",
+        "kanji": null,
+        "pronunciation": "シャンプー",
+        "back": "gội đầu",
+        "collection_id": "55"
+    },
+    {
+        "front": "どういうふうになさいますか。",
+        "kanji": null,
+        "pronunciation": "どういうふうになさいますか。",
+        "back": "Anh/chị định ~ như thế nào?",
+        "collection_id": "55"
+    },
+    {
+        "front": "ショート",
+        "kanji": null,
+        "pronunciation": "ショート",
+        "back": "kiểu ngắn",
+        "collection_id": "55"
+    },
+    {
+        "front": "～みたいに　して　ください。",
+        "kanji": null,
+        "pronunciation": "～みたいに　して　ください。",
+        "back": "Hãy cắt như ~.",
+        "collection_id": "55"
+    },
+    {
+        "front": "これでよろしいでしょうか。",
+        "kanji": null,
+        "pronunciation": "これでよろしいでしょうか。",
+        "back": "Thế này đã được chưa ạ?",
+        "collection_id": "55"
+    },
+    {
+        "front": "[どうも]お疲れ様でした。",
+        "kanji": "BÌ DẠNG",
+        "pronunciation": "「どうも」おつかれさまでした。",
+        "back": "Cám ơn anh/chị.",
+        "collection_id": "55"
+    },
+    {
+        "front": "嫌がります",
+        "kanji": "HIỀM",
+        "pronunciation": "いやがります",
+        "back": "không thích, tỏ thái độ không thích",
+        "collection_id": "55"
+    },
+    {
+        "front": "また",
+        "kanji": null,
+        "pronunciation": "また",
+        "back": "thêm nữa",
+        "collection_id": "55"
+    },
+    {
+        "front": "順序",
+        "kanji": "THUẬN TỰ",
+        "pronunciation": "じゅんじょ",
+        "back": "thứ tự",
+        "collection_id": "55"
+    },
+    {
+        "front": "表現",
+        "kanji": "BIỂU HIỆN",
+        "pronunciation": "ひょうげん",
+        "back": "cách nói, cách diễn đạt",
+        "collection_id": "55"
+    },
+    {
+        "front": "例えば",
+        "kanji": "LỆ",
+        "pronunciation": "たとえば",
+        "back": "ví dụ",
+        "collection_id": "55"
+    },
+    {
+        "front": "別れます",
+        "kanji": "BIỆT",
+        "pronunciation": "わかれます",
+        "back": "chia tay, từ biệt",
+        "collection_id": "55"
+    },
+    {
+        "front": "これら",
+        "kanji": null,
+        "pronunciation": "これら",
+        "back": "những cái này",
+        "collection_id": "55"
+    },
+    {
+        "front": "縁起が悪い",
+        "kanji": "DUYÊN KHỞI ÁC",
+        "pronunciation": "えんぎが　わるい",
+        "back": "không may, không lành",
+        "collection_id": "55"
+    }
+]

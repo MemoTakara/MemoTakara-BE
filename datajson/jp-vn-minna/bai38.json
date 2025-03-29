@@ -1,0 +1,310 @@
+[
+    {
+        "front": "育てます",
+        "kanji": "DỤC",
+        "pronunciation": "そだてます",
+        "back": "nuôi, trồng",
+        "collection_id": "49"
+    },
+    {
+        "front": "運びます",
+        "kanji": "VẬN",
+        "pronunciation": "はこびます",
+        "back": "chở, vận chuyển",
+        "collection_id": "49"
+    },
+    {
+        "front": "亡くなります",
+        "kanji": "VONG",
+        "pronunciation": "なくなります",
+        "back": "mất, qua đời (cách nói gián tiếp của しにます(bài 39))",
+        "collection_id": "49"
+    },
+    {
+        "front": "入院します",
+        "kanji": "NHẬP VIỆN",
+        "pronunciation": "にゅういんします",
+        "back": "nhập viện",
+        "collection_id": "49"
+    },
+    {
+        "front": "退院します",
+        "kanji": "THOÁI VIỆN",
+        "pronunciation": "たいいんします",
+        "back": "xuất viện",
+        "collection_id": "49"
+    },
+    {
+        "front": "[電源を～]入れます",
+        "kanji": "ĐIỆN NGUYÊN NHẬP",
+        "pronunciation": "[でんげんを～] いれます",
+        "back": "bật [công tác điện, nguồn điện]",
+        "collection_id": "49"
+    },
+    {
+        "front": "[電源を～]切ります",
+        "kanji": "ĐIỆN NGUYÊN THIẾT",
+        "pronunciation": "[でんげんを～]きります",
+        "back": "tắt [công tác điện, nguồn điện]",
+        "collection_id": "49"
+    },
+    {
+        "front": "[かぎを～]掛けます",
+        "kanji": "QUẢI",
+        "pronunciation": "[かぎを～]かけます",
+        "back": "khóa [chìa khóa]",
+        "collection_id": "49"
+    },
+    {
+        "front": "気持ちがいい",
+        "kanji": "KHÍ TRÌ",
+        "pronunciation": "きもちがいい",
+        "back": "dễ chịu, thư giãn",
+        "collection_id": "49"
+    },
+    {
+        "front": "気持ちが悪い",
+        "kanji": "KHÍ TRÌ ÁC",
+        "pronunciation": "きもちがわるい",
+        "back": "khó chịu",
+        "collection_id": "49"
+    },
+    {
+        "front": "大きな～",
+        "kanji": "ĐẠI",
+        "pronunciation": "おおきな～",
+        "back": "~ to, ~ lớn",
+        "collection_id": "49"
+    },
+    {
+        "front": "小さな～",
+        "kanji": "NHỎ ~",
+        "pronunciation": "ちいさな～",
+        "back": "nhỏ, ~ bé",
+        "collection_id": "49"
+    },
+    {
+        "front": "赤ちゃん",
+        "kanji": "XÍCH",
+        "pronunciation": "あかちゃん",
+        "back": "em bé",
+        "collection_id": "49"
+    },
+    {
+        "front": "小学校",
+        "kanji": "TIỂU HỌC HIỆU",
+        "pronunciation": "しょうがっこう",
+        "back": "trường tiểu học",
+        "collection_id": "49"
+    },
+    {
+        "front": "中学校",
+        "kanji": "TRUNG HỌC HIỆU",
+        "pronunciation": "ちゅうがっこう",
+        "back": "trường trung học cơ sở",
+        "collection_id": "49"
+    },
+    {
+        "front": "駅前",
+        "kanji": "DỊCH TIỀN",
+        "pronunciation": "えきまえ",
+        "back": "khu vực trước nhà ga",
+        "collection_id": "49"
+    },
+    {
+        "front": "海岸",
+        "kanji": "HẢI NGẠN",
+        "pronunciation": "かいがん",
+        "back": "bờ biển",
+        "collection_id": "49"
+    },
+    {
+        "front": "うそ",
+        "kanji": null,
+        "pronunciation": "うそ",
+        "back": "nói dối, lời nói dối",
+        "collection_id": "49"
+    },
+    {
+        "front": "書類",
+        "kanji": "THƯ LOẠI",
+        "pronunciation": "しょるい",
+        "back": "giấy tờ, tài liệu",
+        "collection_id": "49"
+    },
+    {
+        "front": "電源",
+        "kanji": "ĐIỆN NGUYÊN",
+        "pronunciation": "でんげん",
+        "back": "nguồn điện, công tắc điện",
+        "collection_id": "49"
+    },
+    {
+        "front": "～製",
+        "kanji": "CHẾ",
+        "pronunciation": "～せい",
+        "back": "sản xuất tại ~",
+        "collection_id": "49"
+    },
+    {
+        "front": "[あ、]いけない。",
+        "kanji": null,
+        "pronunciation": "[あ、]いけない。",
+        "back": "Ôi, hỏng mất rồi./ ôi, trời ơi.",
+        "collection_id": "49"
+    },
+    {
+        "front": "お先に[失礼します]。",
+        "kanji": "TIÊN THẤT LỄ",
+        "pronunciation": "おさきに [しつれいします]",
+        "back": "tôi xin phép về trước",
+        "collection_id": "49"
+    },
+    {
+        "front": "原爆ドーム",
+        "kanji": "NGUYÊN BỘC",
+        "pronunciation": "げんばくドーム",
+        "back": "nhà vòm Bom nguyên tử, một di tích",
+        "collection_id": "49"
+    },
+    {
+        "front": "回覧",
+        "kanji": "HỒI LÃM",
+        "pronunciation": "かいらん",
+        "back": "tập thông báo",
+        "collection_id": "49"
+    },
+    {
+        "front": "研究室",
+        "kanji": "NGHIÊN CỨU THẤT",
+        "pronunciation": "けんきゅうしつ",
+        "back": "phòng nghiên cứu",
+        "collection_id": "49"
+    },
+    {
+        "front": "きちんと",
+        "kanji": null,
+        "pronunciation": "きちんと",
+        "back": "nghiêm chỉnh, hẳn hoi, đứng đắn",
+        "collection_id": "49"
+    },
+    {
+        "front": "せいりします",
+        "kanji": null,
+        "pronunciation": "せいりします",
+        "back": "sắp xếp",
+        "collection_id": "49"
+    },
+    {
+        "front": "～という本",
+        "kanji": "BẢN",
+        "pronunciation": "～という本",
+        "back": "quyển sách có tên là ~",
+        "collection_id": "49"
+    },
+    {
+        "front": "－冊",
+        "kanji": "SÁCH",
+        "pronunciation": "―さつ",
+        "back": "(đơn vị đếm sách, v.v.)",
+        "collection_id": "49"
+    },
+    {
+        "front": "はんこ",
+        "kanji": null,
+        "pronunciation": "はんこ",
+        "back": "con dấu, dấu",
+        "collection_id": "49"
+    },
+    {
+        "front": "[はんこを～] 押します",
+        "kanji": "ÁP",
+        "pronunciation": "[はんこを～]おします",
+        "back": "đóng [dấu]",
+        "collection_id": "49"
+    },
+    {
+        "front": "双子",
+        "kanji": "SONG TỬ",
+        "pronunciation": "ふたご",
+        "back": "cặp sinh đôi",
+        "collection_id": "49"
+    },
+    {
+        "front": "姉妹",
+        "kanji": "TỶ MUỘI",
+        "pronunciation": "しまい",
+        "back": "chị em",
+        "collection_id": "49"
+    },
+    {
+        "front": "５年生",
+        "kanji": "NIÊN SINH",
+        "pronunciation": "5ねんせい",
+        "back": "học sinh năm thứ 5",
+        "collection_id": "49"
+    },
+    {
+        "front": "似ています",
+        "kanji": "TỰ",
+        "pronunciation": "にています",
+        "back": "giống",
+        "collection_id": "49"
+    },
+    {
+        "front": "性格",
+        "kanji": "TÍNH CÁCH",
+        "pronunciation": "せいかく",
+        "back": "tính cách, tính tình",
+        "collection_id": "49"
+    },
+    {
+        "front": "おとなしい",
+        "kanji": null,
+        "pronunciation": "おとなしい",
+        "back": "hiền lành, trầm",
+        "collection_id": "49"
+    },
+    {
+        "front": "世話をします",
+        "kanji": "THẾ THOẠI",
+        "pronunciation": "せわをします",
+        "back": "chăm sóc, giúp đỡ",
+        "collection_id": "49"
+    },
+    {
+        "front": "時間がたちます",
+        "kanji": "THỜI GIAN",
+        "pronunciation": "じかんがたちます",
+        "back": "thời gian trôi đi",
+        "collection_id": "49"
+    },
+    {
+        "front": "大好き[な]",
+        "kanji": "ĐẠI HẢO",
+        "pronunciation": "だいすき「な」",
+        "back": "rất thích",
+        "collection_id": "49"
+    },
+    {
+        "front": "―点",
+        "kanji": "ĐIỂM ―",
+        "pronunciation": "てん",
+        "back": "- điểm",
+        "collection_id": "49"
+    },
+    {
+        "front": "クラス",
+        "kanji": null,
+        "pronunciation": "クラス",
+        "back": "lớp học, lớp",
+        "collection_id": "49"
+    },
+    {
+        "front": "けんかします",
+        "kanji": null,
+        "pronunciation": "けんかします",
+        "back": "cãi nhau",
+        "collection_id": "49"
+    }
+]

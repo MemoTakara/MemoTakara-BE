@@ -1,0 +1,380 @@
+[
+    {
+        "front": "[電車に～]乗ります",
+        "kanji": "ĐIỆN XA THỪA",
+        "pronunciation": "[でんしゃに～] のります",
+        "back": "đi, lên [tàu]",
+        "collection_id": "27"
+    },
+    {
+        "front": "[電車を～]降ります",
+        "kanji": "ĐIỆN XA GIÁNG/HÀNG",
+        "pronunciation": "[でんしゃを～]おります",
+        "back": "xuống [tàu]",
+        "collection_id": "27"
+    },
+    {
+        "front": "乗り換えます",
+        "kanji": "THỪA HOÁN",
+        "pronunciation": "のりかえます",
+        "back": "chuyển, đổi (tàu)",
+        "collection_id": "27"
+    },
+    {
+        "front": "[シャワーを～]浴びます",
+        "kanji": "DỤC",
+        "pronunciation": "[シャワーを～]あびます",
+        "back": "tắm [vòi hoa sen]",
+        "collection_id": "27"
+    },
+    {
+        "front": "入れます",
+        "kanji": "NHẬP",
+        "pronunciation": "いれます",
+        "back": "cho vào, bỏ vào",
+        "collection_id": "27"
+    },
+    {
+        "front": "出します",
+        "kanji": "XUẤT",
+        "pronunciation": "だします",
+        "back": "lấy ra, rút (tiền)",
+        "collection_id": "27"
+    },
+    {
+        "front": "[大学に～]入ります",
+        "kanji": "ĐẠI HỌC NHẬP",
+        "pronunciation": "[だいがくに～] はいります",
+        "back": "vào, nhập học [đại học]",
+        "collection_id": "27"
+    },
+    {
+        "front": "[大学を～]出ます",
+        "kanji": "ĐẠI HỌC XUẤT",
+        "pronunciation": "[だいがくを～] でます",
+        "back": "ra, tốt nghiệp [đại học]",
+        "collection_id": "27"
+    },
+    {
+        "front": "[会社を～]やめます",
+        "kanji": "HỘI XÃ",
+        "pronunciation": "[かいしゃを～]やめます",
+        "back": "bỏ, thôi [việc công ty]",
+        "collection_id": "27"
+    },
+    {
+        "front": "押します",
+        "kanji": "ÁP",
+        "pronunciation": "おします",
+        "back": "bấm, ấn (nút)",
+        "collection_id": "27"
+    },
+    {
+        "front": "若い",
+        "kanji": "NHƯỢC",
+        "pronunciation": "わかい",
+        "back": "trẻ",
+        "collection_id": "27"
+    },
+    {
+        "front": "長い",
+        "kanji": "TRƯỜNG",
+        "pronunciation": "ながい",
+        "back": "dài",
+        "collection_id": "27"
+    },
+    {
+        "front": "短い",
+        "kanji": "ĐOẢN",
+        "pronunciation": "みじかい",
+        "back": "ngắn",
+        "collection_id": "27"
+    },
+    {
+        "front": "明るい",
+        "kanji": "MINH",
+        "pronunciation": "あかるい",
+        "back": "sáng",
+        "collection_id": "27"
+    },
+    {
+        "front": "暗い",
+        "kanji": "ÁM",
+        "pronunciation": "くらい",
+        "back": "tối",
+        "collection_id": "27"
+    },
+    {
+        "front": "背が　高い",
+        "kanji": "BỐI CAO",
+        "pronunciation": "せが　たかい",
+        "back": "cao (dùng cho người)",
+        "collection_id": "27"
+    },
+    {
+        "front": "頭が　いい",
+        "kanji": "ĐẦU",
+        "pronunciation": "あたまが　いい",
+        "back": "thông minh",
+        "collection_id": "27"
+    },
+    {
+        "front": "体",
+        "kanji": "THỂ",
+        "pronunciation": "からだ",
+        "back": "người, cơ thể",
+        "collection_id": "27"
+    },
+    {
+        "front": "頭",
+        "kanji": "ĐẦU",
+        "pronunciation": "あたま",
+        "back": "đầu",
+        "collection_id": "27"
+    },
+    {
+        "front": "髪",
+        "kanji": "PHÁT",
+        "pronunciation": "かみ",
+        "back": "giấy",
+        "collection_id": "27"
+    },
+    {
+        "front": "顔",
+        "kanji": "NHAN",
+        "pronunciation": "かお",
+        "back": "mặt",
+        "collection_id": "27"
+    },
+    {
+        "front": "目",
+        "kanji": "MỤC",
+        "pronunciation": "め",
+        "back": "mắt",
+        "collection_id": "27"
+    },
+    {
+        "front": "耳",
+        "kanji": "NHĨ",
+        "pronunciation": "みみ",
+        "back": "tai",
+        "collection_id": "27"
+    },
+    {
+        "front": "口",
+        "kanji": "KHẨU",
+        "pronunciation": "くち",
+        "back": "miệng",
+        "collection_id": "27"
+    },
+    {
+        "front": "歯",
+        "kanji": "XỈ",
+        "pronunciation": "は",
+        "back": "răng",
+        "collection_id": "27"
+    },
+    {
+        "front": "おなか",
+        "kanji": null,
+        "pronunciation": "おなか",
+        "back": "bụng",
+        "collection_id": "27"
+    },
+    {
+        "front": "足",
+        "kanji": "TÚC",
+        "pronunciation": "あし",
+        "back": "chân",
+        "collection_id": "27"
+    },
+    {
+        "front": "サービス",
+        "kanji": null,
+        "pronunciation": "サービス",
+        "back": "dịch vụ",
+        "collection_id": "27"
+    },
+    {
+        "front": "ジョギング",
+        "kanji": null,
+        "pronunciation": "ジョギング",
+        "back": "việc chạy bộ (~をします: chạy bộ)",
+        "collection_id": "27"
+    },
+    {
+        "front": "シャワー",
+        "kanji": null,
+        "pronunciation": "シャワー",
+        "back": "vòi hoa sen",
+        "collection_id": "27"
+    },
+    {
+        "front": "緑",
+        "kanji": "LỤC",
+        "pronunciation": "みどり",
+        "back": "màu xanh lá cây",
+        "collection_id": "27"
+    },
+    {
+        "front": "[お]寺",
+        "kanji": "TỰ",
+        "pronunciation": "[お]てら",
+        "back": "chùa",
+        "collection_id": "27"
+    },
+    {
+        "front": "神社",
+        "kanji": "THẦN XÃ",
+        "pronunciation": "じんじゃ",
+        "back": "đền thờ đạo thần",
+        "collection_id": "27"
+    },
+    {
+        "front": "留学生",
+        "kanji": "LƯU HỌC SINH",
+        "pronunciation": "りゅうがくせい",
+        "back": "lưu học sinh, du học sinh",
+        "collection_id": "27"
+    },
+    {
+        "front": "一番",
+        "kanji": "PHIÊN",
+        "pronunciation": "一ばん",
+        "back": "số ―",
+        "collection_id": "27"
+    },
+    {
+        "front": "どうやって",
+        "kanji": null,
+        "pronunciation": "どうやって",
+        "back": "làm thế nào~",
+        "collection_id": "27"
+    },
+    {
+        "front": "どの～",
+        "kanji": null,
+        "pronunciation": "どの～",
+        "back": "cái nào~ (dùng với trường hợp từ ba thứ trở lên)",
+        "collection_id": "27"
+    },
+    {
+        "front": "[いいえ、]まだまだです。",
+        "kanji": null,
+        "pronunciation": "[いいえ、]まだまだです。",
+        "back": "[không,] tôi còn kém lắm.",
+        "collection_id": "27"
+    },
+    {
+        "front": "お引き出しですか",
+        "kanji": "DẪN XUẤT",
+        "pronunciation": "おひきだしですか",
+        "back": "Anh/ chị rút tiền ạ?",
+        "collection_id": "27"
+    },
+    {
+        "front": "まず",
+        "kanji": null,
+        "pronunciation": "まず",
+        "back": "trước hết, đầu tiên",
+        "collection_id": "27"
+    },
+    {
+        "front": "キャッシュカード",
+        "kanji": null,
+        "pronunciation": "キャッシュカード",
+        "back": "thẻ ngân hàng, thẻ ATM",
+        "collection_id": "27"
+    },
+    {
+        "front": "暗証番号",
+        "kanji": "ÁM CHỨNG PHIÊN HIỆU",
+        "pronunciation": "あんしょうばんごう",
+        "back": "mã số bí mật (mật khẩu)",
+        "collection_id": "27"
+    },
+    {
+        "front": "次に",
+        "kanji": "THỨ",
+        "pronunciation": "つぎに",
+        "back": "tiếp theo",
+        "collection_id": "27"
+    },
+    {
+        "front": "金額",
+        "kanji": "KIM NGẠCH",
+        "pronunciation": "きんがく",
+        "back": "số tiền, khoản tiền",
+        "collection_id": "27"
+    },
+    {
+        "front": "確認",
+        "kanji": "XÁC NHẬN",
+        "pronunciation": "かくにん",
+        "back": "sự xác nhận, sự kiểm tra (~します：xác nhận)",
+        "collection_id": "27"
+    },
+    {
+        "front": "ボタン",
+        "kanji": null,
+        "pronunciation": "ボタン",
+        "back": "nút",
+        "collection_id": "27"
+    },
+    {
+        "front": "ＪＲ",
+        "kanji": null,
+        "pronunciation": "ＪＲ",
+        "back": "công ty đường sắt Nhật Bản",
+        "collection_id": "27"
+    },
+    {
+        "front": "アジア",
+        "kanji": null,
+        "pronunciation": "アジア",
+        "back": "châu Á",
+        "collection_id": "27"
+    },
+    {
+        "front": "バンドン",
+        "kanji": null,
+        "pronunciation": "バンドン",
+        "back": "Bandung (ở Indonesia)",
+        "collection_id": "27"
+    },
+    {
+        "front": "ベラクルス",
+        "kanji": null,
+        "pronunciation": "ベラクルス",
+        "back": "Veracruz (ở Mexico)",
+        "collection_id": "27"
+    },
+    {
+        "front": "フランケン",
+        "kanji": null,
+        "pronunciation": "フランケン",
+        "back": "Franken (ở Đức)",
+        "collection_id": "27"
+    },
+    {
+        "front": "ベトナム",
+        "kanji": null,
+        "pronunciation": "ベトナム",
+        "back": "Việt Nam",
+        "collection_id": "27"
+    },
+    {
+        "front": "フェ",
+        "kanji": null,
+        "pronunciation": "フェ",
+        "back": "Huế",
+        "collection_id": "27"
+    },
+    {
+        "front": "大学前",
+        "kanji": "ĐẠI HỌC TIỀN",
+        "pronunciation": "だいがくまえ",
+        "back": "tên một điểm dừng xe buýt (giả tưởng)",
+        "collection_id": "27"
+    }
+]

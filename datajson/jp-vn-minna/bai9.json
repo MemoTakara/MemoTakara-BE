@@ -1,0 +1,359 @@
+[
+    {
+        "front": "わかります",
+        "kanji": null,
+        "pronunciation": "わかります",
+        "back": "hiểu, nắm được",
+        "collection_id": "20"
+    },
+    {
+        "front": "あります",
+        "kanji": null,
+        "pronunciation": "あります",
+        "back": "có (sở hữu)",
+        "collection_id": "20"
+    },
+    {
+        "front": "好き[な]",
+        "kanji": "HIẾU/HẢO",
+        "pronunciation": "すき[な]",
+        "back": "thích",
+        "collection_id": "20"
+    },
+    {
+        "front": "嫌い[な]",
+        "kanji": "HIỀM",
+        "pronunciation": "きらい[な]",
+        "back": "ghét, không thích",
+        "collection_id": "20"
+    },
+    {
+        "front": "上手[な]",
+        "kanji": "THƯỢNG THỦ",
+        "pronunciation": "じょうず[な]",
+        "back": "giỏi, khéo",
+        "collection_id": "20"
+    },
+    {
+        "front": "下手[な]",
+        "kanji": "HẠ THỦ",
+        "pronunciation": "へた[な]",
+        "back": "kém",
+        "collection_id": "20"
+    },
+    {
+        "front": "料理",
+        "kanji": "LIỆU LÝ",
+        "pronunciation": "りょうり",
+        "back": "món ăn, việc nấu ăn",
+        "collection_id": "20"
+    },
+    {
+        "front": "飲み物",
+        "kanji": "ẨM VẬT",
+        "pronunciation": "のみもの",
+        "back": "đồ uống",
+        "collection_id": "20"
+    },
+    {
+        "front": "スポーツ",
+        "kanji": null,
+        "pronunciation": "スポーツ",
+        "back": "thể thao (～をします：chơi thể thao)",
+        "collection_id": "20"
+    },
+    {
+        "front": "野球",
+        "kanji": "DÃ CẦU",
+        "pronunciation": "やきゅう",
+        "back": "bóng chày (～をします：chơi bóng chày)",
+        "collection_id": "20"
+    },
+    {
+        "front": "ダンス",
+        "kanji": null,
+        "pronunciation": "ダンス",
+        "back": "nhảy, khiêu vũ(～をします：nhảy, khiêu vũ)",
+        "collection_id": "20"
+    },
+    {
+        "front": "音楽",
+        "kanji": "ÂM NHẠC/LẠC",
+        "pronunciation": "おんがく",
+        "back": "âm nhạc",
+        "collection_id": "20"
+    },
+    {
+        "front": "歌",
+        "kanji": "CA",
+        "pronunciation": "うた",
+        "back": "bài hát",
+        "collection_id": "20"
+    },
+    {
+        "front": "クラシック",
+        "kanji": null,
+        "pronunciation": "クラシック",
+        "back": "nhạc cổ điển",
+        "collection_id": "20"
+    },
+    {
+        "front": "ジャズ",
+        "kanji": null,
+        "pronunciation": "ジャズ",
+        "back": "nhạc jazz",
+        "collection_id": "20"
+    },
+    {
+        "front": "コンサート",
+        "kanji": null,
+        "pronunciation": "コンサート",
+        "back": "buổi hòa nhạc",
+        "collection_id": "20"
+    },
+    {
+        "front": "カラオケ",
+        "kanji": null,
+        "pronunciation": "カラオケ",
+        "back": "karaoke",
+        "collection_id": "20"
+    },
+    {
+        "front": "歌舞伎",
+        "kanji": "CA VŨ KỸ",
+        "pronunciation": "かぶき",
+        "back": "Kabuki (một loại ca kịch truyền thống của Nhật)",
+        "collection_id": "20"
+    },
+    {
+        "front": "絵",
+        "kanji": "HỘI",
+        "pronunciation": "え",
+        "back": "tranh, hội họa",
+        "collection_id": "20"
+    },
+    {
+        "front": "字",
+        "kanji": "TỰ",
+        "pronunciation": "じ",
+        "back": "chữ",
+        "collection_id": "20"
+    },
+    {
+        "front": "漢字",
+        "kanji": "HÁN TỰ",
+        "pronunciation": "かんじ",
+        "back": "chữ hán",
+        "collection_id": "20"
+    },
+    {
+        "front": "ひらがな",
+        "kanji": null,
+        "pronunciation": "ひらがな",
+        "back": "chữ Hiragana",
+        "collection_id": "20"
+    },
+    {
+        "front": "かたかな",
+        "kanji": null,
+        "pronunciation": "かたかな",
+        "back": "Chữ Katakana",
+        "collection_id": "20"
+    },
+    {
+        "front": "ローマ字",
+        "kanji": "TỰ",
+        "pronunciation": "ローマじ",
+        "back": "chữ La Mã",
+        "collection_id": "20"
+    },
+    {
+        "front": "細かいお金",
+        "kanji": "TẾ KIM",
+        "pronunciation": "こまかいおかね",
+        "back": "tiền lẻ",
+        "collection_id": "20"
+    },
+    {
+        "front": "チケット",
+        "kanji": null,
+        "pronunciation": "チケット",
+        "back": "vé (xem hòa nhạc, xem phim)",
+        "collection_id": "20"
+    },
+    {
+        "front": "時間",
+        "kanji": "THÌ/THỜI GIAN",
+        "pronunciation": "じかん",
+        "back": "thời gian",
+        "collection_id": "20"
+    },
+    {
+        "front": "用事",
+        "kanji": "DỤNG SỰ",
+        "pronunciation": "ようじ",
+        "back": "việc bận, công chuyện",
+        "collection_id": "20"
+    },
+    {
+        "front": "約束",
+        "kanji": "ƯỚC THÚC",
+        "pronunciation": "やくそく",
+        "back": "cuộc hẹn, lời hứa",
+        "collection_id": "20"
+    },
+    {
+        "front": "ご主人",
+        "kanji": "CHỦ NHÂN",
+        "pronunciation": "ごしゅじん",
+        "back": "chồng (dùng khi nói về chồng người khác)",
+        "collection_id": "20"
+    },
+    {
+        "front": "夫 /主人",
+        "kanji": "PHU CHỦ NHÂN",
+        "pronunciation": "おっと/しゅじん",
+        "back": "chồng (dùng khi nói về chồng mình)",
+        "collection_id": "20"
+    },
+    {
+        "front": "奥さん",
+        "kanji": "ÁO",
+        "pronunciation": "おくさん",
+        "back": "vợ (dùng khi nói về vợ người khác)",
+        "collection_id": "20"
+    },
+    {
+        "front": "妻/家内",
+        "kanji": "THÊ GIA NỘI",
+        "pronunciation": "つま/かない",
+        "back": "vợ (dùng khi nói về vợ mình)",
+        "collection_id": "20"
+    },
+    {
+        "front": "子ども",
+        "kanji": "TỬ",
+        "pronunciation": "こども",
+        "back": "con cái",
+        "collection_id": "20"
+    },
+    {
+        "front": "よく",
+        "kanji": null,
+        "pronunciation": "よく",
+        "back": "tốt, rõ (chỉ mức độ)",
+        "collection_id": "20"
+    },
+    {
+        "front": "だいたい",
+        "kanji": null,
+        "pronunciation": "だいたい",
+        "back": "đại khái, đại thể",
+        "collection_id": "20"
+    },
+    {
+        "front": "たくさん",
+        "kanji": null,
+        "pronunciation": "たくさん",
+        "back": "nhiều",
+        "collection_id": "20"
+    },
+    {
+        "front": "少し",
+        "kanji": "THIẾU, THIỂU",
+        "pronunciation": "すこし",
+        "back": "ít, một ít",
+        "collection_id": "20"
+    },
+    {
+        "front": "全然",
+        "kanji": "TOÀN NHIÊN",
+        "pronunciation": "ぜんぜん",
+        "back": "hoàn toàn ~ không",
+        "collection_id": "20"
+    },
+    {
+        "front": "早く, 速く",
+        "kanji": "TẢO、TỐC",
+        "pronunciation": "はやく",
+        "back": "sớm, nhanh",
+        "collection_id": "20"
+    },
+    {
+        "front": "～から",
+        "kanji": null,
+        "pronunciation": "～から",
+        "back": "~ từ",
+        "collection_id": "20"
+    },
+    {
+        "front": "どうして",
+        "kanji": null,
+        "pronunciation": "どうして",
+        "back": "tại sao",
+        "collection_id": "20"
+    },
+    {
+        "front": "残念です[ね]。",
+        "kanji": "TÀN NIỆM",
+        "pronunciation": "ざんねんです[ね]。",
+        "back": "Thật đáng tiếc nhỉ./ buồn nhỉ.",
+        "collection_id": "20"
+    },
+    {
+        "front": "すみません。",
+        "kanji": null,
+        "pronunciation": "すみません。",
+        "back": "Xin lỗi.",
+        "collection_id": "20"
+    },
+    {
+        "front": "もしもし",
+        "kanji": null,
+        "pronunciation": "もしもし",
+        "back": "a-lô",
+        "collection_id": "20"
+    },
+    {
+        "front": "ああ",
+        "kanji": null,
+        "pronunciation": "ああ",
+        "back": "a (cách nói khi đã gặp được đúng người trên điện thoại)",
+        "collection_id": "20"
+    },
+    {
+        "front": "いっしょにいかがですか。",
+        "kanji": null,
+        "pronunciation": "いっしょにいかがですか。",
+        "back": "Anh/chị cùng ~ (làm cái gì đó) với chúng tôi được không?",
+        "collection_id": "20"
+    },
+    {
+        "front": "[～は]ちょっと…。",
+        "kanji": null,
+        "pronunciation": "[～は]ちょっと…。",
+        "back": "[~ thì] có lẽ không được rồi.",
+        "collection_id": "20"
+    },
+    {
+        "front": "だめですか。",
+        "kanji": null,
+        "pronunciation": "だめですか。",
+        "back": "Không được à?",
+        "collection_id": "20"
+    },
+    {
+        "front": "また今度お願いします",
+        "kanji": "KIM ĐỘ NGUYỆN",
+        "pronunciation": "またこんどおねがいします",
+        "back": "Hẹn Anh/Chị lần sau vậy.",
+        "collection_id": "20"
+    },
+    {
+        "front": "小沢征爾",
+        "kanji": "TIỂU TRẠCH CHINH NHĨ",
+        "pronunciation": "おざわせいじ",
+        "back": "Ozawa Seiji (1935 ~ )",
+        "collection_id": "20"
+    }
+]

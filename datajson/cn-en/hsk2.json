@@ -1,0 +1,602 @@
+[
+    {
+        "front": "为",
+        "back": "do, handle, govern, act; be",
+        "pronunciation": "wèi",
+        "collection_id": "2"
+    },
+    {
+        "front": "到",
+        "back": "go to, arrive, been to",
+        "pronunciation": "dào",
+        "collection_id": "2"
+    },
+    {
+        "front": "以",
+        "back": "by means of; thereby, therefore; consider as; in order to",
+        "pronunciation": "yǐ",
+        "collection_id": "2"
+    },
+    {
+        "front": "要",
+        "back": "necessary, essential; necessity",
+        "pronunciation": "yào",
+        "collection_id": "2"
+    },
+    {
+        "front": "就",
+        "back": "just, simply; to come, go to; to approach, near",
+        "pronunciation": "jiù",
+        "collection_id": "2"
+    },
+    {
+        "front": "可",
+        "back": "may, can, -able; possibly",
+        "pronunciation": "kě",
+        "collection_id": "2"
+    },
+    {
+        "front": "也",
+        "back": "also; classical final particle of strong affirmation or identity",
+        "pronunciation": "yě",
+        "collection_id": "2"
+    },
+    {
+        "front": "得",
+        "back": "obtain, get, gain, acquire",
+        "pronunciation": "dé",
+        "collection_id": "2"
+    },
+    {
+        "front": "着",
+        "back": "make move, take action",
+        "pronunciation": "zhe",
+        "collection_id": "2"
+    },
+    {
+        "front": "过",
+        "back": "pass, pass through, go across",
+        "pronunciation": "guò",
+        "collection_id": "2"
+    },
+    {
+        "front": "道",
+        "back": "path, road, street; method, way",
+        "pronunciation": "dào",
+        "collection_id": "2"
+    },
+    {
+        "front": "所",
+        "back": "place, location; numerary adjunct",
+        "pronunciation": "suǒ",
+        "collection_id": "2"
+    },
+    {
+        "front": "然",
+        "back": "yes, certainly; pledge, promise",
+        "pronunciation": "rán",
+        "collection_id": "2"
+    },
+    {
+        "front": "事",
+        "back": "affair, matter, business; to serve; accident, incident",
+        "pronunciation": "shì",
+        "collection_id": "2"
+    },
+    {
+        "front": "经",
+        "back": "classic works; pass through",
+        "pronunciation": "jīng",
+        "collection_id": "2"
+    },
+    {
+        "front": "动",
+        "back": "move, happen; movement, action",
+        "pronunciation": "dòng",
+        "collection_id": "2"
+    },
+    {
+        "front": "还",
+        "back": "still, yet, also, besides",
+        "pronunciation": "hái",
+        "collection_id": "2"
+    },
+    {
+        "front": "进",
+        "back": "advance, make progress, enter",
+        "pronunciation": "jìn",
+        "collection_id": "2"
+    },
+    {
+        "front": "但",
+        "back": "only; but, however, yet, still",
+        "pronunciation": "dàn",
+        "collection_id": "2"
+    },
+    {
+        "front": "因",
+        "back": "cause, reason; by; because (of)",
+        "pronunciation": "yīn",
+        "collection_id": "2"
+    },
+    {
+        "front": "从",
+        "back": "from, by, since, whence, through",
+        "pronunciation": "cóng",
+        "collection_id": "2"
+    },
+    {
+        "front": "日",
+        "back": "sun; day; daytime",
+        "pronunciation": "rì",
+        "collection_id": "2"
+    },
+    {
+        "front": "意",
+        "back": "thought, idea, opinion; think",
+        "pronunciation": "yì",
+        "collection_id": "2"
+    },
+    {
+        "front": "它",
+        "back": "it; other",
+        "pronunciation": "tā",
+        "collection_id": "2"
+    },
+    {
+        "front": "长",
+        "back": "long; length; excel in; leader",
+        "pronunciation": "zhǎng",
+        "collection_id": "2"
+    },
+    {
+        "front": "第",
+        "back": "sequence, number; grade, degree",
+        "pronunciation": "dì",
+        "collection_id": "2"
+    },
+    {
+        "front": "公",
+        "back": "fair, equitable; public; duke",
+        "pronunciation": "gōng",
+        "collection_id": "2"
+    },
+    {
+        "front": "已",
+        "back": "already; finished; stop",
+        "pronunciation": "yǐ",
+        "collection_id": "2"
+    },
+    {
+        "front": "情",
+        "back": "feeling, sentiment, emotion",
+        "pronunciation": "qíng",
+        "collection_id": "2"
+    },
+    {
+        "front": "知",
+        "back": "know, perceive, comprehend",
+        "pronunciation": "zhī",
+        "collection_id": "2"
+    },
+    {
+        "front": "正",
+        "back": "right, proper, correct",
+        "pronunciation": "zhèng",
+        "collection_id": "2"
+    },
+    {
+        "front": "外",
+        "back": "out, outside, external; foreign",
+        "pronunciation": "wài",
+        "collection_id": "2"
+    },
+    {
+        "front": "两",
+        "back": "two, both, pair, couple; ounce",
+        "pronunciation": "liǎng",
+        "collection_id": "2"
+    },
+    {
+        "front": "间",
+        "back": "midpoint, space; place, locality",
+        "pronunciation": "jiān",
+        "collection_id": "2"
+    },
+    {
+        "front": "问",
+        "back": "ask about, inquire after",
+        "pronunciation": "wèn",
+        "collection_id": "2"
+    },
+    {
+        "front": "最",
+        "back": "most, extremely, exceedingly",
+        "pronunciation": "zuì",
+        "collection_id": "2"
+    },
+    {
+        "front": "手",
+        "back": "hand",
+        "pronunciation": "shǒu",
+        "collection_id": "2"
+    },
+    {
+        "front": "体",
+        "back": "body; group, class, body, unit; inferior",
+        "pronunciation": "tǐ",
+        "collection_id": "2"
+    },
+    {
+        "front": "等",
+        "back": "",
+        "pronunciation": "děng",
+        "collection_id": "2"
+    },
+    {
+        "front": "新",
+        "back": "new, recent, fresh, modern",
+        "pronunciation": "xīn",
+        "collection_id": "2"
+    },
+    {
+        "front": "身",
+        "back": "body; trunk, hull; rad. no. 158",
+        "pronunciation": "shēn",
+        "collection_id": "2"
+    },
+    {
+        "front": "表",
+        "back": "show, express, manifest, display",
+        "pronunciation": "biǎo",
+        "collection_id": "2"
+    },
+    {
+        "front": "给",
+        "back": "give; by, for",
+        "pronunciation": "gěi",
+        "collection_id": "2"
+    },
+    {
+        "front": "次",
+        "back": "order, sequence; next",
+        "pronunciation": "cì",
+        "collection_id": "2"
+    },
+    {
+        "front": "门",
+        "back": "gate, door, entrance, opening",
+        "pronunciation": "mén",
+        "collection_id": "2"
+    },
+    {
+        "front": "常",
+        "back": "common, normal, frequent, regular",
+        "pronunciation": "cháng",
+        "collection_id": "2"
+    },
+    {
+        "front": "教",
+        "back": "teach, class",
+        "pronunciation": "jiào",
+        "collection_id": "2"
+    },
+    {
+        "front": "比",
+        "back": "to compare, liken; comparison; than",
+        "pronunciation": "bǐ",
+        "collection_id": "2"
+    },
+    {
+        "front": "员",
+        "back": "member; personnel, staff member",
+        "pronunciation": "yuán",
+        "collection_id": "2"
+    },
+    {
+        "front": "真",
+        "back": "real, actual, true, genuine",
+        "pronunciation": "zhēn",
+        "collection_id": "2"
+    },
+    {
+        "front": "走",
+        "back": "walk, go on foot; run; leave",
+        "pronunciation": "zǒu",
+        "collection_id": "2"
+    },
+    {
+        "front": "条",
+        "back": "clause, condition; string, stripe",
+        "pronunciation": "tiáo",
+        "collection_id": "2"
+    },
+    {
+        "front": "题",
+        "back": "forehead; title, headline; theme",
+        "pronunciation": "tí",
+        "collection_id": "2"
+    },
+    {
+        "front": "别",
+        "back": "separate, other; do not",
+        "pronunciation": "bié",
+        "collection_id": "2"
+    },
+    {
+        "front": "报",
+        "back": "report, tell, announce",
+        "pronunciation": "bào",
+        "collection_id": "2"
+    },
+    {
+        "front": "务",
+        "back": "affairs, business; must, should",
+        "pronunciation": "wù",
+        "collection_id": "2"
+    },
+    {
+        "front": "场",
+        "back": "open space, field, market",
+        "pronunciation": "chǎng",
+        "collection_id": "2"
+    },
+    {
+        "front": "件",
+        "back": "numerary adjunct for article; matter",
+        "pronunciation": "jiàn",
+        "collection_id": "2"
+    },
+    {
+        "front": "便",
+        "back": "convenience, ease; expedient",
+        "pronunciation": "biàn",
+        "collection_id": "2"
+    },
+    {
+        "front": "司",
+        "back": "take charge of, control, manage; officer",
+        "pronunciation": "sī",
+        "collection_id": "2"
+    },
+    {
+        "front": "眼",
+        "back": "eye; eyelet, hole, opening",
+        "pronunciation": "yǎn",
+        "collection_id": "2"
+    },
+    {
+        "front": "非",
+        "back": "not, negative, non-; oppose",
+        "pronunciation": "fēi",
+        "collection_id": "2"
+    },
+    {
+        "front": "白",
+        "back": "white; pure, unblemished; bright",
+        "pronunciation": "bái",
+        "collection_id": "2"
+    },
+    {
+        "front": "思",
+        "back": "think, consider, ponder; final particle",
+        "pronunciation": "sī",
+        "collection_id": "2"
+    },
+    {
+        "front": "完",
+        "back": "complete, finish, settle; whole",
+        "pronunciation": "wán",
+        "collection_id": "2"
+    },
+    {
+        "front": "色",
+        "back": "color, tint, hue, shade; form, body; beauty, desire for beauty",
+        "pronunciation": "sè",
+        "collection_id": "2"
+    },
+    {
+        "front": "路",
+        "back": "road, path, street; journey",
+        "pronunciation": "lù",
+        "collection_id": "2"
+    },
+    {
+        "front": "告",
+        "back": "tell, announce, inform; accuse",
+        "pronunciation": "gào",
+        "collection_id": "2"
+    },
+    {
+        "front": "边",
+        "back": "edge, margin, side, border",
+        "pronunciation": "biān",
+        "collection_id": "2"
+    },
+    {
+        "front": "望",
+        "back": "to look at, look forward; to hope, expect",
+        "pronunciation": "wàng",
+        "collection_id": "2"
+    },
+    {
+        "front": "共",
+        "back": "together with, all, total; to share",
+        "pronunciation": "gòng",
+        "collection_id": "2"
+    },
+    {
+        "front": "让",
+        "back": "allow, permit, yield, concede",
+        "pronunciation": "ràng",
+        "collection_id": "2"
+    },
+    {
+        "front": "运",
+        "back": "run; simplified form of運luck, fortune; ship, transport",
+        "pronunciation": "yùn",
+        "collection_id": "2"
+    },
+    {
+        "front": "笑",
+        "back": "smile, laugh, giggle; snicker",
+        "pronunciation": "xiào",
+        "collection_id": "2"
+    },
+    {
+        "front": "步",
+        "back": "step, pace; walk, stroll",
+        "pronunciation": "bù",
+        "collection_id": "2"
+    },
+    {
+        "front": "每",
+        "back": "every, each",
+        "pronunciation": "měi",
+        "collection_id": "2"
+    },
+    {
+        "front": "快",
+        "back": "rapid, quick, speedy, fast; soon",
+        "pronunciation": "kuài",
+        "collection_id": "2"
+    },
+    {
+        "front": "往",
+        "back": "go, depart; past, formerly",
+        "pronunciation": "wǎng",
+        "collection_id": "2"
+    },
+    {
+        "front": "近",
+        "back": "near, close; approach; intimate",
+        "pronunciation": "jìn",
+        "collection_id": "2"
+    },
+    {
+        "front": "夫",
+        "back": "man, male adult, husband; those",
+        "pronunciation": "fū",
+        "collection_id": "2"
+    },
+    {
+        "front": "准",
+        "back": "approve, allow, permit; in accord",
+        "pronunciation": "zhǔn",
+        "collection_id": "2"
+    },
+    {
+        "front": "始",
+        "back": "begin, start; then, only then",
+        "pronunciation": "shǐ",
+        "collection_id": "2"
+    },
+    {
+        "front": "远",
+        "back": "distant, remote, far; profound",
+        "pronunciation": "yuǎn",
+        "collection_id": "2"
+    },
+    {
+        "front": "备",
+        "back": "prepare, ready, perfect",
+        "pronunciation": "bèi",
+        "collection_id": "2"
+    },
+    {
+        "front": "百",
+        "back": "one hundred; numerous, many",
+        "pronunciation": "bǎi",
+        "collection_id": "2"
+    },
+    {
+        "front": "离",
+        "back": "rare beast; strange; elegant",
+        "pronunciation": "lí",
+        "collection_id": "2"
+    },
+    {
+        "front": "病",
+        "back": "illness, sickness, disease",
+        "pronunciation": "bìng",
+        "collection_id": "2"
+    },
+    {
+        "front": "息",
+        "back": "rest, put stop to, end, cease",
+        "pronunciation": "xī",
+        "collection_id": "2"
+    },
+    {
+        "front": "火",
+        "back": "fire, flame; burn; anger, rage",
+        "pronunciation": "huǒ",
+        "collection_id": "2"
+    },
+    {
+        "front": "早",
+        "back": "early; soon; morning",
+        "pronunciation": "zǎo",
+        "collection_id": "2"
+    },
+    {
+        "front": "找",
+        "back": "search, seek, look for; find",
+        "pronunciation": "zhǎo",
+        "collection_id": "2"
+    },
+    {
+        "front": "吧",
+        "back": "emphatic final particle",
+        "pronunciation": "ba",
+        "collection_id": "2"
+    },
+    {
+        "front": "考",
+        "back": "examine, test; investigate",
+        "pronunciation": "kǎo",
+        "collection_id": "2"
+    },
+    {
+        "front": "红",
+        "back": "red, vermillion; blush, flush",
+        "pronunciation": "hóng",
+        "collection_id": "2"
+    },
+    {
+        "front": "虽",
+        "back": "although, even if",
+        "pronunciation": "suī",
+        "collection_id": "2"
+    },
+    {
+        "front": "希",
+        "back": "rare; hope, expect, strive for",
+        "pronunciation": "xī",
+        "collection_id": "2"
+    },
+    {
+        "front": "房",
+        "back": "house, building; room",
+        "pronunciation": "fáng",
+        "collection_id": "2"
+    },
+    {
+        "front": "黑",
+        "back": "black; dark; evil, sinister",
+        "pronunciation": "hēi",
+        "collection_id": "2"
+    },
+    {
+        "front": "足",
+        "back": "foot; attain, satisfy, enough",
+        "pronunciation": "zú",
+        "collection_id": "2"
+    },
+    {
+        "front": "孩",
+        "back": "baby, child; children",
+        "pronunciation": "hái",
+        "collection_id": "2"
+    }
+]

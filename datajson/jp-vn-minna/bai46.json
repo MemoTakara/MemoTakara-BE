@@ -1,0 +1,226 @@
+[
+    {
+        "front": "焼きます",
+        "kanji": "THIÊU",
+        "pronunciation": "やきます",
+        "back": "nướng, rán",
+        "collection_id": "57"
+    },
+    {
+        "front": "渡します",
+        "kanji": "ĐỘ",
+        "pronunciation": "わたします",
+        "back": "đưa cho, giao cho",
+        "collection_id": "57"
+    },
+    {
+        "front": "帰って来ます",
+        "kanji": "QUY LAI",
+        "pronunciation": "かえってきます",
+        "back": "về, trở lại",
+        "collection_id": "57"
+    },
+    {
+        "front": "[バスが～]出ます",
+        "kanji": "XUẤT",
+        "pronunciation": "[バスが～]でます",
+        "back": "xuất phát, chạy [xe buýt ~]",
+        "collection_id": "57"
+    },
+    {
+        "front": "留守",
+        "kanji": "LƯU THỦ",
+        "pronunciation": "るす",
+        "back": "đi vắng",
+        "collection_id": "57"
+    },
+    {
+        "front": "宅配便",
+        "kanji": "TRẠCH PHỐI TIỆN",
+        "pronunciation": "たくはいびん",
+        "back": "dịch vụ chuyển đồ đến nhà",
+        "collection_id": "57"
+    },
+    {
+        "front": "原因",
+        "kanji": "NGUYÊN NHÂN",
+        "pronunciation": "げんいん",
+        "back": "nguyên nhân",
+        "collection_id": "57"
+    },
+    {
+        "front": "注射",
+        "kanji": "CHÚ XẠ",
+        "pronunciation": "ちゅうしゃ",
+        "back": "tiêm",
+        "collection_id": "57"
+    },
+    {
+        "front": "食欲",
+        "kanji": "THỰC DỤC",
+        "pronunciation": "しょくよく",
+        "back": "cảm giác muốn ăn, cảm giác ngon miệng",
+        "collection_id": "57"
+    },
+    {
+        "front": "パンフレット",
+        "kanji": null,
+        "pronunciation": "パンフレット",
+        "back": "tờ rơi, tờ quảng cáo",
+        "collection_id": "57"
+    },
+    {
+        "front": "ステレオ",
+        "kanji": null,
+        "pronunciation": "ステレオ",
+        "back": "stereo",
+        "collection_id": "57"
+    },
+    {
+        "front": "こちら",
+        "kanji": null,
+        "pronunciation": "こちら",
+        "back": "đây, đằng này",
+        "collection_id": "57"
+    },
+    {
+        "front": "～の所",
+        "kanji": "SỞ",
+        "pronunciation": "～のところ",
+        "back": "quanh ~, xung quanh ~",
+        "collection_id": "57"
+    },
+    {
+        "front": "ちょうど",
+        "kanji": null,
+        "pronunciation": "ちょうど",
+        "back": "vừa đúng",
+        "collection_id": "57"
+    },
+    {
+        "front": "たった今",
+        "kanji": "KIM",
+        "pronunciation": "たったいま",
+        "back": "vừa mới rồi",
+        "collection_id": "57"
+    },
+    {
+        "front": "今いいでしょうか。",
+        "kanji": "KIM",
+        "pronunciation": "いまいいでしょうか。",
+        "back": "Bây giờ tôi làm phiền anh có được không ạ?",
+        "collection_id": "57"
+    },
+    {
+        "front": "ガスサービスセンター",
+        "kanji": null,
+        "pronunciation": "ガスサービスセンター",
+        "back": "trung tâm dịch vụ ga",
+        "collection_id": "57"
+    },
+    {
+        "front": "ガスレンジ",
+        "kanji": null,
+        "pronunciation": "ガスレンジ",
+        "back": "bếp ga",
+        "collection_id": "57"
+    },
+    {
+        "front": "具合",
+        "kanji": "CỤ HỢP",
+        "pronunciation": "ぐあい",
+        "back": "trạng thái, tình hình",
+        "collection_id": "57"
+    },
+    {
+        "front": "どちら様でしょうか。",
+        "kanji": "DẠNG",
+        "pronunciation": "どちらさまでしょうか",
+        "back": "Ai đấy ạ?",
+        "collection_id": "57"
+    },
+    {
+        "front": "向かいます",
+        "kanji": "HƯỚNG",
+        "pronunciation": "むかいます",
+        "back": "hướng đến, trên đường đến",
+        "collection_id": "57"
+    },
+    {
+        "front": "お待たせしました",
+        "kanji": "ĐÃI",
+        "pronunciation": "おまたせしました",
+        "back": "Xin lỗi vì để anh/ Chị phải đợi",
+        "collection_id": "57"
+    },
+    {
+        "front": "知識",
+        "kanji": "TRI THỨC",
+        "pronunciation": "ちしき",
+        "back": "tri thức, kiến thức",
+        "collection_id": "57"
+    },
+    {
+        "front": "宝庫",
+        "kanji": "BẢO KHỐ",
+        "pronunciation": "ほうこ",
+        "back": "kho báu",
+        "collection_id": "57"
+    },
+    {
+        "front": "手に入ります[情報が～]",
+        "kanji": "THỦ NHẬP  TÌNH BÁO",
+        "pronunciation": "てに　はいります「じょうほう」",
+        "back": "lấy được, thu thập được [Thông tin]",
+        "collection_id": "57"
+    },
+    {
+        "front": "システム",
+        "kanji": null,
+        "pronunciation": "システム",
+        "back": "hệ thống",
+        "collection_id": "57"
+    },
+    {
+        "front": "例えば",
+        "kanji": "LỆ",
+        "pronunciation": "たとえば",
+        "back": "ví dụ, chẳng hạn",
+        "collection_id": "57"
+    },
+    {
+        "front": "キーワード",
+        "kanji": null,
+        "pronunciation": "キーワード",
+        "back": "từ khóa",
+        "collection_id": "57"
+    },
+    {
+        "front": "一部分",
+        "kanji": "NHẤT BỘ PHẬN",
+        "pronunciation": "いちぶぶん",
+        "back": "một bộ phận",
+        "collection_id": "57"
+    },
+    {
+        "front": "入力します",
+        "kanji": "NHẬP LỰC",
+        "pronunciation": "にゅうりょくします",
+        "back": "nhập",
+        "collection_id": "57"
+    },
+    {
+        "front": "秒",
+        "kanji": "MIẾU",
+        "pronunciation": "びょう",
+        "back": "giây",
+        "collection_id": "57"
+    },
+    {
+        "front": "でます[本が～]",
+        "kanji": "BẢN",
+        "pronunciation": "でます「ほんが～」",
+        "back": "được xuất bản [quyển sách ~]",
+        "collection_id": "57"
+    }
+]

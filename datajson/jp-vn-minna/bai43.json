@@ -1,0 +1,212 @@
+[
+    {
+        "front": "[輸出が～]増えます",
+        "kanji": "THÂU XUẤT TĂNG",
+        "pronunciation": "[ゆしゅつが～]ふえます",
+        "back": "tăng, tăng lên [xuất khẩu ~]",
+        "collection_id": "54"
+    },
+    {
+        "front": "[輸出が～]　減ります",
+        "kanji": "THÂU XUẤT GIẢM",
+        "pronunciation": "[ゆしゅつが～] へります",
+        "back": "giảm, giảm xuống [xuất khẩu ~]",
+        "collection_id": "54"
+    },
+    {
+        "front": "[値段が～]上がります",
+        "kanji": "TRỊ ĐOẠN THƯỢNG",
+        "pronunciation": "[ねだんが～]あがります",
+        "back": "tăng, tăng lên [giá ~]",
+        "collection_id": "54"
+    },
+    {
+        "front": "[値段が～]下がります",
+        "kanji": "TRỊ ĐOẠN HẠ",
+        "pronunciation": "[ねだんが～]さがります",
+        "back": "giảm, giảm xuống [giá ~]",
+        "collection_id": "54"
+    },
+    {
+        "front": "[ひもが～]切れます",
+        "kanji": "THIẾT",
+        "pronunciation": "[ひもが～]きれます",
+        "back": "đứt [sợi dây bị ~]",
+        "collection_id": "54"
+    },
+    {
+        "front": "[ボタンが～]とれます",
+        "kanji": null,
+        "pronunciation": "[ボタンが～]とれます",
+        "back": "tuột [cái cúc bị ~]",
+        "collection_id": "54"
+    },
+    {
+        "front": "[荷物が～]落ちます",
+        "kanji": "HÀ VẬT LẠC",
+        "pronunciation": "[にもつが～] おちます",
+        "back": "rơi [hành lý bị ~]",
+        "collection_id": "54"
+    },
+    {
+        "front": "[ガソリンが～]なくなります",
+        "kanji": null,
+        "pronunciation": "[ガソリンが～]なくなります",
+        "back": "mất, hết [xăng bị ~]",
+        "collection_id": "54"
+    },
+    {
+        "front": "丈夫[な]",
+        "kanji": "TRƯỢNG PHU",
+        "pronunciation": "じょうぶ[な]",
+        "back": "chắc, bền",
+        "collection_id": "54"
+    },
+    {
+        "front": "変[な]",
+        "kanji": "BIẾN",
+        "pronunciation": "へん[な]",
+        "back": "lạ, kỳ quặc",
+        "collection_id": "54"
+    },
+    {
+        "front": "幸せ[な]",
+        "kanji": "HẠNH",
+        "pronunciation": "しあわせ[な]",
+        "back": "hạnh phúc",
+        "collection_id": "54"
+    },
+    {
+        "front": "うまい",
+        "kanji": null,
+        "pronunciation": "うまい",
+        "back": "ngon",
+        "collection_id": "54"
+    },
+    {
+        "front": "まずい",
+        "kanji": null,
+        "pronunciation": "まずい",
+        "back": "dở",
+        "collection_id": "54"
+    },
+    {
+        "front": "つまらない",
+        "kanji": null,
+        "pronunciation": "つまらない",
+        "back": "buồn tẻ, không hấp dẫn, không thú vị",
+        "collection_id": "54"
+    },
+    {
+        "front": "ガソリン",
+        "kanji": null,
+        "pronunciation": "ガソリン",
+        "back": "xăng",
+        "collection_id": "54"
+    },
+    {
+        "front": "火",
+        "kanji": "HỎA",
+        "pronunciation": "ひ",
+        "back": "lửa",
+        "collection_id": "54"
+    },
+    {
+        "front": "暖房",
+        "kanji": "NOÃN PHÒNG",
+        "pronunciation": "だんぼう",
+        "back": "thiết bị làm ấm, lò sưởi, máy điều hòa",
+        "collection_id": "54"
+    },
+    {
+        "front": "冷房",
+        "kanji": "LÃNH PHÒNG",
+        "pronunciation": "れいぼう",
+        "back": "thiết bị làm mát, máy điều hòa",
+        "collection_id": "54"
+    },
+    {
+        "front": "センス",
+        "kanji": null,
+        "pronunciation": "センス",
+        "back": "có khiếu, có gu ([ふくの]～があります：có gu [ăn mặt])",
+        "collection_id": "54"
+    },
+    {
+        "front": "今にも",
+        "kanji": "KIM",
+        "pronunciation": "いまにも",
+        "back": "(có vẻ, sắp) ~ đến nơi",
+        "collection_id": "54"
+    },
+    {
+        "front": "わあ",
+        "kanji": null,
+        "pronunciation": "わあ",
+        "back": "ôi! (câu nói dùng khi ngạc nhiên hoặc cảm thán điều gì)",
+        "collection_id": "54"
+    },
+    {
+        "front": "会員",
+        "kanji": "HỘI VIÊN",
+        "pronunciation": "かいいん",
+        "back": "thành viên",
+        "collection_id": "54"
+    },
+    {
+        "front": "適当[な]",
+        "kanji": "THÍCH ĐƯƠNG",
+        "pronunciation": "てきとう「な」",
+        "back": "thích hợp, vừa phải",
+        "collection_id": "54"
+    },
+    {
+        "front": "年齢",
+        "kanji": "NIÊN LINH",
+        "pronunciation": "ねんれい",
+        "back": "tuổi",
+        "collection_id": "54"
+    },
+    {
+        "front": "収入",
+        "kanji": "THÂU NHẬP/THU NHẬP",
+        "pronunciation": "しゅうにゅう",
+        "back": "thu nhập",
+        "collection_id": "54"
+    },
+    {
+        "front": "ぴったり",
+        "kanji": null,
+        "pronunciation": "ぴったり",
+        "back": "vừa vặn, đúng",
+        "collection_id": "54"
+    },
+    {
+        "front": "そのうえ",
+        "kanji": null,
+        "pronunciation": "そのうえ",
+        "back": "thêm vào đó, hơn thế",
+        "collection_id": "54"
+    },
+    {
+        "front": "～といいます",
+        "kanji": null,
+        "pronunciation": "～といいます",
+        "back": "(tên) là ~, gọi là ~",
+        "collection_id": "54"
+    },
+    {
+        "front": "ばら",
+        "kanji": null,
+        "pronunciation": "ばら",
+        "back": "Hoa Hồng",
+        "collection_id": "54"
+    },
+    {
+        "front": "ドライブ",
+        "kanji": null,
+        "pronunciation": "ドライブ",
+        "back": "lái xe (đi chơi)",
+        "collection_id": "54"
+    }
+]

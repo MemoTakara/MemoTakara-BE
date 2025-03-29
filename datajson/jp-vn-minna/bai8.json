@@ -1,0 +1,436 @@
+[
+    {
+        "front": "ハンサム[な]",
+        "kanji": null,
+        "pronunciation": "ハンサム[な]",
+        "back": "đẹp trai",
+        "collection_id": "19"
+    },
+    {
+        "front": "きれい[な]",
+        "kanji": null,
+        "pronunciation": "きれい[な]",
+        "back": "đẹp, sạch",
+        "collection_id": "19"
+    },
+    {
+        "front": "静か[な]",
+        "kanji": "TĨNH",
+        "pronunciation": "しずか[な]",
+        "back": "yên tĩnh",
+        "collection_id": "19"
+    },
+    {
+        "front": "にぎやか[な]",
+        "kanji": null,
+        "pronunciation": "にぎやか[な]",
+        "back": "náo nhiệt",
+        "collection_id": "19"
+    },
+    {
+        "front": "有名[な]",
+        "kanji": "HỮU DANH",
+        "pronunciation": "ゆうめい[な]",
+        "back": "nổi tiếng",
+        "collection_id": "19"
+    },
+    {
+        "front": "親切[な]",
+        "kanji": "THÂN THIẾT",
+        "pronunciation": "しんせつ[な]",
+        "back": "tốt bụng, thân thiện",
+        "collection_id": "19"
+    },
+    {
+        "front": "元気[な]",
+        "kanji": "NGUYÊN KHÍ",
+        "pronunciation": "げんき[な]",
+        "back": "khỏe",
+        "collection_id": "19"
+    },
+    {
+        "front": "暇[な]",
+        "kanji": "HẠ",
+        "pronunciation": "ひま[な]",
+        "back": "rảnh rỗi",
+        "collection_id": "19"
+    },
+    {
+        "front": "便利[な]",
+        "kanji": "TIỆN LỢI",
+        "pronunciation": "べんり[な]",
+        "back": "tiện lợi",
+        "collection_id": "19"
+    },
+    {
+        "front": "すてき[な]",
+        "kanji": null,
+        "pronunciation": "すてき[な]",
+        "back": "đẹp, hay",
+        "collection_id": "19"
+    },
+    {
+        "front": "大きい",
+        "kanji": "ĐẠI",
+        "pronunciation": "おおきい",
+        "back": "lớn, to",
+        "collection_id": "19"
+    },
+    {
+        "front": "小さい",
+        "kanji": "TIỂU",
+        "pronunciation": "ちいさい",
+        "back": "bé, nhỏ",
+        "collection_id": "19"
+    },
+    {
+        "front": "新しい",
+        "kanji": "TÂN",
+        "pronunciation": "あたらしい",
+        "back": "mới",
+        "collection_id": "19"
+    },
+    {
+        "front": "古い",
+        "kanji": "CỔ",
+        "pronunciation": "ふるい",
+        "back": "cũ",
+        "collection_id": "19"
+    },
+    {
+        "front": "いい（よい）",
+        "kanji": null,
+        "pronunciation": "いい（よい）",
+        "back": "tốt",
+        "collection_id": "19"
+    },
+    {
+        "front": "悪い",
+        "kanji": "ÁC",
+        "pronunciation": "わるい",
+        "back": "xấu",
+        "collection_id": "19"
+    },
+    {
+        "front": "暑い, 熱い",
+        "kanji": "THỬ, NHIỆT",
+        "pronunciation": "あつい",
+        "back": "nóng",
+        "collection_id": "19"
+    },
+    {
+        "front": "寒い",
+        "kanji": "HÀN",
+        "pronunciation": "さむい",
+        "back": "lạnh, rét (dùng cho thời tiết)",
+        "collection_id": "19"
+    },
+    {
+        "front": "冷たい",
+        "kanji": "LÃNH",
+        "pronunciation": "つめたい",
+        "back": "lạnh, buốt (dùng cho cảm giác)",
+        "collection_id": "19"
+    },
+    {
+        "front": "難しい",
+        "kanji": "NAN",
+        "pronunciation": "むずかしい",
+        "back": "khó",
+        "collection_id": "19"
+    },
+    {
+        "front": "易しい",
+        "kanji": "DỊ",
+        "pronunciation": "やさしい",
+        "back": "dễ",
+        "collection_id": "19"
+    },
+    {
+        "front": "高い",
+        "kanji": "CAO",
+        "pronunciation": "たかい",
+        "back": "đắt, cao",
+        "collection_id": "19"
+    },
+    {
+        "front": "安い",
+        "kanji": "AN",
+        "pronunciation": "やすい",
+        "back": "rẻ",
+        "collection_id": "19"
+    },
+    {
+        "front": "低い",
+        "kanji": "ĐÊ",
+        "pronunciation": "ひくい",
+        "back": "thấp",
+        "collection_id": "19"
+    },
+    {
+        "front": "おもしろい",
+        "kanji": null,
+        "pronunciation": "おもしろい",
+        "back": "thú vị, hay",
+        "collection_id": "19"
+    },
+    {
+        "front": "おいしい",
+        "kanji": null,
+        "pronunciation": "おいしい",
+        "back": "ngon",
+        "collection_id": "19"
+    },
+    {
+        "front": "忙しい",
+        "kanji": "MANG",
+        "pronunciation": "いそがしい",
+        "back": "bận",
+        "collection_id": "19"
+    },
+    {
+        "front": "楽しい",
+        "kanji": "LẠC, NHẠC",
+        "pronunciation": "たのしい",
+        "back": "vui",
+        "collection_id": "19"
+    },
+    {
+        "front": "白い",
+        "kanji": "BẠCH",
+        "pronunciation": "しろい",
+        "back": "trắng",
+        "collection_id": "19"
+    },
+    {
+        "front": "黒い",
+        "kanji": "HẮC",
+        "pronunciation": "くろい",
+        "back": "đen",
+        "collection_id": "19"
+    },
+    {
+        "front": "赤い",
+        "kanji": "XÍCH",
+        "pronunciation": "あかい",
+        "back": "đỏ",
+        "collection_id": "19"
+    },
+    {
+        "front": "青い",
+        "kanji": "THANH",
+        "pronunciation": "あおい",
+        "back": "xanh da trời",
+        "collection_id": "19"
+    },
+    {
+        "front": "桜",
+        "kanji": "ANH",
+        "pronunciation": "さくら",
+        "back": "anh đào (hoa, cây)",
+        "collection_id": "19"
+    },
+    {
+        "front": "山",
+        "kanji": "SƠN, SAN",
+        "pronunciation": "やま",
+        "back": "núi",
+        "collection_id": "19"
+    },
+    {
+        "front": "町",
+        "kanji": "ĐINH",
+        "pronunciation": "まち",
+        "back": "thị trấn, thị xã, thành phố",
+        "collection_id": "19"
+    },
+    {
+        "front": "食べ物",
+        "kanji": "THỰC VẬT",
+        "pronunciation": "たべもの",
+        "back": "đồ ăn",
+        "collection_id": "19"
+    },
+    {
+        "front": "車",
+        "kanji": "XA",
+        "pronunciation": "くるま",
+        "back": "xe ô tô",
+        "collection_id": "19"
+    },
+    {
+        "front": "所",
+        "kanji": "SỞ",
+        "pronunciation": "ところ",
+        "back": "nơi, chỗ",
+        "collection_id": "19"
+    },
+    {
+        "front": "寮",
+        "kanji": "LIÊU",
+        "pronunciation": "りょう",
+        "back": "kí túc xá",
+        "collection_id": "19"
+    },
+    {
+        "front": "勉強",
+        "kanji": "MIỄN CƯỜNG",
+        "pronunciation": "べんきょう",
+        "back": "học",
+        "collection_id": "19"
+    },
+    {
+        "front": "生活",
+        "kanji": "SINH HOẠT",
+        "pronunciation": "せいかつ",
+        "back": "cuộc sống, sinh hoạt",
+        "collection_id": "19"
+    },
+    {
+        "front": "[お]仕事",
+        "kanji": "SĨ SỰ",
+        "pronunciation": "[お]しごと",
+        "back": "công việc (～をします：làm việc)",
+        "collection_id": "19"
+    },
+    {
+        "front": "どう",
+        "kanji": null,
+        "pronunciation": "どう",
+        "back": "thế nào",
+        "collection_id": "19"
+    },
+    {
+        "front": "どんな～",
+        "kanji": null,
+        "pronunciation": "どんな～",
+        "back": "~ như thế nào",
+        "collection_id": "19"
+    },
+    {
+        "front": "どれ",
+        "kanji": null,
+        "pronunciation": "どれ",
+        "back": "cái nào",
+        "collection_id": "19"
+    },
+    {
+        "front": "とても",
+        "kanji": null,
+        "pronunciation": "とても",
+        "back": "rất, lắm",
+        "collection_id": "19"
+    },
+    {
+        "front": "あまり",
+        "kanji": null,
+        "pronunciation": "あまり",
+        "back": "không ~ lắm",
+        "collection_id": "19"
+    },
+    {
+        "front": "そして",
+        "kanji": null,
+        "pronunciation": "そして",
+        "back": "và, thêm nữa (dùng để nối 2 câu)",
+        "collection_id": "19"
+    },
+    {
+        "front": "～が、～",
+        "kanji": null,
+        "pronunciation": "～が、～",
+        "back": "~, nhưng ~",
+        "collection_id": "19"
+    },
+    {
+        "front": "お元気ですか。",
+        "kanji": "NGUYÊN KHÍ",
+        "pronunciation": "おげんきですか。",
+        "back": "Anh/chị có khỏe không?",
+        "collection_id": "19"
+    },
+    {
+        "front": "そうですね。",
+        "kanji": null,
+        "pronunciation": "そうですね。",
+        "back": "Thế à. Như vậy nhỉ",
+        "collection_id": "19"
+    },
+    {
+        "front": "にほんのせいかつに なれましたか",
+        "kanji": null,
+        "pronunciation": "にほんのせいかつに なれましたか",
+        "back": "Anh/Chị đã quen với cuộc sống ở Nhật chưa?",
+        "collection_id": "19"
+    },
+    {
+        "front": "[～、]もういっぱいいかがですか。",
+        "kanji": null,
+        "pronunciation": "[～、]もういっぱいいかがですか。",
+        "back": "Anh/ chị dùng thêm một chén [~] nữa được không ạ?",
+        "collection_id": "19"
+    },
+    {
+        "front": "いいえ、けっこうです。",
+        "kanji": null,
+        "pronunciation": "いいえ、けっこうです。",
+        "back": "Không, đủ rồi ạ.",
+        "collection_id": "19"
+    },
+    {
+        "front": "もう～です[ね]。",
+        "kanji": null,
+        "pronunciation": "もう～です[ね]。",
+        "back": "Đã ~ rồi nhỉ./ Đã ~ rồi, đúng không ạ?",
+        "collection_id": "19"
+    },
+    {
+        "front": "そろそろしつれいします。",
+        "kanji": null,
+        "pronunciation": "そろそろしつれいします。",
+        "back": "Sắp đến lúc tôi phải xin phép rồi.",
+        "collection_id": "19"
+    },
+    {
+        "front": "また　いらっしゃってください。",
+        "kanji": null,
+        "pronunciation": "また　いらっしゃってください。",
+        "back": "Lần sau anh/ chị lại đến chơi nhé.",
+        "collection_id": "19"
+    },
+    {
+        "front": "富士山",
+        "kanji": "PHÚ SĨ SƠN/SAN",
+        "pronunciation": "ふじさん",
+        "back": "Núi Phú Sĩ (ngọn núi cao nhất Nhật Bản)",
+        "collection_id": "19"
+    },
+    {
+        "front": "琵琶湖",
+        "kanji": "TỲ BÀ HỒ",
+        "pronunciation": "びわこ",
+        "back": "Hồ Biwa",
+        "collection_id": "19"
+    },
+    {
+        "front": "上海",
+        "kanji": "THƯỢNG HẢI",
+        "pronunciation": "シャンハイ",
+        "back": "Thượng Hải",
+        "collection_id": "19"
+    },
+    {
+        "front": "七人の侍",
+        "kanji": "THẤT NHÂN THỊ",
+        "pronunciation": "しちにんのさむらい",
+        "back": "bảy chàng võ sĩ Samurai",
+        "collection_id": "19"
+    },
+    {
+        "front": "金閣寺",
+        "kanji": "KIM CÁC TỰ",
+        "pronunciation": "きんかくじ",
+        "back": "Chùa Kinkaku-ji (chùa vàng)",
+        "collection_id": "19"
+    }
+]

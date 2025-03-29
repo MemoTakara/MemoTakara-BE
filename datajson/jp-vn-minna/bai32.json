@@ -1,0 +1,415 @@
+[
+    {
+        "front": "運動します",
+        "kanji": "VẬN ĐỘNG",
+        "pronunciation": "うんどうします",
+        "back": "vận động, tập thể thao",
+        "collection_id": "43"
+    },
+    {
+        "front": "成功します",
+        "kanji": "THÀNH CÔNG",
+        "pronunciation": "せいこうします",
+        "back": "thành công",
+        "collection_id": "43"
+    },
+    {
+        "front": "[試験に～]失敗します",
+        "kanji": "THÍ NGHIỆM THẤT BẠI",
+        "pronunciation": "[しけんに～]しっぱいします",
+        "back": "thất bại, trượt [thi~]",
+        "collection_id": "43"
+    },
+    {
+        "front": "[試験に～]合格します",
+        "kanji": "THÍ NGHIỆM HỢP CÁCH",
+        "pronunciation": "[しけんに～]ごうかくします",
+        "back": "đỗ [thi~]",
+        "collection_id": "43"
+    },
+    {
+        "front": "戻ります",
+        "kanji": "LỆ",
+        "pronunciation": "もどります",
+        "back": "quay lại, trở lại",
+        "collection_id": "43"
+    },
+    {
+        "front": "[雨が～]",
+        "kanji": "VŨ",
+        "pronunciation": "[あめが～] やみます",
+        "back": "tạnh, ngừng [mưa ~]",
+        "collection_id": "43"
+    },
+    {
+        "front": "晴れます",
+        "kanji": "TÌNH",
+        "pronunciation": "はれます",
+        "back": "nắng, quang đãng",
+        "collection_id": "43"
+    },
+    {
+        "front": "曇ります",
+        "kanji": "ĐÀM",
+        "pronunciation": "くもります",
+        "back": "có mây, mây mù",
+        "collection_id": "43"
+    },
+    {
+        "front": "[風が～]吹きます",
+        "kanji": "PHONG XÚY",
+        "pronunciation": "[かぜが～]ふきます",
+        "back": "thổi [gió ~]",
+        "collection_id": "43"
+    },
+    {
+        "front": "[病気が～]治ります，直ります",
+        "kanji": "BỆNH KHÍ TRỊ TRỰC",
+        "pronunciation": "[びょうきが～]なおります",
+        "back": "khỏi [bệnh]",
+        "collection_id": "43"
+    },
+    {
+        "front": "[故障が～]",
+        "kanji": "CỐ CHƯỚNG",
+        "pronunciation": "[こしょうが～]なおります",
+        "back": "đã được sửa [chỗ hỏng ~]",
+        "collection_id": "43"
+    },
+    {
+        "front": "[熱が～]続きます",
+        "kanji": "NHIỆT TỤC",
+        "pronunciation": "[ねつが～]つづきます",
+        "back": "tiếp tục, tiếp diễn [sốt]",
+        "collection_id": "43"
+    },
+    {
+        "front": "[かぜを～]ひきます",
+        "kanji": null,
+        "pronunciation": "[かぜを～]ひきます",
+        "back": "bị [cảm]",
+        "collection_id": "43"
+    },
+    {
+        "front": "冷やします",
+        "kanji": "LÃNH",
+        "pronunciation": "ひやします",
+        "back": "làm lạnh",
+        "collection_id": "43"
+    },
+    {
+        "front": "心配[な]",
+        "kanji": "TÂM PHỐI",
+        "pronunciation": "しんぱい[な]",
+        "back": "lo lắng",
+        "collection_id": "43"
+    },
+    {
+        "front": "十分[な]",
+        "kanji": "THẬP PHÂN",
+        "pronunciation": "じゅうぶん[な]",
+        "back": "đủ",
+        "collection_id": "43"
+    },
+    {
+        "front": "おかしい",
+        "kanji": null,
+        "pronunciation": "おかしい",
+        "back": "có vấn đề, không bình thường, buồn cười",
+        "collection_id": "43"
+    },
+    {
+        "front": "うるさい",
+        "kanji": null,
+        "pronunciation": "うるさい",
+        "back": "ồn ào, (âm thanh) to",
+        "collection_id": "43"
+    },
+    {
+        "front": "やけど",
+        "kanji": null,
+        "pronunciation": "やけど",
+        "back": "bỏng (～をします：bị bỏng)",
+        "collection_id": "43"
+    },
+    {
+        "front": "けが",
+        "kanji": null,
+        "pronunciation": "けが",
+        "back": "vết thương (～をします：bị thương)",
+        "collection_id": "43"
+    },
+    {
+        "front": "せき",
+        "kanji": null,
+        "pronunciation": "せき",
+        "back": "ho (～がでます：bị ho)",
+        "collection_id": "43"
+    },
+    {
+        "front": "インフルエンザ",
+        "kanji": null,
+        "pronunciation": "インフルエンザ",
+        "back": "cúm dịch",
+        "collection_id": "43"
+    },
+    {
+        "front": "空",
+        "kanji": "KHÔNG",
+        "pronunciation": "そら",
+        "back": "bầu trời",
+        "collection_id": "43"
+    },
+    {
+        "front": "太陽",
+        "kanji": "THÁI DƯƠNG",
+        "pronunciation": "たいよう",
+        "back": "mặt trời",
+        "collection_id": "43"
+    },
+    {
+        "front": "星",
+        "kanji": "TINH",
+        "pronunciation": "ほし",
+        "back": "sao, ngôi sao",
+        "collection_id": "43"
+    },
+    {
+        "front": "月",
+        "kanji": "NGUYỆT",
+        "pronunciation": "つき",
+        "back": "trăng, mặt trăng",
+        "collection_id": "43"
+    },
+    {
+        "front": "風",
+        "kanji": "PHONG",
+        "pronunciation": "かぜ",
+        "back": "gió",
+        "collection_id": "43"
+    },
+    {
+        "front": "北",
+        "kanji": "BẮC",
+        "pronunciation": "きた",
+        "back": "bắc",
+        "collection_id": "43"
+    },
+    {
+        "front": "南",
+        "kanji": "NAM",
+        "pronunciation": "みなみ",
+        "back": "nam",
+        "collection_id": "43"
+    },
+    {
+        "front": "西",
+        "kanji": "TÂY",
+        "pronunciation": "にし",
+        "back": "tây",
+        "collection_id": "43"
+    },
+    {
+        "front": "東",
+        "kanji": "ĐÔNG",
+        "pronunciation": "ひがし",
+        "back": "đông",
+        "collection_id": "43"
+    },
+    {
+        "front": "水道",
+        "kanji": "THỦY ĐẠO",
+        "pronunciation": "すいどう",
+        "back": "nước máy",
+        "collection_id": "43"
+    },
+    {
+        "front": "エンジン",
+        "kanji": null,
+        "pronunciation": "エンジン",
+        "back": "động cơ",
+        "collection_id": "43"
+    },
+    {
+        "front": "チーム",
+        "kanji": null,
+        "pronunciation": "チーム",
+        "back": "đội",
+        "collection_id": "43"
+    },
+    {
+        "front": "今夜",
+        "kanji": "KIM DẠ",
+        "pronunciation": "こんや",
+        "back": "tối nay, đêm nay",
+        "collection_id": "43"
+    },
+    {
+        "front": "夕方",
+        "kanji": "TỊCH PHƯƠNG",
+        "pronunciation": "ゆうがた",
+        "back": "chiều tối",
+        "collection_id": "43"
+    },
+    {
+        "front": "まえ",
+        "kanji": null,
+        "pronunciation": "まえ",
+        "back": "trước",
+        "collection_id": "43"
+    },
+    {
+        "front": "遅く",
+        "kanji": "TRÌ",
+        "pronunciation": "おそく",
+        "back": "muộn, khuya",
+        "collection_id": "43"
+    },
+    {
+        "front": "こんなに",
+        "kanji": null,
+        "pronunciation": "こんなに",
+        "back": "như thế này",
+        "collection_id": "43"
+    },
+    {
+        "front": "そんなに",
+        "kanji": null,
+        "pronunciation": "そんなに",
+        "back": "như thế đó (về vấn đề có quan hệ với người nghe)",
+        "collection_id": "43"
+    },
+    {
+        "front": "あんなに",
+        "kanji": null,
+        "pronunciation": "あんなに",
+        "back": "như thế kia (về vấn đề không có quan hệ với người nói và người nghe)",
+        "collection_id": "43"
+    },
+    {
+        "front": "もしかしたら",
+        "kanji": null,
+        "pronunciation": "もしかしたら",
+        "back": "có thể, biết đâu là, có khả năng",
+        "collection_id": "43"
+    },
+    {
+        "front": "それはいけませんね。",
+        "kanji": null,
+        "pronunciation": "それはいけませんね。",
+        "back": "Thế thì thật không tốt.",
+        "collection_id": "43"
+    },
+    {
+        "front": "オリンピック",
+        "kanji": null,
+        "pronunciation": "オリンピック",
+        "back": "Olympic",
+        "collection_id": "43"
+    },
+    {
+        "front": "元気",
+        "kanji": "NGUYÊN KHÍ",
+        "pronunciation": "げんき",
+        "back": "khỏe, khỏe mạnh",
+        "collection_id": "43"
+    },
+    {
+        "front": "胃",
+        "kanji": "VỊ",
+        "pronunciation": "い",
+        "back": "dạ dày",
+        "collection_id": "43"
+    },
+    {
+        "front": "働きすぎ",
+        "kanji": "ĐỘNG",
+        "pronunciation": "はたらきすぎ",
+        "back": "làm việc quá sức, làm việc nhiều quá",
+        "collection_id": "43"
+    },
+    {
+        "front": "ストレス",
+        "kanji": null,
+        "pronunciation": "ストレス",
+        "back": "Stress, căng thẳng tâm lý",
+        "collection_id": "43"
+    },
+    {
+        "front": "無理をします",
+        "kanji": "VÔ LÝ",
+        "pronunciation": "むりをします",
+        "back": "làm quá sức, làm quá khả năng",
+        "collection_id": "43"
+    },
+    {
+        "front": "ゆっくりします",
+        "kanji": null,
+        "pronunciation": "ゆっくりします",
+        "back": "nghỉ ngơi, thư thái, dưỡng sức",
+        "collection_id": "43"
+    },
+    {
+        "front": "星占い",
+        "kanji": "TINH CHIẾM",
+        "pronunciation": "ほしうらない",
+        "back": "bói sao",
+        "collection_id": "43"
+    },
+    {
+        "front": "牡牛座",
+        "kanji": "MẪU NGƯU TỌA",
+        "pronunciation": "おうしざ",
+        "back": "chòm sao Kim Ngưu",
+        "collection_id": "43"
+    },
+    {
+        "front": "困ります",
+        "kanji": "KHỐN",
+        "pronunciation": "こまります",
+        "back": "rắc rối, khó xử, có vấn đề",
+        "collection_id": "43"
+    },
+    {
+        "front": "宝くじ",
+        "kanji": "BẢO",
+        "pronunciation": "たからくじ",
+        "back": "xổ số",
+        "collection_id": "43"
+    },
+    {
+        "front": "[宝くじが～]当たります",
+        "kanji": "BẢO ĐƯƠNG",
+        "pronunciation": "あたります",
+        "back": "Trúng~ trúng [xổ số]",
+        "collection_id": "43"
+    },
+    {
+        "front": "健康",
+        "kanji": "KIỆN KHANG",
+        "pronunciation": "けんこう",
+        "back": "sức khỏe, khỏe mạnh, an khang",
+        "collection_id": "43"
+    },
+    {
+        "front": "恋愛",
+        "kanji": "LUYẾN ÁI",
+        "pronunciation": "れんあい",
+        "back": "tình yêu",
+        "collection_id": "43"
+    },
+    {
+        "front": "恋人",
+        "kanji": "LUYẾN NHÂN",
+        "pronunciation": "こいびと",
+        "back": "người yêu",
+        "collection_id": "43"
+    },
+    {
+        "front": "[お]金持ち",
+        "kanji": "KIM TRÌ",
+        "pronunciation": "「お」かねもち",
+        "back": "người giàu có, người có nhiều tiền",
+        "collection_id": "43"
+    }
+]

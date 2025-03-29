@@ -1,0 +1,338 @@
+[
+    {
+        "front": "[パンが～] 売れます",
+        "kanji": "MẠI",
+        "pronunciation": "[パンが～] うれます",
+        "back": "bán chạy, được bán [bánh mì ~]",
+        "collection_id": "39"
+    },
+    {
+        "front": "踊ります",
+        "kanji": "DŨNG",
+        "pronunciation": "おどります",
+        "back": "nhảy, khiêu vũ",
+        "collection_id": "39"
+    },
+    {
+        "front": "かみます",
+        "kanji": null,
+        "pronunciation": "かみます",
+        "back": "nhai",
+        "collection_id": "39"
+    },
+    {
+        "front": "選びます",
+        "kanji": "TUYỂN",
+        "pronunciation": "えらびます",
+        "back": "chọn",
+        "collection_id": "39"
+    },
+    {
+        "front": "違います",
+        "kanji": "VI",
+        "pronunciation": "ちがいます",
+        "back": "khác",
+        "collection_id": "39"
+    },
+    {
+        "front": "[大学に～]通います",
+        "kanji": "ĐẠI HỌC THÔNG",
+        "pronunciation": "[だいがくに～] かよいます",
+        "back": "đi đi về về [trường đại học]",
+        "collection_id": "39"
+    },
+    {
+        "front": "メモします",
+        "kanji": null,
+        "pronunciation": "メモします",
+        "back": "ghi chép",
+        "collection_id": "39"
+    },
+    {
+        "front": "まじめ[な]",
+        "kanji": null,
+        "pronunciation": "まじめ[な]",
+        "back": "nghiêm túc, nghiêm chỉnh",
+        "collection_id": "39"
+    },
+    {
+        "front": "熱心[な]",
+        "kanji": "NHIỆT TÂM",
+        "pronunciation": "ねっしん[な]",
+        "back": "nhiệt tâm, nhiệt tình, hết lòng",
+        "collection_id": "39"
+    },
+    {
+        "front": "優しい",
+        "kanji": "ƯU",
+        "pronunciation": "やさしい",
+        "back": "tình cảm, hiền lành",
+        "collection_id": "39"
+    },
+    {
+        "front": "偉い",
+        "kanji": "VĨ",
+        "pronunciation": "えらい",
+        "back": "vĩ đại, đáng kính, đáng khâm phục",
+        "collection_id": "39"
+    },
+    {
+        "front": "ちょうどいい",
+        "kanji": null,
+        "pronunciation": "ちょうどいい",
+        "back": "vừa đủ, vừa đúng",
+        "collection_id": "39"
+    },
+    {
+        "front": "習慣",
+        "kanji": "TẬP QUÁN",
+        "pronunciation": "しゅうかん",
+        "back": "tập quán",
+        "collection_id": "39"
+    },
+    {
+        "front": "経験",
+        "kanji": "KINH NGHIỆM",
+        "pronunciation": "けいけん",
+        "back": "kinh nghiệm",
+        "collection_id": "39"
+    },
+    {
+        "front": "力",
+        "kanji": "LỰC",
+        "pronunciation": "ちから",
+        "back": "sức lực, năng lực",
+        "collection_id": "39"
+    },
+    {
+        "front": "[がくせいに]人気があります",
+        "kanji": "NHÂN KHÍ",
+        "pronunciation": "[がくせいに]にんきがあります",
+        "back": "sự hâm mộ, được [sinh viên] hâm mộ",
+        "collection_id": "39"
+    },
+    {
+        "front": "形",
+        "kanji": "HÌNH",
+        "pronunciation": "かたち",
+        "back": "hình, hình dáng",
+        "collection_id": "39"
+    },
+    {
+        "front": "色",
+        "kanji": "SẮC",
+        "pronunciation": "いろ",
+        "back": "màu",
+        "collection_id": "39"
+    },
+    {
+        "front": "味",
+        "kanji": "VỊ",
+        "pronunciation": "あじ",
+        "back": "vị",
+        "collection_id": "39"
+    },
+    {
+        "front": "ガム",
+        "kanji": null,
+        "pronunciation": "ガム",
+        "back": "kẹo cao su",
+        "collection_id": "39"
+    },
+    {
+        "front": "品物",
+        "kanji": "PHẨM VẬT",
+        "pronunciation": "しなもの",
+        "back": "hàng hóa, mặt hàng",
+        "collection_id": "39"
+    },
+    {
+        "front": "値段",
+        "kanji": "TRỊ ĐOẠN",
+        "pronunciation": "ねだん",
+        "back": "giá",
+        "collection_id": "39"
+    },
+    {
+        "front": "給料",
+        "kanji": "CẤP LIỆU",
+        "pronunciation": "きゅうりょう",
+        "back": "lương",
+        "collection_id": "39"
+    },
+    {
+        "front": "ボーナス",
+        "kanji": null,
+        "pronunciation": "ボーナス",
+        "back": "thưởng",
+        "collection_id": "39"
+    },
+    {
+        "front": "番組",
+        "kanji": "PHIÊN TỔ",
+        "pronunciation": "ばんぐみ",
+        "back": "chương trình (phát thanh, truyền hình)",
+        "collection_id": "39"
+    },
+    {
+        "front": "ドラマ",
+        "kanji": null,
+        "pronunciation": "ドラマ",
+        "back": "kịch, phim truyền hình",
+        "collection_id": "39"
+    },
+    {
+        "front": "小説",
+        "kanji": "TIỂU THUYẾT",
+        "pronunciation": "しょうせつ",
+        "back": "tiểu thuyết",
+        "collection_id": "39"
+    },
+    {
+        "front": "小説家",
+        "kanji": "TIỂU THUYẾT GIA",
+        "pronunciation": "しょうせつか",
+        "back": "tiểu thuyết gia, nhà văn",
+        "collection_id": "39"
+    },
+    {
+        "front": "歌手",
+        "kanji": "CA THỦ",
+        "pronunciation": "かしゅ",
+        "back": "ca sĩ",
+        "collection_id": "39"
+    },
+    {
+        "front": "管理人",
+        "kanji": "QUẢN LÝ NHÂN",
+        "pronunciation": "かんりにん",
+        "back": "người quản lý",
+        "collection_id": "39"
+    },
+    {
+        "front": "息子",
+        "kanji": "TỨC TỬ",
+        "pronunciation": "むすこ",
+        "back": "con trai (dùng cho mình)",
+        "collection_id": "39"
+    },
+    {
+        "front": "息子さん",
+        "kanji": "TỨC TỬ",
+        "pronunciation": "むすこさん",
+        "back": "con trai (dùng cho người khác)",
+        "collection_id": "39"
+    },
+    {
+        "front": "娘",
+        "kanji": "NƯƠNG",
+        "pronunciation": "むすめ",
+        "back": "con gái (dùng cho mình)",
+        "collection_id": "39"
+    },
+    {
+        "front": "娘さん",
+        "kanji": "NƯƠNG",
+        "pronunciation": "むすめさん",
+        "back": "con gái (dùng cho người khác)",
+        "collection_id": "39"
+    },
+    {
+        "front": "自分",
+        "kanji": "TỰ PHÂN",
+        "pronunciation": "じぶん",
+        "back": "bản thân, mình",
+        "collection_id": "39"
+    },
+    {
+        "front": "将来",
+        "kanji": "TƯƠNG LAI",
+        "pronunciation": "しょうらい",
+        "back": "tương lai",
+        "collection_id": "39"
+    },
+    {
+        "front": "しばらく",
+        "kanji": null,
+        "pronunciation": "しばらく",
+        "back": "một khoảng thời gian ngắn, một lúc, một lát",
+        "collection_id": "39"
+    },
+    {
+        "front": "たいてい",
+        "kanji": null,
+        "pronunciation": "たいてい",
+        "back": "thường, thông thường",
+        "collection_id": "39"
+    },
+    {
+        "front": "それに",
+        "kanji": null,
+        "pronunciation": "それに",
+        "back": "thêm nữa là, thêm vào đó là",
+        "collection_id": "39"
+    },
+    {
+        "front": "それで",
+        "kanji": null,
+        "pronunciation": "それで",
+        "back": "thế thì, thế nên",
+        "collection_id": "39"
+    },
+    {
+        "front": "[ちょっと]お願いがあるんですが。",
+        "kanji": "NGUYỆN",
+        "pronunciation": "[ちょっと]おねがいがあるんですが。",
+        "back": "Tôi có (chút) việc muốn nhờ anh/ chị.",
+        "collection_id": "39"
+    },
+    {
+        "front": "ホームステイ",
+        "kanji": null,
+        "pronunciation": "ホームステイ",
+        "back": "homestay",
+        "collection_id": "39"
+    },
+    {
+        "front": "おしゃべりします",
+        "kanji": null,
+        "pronunciation": "おしゃべりします",
+        "back": "nói chuyện, tán chuyện",
+        "collection_id": "39"
+    },
+    {
+        "front": "お知らせ",
+        "kanji": "TRI",
+        "pronunciation": "おしらせ",
+        "back": "thông báo",
+        "collection_id": "39"
+    },
+    {
+        "front": "日にち",
+        "kanji": "NHẬT",
+        "pronunciation": "ひにち",
+        "back": "ngày",
+        "collection_id": "39"
+    },
+    {
+        "front": "土",
+        "kanji": "THỔ",
+        "pronunciation": "ど",
+        "back": "thứ bảy",
+        "collection_id": "39"
+    },
+    {
+        "front": "体育館",
+        "kanji": "THỂ DỤC QUÁN",
+        "pronunciation": "たいいくかん",
+        "back": "nhà tập, nhà thi đấu thể thao",
+        "collection_id": "39"
+    },
+    {
+        "front": "無料",
+        "kanji": "VÔ LIỆU",
+        "pronunciation": "むりょう",
+        "back": "miễn phí",
+        "collection_id": "39"
+    }
+]
