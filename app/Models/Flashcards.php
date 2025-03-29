@@ -9,10 +9,20 @@ class Flashcards extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['collection_id', 'front', 'back'];
+    // Định nghĩa các trường có thể gán
+    protected $fillable = [
+        'front',
+        'back',
+        'pronunciation',
+        'kanji',
+        'audio_file',
+        'image',
+        'status',
+        'collection_id',
+    ];
 
     public function collection()
     {
-        return $this->belongsTo(Collections::class);
+        return $this->belongsTo(Collections::class, 'collection_id');
     }
 }

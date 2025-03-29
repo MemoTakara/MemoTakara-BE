@@ -7,15 +7,15 @@ use Illuminate\Database\Seeder;
 use App\Models\Flashcards;
 use Illuminate\Support\Facades\Storage;
 
-class HanziFCSeeder extends Seeder
+class VNMinnaFCSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        $folderPath = storage_path('app/datajson/cn-en/'); // Thư mục chứa file JSON
-        $files = glob($folderPath . '*.json'); // Lấy tất cả file JSON
+        $folderPath = storage_path('app/datajson/jp-vn-minna/') . '*.json';
+        $files = glob($folderPath);
 
         if (empty($files)) {
             $this->command->error('Không tìm thấy file JSON nào trong thư mục!');
@@ -31,6 +31,7 @@ class HanziFCSeeder extends Seeder
                     'front' => $item['front'],
                     'back' => $item['back'],
                     'pronunciation' => $item['pronunciation'],
+                    'kanji' => $item['kanji'],
                     'collection_id' => $item['collection_id'],
                 ]);
             }

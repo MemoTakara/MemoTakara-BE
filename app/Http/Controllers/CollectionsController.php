@@ -8,11 +8,23 @@ use Illuminate\Support\Facades\Auth;
 
 class CollectionsController extends Controller
 {
+    // Lấy danh sách collection
     public function index()
     {
-        return response()->json(Collections::where('user_id', Auth::id())->get());
+        $userId = Auth::id();
+
+        // Lấy tất cả các collections công khai (privacy = 1) và các collection riêng tư của người dùng hiện tại (privacy = 0)
+        $collections = Collections::where('privacy', 1)
+            ->orWhere(function($query) use ($userId) {
+                $query->where('privacy', 0)
+                    ->where('user_id', $userId);
+            })
+            ->get();
+
+        return response()->json($collections);
     }
 
+    // Tạo mới collection
     public function store(Request $request)
     {
         $request->validate([
@@ -35,12 +47,14 @@ class CollectionsController extends Controller
         return response()->json($collection, 201);
     }
 
+    // Lấy chi tiết 1 collection
     public function show($id)
     {
         $collection = Collections::where('user_id', Auth::id())->findOrFail($id);
         return response()->json($collection);
     }
 
+    // Cập nhật collection
     public function update(Request $request, $id)
     {
         $collection = Collections::where('user_id', Auth::id())->findOrFail($id);
@@ -50,11 +64,33 @@ class CollectionsController extends Controller
         return response()->json($collection);
     }
 
+    // Xóa collection
     public function destroy($id)
     {
         $collection = Collections::where('user_id', Auth::id())->findOrFail($id);
         $collection->delete();
 
         return response()->json(['message' => 'Collection deleted successfully']);
+    }
+
+    // search api
+    public function searchPublicCollections(Request $request)
+    {
+        $searchTerm = $request->input('query');
+
+        $collections = Collections::where('privacy', 1)
+            ->where(function ($query) use ($searchTerm) {
+                $query->where('collection_name', 'like', "%$searchTerm%")
+                    ->orWhereHas('tags', function ($query) use ($searchTerm) {
+                        $query->where('name', 'like', "%$searchTerm%");
+                    })
+                    ->orWhereHas('user', function ($query) use ($searchTerm) {
+                        $query->where('username', 'like', "%$searchTerm%");
+                    });
+            })
+            ->with('user') // <== Bổ sung để trả về thông tin người dùng
+            ->get();
+
+        return response()->json($collections);
     }
 }

@@ -7,14 +7,14 @@ use Illuminate\Database\Seeder;
 use App\Models\Flashcards;
 use Illuminate\Support\Facades\Storage;
 
-class HanziFCSeeder extends Seeder
+class JLPTVocabFCSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        $folderPath = storage_path('app/datajson/cn-en/'); // Thư mục chứa file JSON
+        $folderPath = storage_path('app/datajson/jp-en/'); // Thư mục chứa file JSON
         $files = glob($folderPath . '*.json'); // Lấy tất cả file JSON
 
         if (empty($files)) {

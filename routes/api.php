@@ -18,7 +18,6 @@ Route::middleware('auth:sanctum')->group(function () {
 
     // Routes liên quan đến flashcard
     Route::prefix('flashcards')->controller(FlashcardsController::class)->group(function () {
-        Route::get('/{collection_id}', 'index'); // Lấy danh sách flashcard theo collection
         Route::post('/', 'store'); // Thêm flashcard
         Route::get('/{id}', 'show'); // Lấy chi tiết flashcard
         Route::put('/{id}', 'update'); // Cập nhật flashcard
@@ -45,3 +44,9 @@ Route::controller(AuthController::class)->group(function () {
     Route::post('/register', 'register'); // Đăng ký
     Route::post('/login', 'login'); // Đăng nhập
 });
+
+// search api
+Route::get('/search-public', [CollectionsController::class, 'searchPublicCollections']);
+
+// Lấy danh sách flashcard theo collection
+Route::get('/collection-flashcard/{collection_id}', [FlashcardsController::class, 'index']);
