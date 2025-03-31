@@ -42,7 +42,6 @@ class AuthController extends Controller
         ], 201);
     }
 
-
     // Đăng nhập
     public function login(Request $request)
     {
@@ -96,25 +95,5 @@ class AuthController extends Controller
         ], 200);
     }
 
-    // Admin xóa tài khoản của người dùng khác
-    public function deleteUser(Request $request, $id)
-    {
-        $admin = $request->user();
-
-        // Chỉ cho phép admin xóa user
-        if ($admin->role !== 'admin') {
-            return response()->json(['message' => 'Không có quyền xóa (admin)'], 403);
-        }
-
-        $user = User::find($id);
-        if (!$user) {
-            return response()->json(['message' => 'User not found'], 404);
-        }
-
-        $user->tokens()->delete(); // Xóa token trước khi xóa user
-        $user->delete();
-
-        return response()->json(['message' => 'User deleted successfully'], 200);
-    }
 
 }

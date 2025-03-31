@@ -1,10 +1,10 @@
 <?php
 
-use Illuminate\Http\Request;
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CollectionsController;
 use App\Http\Controllers\FlashcardsController;
-use App\Http\Controllers\AuthController;
+use App\Http\Controllers\AdminController;
 
 Route::middleware('auth:sanctum')->group(function () {
     // Routes liên quan đến collection
@@ -31,8 +31,26 @@ Route::middleware('auth:sanctum')->group(function () {
     });
 
     // Routes liên quan đến admin (Chỉ dành cho admin)
-    Route::prefix('admins')->group(function () {
-        Route::delete('/user/{id}', [AuthController::class, 'deleteUser']);
+    Route::prefix('admins')->controller(AdminController::class)->group(function () {
+        // Quản lý người dùng
+        Route::get('/users', 'getUsers'); // Lấy danh sách người dùng
+        Route::post('/users/{id}/toggle-lock','toggleUserLock'); // Khóa/Mở khóa tài khoản
+        Route::delete('/user/{id}',  'deleteUser');
+
+        // Quản lý thông báo
+        Route::post('/notifications', 'sendNotification'); // Gửi thông báo
+
+        // Quản lý collection
+        Route::get('/collections', 'getCollections'); // Xem danh sách collection
+        Route::post('/collections', 'createColletion'); // Tạo collection
+        Route::put('/collections/{id}',  'updateCollection'); // Cập nhật collection
+        Route::delete('/collections/{id}', 'deleteCollection'); // Xóa collection
+
+        // CRUD từ vựng của collection
+        Route::get('/collections/{id}/flashcards', 'getFlashcards'); // Xem danh sách flashcard
+        Route::post('/collections/{id}/flashcards',  'addFlashcard'); // Thêm từ vựng
+        Route::put('/flashcards/{flashcardId}', 'updateFlashcard'); // Cập nhật từ vựng
+        Route::delete('/flashcards/{flashcardId}', 'deleteFlashcard'); // Xóa từ vựng
     });
 
     // Đăng xuất
