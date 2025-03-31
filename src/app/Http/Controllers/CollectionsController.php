@@ -8,21 +8,17 @@ use Illuminate\Support\Facades\Auth;
 
 class CollectionsController extends Controller
 {
-    // Lấy danh sách collection
+    // Lấy danh sách collection mà user sở hữu
     public function index()
     {
         $userId = Auth::id();
 
-        // Lấy tất cả các collections công khai (privacy = 1) và các collection riêng tư của người dùng hiện tại (privacy = 0)
-        $collections = Collections::where('privacy', 1)
-            ->orWhere(function($query) use ($userId) {
-                $query->where('privacy', 0)
-                    ->where('user_id', $userId);
-            })
-            ->get();
+        // Lấy tất cả collections do user tạo ra (cả public và private)
+        $collections = Collections::where('user_id', $userId)->get();
 
         return response()->json($collections);
     }
+
 
     // Tạo mới collection
     public function store(Request $request)
@@ -73,6 +69,18 @@ class CollectionsController extends Controller
         return response()->json(['message' => 'Collection deleted successfully']);
     }
 
+    // list public collection
+    public function getPublicCollections()
+    {
+        // Chỉ lấy danh sách collection có privacy = 1 (public)
+        $collections = Collections::where('privacy', 1)
+            ->with('user') // Lấy thông tin người tạo collection
+            ->get();
+
+        return response()->json($collections);
+    }
+
+
     // search api
     public function searchPublicCollections(Request $request)
     {
@@ -88,7 +96,7 @@ class CollectionsController extends Controller
                         $query->where('username', 'like', "%$searchTerm%");
                     });
             })
-            ->with('user') // <== Bổ sung để trả về thông tin người dùng
+            ->with(['user', 'flashcards']) // <== Bổ sung để trả về thông tin người dùng, flashcard
             ->get();
 
         return response()->json($collections);

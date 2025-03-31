@@ -9,7 +9,7 @@ use App\Http\Controllers\AuthController;
 Route::middleware('auth:sanctum')->group(function () {
     // Routes liên quan đến collection
     Route::prefix('collections')->controller(CollectionsController::class)->group(function () {
-        Route::get('/', 'index'); // Lấy danh sách collection
+        Route::get('/', 'index'); // Lấy danh sách collection user sở hữu
         Route::post('/', 'store'); // Tạo mới collection
         Route::get('/{id}', 'show'); // Lấy chi tiết 1 collection
         Route::put('/{id}', 'update'); // Cập nhật collection
@@ -48,5 +48,6 @@ Route::controller(AuthController::class)->group(function () {
 // search api
 Route::get('/search-public', [CollectionsController::class, 'searchPublicCollections']);
 
-// Lấy danh sách flashcard theo collection
+// Lấy danh sách collection/ flashcard theo collection
+Route::get('/public-collections', [CollectionsController::class, 'getPublicCollections']);
 Route::get('/collection-flashcard/{collection_id}', [FlashcardsController::class, 'index']);
