@@ -29,8 +29,6 @@ class FlashcardsController extends Controller
         return response()->json($collection->flashcards);
     }
 
-
-
     // Thêm flashcard
     public function store(Request $request)
     {
