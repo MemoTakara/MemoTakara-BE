@@ -9,6 +9,8 @@ use App\Models\Tags;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Validator;
 
 class AdminController extends Controller
 {
@@ -17,6 +19,38 @@ class AdminController extends Controller
     {
         $users = User::all();
         return response()->json($users);
+    }
+
+    // Admin tạo user mới
+    public function addUsers(Request $request)
+    {
+        // Xác thực dữ liệu đầu vào
+        $validator = Validator::make($request->all(), [
+            'name' => 'nullable|string|max:255',
+            'username' => 'required|string|max:255|unique:users,username',
+            'email' => 'required|string|email|max:255|unique:users,email',
+            'password' => 'required|string|min:8',
+            'role' => 'nullable|string|in:user,admin', // Cho phép role là null
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json(['errors' => $validator->errors()], 422);
+        }
+
+        // Tạo người dùng mới
+        $user = User::create([
+            'name' => $request->name,
+            'username' => $request->username,
+            'email' => $request->email,
+            'password' => Hash::make($request->password),
+            'role' => $request->role ?? 'user', // Nếu không xác định, gán giá trị 'user' mặc định
+            'is_active' => true, // Gán mặc định là true
+        ]);
+
+        // Ẩn mật khẩu khỏi thông tin người dùng trả về
+        $user->makeHidden(['password']);
+
+        return response()->json(['message' => 'User created successfully', 'user' => $user], 201);
     }
 
     // Admin: Khóa/mở khóa tài khoản người dùng
@@ -54,20 +88,35 @@ class AdminController extends Controller
         return response()->json(['message' => 'User deleted successfully'], 200);
     }
 
+    // Admin: get all noti
+    public function getNotifications(Request $request)
+    {
+        // Nếu cần kiểm tra quyền admin, bạn có thể thêm logic ở đây
+        $notifications = Notification::where('user_id', Auth::id())->get();
+        return response()->json($notifications);
+    }
+
     // Admin: Gửi thông báo cho user
     public function sendNotification(Request $request)
     {
         $request->validate([
             'user_id' => 'required|exists:users,id',
-            'message' => 'required|string|max:255',
+            'message' => 'required|string',
+            'type' => 'required|string',
+            'sender_id' => 'nullable|exists:users,id',
+            'data' => 'nullable|json',
         ]);
 
-        Notification::create([
+        $notification = Notification::create([
             'user_id' => $request->user_id,
+            'sender_id' => $request->sender_id,
             'message' => $request->message,
+            'type' => $request->type,
+            'data' => $request->data,
+            'is_read' => false,
         ]);
 
-        return response()->json(['message' => 'Notification sent successfully']);
+        return response()->json($notification, 201);
     }
 
     // Admin: Lấy danh sách tất cả collection
@@ -75,19 +124,20 @@ class AdminController extends Controller
     {
         // Lấy tất cả collections trong hệ thống
         $collections = Collections::with([
+            'user:id,username', // Chỉ lấy id và username của user
             'tags', // Lấy danh sách tags
-            'ratings', // Lấy danh sách đánh giá
-            'ratings.user:id,username, rating', // Lấy thông tin người đánh giá (chỉ lấy id, name)
+//            'ratings', // Lấy danh sách đánh giá
+//            'ratings:id,collection_id,rating',
+//            'ratings.user:id,username, rating', // Lấy thông tin người đánh giá (chỉ lấy id, name)
         ])->get();
 
         // Tính số sao trung bình cho mỗi collection
-//        $collections->each(function ($collection) {
-//            $collection->average_rating = $collection->ratings->avg('rating') ?? 0; // Mặc định 0 nếu chưa có đánh giá
-//        });
+        $collections->each(function ($collection) {
+            $collection->average_rating = optional($collection->ratings)->avg('rating') ?? 0; // Mặc định 0 nếu chưa có đánh giá
+        });
 
         return response()->json($collections);
     }
-
 
     // Admin: Tạo collection mới
     public function createCollection(Request $request)
@@ -109,15 +159,28 @@ class AdminController extends Controller
         ]);
 
         // Nếu có tags, lưu vào bảng tags và bảng collection_tag
-        if ($request->tags) {
-            // Lấy hoặc tạo mới tags
-            $tagIds = collect($request->tags)->map(function ($tagName) {
-                return Tags::firstOrCreate(['name' => $tagName])->id; // Tìm hoặc tạo mới tag
-            });
+        $request->validate([
+            'tags' => 'nullable',
+        ]);
 
-            // Gắn các tags vào collection thông qua bảng collection_tag
-            $collection->tags()->sync($tagIds);
+        $tags = $request->tags;
+        if (is_string($tags)) {
+            $tags = explode(',', $tags);
         }
+
+        $tagIds = [];
+        if (is_array($tags)) {
+            foreach ($tags as $tagName) {
+                $tagName = trim($tagName);
+                if ($tagName === '') continue;
+
+                $tag = Tags::firstOrCreate(['name' => $tagName]);
+                $tagIds[] = $tag->id;
+            }
+        }
+
+// Gán tags vào collection
+        $collection->tags()->sync($tagIds);
 
         return response()->json(['message' => 'Collection created successfully', 'collection' => $collection]);
     }
@@ -131,9 +194,39 @@ class AdminController extends Controller
             return response()->json(['message' => 'Collection not found'], 404);
         }
 
+        // Cập nhật collection
         $collection->update($request->only(['collection_name', 'description', 'privacy']));
 
-        return response()->json(['message' => 'Collection updated successfully', 'collection' => $collection]);
+        // Cập nhật tags nếu có
+        if ($request->has('tags')) {
+            $request->validate([
+                'tags' => 'nullable',
+            ]);
+
+            $tags = $request->tags;
+            if (is_string($tags)) {
+                $tags = explode(',', $tags);
+            }
+
+            $tagIds = [];
+            if (is_array($tags)) {
+                foreach ($tags as $tagName) {
+                    $tagName = trim($tagName);
+                    if ($tagName === '') continue;
+
+                    $tag = Tags::firstOrCreate(['name' => $tagName]);
+                    $tagIds[] = $tag->id;
+                }
+            }
+
+// Gán tags vào collection
+            $collection->tags()->sync($tagIds);
+        }
+
+        return response()->json([
+            'message' => 'Collection updated successfully',
+            'collection' => $collection->load('tags') // Trả về luôn danh sách tags mới
+        ]);
     }
 
     // Admin: xóa collection
@@ -197,7 +290,17 @@ class AdminController extends Controller
             return response()->json(['message' => 'Flashcard not found'], 404);
         }
 
-        $flashcard->update($request->only(['front', 'back']));
+        $flashcard->update($request->only([
+                'front',
+                'back',
+                'pronunciation',
+                'kanji',
+                'audio_file',
+                'image',
+                'status',
+                'collection_id',
+            ]
+        ));
 
         return response()->json(['message' => 'Flashcard updated successfully', 'flashcard' => $flashcard]);
     }

@@ -29,6 +29,7 @@ Route::middleware('auth:sanctum')->group(function () {
     // Routes liên quan đến user (Yêu cầu đăng nhập)
     Route::prefix('users')->controller(AuthController::class)->group(function () {
         Route::get('/', 'getUser'); // Lấy thông tin user
+        Route::post('/change-password', 'changePassword'); // Tự đổi pass
         Route::delete('/delete', 'deleteAccount'); // User tự xóa tài khoản
     });
 
@@ -36,11 +37,13 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::prefix('admins')->controller(AdminController::class)->group(function () {
         // Quản lý người dùng
         Route::get('/users', 'getUsers'); // Lấy danh sách người dùng
+        Route::post('/users', 'addUsers'); // Add user
         Route::post('/users/{id}/toggle-lock', 'toggleUserStatus'); // Khóa/Mở khóa tài khoản
         Route::delete('/user/{id}', 'deleteUser');
 
         // Quản lý thông báo
-        Route::post('/notifications', 'sendNotification'); // Gửi thông báo
+        Route::get('/notifications', 'getNotifications');
+        Route::post('/notifications/send', 'sendNotification'); // Gửi thông báo
 
         // Quản lý collection
         Route::get('/collections', 'getAllCollections'); // Xem danh sách collection
