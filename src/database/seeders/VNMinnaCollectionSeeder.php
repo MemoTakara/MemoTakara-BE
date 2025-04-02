@@ -13,7 +13,19 @@ class VNMinnaCollectionSeeder extends Seeder
      */
     public function run(): void
     {
-        DB::table('collections')->insert([
+        // Tags table Seeder
+        $tags = [
+            'Tiếng Nhật'
+        ];
+
+        foreach ($tags as $tag) {
+            DB::table('tags')->insert([
+                'name' => $tag,
+            ]);
+        }
+
+        // Collections table Seeder
+        $collections = [
             [
                 'collection_name' => 'Từ vựng Minna no Nihongo Bài 1',
                 'description' => 'Bao gồm các từ vựng cơ bản về chào hỏi, giới thiệu bản thân, nghề nghiệp và quốc gia.',
@@ -366,6 +378,37 @@ class VNMinnaCollectionSeeder extends Seeder
                 'tag' => 'Tiếng Nhật',
                 'user_id' => 1,
             ],
-        ]);
+        ];
+
+        foreach ($collections as $collection) {
+            $collection_id = DB::table('collections')->insertGetId([
+                'collection_name' => $collection['collection_name'],
+                'description' => $collection['description'],
+                'privacy' => $collection['privacy'],
+                'user_id' => $collection['user_id'],
+            ]);
+
+            $tag = $collection['tag'];
+
+            // Kiểm tra tag trước khi lấy tag_id
+            if (!empty($tag)) {
+                $tag_id = DB::table('tags')->where('name', $tag)->value('id');
+
+                // Nếu tag không tồn tại, hãy tạo tag mới
+                if (is_null($tag_id)) {
+                    $tag_id = DB::table('tags')->insertGetId(['name' => $tag]);
+                }
+            } else {
+                // Ghi log hoặc xử lý lỗi nếu tag không hợp lệ
+                \Log::error('Tag is empty or not valid for collection: ' . $collection['collection_name']);
+                continue; // Bỏ qua collection này nếu tag không hợp lệ
+            }
+
+            // Collection_tag table Seeder
+            DB::table('collection_tag')->updateOrInsert(
+                ['collection_id' => $collection_id, 'tag_id' => $tag_id],
+                []
+            );
+        }
     }
 }

@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -13,7 +12,19 @@ class HanziCollectionSeeder extends Seeder
      */
     public function run(): void
     {
-        DB::table('collections')->insert([
+        // Tags table Seeder
+        $tags = [
+            'Chinese'
+        ];
+
+        foreach ($tags as $tag) {
+            DB::table('tags')->insert([
+                'name' => $tag,
+            ]);
+        }
+
+        // Collections table Seeder
+        $collections = [
             [
                 'collection_name' => 'HSK 1 Vocabulary Collection',
                 'description' => 'This collection includes basic vocabulary for beginners learning Chinese, aligned with the HSK Level 1 syllabus. It covers around 150 essential words and phrases for everyday communication, such as greetings, numbers, dates, and common verbs. It is ideal for learners starting their journey in Mandarin.',
@@ -56,6 +67,31 @@ class HanziCollectionSeeder extends Seeder
                 'tag' => 'Chinese',
                 'user_id' => 1, // ID của admin
             ],
-        ]);
+        ];
+
+        foreach ($collections as $collection) {
+            $collection_id = DB::table('collections')->insertGetId([
+                'collection_name' => $collection['collection_name'],
+                'description' => $collection['description'],
+                'privacy' => $collection['privacy'],
+                'user_id' => $collection['user_id'],
+            ]);
+
+            // Lấy tag_id, có thể đã được thêm ở trên
+            $tag = $collection['tag'];
+            $tag_id = DB::table('tags')->where('name', $tag)->value('id');
+
+            // Nếu tag không tồn tại, hãy tạo tag mới
+            if (!$tag_id) {
+                $tag_id = DB::table('tags')->insertGetId(['name' => $tag]);
+            }
+
+            // Collection_tag table Seeder
+            DB::table('collection_tag')->updateOrInsert(
+                ['collection_id' => $collection_id, 'tag_id' => $tag_id],
+                []
+            );
+
+        }
     }
 }

@@ -5,8 +5,10 @@ namespace App\Http\Controllers;
 use App\Models\Collections;
 use App\Models\Flashcards;
 use App\Models\Notification;
+use App\Models\Tags;
 use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 
 class AdminController extends Controller
 {
@@ -69,11 +71,23 @@ class AdminController extends Controller
     }
 
     // Admin: Lấy danh sách tất cả collection
-    public function getCollections()
+    public function getAllCollections()
     {
-        $collections = Collections::all();
+        // Lấy tất cả collections trong hệ thống
+        $collections = Collections::with([
+            'tags', // Lấy danh sách tags
+            'ratings', // Lấy danh sách đánh giá
+            'ratings.user:id,username, rating', // Lấy thông tin người đánh giá (chỉ lấy id, name)
+        ])->get();
+
+        // Tính số sao trung bình cho mỗi collection
+//        $collections->each(function ($collection) {
+//            $collection->average_rating = $collection->ratings->avg('rating') ?? 0; // Mặc định 0 nếu chưa có đánh giá
+//        });
+
         return response()->json($collections);
     }
+
 
     // Admin: Tạo collection mới
     public function createCollection(Request $request)
@@ -82,17 +96,32 @@ class AdminController extends Controller
             'collection_name' => 'required|string|max:255',
             'description' => 'nullable|string',
             'privacy' => 'required|boolean',
+            'tags' => 'nullable|array', // Kiểm tra nếu tags là mảng
+            'tags.*' => 'string|distinct', // Mỗi tag là chuỗi và không trùng lặp
         ]);
 
+        // Tạo collection
         $collection = Collections::create([
             'collection_name' => $request->collection_name,
             'description' => $request->description,
             'privacy' => $request->privacy,
-            'user_id' => auth()->id(),
+            'user_id' => auth()->id(), // Lấy ID của user hiện tại
         ]);
+
+        // Nếu có tags, lưu vào bảng tags và bảng collection_tag
+        if ($request->tags) {
+            // Lấy hoặc tạo mới tags
+            $tagIds = collect($request->tags)->map(function ($tagName) {
+                return Tags::firstOrCreate(['name' => $tagName])->id; // Tìm hoặc tạo mới tag
+            });
+
+            // Gắn các tags vào collection thông qua bảng collection_tag
+            $collection->tags()->sync($tagIds);
+        }
 
         return response()->json(['message' => 'Collection created successfully', 'collection' => $collection]);
     }
+
 
     // Admin: cập nhật collection
     public function updateCollection(Request $request, $id)
@@ -120,6 +149,25 @@ class AdminController extends Controller
         return response()->json(['message' => 'Collection deleted successfully']);
     }
 
+    /**
+     * Lấy danh sách tất cả flashcards (chỉ dành cho admin)
+     */
+    public function getAllFlashcards(Request $request)
+    {
+        // Kiểm tra quyền admin
+        if (!Auth::user() || Auth::user()->role !== 'admin') {
+            return response()->json(['message' => 'Unauthorized'], 403);
+        }
+
+        // Lấy tất cả flashcards, bao gồm collection_id và user_id của collection
+        $flashcards = Flashcards::with([
+            'collection:id,collection_name,user_id', // Lấy thông tin collection (chỉ lấy ID, tên collection, user_id)
+            'collection.user:id,username,email' // Lấy thông tin user (chỉ lấy ID, tên, email)
+        ])->get();
+
+        return response()->json($flashcards);
+    }
+
     // Admin: Lấy danh sách flashcard trong collection
     public function getFlashcards($collectionId)
     {
@@ -132,8 +180,8 @@ class AdminController extends Controller
     {
         $request->validate([
             'collection_id' => 'required|exists:collections,id',
-            'word' => 'required|string|max:255',
-            'meaning' => 'required|string|max:255',
+            'front' => 'required|string|max:255',
+            'back' => 'required|string|max:255',
         ]);
 
         $flashcard = Flashcards::create($request->all());
@@ -149,7 +197,7 @@ class AdminController extends Controller
             return response()->json(['message' => 'Flashcard not found'], 404);
         }
 
-        $flashcard->update($request->only(['word', 'meaning']));
+        $flashcard->update($request->only(['front', 'back']));
 
         return response()->json(['message' => 'Flashcard updated successfully', 'flashcard' => $flashcard]);
     }
