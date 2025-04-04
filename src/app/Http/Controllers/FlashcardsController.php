@@ -10,24 +10,28 @@ use Illuminate\Support\Facades\Auth;
 class FlashcardsController extends Controller
 {
     // Lấy danh sách flashcard theo collection
-    public function index($collection_id)
-    {
-        // Lấy ID người dùng hiện tại (nếu có)
-        $userId = Auth::id();
-
-        // Tìm collection theo collection_id
-        $collection = Collections::where('id', $collection_id)
-            ->where(function ($query) use ($userId) {
-                $query->where('privacy', 1); // Collection công khai
-                if ($userId) {
-                    $query->orWhere('user_id', $userId); // Collection của người dùng
-                }
-            })
-            ->firstOrFail();
-
-        // Trả về danh sách flashcards của collection
-        return response()->json($collection->flashcards);
-    }
+//    public function index($collection_id)
+//    {
+//        // Lấy ID người dùng hiện tại (nếu có)
+//        $userId = Auth::id();
+//
+//        // Kiểm tra người dùng có đăng nhập hay không
+//        if (!$userId) {
+//            return response()->json(['error' => 'User not authenticated'], 401);
+//        }
+//
+//        // Tìm collection theo collection_id
+//        $collection = Collections::where('id', $collection_id)
+//            ->where(function ($query) use ($userId) {
+//                $query->where('privacy', 1) // Collection công khai
+//                ->orWhere('user_id', $userId); // Collection của người dùng
+//            })
+//            ->with('flashcards') // Tải trước flashcards liên quan
+//            ->firstOrFail();
+//
+//        // Trả về danh sách flashcards của collection
+//        return response()->json($collection->flashcards ?? []);
+//    }
 
     // Thêm flashcard
     public function store(Request $request)

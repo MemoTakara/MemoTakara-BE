@@ -16,6 +16,7 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::delete('/{id}', 'destroy'); // Xóa collection
         Route::put('{id}/update-star', 'updateStarCount'); // Update star count
         Route::post('{id}/duplicate', 'duplicateCollection'); // Duplicate collection
+        Route::get('/user/{id}', 'getPublicCollectionsByUser'); // Lấy danh sách các collection công khai của người dùng
     });
 
     // Routes liên quan đến flashcard
@@ -74,4 +75,3 @@ Route::get('/search-public', [CollectionsController::class, 'searchPublicCollect
 
 // Lấy danh sách collection/ flashcard theo collection
 Route::get('/public-collections', [CollectionsController::class, 'getPublicCollections']);
-Route::get('/collection-flashcard/{collection_id}', [FlashcardsController::class, 'index']);

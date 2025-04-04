@@ -101,8 +101,34 @@ class CollectionsController extends Controller
     {
         // Chỉ lấy danh sách collection có privacy = 1 (public)
         $collections = Collections::where('privacy', 1)
-            ->with('user') // Lấy thông tin người tạo collection
+            ->with([
+                'user:id,username,role',
+                'flashcards:id,collection_id,front,back,pronunciation,audio_file'
+            ]) // Lấy thông tin người tạo collection
             ->get();
+
+        return response()->json($collections);
+    }
+
+    // Lấy danh sách các collection công khai của người dùng
+    public function getPublicCollectionsByUser($userId)
+    {
+        // Lấy danh sách các collection có privacy = 1 (công khai) của người dùng cụ thể
+        $collections = Collections::where('user_id', $userId)
+            ->where('privacy', 1)
+            ->select('id', 'collection_name')
+            ->with([
+//                'tags', // Lấy danh sách tags
+//                'ratings', // Lấy đánh giá
+//                'ratings.user:id,username', // Lấy thông tin người đánh giá
+                'flashcards:id,collection_id,status' // Lấy thông tin flashcard
+            ])
+            ->get();
+
+        // Tính số sao trung bình cho mỗi collection
+//        $collections->each(function ($collection) {
+//            $collection->average_rating = $collection->ratings->avg('rating') ?? 0; // Nếu không có rating thì mặc định 0
+//        });
 
         return response()->json($collections);
     }

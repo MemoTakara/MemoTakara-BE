@@ -23,6 +23,10 @@ class Flashcards extends Model
 
     public function collection()
     {
-        return $this->belongsTo(Collections::class, 'collection_id');
+        return $this->belongsTo(
+            Collections::class,
+            'collection_id',
+            'id'
+        );
     }
 }

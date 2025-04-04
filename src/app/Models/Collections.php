@@ -34,7 +34,11 @@ class Collections extends Model
      */
     public function flashcards()
     {
-        return $this->hasMany(Flashcards::class, 'collection_id');
+        return $this->hasMany(
+            Flashcards::class,
+            'collection_id',
+            'id'
+        );
     }
 
     /**
