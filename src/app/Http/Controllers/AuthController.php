@@ -20,7 +20,7 @@ class AuthController extends Controller
         ]);
 
         // Check exist user ?
-        if(User::where('email', $request->email)->exists()){
+        if (User::where('email', $request->email)->exists()) {
             return response(['message' => 'User already exists'], 409);
         }
 
@@ -41,7 +41,6 @@ class AuthController extends Controller
             'token' => $token,
         ], 201);
     }
-
 
     // Đăng nhập
     public function login(Request $request)
@@ -66,6 +65,26 @@ class AuthController extends Controller
             'user' => $user,
             'token' => $token,
         ], 200);
+    }
+
+    // Tự đổi mật khẩu
+    public function changePassword(Request $request)
+    {
+        // Kiểm tra yêu cầu đầu vào
+        $request->validate([
+            'old_password' => ['required', 'current_password'], // Sử dụng rule current_password
+            'new_password' => ['required', 'string', 'min:8', 'confirmed'],
+        ]);
+
+        // Lấy thông tin user đang đăng nhập
+        $user = Auth::user();
+
+        // Cập nhật mật khẩu mới
+        $user->update([
+            'password' => Hash::make($request->new_password),
+        ]);
+
+        return response()->json(['message' => 'Mật khẩu đã được thay đổi thành công.']);
     }
 
     // Đăng xuất (xóa token)
@@ -96,25 +115,5 @@ class AuthController extends Controller
         ], 200);
     }
 
-    // Admin xóa tài khoản của người dùng khác
-    public function deleteUser(Request $request, $id)
-    {
-        $admin = $request->user();
-
-        // Chỉ cho phép admin xóa user
-        if ($admin->role !== 'admin') {
-            return response()->json(['message' => 'Không có quyền xóa (admin)'], 403);
-        }
-
-        $user = User::find($id);
-        if (!$user) {
-            return response()->json(['message' => 'User not found'], 404);
-        }
-
-        $user->tokens()->delete(); // Xóa token trước khi xóa user
-        $user->delete();
-
-        return response()->json(['message' => 'User deleted successfully'], 200);
-    }
 
 }

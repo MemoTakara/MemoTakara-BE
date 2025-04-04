@@ -4,15 +4,14 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
-{
+return new class extends Migration {
     /**
      * Run the migrations.
      */
     public function up(): void
     {
-        Schema::table('flashcards', function (Blueprint $table) {
-            $table->text('kanji')->nullable(); // Kanji, Hán Việt
+        Schema::table('users', function (Blueprint $table) {
+            $table->boolean('is_active')->default(true); // Mặc định tài khoản là hoạt động
         });
     }
 
@@ -21,8 +20,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('flashcards', function (Blueprint $table) {
-            $table->dropColumn('kanji'); // Xóa cột mới nếu rollback
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('is_active');
         });
     }
 };

@@ -4,8 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
-{
+return new class extends Migration {
     /**
      * Run the migrations.
      */
@@ -20,6 +19,7 @@ return new class extends Migration
             $table->string('password'); // Cột lưu mật khẩu
             $table->string('role')->default('user'); // Cột lưu vai trò người dùng, mặc định là 'guest'
             $table->rememberToken(); // Cột cho tính năng "remember me" khi người dùng đăng nhập
+//            $table->boolean('is_active')->default(true); // Mặc định tài khoản là hoạt động
             $table->timestamps(); // Tạo cột created_at và updated_at
         });
 
