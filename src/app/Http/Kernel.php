@@ -61,6 +61,7 @@ class Kernel extends HttpKernel
             EnsureFrontendRequestsAreStateful::class, // Middleware của Sanctum
             ThrottleRequests::class . ':api',
             SubstituteBindings::class,
+            HandleCors::class,
         ],
     ];
 

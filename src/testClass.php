@@ -1,29 +1,19 @@
 <?php
 
+return [
 
-namespace App\Http\Middleware;
+    'paths' => ['api/*', 'sanctum/csrf-cookie'],
 
-use Closure;
+    'allowed_methods' => ['*'],
 
-class Cors
-{
-    public function handle($request, Closure $next)
-    {
-        $allowedOrigins = [
-            'http://localhost:5173',
-            'http://example.com',
-            'http://anotherdomain.com',
-        ];
+    'allowed_origins' => ['https://memo-takara-fe-web.vercel.app'],
 
-        $origin = $request->headers->get('Origin');
+    'allowed_headers' => ['*'],
 
-        if (in_array($origin, $allowedOrigins)) {
-            return $next($request)
-                ->header('Access-Control-Allow-Origin', $origin)
-                ->header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS')
-                ->header('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, X-Token-Auth, Authorization');
-        }
+    'exposed_headers' => [],
 
-        return $next($request);
-    }
-}
+    'max_age' => 0,
+
+    'supports_credentials' => true,
+
+];

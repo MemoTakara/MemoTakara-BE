@@ -2,7 +2,7 @@
 
 return [
 
-    'paths' => ['api/*'], // Các đường dẫn mà bạn muốn áp dụng CORS
+    'paths' => ['api/*', 'sanctum/csrf-cookie'], // Các đường dẫn mà bạn muốn áp dụng CORS
 
     'allowed_methods' => ['*'], // Cho phép tất cả các phương thức HTTP
 
