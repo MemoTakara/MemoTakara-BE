@@ -6,10 +6,7 @@ return [
 
     'allowed_methods' => ['*'], // Cho phép tất cả các phương thức HTTP
 
-    'allowed_origins' => [
-        'http://localhost:5173', // Địa chỉ frontend thứ nhất
-        'https://memo-takara-fe-web.vercel.app/',   // Địa chỉ frontend thứ hai
-    ],
+    'allowed_origins' => ['*'],
 
     'allowed_origins_patterns' => [],
 
