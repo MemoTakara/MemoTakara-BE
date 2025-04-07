@@ -57,8 +57,12 @@ class CollectionsController extends Controller
     // Lấy chi tiết 1 collection
     public function show($id)
     {
-//        $collection = Collections::where('user_id', Auth::id())->findOrFail($id);
-        $collection = Collections::with(['user', 'tags', 'ratings'])->findOrFail($id);
+        $collection = Collections::with([
+            'user:id,username,role',
+            'flashcards:id,collection_id,front,back,pronunciation,kanji,audio_file,image',
+            'tags',
+            'ratings'
+        ])->findOrFail($id);
         return response()->json($collection);
     }
 

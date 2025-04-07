@@ -11,7 +11,7 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::prefix('collections')->controller(CollectionsController::class)->group(function () {
         Route::get('/', 'index'); // Lấy danh sách collection user sở hữu
         Route::post('/', 'store'); // Tạo mới collection
-        Route::get('/{id}', 'show'); // Lấy chi tiết 1 collection
+        Route::get('/{id}', 'show'); // Lấy chi tiết 1 collection theo id
         Route::put('/{id}', 'update'); // Cập nhật collection
         Route::delete('/{id}', 'destroy'); // Xóa collection
         Route::put('{id}/update-star', 'updateStarCount'); // Update star count
