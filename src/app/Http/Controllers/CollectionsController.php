@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\CollectionRatings;
+use App\Models\Flashcards;
 use Illuminate\Http\Request;
 use App\Models\Collections;
 use Illuminate\Support\Facades\Auth;
@@ -180,6 +181,7 @@ class CollectionsController extends Controller
         $original = Collections::findOrFail($collectionId);
 
         DB::beginTransaction();
+
         try {
             // Tạo collection mới
             $newCollection = Collections::create([
@@ -193,7 +195,6 @@ class CollectionsController extends Controller
 
             // Lấy các tag liên kết
             $tags = DB::table('collection_tag')->where('collection_id', $collectionId)->get();
-
             foreach ($tags as $tag) {
                 DB::table('collection_tag')->insert([
                     'collection_id' => $newCollection->id,
@@ -201,12 +202,35 @@ class CollectionsController extends Controller
                 ]);
             }
 
+            // Copy flashcards
+            $originalFlashcards = Flashcards::where('collection_id', $collectionId)->get();
+            foreach ($originalFlashcards as $flashcard) {
+                Flashcards::create([
+                    'collection_id' => $newCollection->id,
+                    'front' => $flashcard->front,
+                    'back' => $flashcard->back,
+                    'pronunciation' => $flashcard->pronunciation,
+                    'kanji' => $flashcard->kanji,
+                    'audio_file' => $flashcard->audio_file,
+                    'image' => $flashcard->image,
+                    'status' => $flashcard->status,
+                ]);
+            }
+
             DB::commit();
-            return response()->json(['message' => 'Collection duplicated successfully!', 'new_collection_id' => $newCollection->id]);
+            return response()->json([
+                'success' => true,
+                'message' => 'Collection duplicated successfully!',
+                'new_collection_id' => $newCollection->id,
+            ]);
 
         } catch (\Exception $e) {
             DB::rollBack();
-            return response()->json(['error' => 'Failed to duplicate collection'], 500);
+            return response()->json([
+                'success' => false,
+                'message' => 'Failed to duplicate collection',
+                'error' => $e->getMessage()
+            ], 500);
         }
     }
 }
