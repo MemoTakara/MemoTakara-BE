@@ -21,6 +21,7 @@ class DatabaseSeeder extends Seeder
             JLPTVocabFCSeeder::class,
             VNMinnaCollectionSeeder::class,
             VNMinnaFCSeeder::class,
+            FCStatusSeeder::class,
         ]);
     }
 }

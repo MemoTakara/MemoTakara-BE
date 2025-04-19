@@ -18,7 +18,6 @@ return new class extends Migration {
             $table->text('kanji')->nullable(); // Kanji, Hán Việt
             $table->string('audio_file')->nullable(); // File phát âm của từ vựng (character, cho phép null)
             $table->string('image')->nullable(); // Hình ảnh miêu tả từ vựng (character, cho phép null)
-            $table->enum('status', ['new', 'learning', 're-learning', 'young', 'mastered'])->default('new'); // Trạng thái của từ vựng
             $table->timestamps(); // created_at và updated_at
 
             // Khóa ngoại liên kết với collections

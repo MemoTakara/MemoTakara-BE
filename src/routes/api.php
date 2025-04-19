@@ -1,6 +1,9 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\FlashcardReviewController;
+use App\Http\Controllers\RecentCollectionController;
+use App\Http\Controllers\UserFlashcardController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CollectionsController;
 use App\Http\Controllers\FlashcardsController;
@@ -16,7 +19,13 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::delete('/{id}', 'destroy'); // Xóa collection
         Route::put('{id}/update-star', 'updateStarCount'); // Update star count
         Route::post('{id}/duplicate', 'duplicateCollection'); // Duplicate collection
-        Route::get('/user/{id}', 'getPublicCollectionsByUser'); // Lấy danh sách các collection công khai của người dùng
+        Route::get('/user/{userId}', 'getPublicCollectionsByUser'); // Lấy danh sách các collection công khai của người dùng
+    });
+
+    // Routes liên quan đến recent collection
+    Route::prefix('recent-collections')->controller(RecentCollectionController::class)->group(function () {
+        Route::post('/', 'store');
+        Route::get('/{id}', 'index');
     });
 
     // Routes liên quan đến flashcard
@@ -25,6 +34,17 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::get('/{id}', 'show'); // Lấy chi tiết flashcard
         Route::put('/{id}', 'update'); // Cập nhật flashcard
         Route::delete('/{id}', 'destroy'); // Xóa flashcard
+    });
+
+    // Routes liên quan đến flashcard nhưng FlashcardReviewController
+    Route::prefix('flashcards')->controller(FlashcardReviewController::class)->group(function () {
+        Route::post('/review', 'review');
+        Route::get('/due-now', 'getDueFlashcards');
+    });
+
+    Route::prefix('user-flashcards')->controller(UserFlashcardController::class)->group(function () {
+        Route::post('/update', 'updateProgress');
+        Route::get('/progress/{collectionId}', 'getProgress');
     });
 
     // Routes liên quan đến user (Yêu cầu đăng nhập)
@@ -70,8 +90,8 @@ Route::controller(AuthController::class)->group(function () {
     Route::post('/login', 'login'); // Đăng nhập
 });
 
-// search api
-Route::get('/search-public', [CollectionsController::class, 'searchPublicCollections']);
-
-// Lấy danh sách collection/ flashcard theo collection
-Route::get('/public-collections', [CollectionsController::class, 'getPublicCollections']);
+Route::controller(CollectionsController::class)->group(function () {
+    Route::get('/search-public', 'searchPublicCollections');    // search api
+    Route::get('/public-collections', 'getPublicCollections');  // Lấy danh sách collection công khai
+    Route::get('/public-collections/{id}', 'getPublicCollectionDetail');    // public collection with flashcard
+});

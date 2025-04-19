@@ -104,15 +104,48 @@ class CollectionsController extends Controller
     // list public collection
     public function getPublicCollections()
     {
+        $userId = Auth::id(); // hoặc truyền từ client nếu chưa login
+
         // Chỉ lấy danh sách collection có privacy = 1 (public)
         $collections = Collections::where('privacy', 1)
             ->with([
-                'user:id,username,role',
-                'flashcards:id,collection_id,front,back,pronunciation,audio_file'
-            ]) // Lấy thông tin người tạo collection
+                'user:id,username,role', // Lấy thông tin người tạo collection
+                'flashcards' => function ($query) use ($userId) {
+                    $query->with(['statuses' => function ($statusQuery) use ($userId) {
+                        $statusQuery->where('user_id', $userId);
+                    }])->select(
+                        'id', 'collection_id',
+                        'front', 'back', 'pronunciation',
+                        'kanji', 'audio_file', 'image',
+                        'created_at', 'updated_at'); // chọn cột cần thiết
+                },
+            ])
+            ->withCount('flashcards')   // Đếm số flashcard
             ->get();
 
+        // Gán status của từng flashcard theo user
+        $collections->each(function ($collection) {
+            $collection->flashcards->each(function ($flashcard) {
+                $flashcard->status = $flashcard->statuses->first()->status ?? 'new';
+                unset($flashcard->statuses); // Xóa để không trả về
+            });
+        });
+
         return response()->json($collections);
+    }
+
+    // public collection with flashcard list
+    public function getPublicCollectionDetail($id)
+    {
+        $collection = Collections::where('id', $id)
+            ->where('privacy', 1)
+            ->with([
+                'user:id,username,role',
+                'flashcards:id,collection_id,front,back,pronunciation,audio_file'
+            ])
+            ->firstOrFail();
+
+        return response()->json($collection);
     }
 
     // Lấy danh sách các collection công khai của người dùng
@@ -121,12 +154,12 @@ class CollectionsController extends Controller
         // Lấy danh sách các collection có privacy = 1 (công khai) của người dùng cụ thể
         $collections = Collections::where('user_id', $userId)
             ->where('privacy', 1)
-            ->select('id', 'collection_name')
+            ->select('id', 'collection_name', 'user_id')
             ->with([
 //                'tags', // Lấy danh sách tags
 //                'ratings', // Lấy đánh giá
 //                'ratings.user:id,username', // Lấy thông tin người đánh giá
-                'flashcards:id,collection_id,status' // Lấy thông tin flashcard
+//                'flashcards:id,collection_id,status' // Lấy thông tin flashcard
             ])
             ->get();
 

@@ -29,4 +29,11 @@ class Flashcards extends Model
             'id'
         );
     }
+
+    public function statuses()
+    {
+        return $this->hasMany(
+            FlashcardStatus::class,
+            'flashcard_id');
+    }
 }
