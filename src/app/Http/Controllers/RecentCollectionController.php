@@ -5,13 +5,14 @@ namespace App\Http\Controllers;
 use App\Models\RecentCollection;
 use App\Models\Collections;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class RecentCollectionController extends Controller
 {
     // Lưu lịch sử truy cập
     public function store(Request $request)
     {
-        $userId = $request->user()->id;
+        $userId = Auth::id();
         $collectionId = $request->input('collection_id');
 
         // Xoá bản ghi cũ nếu đã có
@@ -31,20 +32,22 @@ class RecentCollectionController extends Controller
     // Lấy danh sách đã xem gần đây
     public function index($userId)
     {
-        $recent = RecentCollection::where('user_id', $userId)
+        $recentCollections = RecentCollection::with(
+            'collection.user:id,role'
+        ) // Eager load collection và user
+        ->where('user_id', $userId)
             ->orderBy('updated_at', 'desc')
             ->take(10)
-            ->pluck('collection_id');
-
-        $collections = Collections::whereIn('id', $recent)
-            ->where('privacy', 1)
             ->get();
 
-        // Sắp xếp theo thứ tự recent
-        $sorted = $recent->map(function ($id) use ($collections) {
-            return $collections->firstWhere('id', $id);
-        })->filter();
+        $collections = $recentCollections->map(function ($recentCollection) {
+            $collection = $recentCollection->collection;
+            if ($collection && $collection->privacy == 1) {
+                return $collection;
+            }
+            return null;
+        })->filter()->values();
 
-        return response()->json($sorted->values());
+        return response()->json($collections);
     }
 }

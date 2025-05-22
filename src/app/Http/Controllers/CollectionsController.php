@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\CollectionRatings;
 use App\Models\Flashcards;
+use App\Models\FlashcardStatus;
+use App\Models\Tags;
 use Illuminate\Http\Request;
 use App\Models\Collections;
 use Illuminate\Support\Facades\Auth;
@@ -23,6 +25,7 @@ class CollectionsController extends Controller
                 'ratings', // Lấy danh sách đánh giá
                 'ratings.user:id,username', // Lấy thông tin người đánh giá (chỉ lấy id, name)
             ])
+            ->withCount('flashcards')
             ->get();
 
         // Tính số sao trung bình cho mỗi collection
@@ -40,19 +43,62 @@ class CollectionsController extends Controller
             'collection_name' => 'required|string|max:255',
             'description' => 'nullable|string',
             'privacy' => 'boolean',
-            'tag' => 'nullable|string',
+            'existing_tags' => 'nullable|array',
+            'existing_tags.*' => 'integer|exists:tags,id',
+            'new_tags' => 'nullable|array',
+            'new_tags.*' => 'string|min:1|max:50',
         ]);
 
-        $collection = Collections::create([
-            'user_id' => Auth::id(),
-            'collection_name' => $request->collection_name,
-            'description' => $request->description,
-            'privacy' => $request->privacy ?? 0,
-            'tag' => $request->tag,
-            'star_count' => $request->star_count ?? 0
-        ]);
+        DB::beginTransaction();
 
-        return response()->json($collection, 201);
+        try {
+            // Tạo collection mới
+            $collection = Collections::create([
+                'user_id' => Auth::id(),
+                'collection_name' => $request->collection_name,
+                'description' => $request->description,
+                'privacy' => $request->privacy ?? 0,
+                'star_count' => $request->star_count ?? 0
+            ]);
+
+            $allTagIds = [];
+
+            // Gắn các tag có sẵn
+            if (!empty($request->existing_tags)) {
+                $allTagIds = array_merge($allTagIds, $request->existing_tags);
+            }
+
+            // Xử lý tag mới (tối ưu: chỉ insert nếu chưa tồn tại)
+            if (!empty($request->new_tags)) {
+                $existing = Tags::whereIn('name', $request->new_tags)->pluck('id', 'name')->toArray();
+
+                foreach ($request->new_tags as $tagName) {
+                    if (isset($existing[$tagName])) {
+                        $allTagIds[] = $existing[$tagName];
+                    } else {
+                        $newTag = Tags::create(['name' => $tagName]);
+                        $allTagIds[] = $newTag->id;
+                    }
+                }
+            }
+
+            // Gắn tất cả tag vào collection
+            if (!empty($allTagIds)) {
+                $collection->tags()->attach($allTagIds);
+            }
+
+            DB::commit();
+
+            return response()->json($collection->load('tags'), 201);
+
+        } catch (\Exception $e) {
+            DB::rollBack();
+            return response()->json([
+                'success' => false,
+                'message' => 'Tạo collection thất bại',
+                'error' => $e->getMessage()
+            ], 500);
+        }
     }
 
     // Lấy chi tiết 1 collection
@@ -221,7 +267,6 @@ class CollectionsController extends Controller
                 'collection_name' => $original->collection_name . " (Copy)",
                 'description' => $original->description,
                 'privacy' => 0, // Mặc định private
-                'tag' => $original->tag,
                 'star_count' => 0, // Bản sao không có đánh giá
                 'user_id' => $userId, // Người dùng mới là chủ sở hữu
             ]);
@@ -246,7 +291,12 @@ class CollectionsController extends Controller
                     'kanji' => $flashcard->kanji,
                     'audio_file' => $flashcard->audio_file,
                     'image' => $flashcard->image,
-                    'status' => $flashcard->status,
+                ]);
+
+                // Status tương ứng
+                FlashcardStatus::created([
+                    'user_id' => $userId,
+                    'flashcard_id' => $flashcard->id,
                 ]);
             }
 

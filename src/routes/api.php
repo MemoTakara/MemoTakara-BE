@@ -75,7 +75,7 @@ Route::middleware('auth:sanctum')->group(function () {
         // CRUD từ vựng của collection
         Route::get('/flashcards', 'getAllFlashcards'); // Xem danh sách tất cả flashcard trong hệ thống
         Route::get('/collections/{id}/flashcards', 'getFlashcards'); // Xem danh sách flashcard
-        Route::post('/collections/{id}/flashcards', 'addFlashcard'); // Thêm từ vựng
+        Route::post('/collections/flashcards', 'addFlashcard'); // Thêm từ vựng
         Route::put('/flashcards/{flashcardId}', 'updateFlashcard'); // Cập nhật từ vựng
         Route::delete('/flashcards/{flashcardId}', 'deleteFlashcard'); // Xóa từ vựng
     });

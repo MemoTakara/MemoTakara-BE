@@ -4,12 +4,14 @@ namespace App\Http\Controllers;
 
 use App\Models\Collections;
 use App\Models\Flashcards;
+use App\Models\FlashcardStatus;
 use App\Models\Notification;
 use App\Models\Tags;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
 
 class AdminController extends Controller
@@ -88,7 +90,7 @@ class AdminController extends Controller
         return response()->json(['message' => 'User deleted successfully'], 200);
     }
 
-    // Admin: get all noti
+    // Admin: get all notification
     public function getNotifications(Request $request)
     {
         // Nếu cần kiểm tra quyền admin, bạn có thể thêm logic ở đây
@@ -249,13 +251,18 @@ class AdminController extends Controller
     {
         // Kiểm tra quyền admin
         if (!Auth::user() || Auth::user()->role !== 'admin') {
-            return response()->json(['message' => 'Unauthorized'], 403);
+            return response()->json([
+                'message' => 'Unauthorized'
+            ], 403);
         }
 
         // Lấy tất cả flashcards, bao gồm collection_id và user_id của collection
         $flashcards = Flashcards::with([
             'collection:id,collection_name,user_id', // Lấy thông tin collection (chỉ lấy ID, tên collection, user_id)
-            'collection.user:id,username,email' // Lấy thông tin user (chỉ lấy ID, tên, email)
+            'collection.user:id,username,email', // Lấy thông tin user (chỉ lấy ID, tên, email)
+            'statuses' => function ($query) {
+                $query->with('user:id,username')->latest();
+            }
         ])->get();
 
         return response()->json($flashcards);
@@ -264,7 +271,15 @@ class AdminController extends Controller
     // Admin: Lấy danh sách flashcard trong collection
     public function getFlashcards($collectionId)
     {
-        $flashcards = Flashcards::where('collection_id', $collectionId)->get();
+        $flashcards = Flashcards::where('collection_id', $collectionId)
+            ->with([
+                'collection:id,collection_name,user_id',
+                'collection.user:id,username,email',
+                'statuses' => function ($query) {
+                    $query->with('user:id,username')->latest();
+                }
+            ])
+            ->get();
         return response()->json($flashcards);
     }
 
@@ -275,11 +290,45 @@ class AdminController extends Controller
             'collection_id' => 'required|exists:collections,id',
             'front' => 'required|string|max:255',
             'back' => 'required|string|max:255',
+            'pronunciation' => 'nullable|string|max:255',
+            'kanji' => 'nullable|string|max:255',
+            'audio_file' => 'nullable|file|mimes:mp3,wav,m4a,ogg,flac',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'status' => 'nullable|in:new,learning,re-learning,young,mastered',
         ]);
 
-        $flashcard = Flashcards::create($request->all());
+        $data = $request->only([
+            'collection_id', 'front', 'back', 'pronunciation', 'kanji'
+        ]);
 
-        return response()->json(['message' => 'Flashcard added successfully', 'flashcard' => $flashcard]);
+        if ($request->hasFile('audio_file')) {
+            $data['audio_file'] = $request->file('audio_file')->store('audio', 'public');
+        }
+
+        if ($request->hasFile('image')) {
+            $data['image'] = $request->file('image')->store('images', 'public');
+        }
+
+        $flashcard = Flashcards::create($data);
+
+        // Nếu có status được chọn, thêm vào flashcard_statuses
+        $status = $request->input('status', 'new'); // Mặc định là 'new'
+
+        FlashcardStatus::create([
+            'user_id' => Auth::id(), // Hoặc admin ID hoặc 1 user mặc định nếu cần
+            'flashcard_id' => $flashcard->id,
+            'status' => $status,
+            'interval' => 0,
+            'ease_factor' => 2.5,
+            'repetitions' => 0,
+            'last_reviewed_at' => null,
+            'next_review_at' => null,
+        ]);
+
+        return response()->json([
+            'message' => 'Flashcard added successfully',
+            'flashcard' => $flashcard
+        ]);
     }
 
     // Admin: update flashcard
@@ -290,19 +339,75 @@ class AdminController extends Controller
             return response()->json(['message' => 'Flashcard not found'], 404);
         }
 
-        $flashcard->update($request->only([
-                'front',
-                'back',
-                'pronunciation',
-                'kanji',
-                'audio_file',
-                'image',
-                'status',
-                'collection_id',
-            ]
-        ));
+        // Validate input
+        $validated = $request->validate([
+            'collection_id' => 'required|exists:collections,id',
+            'front' => 'required|string|max:255',
+            'back' => 'required|string|max:255',
+            'pronunciation' => 'nullable|string|max:255',
+            'kanji' => 'nullable|string|max:255',
+            'audio_file' => 'nullable|file|mimes:mp3,wav,m4a,ogg,flac',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'status' => 'nullable|in:new,learning,re-learning,young,mastered',
+        ]);
 
-        return response()->json(['message' => 'Flashcard updated successfully', 'flashcard' => $flashcard]);
+        // Cập nhật các trường cơ bản
+        $flashcard->collection_id = $validated['collection_id'];
+        $flashcard->front = $validated['front'];
+        $flashcard->back = $validated['back'];
+        $flashcard->pronunciation = $validated['pronunciation'] ?? null;
+        $flashcard->kanji = $validated['kanji'] ?? null;
+
+        // Nếu có file âm thanh mới thì cập nhật
+        if ($request->hasFile('audio_file')) {
+            // Xóa file âm thanh cũ nếu có
+            if ($flashcard->audio_file) {
+                Storage::disk('public')->delete($flashcard->audio_file);
+            }
+
+            $audioPath = $request->file('audio_file')->store('audio_files', 'public');
+            $flashcard->audio_file = $audioPath;
+        }
+
+        // Nếu có hình ảnh mới thì cập nhật
+        if ($request->hasFile('image')) {
+            // Xóa hình cũ nếu có
+            if ($flashcard->image) {
+                Storage::disk('public')->delete($flashcard->image);
+            }
+
+            $imagePath = $request->file('image')->store('images', 'public');
+            $flashcard->image = $imagePath;
+        }
+
+        $flashcard->save();
+
+        // Cập nhật trạng thái nếu có
+        if ($request->has('status')) {
+            $statusRecord = FlashcardStatus::where('user_id', Auth::id())
+                ->where('flashcard_id', $flashcard->id)
+                ->first();
+
+            if ($statusRecord) {
+                $statusRecord->update(['status' => $request->status]);
+            } else {
+                FlashcardStatus::create([
+                    'user_id' => Auth::id(),
+                    'flashcard_id' => $flashcard->id,
+                    'status' => $request->status,
+                    'interval' => 0,
+                    'ease_factor' => 2.5,
+                    'repetitions' => 0,
+                ]);
+            }
+        }
+
+        $flashcard->refresh();
+
+        return response()->json([
+            'message' => 'Flashcard updated successfully',
+            'flashcard' => $flashcard
+        ]);
     }
 
     // Admin: xóa flashcard

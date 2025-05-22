@@ -15,4 +15,14 @@ class RecentCollection extends Model
         'user_id',
         'collection_id'
     ];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class, 'user_id');
+    }
+
+    public function collection()
+    {
+        return $this->belongsTo(Collections::class, 'collection_id');
+    }
 }

@@ -46,7 +46,12 @@ class Collections extends Model
      */
     public function tags()
     {
-        return $this->belongsToMany(Tags::class, 'collection_tag', 'collection_id', 'tag_id');
+        return $this->belongsToMany(
+            Tags::class,
+            'collection_tag',
+            'collection_id',
+            'tag_id'
+        );
     }
 
 //    public function collectionTags()
