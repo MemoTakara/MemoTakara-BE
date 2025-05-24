@@ -9,8 +9,8 @@ class UserFlashcard extends Model
     protected $table = 'user_flashcards';
 
     protected $fillable = [
-        'user_id', 'flashcard_id', 'status_id',
-        'next_review_at', 'interval', 'repetition', 'ease_factor'
+        'user_id', 'flashcard_id',
+        'review_at', 'quality', 'interval', 'repetition', 'ease_factor'
     ];
 
     public function user()
@@ -21,10 +21,5 @@ class UserFlashcard extends Model
     public function flashcard()
     {
         return $this->belongsTo(Flashcards::class);
-    }
-
-    public function status()
-    {
-        return $this->belongsTo(FlashcardStatus::class);
     }
 }

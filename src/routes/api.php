@@ -37,14 +37,10 @@ Route::middleware('auth:sanctum')->group(function () {
     });
 
     // Routes liên quan đến flashcard nhưng FlashcardReviewController
-    Route::prefix('flashcards')->controller(FlashcardReviewController::class)->group(function () {
-        Route::post('/review', 'review');
-        Route::get('/due-now', 'getDueFlashcards');
-    });
-
-    Route::prefix('user-flashcards')->controller(UserFlashcardController::class)->group(function () {
-        Route::post('/update', 'updateProgress');
-        Route::get('/progress/{collectionId}', 'getProgress');
+    Route::prefix('fc-review')->controller(FlashcardReviewController::class)->group(function () {
+        Route::post('/', 'storeReviewResult');
+        Route::get('/due/{collectionId}', 'getDueFlashcards');
+        Route::get('/progress-summary/{collectionId}', 'getProgressSummary');
     });
 
     // Routes liên quan đến user (Yêu cầu đăng nhập)

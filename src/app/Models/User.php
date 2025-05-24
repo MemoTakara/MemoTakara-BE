@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -56,6 +55,16 @@ class User extends Authenticatable
     public function collections()
     {
         return $this->hasMany(Collections::class);
+    }
+
+    public function flashcardStatuses()
+    {
+        return $this->belongsTo(FlashcardStatus::class);
+    }
+
+    public function userFlashcards()
+    {
+        return $this->hasMany(UserFlashcard::class);
     }
 
 }

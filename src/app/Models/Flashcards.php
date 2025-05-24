@@ -36,4 +36,9 @@ class Flashcards extends Model
             FlashcardStatus::class,
             'flashcard_id');
     }
+
+    public function userFlashcards()
+    {
+        return $this->hasMany(UserFlashcard::class);
+    }
 }
