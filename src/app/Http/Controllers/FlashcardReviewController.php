@@ -2,126 +2,174 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\FlashcardReviewLog;
 use App\Models\Flashcards;
 use App\Models\FlashcardStatus;
+use App\Models\UserFlashcard;
+use App\Services\SM2Service;
 use Illuminate\Http\Request;
-use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Auth;
 
 class FlashcardReviewController extends Controller
 {
-    /**
-     * Cập nhật trạng thái flashcard sau khi ôn bài.
-     * @param Request $request
-     * @return \Illuminate\Http\JsonResponse
-     */
+    protected $sm2Service;
 
-    public function review(Request $request)
+    public function __construct(SM2Service $sm2Service)
     {
-        $request->validate([
-            'flashcard_id' => 'required|exists:flashcards,id',
-            'quality' => 'required|integer|min:0|max:5', // 0-5 theo SM-2
-        ]);
-
-        $user = Auth::user();
-        $flashcardId = $request->flashcard_id;
-        $quality = $request->quality;
-
-        // Lấy hoặc tạo trạng thái
-        $status = FlashcardStatus::firstOrNew([
-            'user_id' => $user->id,
-            'flashcard_id' => $flashcardId
-        ]);
-
-        $now = Carbon::now();
-
-        if ($quality < 3) {
-            // Nếu trả lời sai → ôn lại sớm
-            $status->repetitions = 0;
-            $status->interval = 1;
-            $status->ease_factor = max(1.3, $status->ease_factor - 0.2);
-        } else {
-            // Trả lời đúng → tăng chỉ số theo SM-2
-            $status->repetitions++;
-            if ($status->repetitions === 1) {
-                $status->interval = 1;
-            } elseif ($status->repetitions === 2) {
-                $status->interval = 6;
-            } else {
-                $status->interval = round($status->interval * $status->ease_factor);
-            }
-
-            // Cập nhật hệ số dễ nhớ
-            $status->ease_factor = $status->ease_factor + (0.1 - (5 - $quality) * (0.08 + (5 - $quality) * 0.02));
-            $status->ease_factor = max(1.3, $status->ease_factor);
-        }
-
-        $status->last_reviewed_at = $now;
-        $status->next_review_at = $now->copy()->addDays($status->interval);
-
-        // Tự động cập nhật status text theo số lần học
-        if ($status->repetitions == 0) {
-            $status->status = 're-learning';
-        } elseif ($status->repetitions < 3) {
-            $status->status = 'learning';
-        } elseif ($status->repetitions < 5) {
-            $status->status = 'young';
-        } else {
-            $status->status = 'mastered';
-        }
-
-        $status->save();
-
-        return response()->json([
-            'message' => 'Flashcard reviewed successfully.',
-            'status' => $status
-        ]);
+        $this->sm2Service = $sm2Service;
     }
 
-    public function getDueFlashcards()
-    {
-        $user = Auth::user();
-        $now = Carbon::now();
-
-        $dueFlashcards = Flashcards::whereHas('statuses', function ($query) use ($user, $now) {
-            $query->where('user_id', $user->id)
-                ->where('next_review_at', '<=', $now);
-        })->with([
-            'collection:id,collection_name',
-            'statuses' => function ($query) use ($user) {
-                $query->where('user_id', $user->id);
-            }
-        ])->get();
-
-        return response()->json([
-            'message' => 'Due flashcards fetched successfully.',
-            'data' => $dueFlashcards
-        ]);
-    }
-
-    // Thống kê
-    public function getUserStudyProgress()
+    // trạng thái của flashcard (5 trạng thái)
+    public function getProgressSummary($collectionId)
     {
         $userId = Auth::id();
+        $now = now();
 
-        // Lấy tất cả flashcard_statuses của user
-        $statuses = FlashcardStatus::with('flashcard.collection')
-            ->where('user_id', $userId)
-            ->get();
+        // Lấy toàn bộ ID flashcard trong collection
+        $allFlashcardIds = Flashcards::where('collection_id', $collectionId)->pluck('id');
 
-        // Tổng hợp dữ liệu theo từng collection
-        $progress = $statuses->groupBy(function ($status) {
-            return $status->flashcard->collection->id;
-        })->map(function ($collectionStatuses, $collectionId) {
-            return [
-                'collection_id' => $collectionId,
-                'collection_title' => $collectionStatuses->first()->flashcard->collection->title,
-                'total' => $collectionStatuses->count(),
-                'status_breakdown' => $collectionStatuses->groupBy('status')->map->count()
-            ];
-        })->values();
+        // Lấy danh sách flashcard đã có trạng thái học
+        $statuses = FlashcardStatus::where('user_id', $userId)
+            ->whereIn('flashcard_id', $allFlashcardIds)
+            ->get()
+            ->keyBy('flashcard_id'); // để dễ kiểm tra tồn tại
 
-        return response()->json($progress);
+        $summary = [
+            'new' => 0,
+            'learning' => 0,
+            'due' => 0,
+        ];
+
+        foreach ($allFlashcardIds as $flashcardId) {
+            if (!isset($statuses[$flashcardId])) {
+                $summary['new']++;
+            } else {
+                $status = $statuses[$flashcardId];
+                if ($status->next_review_at <= $now) {
+                    $summary['due']++;
+                } else {
+                    $summary['learning']++;
+                }
+            }
+        }
+
+        return response()->json($summary);
     }
 
+    // flashcard đến hạn
+    public function getDueFlashcards($collectionId)
+    {
+        $userId = Auth::id();
+        $now = now();
+
+        // Lấy toàn bộ flashcard trong collection
+        $allFlashcards = Flashcards::where('collection_id', $collectionId)->get();
+
+        // Lấy trạng thái flashcard của user trong collection
+        $statuses = FlashcardStatus::where('user_id', $userId)
+            ->whereIn('flashcard_id', $allFlashcards->pluck('id'))
+            ->get()
+            ->keyBy('flashcard_id');
+
+        $dueFlashcards = [];
+
+        foreach ($allFlashcards as $flashcard) {
+            $status = $statuses->get($flashcard->id);
+
+            if (!$status) {
+                // flashcard mới chưa học
+                $dueFlashcards[] = $flashcard;
+            } else {
+                // flashcard đã học, check ngày đến hạn
+                if ($status->next_review_at <= $now) {
+                    $dueFlashcards[] = $flashcard;
+                }
+            }
+        }
+
+        return response()->json([
+            'count' => count($dueFlashcards),
+            'flashcards' => $dueFlashcards,
+        ]);
+    }
+
+    // update trạng thái khi học
+    public function storeReviewResult(Request $request)
+    {
+        $request->merge([
+            'quality' => (int)$request->quality,
+        ]);
+
+        $request->validate([
+            'flashcard_id' => 'required|exists:flashcards,id',
+            'quality' => 'required|integer|min:0|max:5',
+        ]);
+
+        $userId = auth()->id();
+        $flashcardId = $request->flashcard_id;
+        $quality = $request->quality;
+        $now = now();
+
+        $status = FlashcardStatus::firstOrCreate(
+            [
+                'user_id' => $userId,
+                'flashcard_id' => $flashcardId,
+            ],
+            [
+                'status' => 'new',
+                'interval' => 1,
+                'ease_factor' => 2.5,
+                'repetitions' => 0,
+                'last_reviewed_at' => now(),
+                'next_review_at' => now(),
+            ]
+        );
+
+        $sm2Result = $this->sm2Service->calculate(
+            $status->interval,
+            $status->ease_factor,
+            $status->repetitions,
+            $quality
+        );
+
+        $status->update([
+            'interval' => $sm2Result['interval'],
+            'ease_factor' => $sm2Result['ease_factor'],
+            'repetitions' => $sm2Result['repetitions'],
+            'last_reviewed_at' => now(),
+            'next_review_at' => now()->copy()->addDays($sm2Result['interval']),
+            'status' => $this->getUIStatusFromSM2($sm2Result),
+        ]);
+
+        FlashcardReviewLog::create([
+            'user_id' => $userId,
+            'flashcard_id' => $flashcardId,
+            'quality' => $quality,
+            'prev_interval' => $status->interval,
+            'new_interval' => $sm2Result['interval'],
+            'prev_ease_factor' => $status->ease_factor,
+            'new_ease_factor' => $sm2Result['ease_factor'],
+            'prev_repetitions' => $status->repetitions,
+            'new_repetitions' => $sm2Result['repetitions'],
+            'reviewed_at' => now(),
+        ]);
+
+        return response()->json(['message' => 'Review updated']);
+    }
+
+    /**
+     * Trả về trạng thái học phục vụ UI (không ảnh hưởng logic SM-2)
+     */
+    private function getUIStatusFromSM2(array $sm2): string
+    {
+        if ($sm2['repetitions'] === 0) {
+            return 'learning';
+        } elseif ($sm2['repetitions'] < 3) {
+            return 'young';
+        } elseif ($sm2['interval'] >= 20) {
+            return 'mastered';
+        } else {
+            return 'reviewing';
+        }
+    }
 }

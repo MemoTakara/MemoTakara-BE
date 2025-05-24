@@ -13,9 +13,12 @@ return new class extends Migration {
         Schema::create('flashcard_statuses', function (Blueprint $table) {
             $table->id();
             $table->enum('status', ['new', 'learning', 're-learning', 'young', 'mastered'])->default('new');
-            $table->integer('interval')->default(0); // Khoảng thời gian giữa các lần ôn
+
+            // SM-2
+            $table->integer('interval')->default(1); // Khoảng thời gian giữa các lần ôn
             $table->float('ease_factor')->default(2.5); // Độ dễ, dùng cho thuật toán SM-2
             $table->integer('repetitions')->default(0); // Số lần đã ôn
+            
             $table->timestamp('last_reviewed_at')->nullable(); // Lần ôn gần nhất
             $table->timestamp('next_review_at')->nullable();   // Lần ôn tiếp theo
             $table->timestamps();

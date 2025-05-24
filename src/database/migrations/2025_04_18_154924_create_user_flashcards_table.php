@@ -12,11 +12,13 @@ return new class extends Migration {
     {
         Schema::create('user_flashcards', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('status_id')->constrained('flashcard_statuses'); // trạng thái học
-            $table->timestamp('next_review_at')->nullable(); // thời điểm ôn tiếp theo (cho spaced repetition)
-            $table->integer('interval')->default(1); // số ngày cách nhau giữa các lần ôn (thuật toán SR)
-            $table->integer('repetition')->default(0); // số lần ôn lại
-            $table->float('ease_factor')->default(2.5); // dùng trong thuật toán SM2
+
+            $table->enum('quality', ['again', 'hard', 'good', 'easy']); // chất lượng đánh giá sau mỗi lần ôn
+            $table->integer('interval')->nullable(); // khoảng cách lần sau
+            $table->float('ease_factor')->nullable(); // EF sau mỗi lần học
+            $table->integer('repetition')->nullable(); // lần lặp hiện tại
+
+            $table->timestamp('reviewed_at'); // thời điểm ôn
             $table->timestamps();
 
             $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
