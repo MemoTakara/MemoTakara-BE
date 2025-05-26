@@ -24,6 +24,7 @@ class User extends Authenticatable
         'password',
         'role',
         'is_active',
+        'google_id',
     ];
     protected $casts = [
         'is_active' => 'boolean', // Ép kiểu boolean để dễ sử dụng

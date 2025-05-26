@@ -20,6 +20,8 @@ class UsersTableSeeder extends Seeder
                 'password' => Hash::make('admin1234'), // Mã hóa mật khẩu bằng Hash
                 'email' => 'admin@gmail.com',
                 'role' => 'admin',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
         ]);
     }

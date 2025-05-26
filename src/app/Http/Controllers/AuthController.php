@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use App\Models\User;
+use Illuminate\Support\Facades\Password;
+use Illuminate\Validation\ValidationException;
 
 class AuthController extends Controller
 {
@@ -13,15 +15,19 @@ class AuthController extends Controller
     public function register(Request $request)
     {
         $request->validate([
-            'username' => 'required|string|max:255|unique:users',
-            'email' => 'required|string|email|max:255|unique:users',
+            'username' => 'required|string|max:255',
+            'email' => 'required|string|email|max:255',
             'password' => 'required|string|min:8|confirmed',
             'name' => 'nullable|string|max:255',
         ]);
 
-        // Check exist user ?
-        if (User::where('email', $request->email)->exists()) {
-            return response(['message' => 'User already exists'], 409);
+        // Kiểm tra xem người dùng đã tồn tại và tài khoản có bị khóa không
+        $existingUser = User::where('email', $request->email)->first();
+        if ($existingUser) {
+            if (!$existingUser->is_active) {
+                return response()->json(['message' => 'User account is locked'], 403);
+            }
+            return response()->json(['message' => 'User already exists'], 409);
         }
 
         $user = User::create([
@@ -52,8 +58,16 @@ class AuthController extends Controller
 
         $user = User::where('email', $request->email)->first();
 
-        if (!$user || !Hash::check($request->password, $user->password)) {
-            return response()->json(['message' => 'Invalid credentials'], 401);
+        if (!$user) {
+            return response()->json(['message' => 'Email not found'], 401);
+        }
+
+        if (!Hash::check($request->password, $user->password)) {
+            return response()->json(['message' => 'Invalid password'], 401);
+        }
+
+        if (!$user->is_active) {
+            return response()->json(['message' => 'User account not active'], 401);
         }
 
         // Xóa token cũ trước khi tạo token mới
@@ -67,26 +81,6 @@ class AuthController extends Controller
         ], 200);
     }
 
-    // Tự đổi mật khẩu
-    public function changePassword(Request $request)
-    {
-        // Kiểm tra yêu cầu đầu vào
-        $request->validate([
-            'old_password' => ['required', 'current_password'], // Sử dụng rule current_password
-            'new_password' => ['required', 'string', 'min:8', 'confirmed'],
-        ]);
-
-        // Lấy thông tin user đang đăng nhập
-        $user = Auth::user();
-
-        // Cập nhật mật khẩu mới
-        $user->update([
-            'password' => Hash::make($request->new_password),
-        ]);
-
-        return response()->json(['message' => 'Mật khẩu đã được thay đổi thành công.']);
-    }
-
     // Đăng xuất (xóa token)
     public function logout(Request $request)
     {
@@ -97,23 +91,46 @@ class AuthController extends Controller
         ]);
     }
 
-    // Lấy thông tin người dùng khi đã đăng nhập
-    public function getUser(Request $request)
+    // Gửi email reset password
+    public function forgotPassword(Request $request)
     {
-        return response()->json($request->user());
+        $request->validate(['email' => 'required|string|email']);
+
+        $status = Password::sendResetLink(
+            $request->only('email')
+        );
+
+        return response()->json(['status' => __($status)]);
     }
 
-    // Xóa tài khoản của chính mình (user tự xóa)
-    public function deleteAccount(Request $request)
+    // Đặt lại mật khẩu
+    public function resetPassword(Request $request)
     {
-        $user = $request->user();
-        $user->tokens()->delete(); // Xóa tất cả token trước khi xóa user
-        $user->delete();
+        $request->validate([
+            'token' => 'required',
+            'email' => 'required|string|email',
+            'password' => 'required|min:8|confirmed',
+        ]);
 
-        return response()->json([
-            'message' => 'Your account has been deleted successfully'
-        ], 200);
+        $status = Password::reset(
+            $request->only('email', 'password', 'password_confirmation', 'token'),
+            function (User $user, string $password) {
+                $user->forceFill([
+                    'password' => Hash::make($password),
+                ])->save();
+
+                // Tự động login sau khi đặt lại mật khẩu
+                Auth::login($user);
+            }
+        );
+
+        if ($status === Password::PASSWORD_RESET) {
+            throw ValidationException::withMessages([
+                'email' => __($status),
+            ]);
+        }
+
+        return response()->json(['status' => __($status)]);
     }
-
 
 }
