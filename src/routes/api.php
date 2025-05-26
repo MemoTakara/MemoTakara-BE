@@ -2,7 +2,9 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\FlashcardReviewController;
+use App\Http\Controllers\GoogleAPI;
 use App\Http\Controllers\RecentCollectionController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\UserFlashcardController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CollectionsController;
@@ -44,10 +46,16 @@ Route::middleware('auth:sanctum')->group(function () {
     });
 
     // Routes liên quan đến user (Yêu cầu đăng nhập)
-    Route::prefix('users')->controller(AuthController::class)->group(function () {
+    Route::prefix('users')->controller(UserController::class)->group(function () {
         Route::get('/', 'getUser'); // Lấy thông tin user
         Route::post('/change-password', 'changePassword'); // Tự đổi pass
+        Route::post('/updateAccount', 'updateAccount'); // Update profile
         Route::delete('/delete', 'deleteAccount'); // User tự xóa tài khoản
+    });
+
+    // Routes link-unlink Google
+    Route::prefix('auth/google')->controller(GoogleAPI::class)->group(function () {
+        Route::post('/unlink', 'unlinkGoogle');
     });
 
     // Routes liên quan đến admin (Chỉ dành cho admin)
@@ -84,6 +92,13 @@ Route::middleware('auth:sanctum')->group(function () {
 Route::controller(AuthController::class)->group(function () {
     Route::post('/register', 'register'); // Đăng ký
     Route::post('/login', 'login'); // Đăng nhập
+    Route::post('/forgot-password', 'forgotPassword'); // Gửi email reset password
+    Route::post('/reset-password', 'resetPassword'); // Đặt lại mật khẩu
+});
+
+Route::controller(GoogleAPI::class)->group(function () {
+    Route::get('/auth/google/redirect', 'redirect');
+    Route::get('/auth/google/callback', 'callback');
 });
 
 Route::controller(CollectionsController::class)->group(function () {

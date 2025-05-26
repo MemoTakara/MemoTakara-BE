@@ -238,6 +238,13 @@
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/voku/portable-ascii" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/laravel/socialite" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/league/oauth1-client" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/paragonie/constant_time_encoding" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/phpseclib/phpseclib" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/laravel/ui" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
