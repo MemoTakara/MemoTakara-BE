@@ -130,6 +130,7 @@ class CollectionsController extends Controller
         ]);
 
         $collection->update($request->only(['collection_name', 'description', 'privacy', 'tag',]));
+        $collection->load(['user'])->loadCount('flashcards');
 
         return response()->json($collection);
     }

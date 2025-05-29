@@ -2,8 +2,6 @@
 
 namespace App\Services;
 
-namespace App\Services;
-
 class SM2Service
 {
     public function calculate(int $prevInterval, float $prevEF, int $prevRepetitions, int $quality): array

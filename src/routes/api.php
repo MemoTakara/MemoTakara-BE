@@ -27,7 +27,7 @@ Route::middleware('auth:sanctum')->group(function () {
     // Routes liên quan đến recent collection
     Route::prefix('recent-collections')->controller(RecentCollectionController::class)->group(function () {
         Route::post('/', 'store');
-        Route::get('/{id}', 'index');
+        Route::get('/', 'index');
     });
 
     // Routes liên quan đến flashcard
