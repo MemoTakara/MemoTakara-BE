@@ -495,6 +495,8 @@ class VNMinnaCollectionSeeder extends Seeder
                 'description' => $collectionData['description'],
                 'privacy' => $collectionData['privacy'],
                 'difficulty_level' => $collectionData['difficulty_level'],
+                'language_front' => 'jp',
+                'language_back' => 'vi',
                 'is_featured' => $collectionData['is_featured'],
                 'user_id' => $collectionData['user_id'],
                 'total_cards' => 0, // Sẽ được cập nhật sau khi import flashcards

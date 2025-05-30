@@ -167,6 +167,8 @@ return new class extends Migration {
             $table->decimal('average_rating', 3, 2)->default(0.00); // Thêm mới - Điểm trung bình
             $table->integer('total_ratings')->default(0); // Thêm mới - Tổng số lượt đánh giá
             $table->integer('total_duplicates')->default(0); // Thêm mới - Số lần được duplicate
+            $table->string('language_front', 10)->default('vi'); // Thêm mới - Ngôn ngữ mặt trước
+            $table->string('language_back', 10)->default('en'); // Thêm mới - Ngôn ngữ mặt sau
             $table->json('metadata')->nullable(); // Thêm mới - Thông tin bổ sung
             $table->enum('difficulty_level', ['beginner', 'intermediate', 'advanced'])->default('beginner');
             $table->boolean('is_featured')->default(false); // Thêm mới - Collection nổi bật
@@ -326,8 +328,6 @@ return new class extends Migration {
             $table->text('back');
             $table->text('pronunciation')->nullable();
             $table->text('kanji')->nullable();
-            $table->string('language_front', 10)->default('vi'); // Thêm mới - Ngôn ngữ mặt trước
-            $table->string('language_back', 10)->default('en'); // Thêm mới - Ngôn ngữ mặt sau
             $table->string('image')->nullable();
             $table->json('extra_data')->nullable(); // Thêm mới - Dữ liệu bổ sung
             $table->timestamps();

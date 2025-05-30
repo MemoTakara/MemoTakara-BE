@@ -17,8 +17,6 @@ class Flashcard extends Model
         'back',
         'pronunciation',
         'kanji',
-        'language_front',
-        'language_back',
         'image',
         'extra_data',
         'collection_id',
@@ -51,20 +49,52 @@ class Flashcard extends Model
     }
 
     // Scopes
-    public function scopeByDifficulty($query, $level)
-    {
-        return $query->where('difficulty_level', $level);
-    }
-
     public function scopeByLanguage($query, $frontLang = null, $backLang = null)
     {
-        if ($frontLang) {
-            $query->where('language_front', $frontLang);
-        }
-        if ($backLang) {
-            $query->where('language_back', $backLang);
-        }
+        // Sử dụng ngôn ngữ từ collection thay vì từ flashcard
+        $query->whereHas('collection', function ($collectionQuery) use ($frontLang, $backLang) {
+            if ($frontLang) {
+                $collectionQuery->where('language_front', $frontLang);
+            }
+            if ($backLang) {
+                $collectionQuery->where('language_back', $backLang);
+            }
+        });
         return $query;
+    }
+
+    // Scope để filter theo collection difficulty
+    public function scopeByDifficulty($query, $level)
+    {
+        return $query->whereHas('collection', function ($collectionQuery) use ($level) {
+            $collectionQuery->where('difficulty_level', $level);
+        });
+    }
+
+    // Helper methods
+    public function hasImage(): bool
+    {
+        return !empty($this->image);
+    }
+
+    public function hasPronunciation(): bool
+    {
+        return !empty($this->pronunciation);
+    }
+
+    public function hasKanji(): bool
+    {
+        return !empty($this->kanji);
+    }
+
+    public function getLanguageFront(): string
+    {
+        return $this->collection->language_front ?? 'vi';
+    }
+
+    public function getLanguageBack(): string
+    {
+        return $this->collection->language_back ?? 'en';
     }
 
     // Events

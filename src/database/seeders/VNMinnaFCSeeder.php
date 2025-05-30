@@ -57,8 +57,6 @@ class VNMinnaFCSeeder extends Seeder
                     'back' => $item['back'],
                     'pronunciation' => $item['pronunciation'] ?? null,
                     'kanji' => $item['kanji'] ?? null,
-                    'language_front' => 'jp',
-                    'language_back' => 'vi',
                     'image' => $item['image'] ?? null,
                     'extra_data' => isset($item['extra_data']) ? json_encode($item['extra_data']) : null,
                     'collection_id' => $item['collection_id'],

@@ -292,7 +292,6 @@ class AdminController extends Controller
             'back' => 'required|string|max:255',
             'pronunciation' => 'nullable|string|max:255',
             'kanji' => 'nullable|string|max:255',
-            'audio_file' => 'nullable|file|mimes:mp3,wav,m4a,ogg,flac',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
             'status' => 'nullable|in:new,learning,re-learning,young,mastered',
         ]);
@@ -300,10 +299,6 @@ class AdminController extends Controller
         $data = $request->only([
             'collection_id', 'front', 'back', 'pronunciation', 'kanji'
         ]);
-
-        if ($request->hasFile('audio_file')) {
-            $data['audio_file'] = $request->file('audio_file')->store('audio', 'public');
-        }
 
         if ($request->hasFile('image')) {
             $data['image'] = $request->file('image')->store('images', 'public');
@@ -346,7 +341,6 @@ class AdminController extends Controller
             'back' => 'required|string|max:255',
             'pronunciation' => 'nullable|string|max:255',
             'kanji' => 'nullable|string|max:255',
-            'audio_file' => 'nullable|file|mimes:mp3,wav,m4a,ogg,flac',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
             'status' => 'nullable|in:new,learning,re-learning,young,mastered',
         ]);
@@ -357,17 +351,6 @@ class AdminController extends Controller
         $flashcard->back = $validated['back'];
         $flashcard->pronunciation = $validated['pronunciation'] ?? null;
         $flashcard->kanji = $validated['kanji'] ?? null;
-
-        // Nếu có file âm thanh mới thì cập nhật
-        if ($request->hasFile('audio_file')) {
-            // Xóa file âm thanh cũ nếu có
-            if ($flashcard->audio_file) {
-                Storage::disk('public')->delete($flashcard->audio_file);
-            }
-
-            $audioPath = $request->file('audio_file')->store('audio_files', 'public');
-            $flashcard->audio_file = $audioPath;
-        }
 
         // Nếu có hình ảnh mới thì cập nhật
         if ($request->hasFile('image')) {

@@ -22,6 +22,8 @@ class Collection extends Model
         'average_rating',
         'total_ratings',
         'total_duplicates',
+        'language_front',
+        'language_back',
         'metadata',
         'difficulty_level',
         'is_featured',
@@ -109,6 +111,18 @@ class Collection extends Model
         return $query->where('difficulty_level', $level);
     }
 
+    // Thêm scope để filter theo ngôn ngữ
+    public function scopeByLanguage($query, $frontLang = null, $backLang = null)
+    {
+        if ($frontLang) {
+            $query->where('language_front', $frontLang);
+        }
+        if ($backLang) {
+            $query->where('language_back', $backLang);
+        }
+        return $query;
+    }
+
     // Helper methods
     public function isPublic(): bool
     {
@@ -153,5 +167,16 @@ class Collection extends Model
     public function isValidDifficultyLevel(string $level): bool
     {
         return in_array($level, $this->getDifficultyLevels());
+    }
+
+    // Thêm method để kiểm tra ngôn ngữ
+    public function getSupportedLanguages(): array
+    {
+        return ['vi', 'en', 'ja', 'ko', 'zh', 'fr', 'de', 'es'];
+    }
+
+    public function isValidLanguage(string $language): bool
+    {
+        return in_array($language, $this->getSupportedLanguages());
     }
 }

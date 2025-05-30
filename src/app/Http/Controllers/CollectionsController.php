@@ -106,7 +106,7 @@ class CollectionsController extends Controller
     {
         $collection = Collection::with([
             'user:id,username,role',
-            'flashcards:id,collection_id,front,back,pronunciation,kanji,audio_file,image',
+            'flashcards:id,collection_id,front,back,pronunciation,kanji,image',
             'tags',
             'ratings'
         ])->findOrFail($id);
@@ -163,7 +163,7 @@ class CollectionsController extends Controller
                     }])->select(
                         'id', 'collection_id',
                         'front', 'back', 'pronunciation',
-                        'kanji', 'audio_file', 'image',
+                        'kanji', 'image',
                         'created_at', 'updated_at'); // chọn cột cần thiết
                 },
             ])
@@ -188,7 +188,7 @@ class CollectionsController extends Controller
             ->where('privacy', 1)
             ->with([
                 'user:id,username,role',
-                'flashcards:id,collection_id,front,back,pronunciation,audio_file'
+                'flashcards:id,collection_id,front,back,pronunciation'
             ])
             ->firstOrFail();
 
@@ -290,7 +290,6 @@ class CollectionsController extends Controller
                     'back' => $flashcard->back,
                     'pronunciation' => $flashcard->pronunciation,
                     'kanji' => $flashcard->kanji,
-                    'audio_file' => $flashcard->audio_file,
                     'image' => $flashcard->image,
                 ]);
 

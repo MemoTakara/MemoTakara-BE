@@ -41,7 +41,6 @@ class FlashcardsController extends Controller
             'front' => 'required|string',
             'back' => 'required|string',
             'kanji' => 'nullable|string',
-            'audio_file' => 'nullable|string',
             'vocabulary_meaning' => 'required|string',
             'image' => 'nullable|string',
             'status' => 'required|in:new,learning,re-learning,young,mastered'
@@ -52,7 +51,6 @@ class FlashcardsController extends Controller
             'front' => $request->front,
             'back' => $request->back,
             'kanji' => $request->kanji,
-            'audio_file' => $request->audio_file,
             'vocabulary_meaning' => $request->vocabulary_meaning,
             'image' => $request->image,
             'status' => $request->status
@@ -72,7 +70,7 @@ class FlashcardsController extends Controller
     public function update(Request $request, $id)
     {
         $flashcard = Flashcard::findOrFail($id);
-        $flashcard->update($request->only(['front', 'back', 'kanji', 'audio_file', 'vocabulary_meaning', 'image', 'status']));
+        $flashcard->update($request->only(['front', 'back', 'kanji', 'vocabulary_meaning', 'image', 'status']));
 
         return response()->json($flashcard);
     }
