@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\FlashcardReviewLog;
-use App\Models\Flashcards;
+use App\Models\Flashcard;
 use App\Models\FlashcardStatus;
 use App\Models\UserFlashcard;
 use App\Services\SM2Service;
@@ -26,7 +26,7 @@ class FlashcardReviewController extends Controller
         $now = now();
 
         // Lấy toàn bộ ID flashcard trong collection
-        $allFlashcardIds = Flashcards::where('collection_id', $collectionId)->pluck('id');
+        $allFlashcardIds = Flashcard::where('collection_id', $collectionId)->pluck('id');
 
         // Lấy danh sách flashcard đã có trạng thái học
         $statuses = FlashcardStatus::where('user_id', $userId)
@@ -63,7 +63,7 @@ class FlashcardReviewController extends Controller
         $now = now();
 
         // Lấy toàn bộ flashcard trong collection
-        $allFlashcards = Flashcards::where('collection_id', $collectionId)->get();
+        $allFlashcards = Flashcard::where('collection_id', $collectionId)->get();
 
         // Lấy trạng thái flashcard của user trong collection
         $statuses = FlashcardStatus::where('user_id', $userId)

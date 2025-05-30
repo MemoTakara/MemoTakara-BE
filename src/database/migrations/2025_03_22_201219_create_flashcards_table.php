@@ -16,8 +16,10 @@ return new class extends Migration {
             $table->text('back'); // Mặt sau của thẻ (text)
             $table->text('pronunciation')->nullable();
             $table->text('kanji')->nullable(); // Kanji, Hán Việt
-            $table->string('audio_file')->nullable(); // File phát âm của từ vựng (character, cho phép null)
+            $table->string('language_front', 10)->default('vi'); // Thêm mới - Ngôn ngữ mặt trước
+            $table->string('language_back', 10)->default('en'); // Thêm mới - Ngôn ngữ mặt sau
             $table->string('image')->nullable(); // Hình ảnh miêu tả từ vựng (character, cho phép null)
+            $table->json('extra_data')->nullable(); // Thêm mới - Dữ liệu bổ sung
             $table->timestamps(); // created_at và updated_at
 
             // Khóa ngoại liên kết với collections

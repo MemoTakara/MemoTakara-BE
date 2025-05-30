@@ -10,11 +10,15 @@ return new class extends Migration {
      */
     public function up(): void
     {
-        Schema::create('recent_collections', function (Blueprint $table) {
+        Schema::create('system_settings', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
-            $table->foreignId('collection_id')->constrained('collections')->onDelete('cascade');
+            $table->string('key')->unique();
+            $table->text('value');
+            $table->string('description')->nullable();
+            $table->string('type')->default('string'); // string, integer, boolean, json
             $table->timestamps();
+
+            $table->index('key');
         });
     }
 
@@ -23,6 +27,6 @@ return new class extends Migration {
      */
     public function down(): void
     {
-        Schema::dropIfExists('recent_collections');
+        Schema::dropIfExists('system_settings');
     }
 };

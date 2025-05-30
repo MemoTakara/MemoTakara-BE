@@ -2,12 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\CollectionRatings;
-use App\Models\Flashcards;
+use App\Models\CollectionRating;
+use App\Models\Flashcard;
 use App\Models\FlashcardStatus;
-use App\Models\Tags;
+use App\Models\Tag;
 use Illuminate\Http\Request;
-use App\Models\Collections;
+use App\Models\Collection;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
@@ -19,7 +19,7 @@ class CollectionsController extends Controller
         $userId = Auth::id();
 
         // Lấy tất cả collections của user
-        $collections = Collections::where('user_id', $userId)
+        $collections = Collection::where('user_id', $userId)
             ->with([
                 'tags', // Lấy danh sách tags
                 'ratings', // Lấy danh sách đánh giá
@@ -53,7 +53,7 @@ class CollectionsController extends Controller
 
         try {
             // Tạo collection mới
-            $collection = Collections::create([
+            $collection = Collection::create([
                 'user_id' => Auth::id(),
                 'collection_name' => $request->collection_name,
                 'description' => $request->description,
@@ -70,13 +70,13 @@ class CollectionsController extends Controller
 
             // Xử lý tag mới (tối ưu: chỉ insert nếu chưa tồn tại)
             if (!empty($request->new_tags)) {
-                $existing = Tags::whereIn('name', $request->new_tags)->pluck('id', 'name')->toArray();
+                $existing = Tag::whereIn('name', $request->new_tags)->pluck('id', 'name')->toArray();
 
                 foreach ($request->new_tags as $tagName) {
                     if (isset($existing[$tagName])) {
                         $allTagIds[] = $existing[$tagName];
                     } else {
-                        $newTag = Tags::create(['name' => $tagName]);
+                        $newTag = Tag::create(['name' => $tagName]);
                         $allTagIds[] = $newTag->id;
                     }
                 }
@@ -104,7 +104,7 @@ class CollectionsController extends Controller
     // Lấy chi tiết 1 collection
     public function show($id)
     {
-        $collection = Collections::with([
+        $collection = Collection::with([
             'user:id,username,role',
             'flashcards:id,collection_id,front,back,pronunciation,kanji,audio_file,image',
             'tags',
@@ -116,7 +116,7 @@ class CollectionsController extends Controller
     // Cập nhật collection
     public function update(Request $request, $id)
     {
-        $collection = Collections::findOrFail($id);
+        $collection = Collection::findOrFail($id);
 
         if ($collection->user_id !== Auth::id()) {
             return response()->json(['error' => 'Unauthorized'], 403);
@@ -138,7 +138,7 @@ class CollectionsController extends Controller
     // Xóa collection
     public function destroy($id)
     {
-        $collection = Collections::findOrFail($id);
+        $collection = Collection::findOrFail($id);
 
         if ($collection->user_id !== Auth::id()) {
             return response()->json(['error' => 'Unauthorized'], 403);
@@ -154,7 +154,7 @@ class CollectionsController extends Controller
         $userId = Auth::id(); // hoặc truyền từ client nếu chưa login
 
         // Chỉ lấy danh sách collection có privacy = 1 (public)
-        $collections = Collections::where('privacy', 1)
+        $collections = Collection::where('privacy', 1)
             ->with([
                 'user:id,username,role', // Lấy thông tin người tạo collection
                 'flashcards' => function ($query) use ($userId) {
@@ -184,7 +184,7 @@ class CollectionsController extends Controller
     // public collection with flashcard list
     public function getPublicCollectionDetail($id)
     {
-        $collection = Collections::where('id', $id)
+        $collection = Collection::where('id', $id)
             ->where('privacy', 1)
             ->with([
                 'user:id,username,role',
@@ -199,7 +199,7 @@ class CollectionsController extends Controller
     public function getPublicCollectionsByUser($userId)
     {
         // Lấy danh sách các collection có privacy = 1 (công khai) của người dùng cụ thể
-        $collections = Collections::where('user_id', $userId)
+        $collections = Collection::where('user_id', $userId)
             ->where('privacy', 1)
             ->select('id', 'collection_name', 'user_id')
             ->with([
@@ -223,7 +223,7 @@ class CollectionsController extends Controller
     {
         $searchTerm = $request->input('query');
 
-        $collections = Collections::where('privacy', 1)
+        $collections = Collection::where('privacy', 1)
             ->where(function ($query) use ($searchTerm) {
                 $query->where('collection_name', 'like', "%$searchTerm%")
                     ->orWhereHas('tags', function ($query) use ($searchTerm) {
@@ -243,10 +243,10 @@ class CollectionsController extends Controller
     public function updateStarCount($collectionId)
     {
         // Tính trung bình số sao
-        $averageStar = CollectionRatings::where('collection_id', $collectionId)->avg('rating');
+        $averageStar = CollectionRating::where('collection_id', $collectionId)->avg('rating');
 
         // Cập nhật vào bảng collections
-        Collections::where('id', $collectionId)->update(['star_count' => $averageStar]);
+        Collection::where('id', $collectionId)->update(['star_count' => $averageStar]);
 
         return response()->json([
             'message' => 'Star count updated successfully!',
@@ -258,13 +258,13 @@ class CollectionsController extends Controller
     public function duplicateCollection(Request $request, $collectionId)
     {
         $userId = auth()->id(); // Lấy user hiện tại
-        $original = Collections::findOrFail($collectionId);
+        $original = Collection::findOrFail($collectionId);
 
         DB::beginTransaction();
 
         try {
             // Tạo collection mới
-            $newCollection = Collections::create([
+            $newCollection = Collection::create([
                 'collection_name' => $original->collection_name . " (Copy)",
                 'description' => $original->description,
                 'privacy' => 0, // Mặc định private
@@ -282,9 +282,9 @@ class CollectionsController extends Controller
             }
 
             // Copy flashcards
-            $originalFlashcards = Flashcards::where('collection_id', $collectionId)->get();
+            $originalFlashcards = Flashcard::where('collection_id', $collectionId)->get();
             foreach ($originalFlashcards as $flashcard) {
-                Flashcards::create([
+                Flashcard::create([
                     'collection_id' => $newCollection->id,
                     'front' => $flashcard->front,
                     'back' => $flashcard->back,

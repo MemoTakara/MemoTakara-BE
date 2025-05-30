@@ -15,6 +15,12 @@ return new class extends Migration {
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->foreignId('flashcard_id')->constrained()->onDelete('cascade');
 
+            // Study context - Thêm mới
+            $table->enum('study_type', ['flashcard', 'game_match', 'typing', 'handwriting', 'test']);
+            $table->enum('study_mode', ['front_to_back', 'back_to_front']);
+            $table->integer('response_time_ms')->nullable(); // Thêm mới - Thời gian phản hồi
+
+            // SM-2 data
             $table->tinyInteger('quality'); // 0–5 theo SM-2
             $table->unsignedSmallInteger('prev_interval');
             $table->unsignedSmallInteger('new_interval');
@@ -25,6 +31,10 @@ return new class extends Migration {
 
             $table->timestamp('reviewed_at');
             $table->timestamps();
+
+            // Indexes
+            $table->index(['user_id', 'reviewed_at']);
+            $table->index(['flashcard_id', 'reviewed_at']);
         });
     }
 
