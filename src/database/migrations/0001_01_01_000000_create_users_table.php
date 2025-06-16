@@ -15,18 +15,31 @@ return new class extends Migration {
             $table->string('name')->nullable(); // Cột lưu tên người dùng, có thể là null
             $table->string('username'); // Cột lưu tên đăng nhập
             $table->string('email')->unique(); // Cột lưu email, phải là duy nhất
+            $table->string('google_id')->nullable()->unique();
             $table->timestamp('email_verified_at')->nullable(); // Cột để lưu thời gian xác minh email, có thể là null
-            $table->string('password'); // Cột lưu mật khẩu
+            $table->string('password')->nullable(); // nullable cho Google login
             $table->string('role')->default('user'); // Cột lưu vai trò người dùng, mặc định là 'guest'
-            $table->rememberToken(); // Cột cho tính năng "remember me" khi người dùng đăng nhập
             $table->boolean('is_active')->default(true); // Mặc định tài khoản là hoạt động
+            $table->string('timezone')->default('Asia/Ho_Chi_Minh'); // Thêm mới
+            $table->json('study_preferences')->nullable(); // Thêm mới - Cài đặt học tập cá nhân
+            $table->integer('daily_study_goal')->default(20); // Thêm mới - Mục tiêu học hàng ngày
+            $table->rememberToken(); // Cột cho tính năng "remember me" khi người dùng đăng nhập
             $table->timestamps(); // Tạo cột created_at và updated_at
+
+            // Indexes
+            $table->index(['is_active', 'created_at']);
         });
 
         Schema::create('password_reset_tokens', function (Blueprint $table) {
             $table->string('email')->primary(); // Cột email là khóa chính
             $table->string('token'); // Cột lưu token để reset mật khẩu
             $table->timestamp('created_at')->nullable(); // Cột lưu thời gian tạo token, có thể là null
+            $table->timestamp('expires_at')->nullable(); // Thêm mới - Thời gian hết hạn
+            $table->boolean('used')->default(false); // Thêm mới - Đánh dấu đã sử dụng
+
+            // Indexes
+            $table->index(['email', 'expires_at']);
+            $table->index('expires_at');
         });
 
         Schema::create('sessions', function (Blueprint $table) {

@@ -17,7 +17,7 @@ class CollectionTags extends Pivot
 
     public function collection()
     {
-        return $this->belongsTo(Collections::class, 'collection_id'); // Đảm bảo tên cột đúng
+        return $this->belongsTo(Collection::class, 'collection_id'); // Đảm bảo tên cột đúng
     }
 
 }

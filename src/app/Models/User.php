@@ -3,6 +3,8 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
@@ -21,13 +23,20 @@ class User extends Authenticatable
         'name',
         'username', //username không thể null
         'email',
+        'google_id',
         'password',
         'role',
         'is_active',
-        'google_id',
+        'timezone',
+        'study_preferences',
+        'daily_study_goal',
     ];
     protected $casts = [
+        'email_verified_at' => 'datetime',
         'is_active' => 'boolean', // Ép kiểu boolean để dễ sử dụng
+        'study_preferences' => 'array',
+        'daily_study_goal' => 'integer',
+        'password' => 'hashed',
     ];
 
     /**
@@ -45,27 +54,83 @@ class User extends Authenticatable
      *
      * @return array<string, string>
      */
-    protected function casts(): array
+//    protected function casts(): array
+//    {
+//        return [
+//            'email_verified_at' => 'datetime',
+//        ];
+//    }
+
+    // Relationships
+    public function collections(): HasMany
     {
-        return [
-            'email_verified_at' => 'datetime',
-            'password' => 'hashed',
-        ];
+        return $this->hasMany(Collection::class);
     }
 
-    public function collections()
+    public function userLevel(): HasOne
     {
-        return $this->hasMany(Collections::class);
+        return $this->hasOne(UserLevel::class);
     }
 
-    public function flashcardStatuses()
+    public function flashcardStatuses(): HasMany
     {
-        return $this->belongsTo(FlashcardStatus::class);
+        return $this->hasMany(FlashcardStatus::class);
     }
 
-    public function userFlashcards()
+    public function reviewLogs(): HasMany
     {
-        return $this->hasMany(UserFlashcard::class);
+        return $this->hasMany(FlashcardReviewLog::class);
     }
 
+    public function studySessions(): HasMany
+    {
+        return $this->hasMany(StudySession::class);
+    }
+
+    public function learningStatistics(): HasMany
+    {
+        return $this->hasMany(LearningStatistic::class);
+    }
+
+    public function notifications(): HasMany
+    {
+        return $this->hasMany(Notification::class);
+    }
+
+    public function collectionRatings(): HasMany
+    {
+        return $this->hasMany(CollectionRating::class);
+    }
+
+    public function recentCollections(): HasMany
+    {
+        return $this->hasMany(RecentCollection::class);
+    }
+
+    // Scopes
+    public function scopeActive($query)
+    {
+        return $query->where('is_active', true);
+    }
+
+    public function scopeRole($query, $role)
+    {
+        return $query->where('role', $role);
+    }
+
+    // Helper methods
+    public function isAdmin(): bool
+    {
+        return $this->role === 'admin';
+    }
+
+    public function canCreateCollection(): bool
+    {
+        $userLevel = $this->userLevel;
+        if (!$userLevel) return false;
+
+        if ($userLevel->max_collections === -1) return true;
+
+        return $this->collections()->count() < $userLevel->max_collections;
+    }
 }

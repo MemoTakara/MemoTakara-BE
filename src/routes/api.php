@@ -3,9 +3,10 @@
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\FlashcardReviewController;
 use App\Http\Controllers\GoogleAPI;
+use App\Http\Controllers\ProgressController;
 use App\Http\Controllers\RecentCollectionController;
+use App\Http\Controllers\StudyController;
 use App\Http\Controllers\UserController;
-use App\Http\Controllers\UserFlashcardController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CollectionsController;
 use App\Http\Controllers\FlashcardsController;
@@ -22,6 +23,7 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::put('{id}/update-star', 'updateStarCount'); // Update star count
         Route::post('{id}/duplicate', 'duplicateCollection'); // Duplicate collection
         Route::get('/user/{userId}', 'getPublicCollectionsByUser'); // Lấy danh sách các collection công khai của người dùng
+        Route::get('/progress/{collectionId, $userId}', 'getCollectionProgress'); // Get study progress for a collection
     });
 
     // Routes liên quan đến recent collection
@@ -40,9 +42,29 @@ Route::middleware('auth:sanctum')->group(function () {
 
     // Routes liên quan đến flashcard nhưng FlashcardReviewController
     Route::prefix('fc-review')->controller(FlashcardReviewController::class)->group(function () {
-        Route::post('/', 'storeReviewResult');
-        Route::get('/due/{collectionId}', 'getDueFlashcards');
         Route::get('/progress-summary/{collectionId}', 'getProgressSummary');
+    });
+
+    Route::prefix('study')->controller(StudyController::class)->group(function () {
+        Route::post('/start', 'startSession'); // Bắt đầu phiên học mới
+        Route::post('/flashcard/submit', 'submitFlashcardAnswer'); // Gửi câu trả lời kiểu flashcard
+        Route::post('/typing/submit', 'submitTypingAnswer'); // Gửi câu trả lời kiểu typing
+        Route::post('/matching/submit', 'submitMatchingAnswer'); // Gửi câu trả lời kiểu matching
+        Route::post('/submit-quiz-answer', 'submitQuizAnswer');
+        Route::post('/end', 'endSession');
+        Route::get('/due-cards', 'getDueCards');
+        Route::get('/stats', 'getStudyStats');
+        Route::post('/reset-card', 'resetCard');
+    });
+
+    // Routes liên quan đến thống kê
+    Route::prefix('progress')->controller(ProgressController::class)->group(function () {
+        Route::get('/dashboard', 'getDashboard');
+        Route::get('/collection/{collectionId}', 'getCollectionProgress');
+        Route::get('/analytics', 'getAnalytics');
+        Route::get('/heatmap', 'getStudyHeatmap');
+        Route::get('/leaderboard', 'getLeaderboard');
+        Route::get('/streak', 'getStudyStreak');
     });
 
     // Routes liên quan đến user (Yêu cầu đăng nhập)

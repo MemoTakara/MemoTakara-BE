@@ -19,6 +19,10 @@ return new class extends Migration {
             $table->boolean('is_read')->default(false); // Trạng thái đã đọc hay chưa
             $table->json('data')->nullable(); // Lưu thông tin bổ sung (VD: ID collection, điểm rating,...)
             $table->timestamps(); // created_at và updated_at
+
+            // Indexes để tối ưu hiệu suất
+            $table->index(['user_id', 'is_read', 'created_at']);
+            $table->index(['type', 'created_at']);
         });
     }
 

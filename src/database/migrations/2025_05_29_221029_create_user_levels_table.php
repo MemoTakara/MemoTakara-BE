@@ -10,11 +10,16 @@ return new class extends Migration {
      */
     public function up(): void
     {
-        Schema::create('recent_collections', function (Blueprint $table) {
+        Schema::create('user_levels', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
-            $table->foreignId('collection_id')->constrained('collections')->onDelete('cascade');
+            $table->integer('level')->default(1);
+            $table->integer('max_collections')->default(5);
+            $table->decimal('average_rating', 3, 2)->default(0.00);
+            $table->integer('total_ratings')->default(0);
             $table->timestamps();
+
+            $table->index('user_id');
         });
     }
 
@@ -23,6 +28,6 @@ return new class extends Migration {
      */
     public function down(): void
     {
-        Schema::dropIfExists('recent_collections');
+        Schema::dropIfExists('user_levels');
     }
 };

@@ -2,12 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\CollectionRatings;
-use App\Models\Flashcards;
+use App\Models\CollectionRating;
+use App\Models\Flashcard;
 use App\Models\FlashcardStatus;
-use App\Models\Tags;
+use App\Models\Tag;
 use Illuminate\Http\Request;
-use App\Models\Collections;
+use App\Models\Collection;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
@@ -19,7 +19,7 @@ class CollectionsController extends Controller
         $userId = Auth::id();
 
         // Lấy tất cả collections của user
-        $collections = Collections::where('user_id', $userId)
+        $collections = Collection::where('user_id', $userId)
             ->with([
                 'tags', // Lấy danh sách tags
                 'ratings', // Lấy danh sách đánh giá
@@ -53,7 +53,7 @@ class CollectionsController extends Controller
 
         try {
             // Tạo collection mới
-            $collection = Collections::create([
+            $collection = Collection::create([
                 'user_id' => Auth::id(),
                 'collection_name' => $request->collection_name,
                 'description' => $request->description,
@@ -70,13 +70,13 @@ class CollectionsController extends Controller
 
             // Xử lý tag mới (tối ưu: chỉ insert nếu chưa tồn tại)
             if (!empty($request->new_tags)) {
-                $existing = Tags::whereIn('name', $request->new_tags)->pluck('id', 'name')->toArray();
+                $existing = Tag::whereIn('name', $request->new_tags)->pluck('id', 'name')->toArray();
 
                 foreach ($request->new_tags as $tagName) {
                     if (isset($existing[$tagName])) {
                         $allTagIds[] = $existing[$tagName];
                     } else {
-                        $newTag = Tags::create(['name' => $tagName]);
+                        $newTag = Tag::create(['name' => $tagName]);
                         $allTagIds[] = $newTag->id;
                     }
                 }
@@ -104,9 +104,9 @@ class CollectionsController extends Controller
     // Lấy chi tiết 1 collection
     public function show($id)
     {
-        $collection = Collections::with([
+        $collection = Collection::with([
             'user:id,username,role',
-            'flashcards:id,collection_id,front,back,pronunciation,kanji,audio_file,image',
+            'flashcards:id,collection_id,front,back,pronunciation,kanji,image',
             'tags',
             'ratings'
         ])->findOrFail($id);
@@ -116,7 +116,7 @@ class CollectionsController extends Controller
     // Cập nhật collection
     public function update(Request $request, $id)
     {
-        $collection = Collections::findOrFail($id);
+        $collection = Collection::findOrFail($id);
 
         if ($collection->user_id !== Auth::id()) {
             return response()->json(['error' => 'Unauthorized'], 403);
@@ -138,7 +138,7 @@ class CollectionsController extends Controller
     // Xóa collection
     public function destroy($id)
     {
-        $collection = Collections::findOrFail($id);
+        $collection = Collection::findOrFail($id);
 
         if ($collection->user_id !== Auth::id()) {
             return response()->json(['error' => 'Unauthorized'], 403);
@@ -154,41 +154,97 @@ class CollectionsController extends Controller
         $userId = Auth::id(); // hoặc truyền từ client nếu chưa login
 
         // Chỉ lấy danh sách collection có privacy = 1 (public)
-        $collections = Collections::where('privacy', 1)
+        $collections = Collection::where('privacy', 1)
             ->with([
                 'user:id,username,role', // Lấy thông tin người tạo collection
-                'flashcards' => function ($query) use ($userId) {
-                    $query->with(['statuses' => function ($statusQuery) use ($userId) {
-                        $statusQuery->where('user_id', $userId);
-                    }])->select(
-                        'id', 'collection_id',
-                        'front', 'back', 'pronunciation',
-                        'kanji', 'audio_file', 'image',
-                        'created_at', 'updated_at'); // chọn cột cần thiết
-                },
+//                'flashcards' => function ($query) use ($userId) {
+//                    $query->with(['statuses' => function ($statusQuery) use ($userId) {
+//                        $statusQuery->where('user_id', $userId);
+//                    }])->select(
+//                        'id', 'collection_id',
+//                        'front', 'back', 'pronunciation',
+//                        'kanji', 'image',
+//                        'created_at', 'updated_at'); // chọn cột cần thiết
+//                },
             ])
-            ->withCount('flashcards')   // Đếm số flashcard
+            ->orderBy('is_featured', 'desc')
+            ->orderByDesc('average_rating')
             ->get();
 
         // Gán status của từng flashcard theo user
-        $collections->each(function ($collection) {
-            $collection->flashcards->each(function ($flashcard) {
-                $flashcard->status = $flashcard->statuses->first()->status ?? 'new';
-                unset($flashcard->statuses); // Xóa để không trả về
-            });
-        });
+//        $collections->each(function ($collection) {
+//            $collection->flashcards->each(function ($flashcard) {
+//                $flashcard->status = $flashcard->statuses->first()->status ?? 'new';
+//                unset($flashcard->statuses); // Xóa để không trả về
+//            });
+//        });
+
+        // Add study progress for each collection
+//        foreach ($collections as $collection) {
+//            $progress = $this->getCollectionProgress($collection->id, $userId);
+//            $collection->study_progress = $progress;
+//        }
 
         return response()->json($collections);
+    }
+
+    // Get study progress for a collection
+    public function getCollectionProgress($collectionId, $userId): array
+    {
+        $totalCards = Flashcard::where('collection_id', $collectionId)->count();
+
+        if ($totalCards === 0) {
+            return [
+                'total_cards' => 0,
+                'studied_cards' => 0,
+                'new_cards' => 0,
+                'learning_cards' => 0,
+                'review_cards' => 0,
+                'mastered_cards' => 0,
+                'due_cards' => 0,
+                'progress_percentage' => 0
+            ];
+        }
+
+        $statusCounts = FlashcardStatus::whereHas('flashcard', function ($query) use ($collectionId) {
+            $query->where('collection_id', $collectionId);
+        })
+            ->where('user_id', $userId)
+            ->selectRaw('status, COUNT(*) as count')
+            ->groupBy('status')
+            ->pluck('count', 'status')
+            ->toArray();
+
+        $studiedCards = array_sum($statusCounts);
+        $newCards = $totalCards - $studiedCards;
+
+        $dueCards = FlashcardStatus::whereHas('flashcard', function ($query) use ($collectionId) {
+            $query->where('collection_id', $collectionId);
+        })
+            ->where('user_id', $userId)
+            ->where('due_date', '<=', now())
+            ->count();
+
+        return [
+            'total_cards' => $totalCards,
+            'studied_cards' => $studiedCards,
+            'new_cards' => $newCards,
+            'learning_cards' => $statusCounts['learning'] ?? 0,
+            'review_cards' => ($statusCounts['young'] ?? 0) + ($statusCounts['re-learning'] ?? 0),
+            'mastered_cards' => $statusCounts['mastered'] ?? 0,
+            'due_cards' => $dueCards,
+            'progress_percentage' => $totalCards > 0 ? round(($studiedCards / $totalCards) * 100, 2) : 0
+        ];
     }
 
     // public collection with flashcard list
     public function getPublicCollectionDetail($id)
     {
-        $collection = Collections::where('id', $id)
+        $collection = Collection::where('id', $id)
             ->where('privacy', 1)
             ->with([
                 'user:id,username,role',
-                'flashcards:id,collection_id,front,back,pronunciation,audio_file'
+                'flashcards:id,collection_id,front,back,pronunciation'
             ])
             ->firstOrFail();
 
@@ -199,7 +255,7 @@ class CollectionsController extends Controller
     public function getPublicCollectionsByUser($userId)
     {
         // Lấy danh sách các collection có privacy = 1 (công khai) của người dùng cụ thể
-        $collections = Collections::where('user_id', $userId)
+        $collections = Collection::where('user_id', $userId)
             ->where('privacy', 1)
             ->select('id', 'collection_name', 'user_id')
             ->with([
@@ -223,7 +279,7 @@ class CollectionsController extends Controller
     {
         $searchTerm = $request->input('query');
 
-        $collections = Collections::where('privacy', 1)
+        $collections = Collection::where('privacy', 1)
             ->where(function ($query) use ($searchTerm) {
                 $query->where('collection_name', 'like', "%$searchTerm%")
                     ->orWhereHas('tags', function ($query) use ($searchTerm) {
@@ -243,10 +299,10 @@ class CollectionsController extends Controller
     public function updateStarCount($collectionId)
     {
         // Tính trung bình số sao
-        $averageStar = CollectionRatings::where('collection_id', $collectionId)->avg('rating');
+        $averageStar = CollectionRating::where('collection_id', $collectionId)->avg('rating');
 
         // Cập nhật vào bảng collections
-        Collections::where('id', $collectionId)->update(['star_count' => $averageStar]);
+        Collection::where('id', $collectionId)->update(['star_count' => $averageStar]);
 
         return response()->json([
             'message' => 'Star count updated successfully!',
@@ -258,13 +314,13 @@ class CollectionsController extends Controller
     public function duplicateCollection(Request $request, $collectionId)
     {
         $userId = auth()->id(); // Lấy user hiện tại
-        $original = Collections::findOrFail($collectionId);
+        $original = Collection::findOrFail($collectionId);
 
         DB::beginTransaction();
 
         try {
             // Tạo collection mới
-            $newCollection = Collections::create([
+            $newCollection = Collection::create([
                 'collection_name' => $original->collection_name . " (Copy)",
                 'description' => $original->description,
                 'privacy' => 0, // Mặc định private
@@ -282,15 +338,14 @@ class CollectionsController extends Controller
             }
 
             // Copy flashcards
-            $originalFlashcards = Flashcards::where('collection_id', $collectionId)->get();
+            $originalFlashcards = Flashcard::where('collection_id', $collectionId)->get();
             foreach ($originalFlashcards as $flashcard) {
-                Flashcards::create([
+                Flashcard::create([
                     'collection_id' => $newCollection->id,
                     'front' => $flashcard->front,
                     'back' => $flashcard->back,
                     'pronunciation' => $flashcard->pronunciation,
                     'kanji' => $flashcard->kanji,
-                    'audio_file' => $flashcard->audio_file,
                     'image' => $flashcard->image,
                 ]);
 

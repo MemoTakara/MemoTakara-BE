@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Collections;
-use App\Models\Flashcards;
+use App\Models\Collection;
+use App\Models\Flashcard;
 use App\Models\FlashcardStatus;
 use App\Models\Notification;
-use App\Models\Tags;
+use App\Models\Tag;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
@@ -125,7 +125,7 @@ class AdminController extends Controller
     public function getAllCollections()
     {
         // Lấy tất cả collections trong hệ thống
-        $collections = Collections::with([
+        $collections = Collection::with([
             'user:id,username', // Chỉ lấy id và username của user
             'tags', // Lấy danh sách tags
 //            'ratings', // Lấy danh sách đánh giá
@@ -153,7 +153,7 @@ class AdminController extends Controller
         ]);
 
         // Tạo collection
-        $collection = Collections::create([
+        $collection = Collection::create([
             'collection_name' => $request->collection_name,
             'description' => $request->description,
             'privacy' => $request->privacy,
@@ -176,7 +176,7 @@ class AdminController extends Controller
                 $tagName = trim($tagName);
                 if ($tagName === '') continue;
 
-                $tag = Tags::firstOrCreate(['name' => $tagName]);
+                $tag = Tag::firstOrCreate(['name' => $tagName]);
                 $tagIds[] = $tag->id;
             }
         }
@@ -186,12 +186,11 @@ class AdminController extends Controller
 
         return response()->json(['message' => 'Collection created successfully', 'collection' => $collection]);
     }
-
-
+    
     // Admin: cập nhật collection
     public function updateCollection(Request $request, $id)
     {
-        $collection = Collections::find($id);
+        $collection = Collection::find($id);
         if (!$collection) {
             return response()->json(['message' => 'Collection not found'], 404);
         }
@@ -216,7 +215,7 @@ class AdminController extends Controller
                     $tagName = trim($tagName);
                     if ($tagName === '') continue;
 
-                    $tag = Tags::firstOrCreate(['name' => $tagName]);
+                    $tag = Tag::firstOrCreate(['name' => $tagName]);
                     $tagIds[] = $tag->id;
                 }
             }
@@ -234,7 +233,7 @@ class AdminController extends Controller
     // Admin: xóa collection
     public function deleteCollection($id)
     {
-        $collection = Collections::find($id);
+        $collection = Collection::find($id);
         if (!$collection) {
             return response()->json(['message' => 'Collection not found'], 404);
         }
@@ -257,7 +256,7 @@ class AdminController extends Controller
         }
 
         // Lấy tất cả flashcards, bao gồm collection_id và user_id của collection
-        $flashcards = Flashcards::with([
+        $flashcards = Flashcard::with([
             'collection:id,collection_name,user_id', // Lấy thông tin collection (chỉ lấy ID, tên collection, user_id)
             'collection.user:id,username,email', // Lấy thông tin user (chỉ lấy ID, tên, email)
             'statuses' => function ($query) {
@@ -271,7 +270,7 @@ class AdminController extends Controller
     // Admin: Lấy danh sách flashcard trong collection
     public function getFlashcards($collectionId)
     {
-        $flashcards = Flashcards::where('collection_id', $collectionId)
+        $flashcards = Flashcard::where('collection_id', $collectionId)
             ->with([
                 'collection:id,collection_name,user_id',
                 'collection.user:id,username,email',
@@ -292,7 +291,6 @@ class AdminController extends Controller
             'back' => 'required|string|max:255',
             'pronunciation' => 'nullable|string|max:255',
             'kanji' => 'nullable|string|max:255',
-            'audio_file' => 'nullable|file|mimes:mp3,wav,m4a,ogg,flac',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
             'status' => 'nullable|in:new,learning,re-learning,young,mastered',
         ]);
@@ -301,15 +299,11 @@ class AdminController extends Controller
             'collection_id', 'front', 'back', 'pronunciation', 'kanji'
         ]);
 
-        if ($request->hasFile('audio_file')) {
-            $data['audio_file'] = $request->file('audio_file')->store('audio', 'public');
-        }
-
         if ($request->hasFile('image')) {
             $data['image'] = $request->file('image')->store('images', 'public');
         }
 
-        $flashcard = Flashcards::create($data);
+        $flashcard = Flashcard::create($data);
 
         // Nếu có status được chọn, thêm vào flashcard_statuses
         $status = $request->input('status', 'new'); // Mặc định là 'new'
@@ -334,7 +328,7 @@ class AdminController extends Controller
     // Admin: update flashcard
     public function updateFlashcard(Request $request, $id)
     {
-        $flashcard = Flashcards::find($id);
+        $flashcard = Flashcard::find($id);
         if (!$flashcard) {
             return response()->json(['message' => 'Flashcard not found'], 404);
         }
@@ -346,7 +340,6 @@ class AdminController extends Controller
             'back' => 'required|string|max:255',
             'pronunciation' => 'nullable|string|max:255',
             'kanji' => 'nullable|string|max:255',
-            'audio_file' => 'nullable|file|mimes:mp3,wav,m4a,ogg,flac',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
             'status' => 'nullable|in:new,learning,re-learning,young,mastered',
         ]);
@@ -357,17 +350,6 @@ class AdminController extends Controller
         $flashcard->back = $validated['back'];
         $flashcard->pronunciation = $validated['pronunciation'] ?? null;
         $flashcard->kanji = $validated['kanji'] ?? null;
-
-        // Nếu có file âm thanh mới thì cập nhật
-        if ($request->hasFile('audio_file')) {
-            // Xóa file âm thanh cũ nếu có
-            if ($flashcard->audio_file) {
-                Storage::disk('public')->delete($flashcard->audio_file);
-            }
-
-            $audioPath = $request->file('audio_file')->store('audio_files', 'public');
-            $flashcard->audio_file = $audioPath;
-        }
 
         // Nếu có hình ảnh mới thì cập nhật
         if ($request->hasFile('image')) {
@@ -413,7 +395,7 @@ class AdminController extends Controller
     // Admin: xóa flashcard
     public function deleteFlashcard($id)
     {
-        $flashcard = Flashcards::find($id);
+        $flashcard = Flashcard::find($id);
         if (!$flashcard) {
             return response()->json(['message' => 'Flashcard not found'], 404);
         }
