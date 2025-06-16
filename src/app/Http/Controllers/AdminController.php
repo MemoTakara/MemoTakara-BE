@@ -186,8 +186,7 @@ class AdminController extends Controller
 
         return response()->json(['message' => 'Collection created successfully', 'collection' => $collection]);
     }
-
-
+    
     // Admin: cập nhật collection
     public function updateCollection(Request $request, $id)
     {

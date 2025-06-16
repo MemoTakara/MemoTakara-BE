@@ -157,28 +157,84 @@ class CollectionsController extends Controller
         $collections = Collection::where('privacy', 1)
             ->with([
                 'user:id,username,role', // Lấy thông tin người tạo collection
-                'flashcards' => function ($query) use ($userId) {
-                    $query->with(['statuses' => function ($statusQuery) use ($userId) {
-                        $statusQuery->where('user_id', $userId);
-                    }])->select(
-                        'id', 'collection_id',
-                        'front', 'back', 'pronunciation',
-                        'kanji', 'image',
-                        'created_at', 'updated_at'); // chọn cột cần thiết
-                },
+//                'flashcards' => function ($query) use ($userId) {
+//                    $query->with(['statuses' => function ($statusQuery) use ($userId) {
+//                        $statusQuery->where('user_id', $userId);
+//                    }])->select(
+//                        'id', 'collection_id',
+//                        'front', 'back', 'pronunciation',
+//                        'kanji', 'image',
+//                        'created_at', 'updated_at'); // chọn cột cần thiết
+//                },
             ])
-            ->withCount('flashcards')   // Đếm số flashcard
+            ->orderBy('is_featured', 'desc')
+            ->orderByDesc('average_rating')
             ->get();
 
         // Gán status của từng flashcard theo user
-        $collections->each(function ($collection) {
-            $collection->flashcards->each(function ($flashcard) {
-                $flashcard->status = $flashcard->statuses->first()->status ?? 'new';
-                unset($flashcard->statuses); // Xóa để không trả về
-            });
-        });
+//        $collections->each(function ($collection) {
+//            $collection->flashcards->each(function ($flashcard) {
+//                $flashcard->status = $flashcard->statuses->first()->status ?? 'new';
+//                unset($flashcard->statuses); // Xóa để không trả về
+//            });
+//        });
+
+        // Add study progress for each collection
+//        foreach ($collections as $collection) {
+//            $progress = $this->getCollectionProgress($collection->id, $userId);
+//            $collection->study_progress = $progress;
+//        }
 
         return response()->json($collections);
+    }
+
+    // Get study progress for a collection
+    public function getCollectionProgress($collectionId, $userId): array
+    {
+        $totalCards = Flashcard::where('collection_id', $collectionId)->count();
+
+        if ($totalCards === 0) {
+            return [
+                'total_cards' => 0,
+                'studied_cards' => 0,
+                'new_cards' => 0,
+                'learning_cards' => 0,
+                'review_cards' => 0,
+                'mastered_cards' => 0,
+                'due_cards' => 0,
+                'progress_percentage' => 0
+            ];
+        }
+
+        $statusCounts = FlashcardStatus::whereHas('flashcard', function ($query) use ($collectionId) {
+            $query->where('collection_id', $collectionId);
+        })
+            ->where('user_id', $userId)
+            ->selectRaw('status, COUNT(*) as count')
+            ->groupBy('status')
+            ->pluck('count', 'status')
+            ->toArray();
+
+        $studiedCards = array_sum($statusCounts);
+        $newCards = $totalCards - $studiedCards;
+
+        $dueCards = FlashcardStatus::whereHas('flashcard', function ($query) use ($collectionId) {
+            $query->where('collection_id', $collectionId);
+        })
+            ->where('user_id', $userId)
+            ->where('due_date', '<=', now())
+            ->count();
+
+        return [
+            'total_cards' => $totalCards,
+            'studied_cards' => $studiedCards,
+            'new_cards' => $newCards,
+            'learning_cards' => $statusCounts['learning'] ?? 0,
+            'review_cards' => ($statusCounts['young'] ?? 0) + ($statusCounts['re-learning'] ?? 0),
+            'mastered_cards' => $statusCounts['mastered'] ?? 0,
+            'due_cards' => $dueCards,
+            'progress_percentage' => $totalCards > 0 ? round(($studiedCards / $totalCards) * 100, 2) : 0
+        ];
     }
 
     // public collection with flashcard list

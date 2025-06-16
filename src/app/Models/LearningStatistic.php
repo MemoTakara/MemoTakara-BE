@@ -38,7 +38,7 @@ class LearningStatistic extends Model
     }
 
     // Static methods
-    public static function updateDailyStats($userId, $date)
+    public static function updateDailyStats($userId, $date, $duration = 0, $sessions = 0)
     {
         $statistic = self::firstOrCreate([
             'user_id' => $userId,
@@ -57,12 +57,15 @@ class LearningStatistic extends Model
         $statistic->mastered_cards = $cardCounts['mastered'] ?? 0;
 
         // Calculate study time and sessions for today
-        $sessions = StudySession::where('user_id', $userId)
-            ->whereDate('started_at', $date)
-            ->get();
+//        $sessions = StudySession::where('user_id', $userId)
+//            ->whereDate('started_at', $date)
+//            ->get();
+//
+//        $statistic->total_study_time = $sessions->sum('duration_minutes');
+//        $statistic->total_sessions = $sessions->count();
 
-        $statistic->total_study_time = $sessions->sum('duration_minutes');
-        $statistic->total_sessions = $sessions->count();
+        $statistic->total_study_time += $duration;
+        $statistic->total_sessions += $sessions;
 
         $statistic->save();
     }

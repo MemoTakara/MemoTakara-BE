@@ -103,7 +103,7 @@ class HanziCollectionSeeder extends Seeder
                 'description' => $collectionData['description'],
                 'privacy' => $collectionData['privacy'],
                 'difficulty_level' => $collectionData['difficulty_level'],
-                'language_front' => 'cn',
+                'language_front' => 'zh',
                 'language_back' => 'en',
                 'is_featured' => $collectionData['is_featured'],
                 'user_id' => $collectionData['user_id'],

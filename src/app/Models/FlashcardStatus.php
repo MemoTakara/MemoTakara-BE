@@ -2,9 +2,13 @@
 
 namespace App\Models;
 
+use Exception;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
+use InvalidArgumentException;
 
 class FlashcardStatus extends Model
 {
@@ -65,71 +69,113 @@ class FlashcardStatus extends Model
     }
 
     // SM-2 Algorithm Implementation
-    public function updateSM2($quality)
+    public function updateSM2($quality, $study_type)
     {
+        // Validate input
+        if (!is_numeric($quality) || $quality < 0 || $quality > 5) {
+            throw new InvalidArgumentException('Quality must be between 0 and 5');
+        }
+
+        // Validate required fields
+        if (!$this->user_id || !$this->flashcard_id) {
+            throw new Exception('User ID and Flashcard ID are required');
+        }
+
         $settings = SystemSetting::getSettings();
         $minEaseFactor = $settings['sm2_min_ease_factor'] ?? 1.3;
 
-        // Log current state
-        FlashcardReviewLog::create([
-            'user_id' => $this->user_id,
-            'flashcard_id' => $this->flashcard_id,
-            'study_type' => 'flashcard',
-            'study_mode' => $this->study_mode,
-            'quality' => $quality,
-            'prev_interval' => $this->interval_minutes,
-            'prev_ease_factor' => $this->ease_factor,
-            'prev_repetitions' => $this->repetitions,
-            'reviewed_at' => now(),
-        ]);
+        // Store previous values
+        $prevInterval = $this->interval_minutes;
+        $prevEaseFactor = $this->ease_factor;
+        $prevRepetitions = $this->repetitions;
 
-        if ($quality >= 3) {
-            // Correct response
-            if ($this->repetitions == 0) {
-                $this->interval_minutes = $settings['sm2_initial_interval'] ?? 1;
-            } elseif ($this->repetitions == 1) {
-                $this->interval_minutes = $settings['sm2_second_interval'] ?? 6;
+        // Use database transaction for consistency
+        DB::beginTransaction();
+
+        try {
+            // Store original values for logging
+            $originalInterval = $this->interval_minutes;
+            $originalEaseFactor = $this->ease_factor;
+            $originalRepetitions = $this->repetitions;
+
+            // SM-2 Algorithm calculations
+            if ($quality >= 3) {
+                // Correct response
+                if ($this->repetitions == 0) {
+                    $this->interval_minutes = $settings['sm2_initial_interval'] ?? 10;
+                } elseif ($this->repetitions == 1) {
+                    $this->interval_minutes = $settings['sm2_second_interval'] ?? 15;
+                } else {
+                    $this->interval_minutes = round($this->interval_minutes * $this->ease_factor);
+                }
+                $this->repetitions++;
+                $this->status = $this->determineStatus();
             } else {
-                $this->interval_minutes = round($this->interval_minutes * $this->ease_factor);
-            }
-            $this->repetitions++;
-            $this->status = $this->determineStatus();
-        } else {
-            // Incorrect response
-            $this->repetitions = 0;
-            $this->interval_minutes = $settings['sm2_initial_interval'] ?? 1;
-            $this->lapses++;
-            $this->status = 'learning';
+                // Incorrect response
+                $this->repetitions = 0;
+                $this->interval_minutes = $settings['sm2_initial_interval'] ?? 1;
+                $this->lapses++;
+                $this->status = 'learning';
 
-            // Mark as leech if too many lapses
-            if ($this->lapses >= 8) {
-                $this->is_leech = true;
+                // Mark as leech if too many lapses
+                if ($this->lapses >= 8) {
+                    $this->is_leech = true;
+                }
             }
+
+            // Update ease factor
+            $this->ease_factor = max(
+                $minEaseFactor,
+                $this->ease_factor + (0.1 - (5 - $quality) * (0.08 + (5 - $quality) * 0.02))
+            );
+
+            // Set next review time
+            $this->last_reviewed_at = now();
+            $this->due_date = now()->addMinutes($this->interval_minutes);
+            $this->next_review_at = $this->due_date;// Update legacy interval field
+            $this->interval = max(1, round($this->interval_minutes / 1440));// Convert to days
+
+            // Tạo log với đầy đủ dữ liệu (cả old và new)
+            $reviewLog = FlashcardReviewLog::create([
+                'user_id' => $this->user_id,
+                'flashcard_id' => $this->flashcard_id,
+                'study_type' => 'flashcard',
+                'study_mode' => $this->study_mode ?? 'review',
+                'quality' => $quality,
+                'prev_interval' => $prevInterval,
+                'prev_ease_factor' => $prevEaseFactor,
+                'prev_repetitions' => $prevRepetitions,
+                'new_interval' => $this->interval_minutes,
+                'new_ease_factor' => $this->ease_factor,
+                'new_repetitions' => $this->repetitions,
+                'reviewed_at' => now(),
+            ]);
+
+            $this->save();
+
+            // Commit transaction
+            DB::commit();
+//            Log::info('SM2 update completed', [
+//                'flashcard_id' => $this->flashcard_id,
+//                'user_id' => $this->user_id,
+//                'new_interval' => $this->interval_minutes,
+//                'log_id' => $reviewLog->id
+//            ]);
+
+            return $reviewLog;
+        } catch (Exception $e) {
+            // Rollback on error
+            DB::rollback();
+
+            Log::error('SM2 update failed', [
+                'error' => $e->getMessage(),
+                'flashcard_id' => $this->flashcard_id,
+                'user_id' => $this->user_id,
+                'quality' => $quality
+            ]);
+
+            throw $e;
         }
-
-        // Update ease factor
-        $this->ease_factor = max(
-            $minEaseFactor,
-            $this->ease_factor + (0.1 - (5 - $quality) * (0.08 + (5 - $quality) * 0.02))
-        );
-
-        // Set next review time
-        $this->last_reviewed_at = now();
-        $this->due_date = now()->addMinutes($this->interval_minutes);
-        $this->next_review_at = $this->due_date;
-
-        // Update legacy interval field
-        $this->interval = max(1, round($this->interval_minutes / 1440)); // Convert to days
-
-        // Log new state
-        $log = FlashcardReviewLog::latest()->first();
-        $log->update([
-            'new_interval' => $this->interval_minutes,
-            'new_ease_factor' => $this->ease_factor,
-            'new_repetitions' => $this->repetitions,
-        ]);
-
-        $this->save();
     }
 
     private function determineStatus(): string
