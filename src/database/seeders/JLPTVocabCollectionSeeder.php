@@ -14,7 +14,7 @@ class JLPTVocabCollectionSeeder extends Seeder
     {
         // Tags cần thiết
         $baseTags = [
-            'jp' => 'Japanese Language',
+            'ja' => 'Japanese Language',
             'jlpt' => 'JLPT Test',
             'jlpt_n1' => 'JLPT Level N1',
             'jlpt_n2' => 'JLPT Level N2',
@@ -46,7 +46,7 @@ class JLPTVocabCollectionSeeder extends Seeder
                 'privacy' => '1',
                 'difficulty_level' => 'beginner',
                 'is_featured' => true,
-                'tags' => ['jp', 'jlpt', 'jlpt_n5', 'beginner'],
+                'tags' => ['ja', 'jlpt', 'jlpt_n5', 'beginner'],
                 'user_id' => 1, // ID của admin
             ],
             [
@@ -55,7 +55,7 @@ class JLPTVocabCollectionSeeder extends Seeder
                 'privacy' => '1',
                 'difficulty_level' => 'beginner',
                 'is_featured' => true,
-                'tags' => ['jp', 'jlpt', 'jlpt_n4', 'beginner'],
+                'tags' => ['ja', 'jlpt', 'jlpt_n4', 'beginner'],
                 'user_id' => 1, // ID của admin
             ],
             [
@@ -64,7 +64,7 @@ class JLPTVocabCollectionSeeder extends Seeder
                 'privacy' => '1',
                 'difficulty_level' => 'intermediate',
                 'is_featured' => true,
-                'tags' => ['jp', 'jlpt', 'jlpt_n3', 'intermediate'],
+                'tags' => ['ja', 'jlpt', 'jlpt_n3', 'intermediate'],
                 'user_id' => 1, // ID của admin
             ],
             [
@@ -73,7 +73,7 @@ class JLPTVocabCollectionSeeder extends Seeder
                 'privacy' => '1',
                 'difficulty_level' => 'advanced',
                 'is_featured' => true,
-                'tags' => ['jp', 'jlpt', 'jlpt_n2', 'advanced'],
+                'tags' => ['ja', 'jlpt', 'jlpt_n2', 'advanced'],
                 'user_id' => 1, // ID của admin
             ],
             [
@@ -82,7 +82,7 @@ class JLPTVocabCollectionSeeder extends Seeder
                 'privacy' => '1',
                 'difficulty_level' => 'advanced',
                 'is_featured' => true,
-                'tags' => ['jp', 'jlpt', 'jlpt_n1', 'advanced'],
+                'tags' => ['ja', 'jlpt', 'jlpt_n1', 'advanced'],
                 'user_id' => 1, // ID của admin
             ],
         ];
@@ -93,7 +93,7 @@ class JLPTVocabCollectionSeeder extends Seeder
                 'description' => $collectionData['description'],
                 'privacy' => $collectionData['privacy'],
                 'difficulty_level' => $collectionData['difficulty_level'],
-                'language_front' => 'jp',
+                'language_front' => 'ja',
                 'language_back' => 'en',
                 'is_featured' => $collectionData['is_featured'],
                 'user_id' => $collectionData['user_id'],

@@ -12,7 +12,7 @@ class CollectionDuplicate extends Model
 
     protected $fillable = [
         'original_collection_id',
-        'duplicate_collection_id',
+        'duplicated_collection_id',
         'user_id',
     ];
 

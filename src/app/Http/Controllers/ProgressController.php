@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Collection;
+use App\Models\Flashcard;
 use App\Models\FlashcardReviewLog;
 use App\Models\FlashcardStatus;
 use App\Models\LearningStatistic;
@@ -15,6 +16,41 @@ use Carbon\Carbon;
 
 class ProgressController extends Controller
 {
+    // Get flashcard review history
+    public function getReviewHistory(Request $request, $id): JsonResponse
+    {
+        try {
+            $flashcard = Flashcard::findOrFail($id);
+
+            // Check if user can access this flashcard
+            if (!$flashcard->collection->canBeAccessedBy(Auth::id())) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Không có quyền truy cập flashcard này'
+                ], 403);
+            }
+
+            $perPage = $request->get('per_page', 20);
+
+            $reviewLogs = FlashcardReviewLog::where('user_id', Auth::id())
+                ->where('flashcard_id', $id)
+                ->orderBy('reviewed_at', 'desc')
+                ->paginate($perPage);
+
+            return response()->json([
+                'success' => true,
+                'data' => $reviewLogs,
+                'flashcard' => $flashcard
+            ]);
+
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Lỗi khi lấy lịch sử ôn tập: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
     // Get overall progress dashboard
     public function getDashboard(): JsonResponse
     {

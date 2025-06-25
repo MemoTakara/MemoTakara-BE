@@ -1,5 +1,5 @@
 <?php
-
+// limit flashcards
 namespace App\Http\Controllers;
 
 use App\Models\Collection;
@@ -20,7 +20,7 @@ class StudyController extends Controller
         $request->validate([
             'collection_id' => 'required|exists:collections,id',
             'study_type' => 'required|in:flashcard,game_match,typing,handwriting,test',
-            'limit' => 'integer|min:20|max:150',
+            'limit' => 'integer|min:5|max:150',
             'new_cards_limit' => 'integer|min:0|max:50',
             'review_cards_limit' => 'integer|min:0|max:100'
         ]);
@@ -190,6 +190,10 @@ class StudyController extends Controller
 
         $responseTime = $request->input('response_time_ms', 0);
 
+        // Lấy danh sách card IDs từ cache
+        $sessionKey = 'study_session_cards_' . $session->id;
+        $cardIds = cache()->get($sessionKey, []);
+
         // Calculate accuracy and quality score
         $similarity = $this->calculateStringSimilarity($userAnswer, $correctAnswer);
         $isCorrect = $similarity >= 0.8; // 80% similarity threshold
@@ -206,8 +210,8 @@ class StudyController extends Controller
             [
                 'status' => 'new',
                 'study_mode' => $studyMode,
-                'interval' => 1,
-                'interval_minutes' => 1,
+                'interval' => 0,
+                'interval_minutes' => 0,
                 'ease_factor' => 2.5,
                 'repetitions' => 0,
                 'lapses' => 0,
@@ -215,6 +219,11 @@ class StudyController extends Controller
                 'due_date' => now()
             ]
         );
+
+        // Lưu trạng thái cũ để log
+        $prevInterval = $status->interval;
+        $prevEaseFactor = $status->ease_factor;
+        $prevRepetitions = $status->repetitions;
 
         // Update status using SM-2 algorithm
         $status->updateSM2($quality, 'typing');
@@ -233,18 +242,22 @@ class StudyController extends Controller
             'study_mode' => $studyMode,
             'response_time_ms' => $responseTime,
             'quality' => $quality,
-            'prev_interval' => $status->interval_minutes,
-            'new_interval' => $status->interval_minutes,
-            'prev_ease_factor' => $status->ease_factor,
+            'prev_interval' => $prevInterval,
+            'new_interval' => $status->interval,
+            'prev_ease_factor' => $prevEaseFactor,
             'new_ease_factor' => $status->ease_factor,
-            'prev_repetitions' => $status->repetitions,
+            'prev_repetitions' => $prevRepetitions,
             'new_repetitions' => $status->repetitions,
             'reviewed_at' => now()
         ]);
 
+        // Chỉ đếm trạng thái của các thẻ trong phiên hiện tại
+        $cardCounts = $this->getSessionCardCounts($user->id, $cardIds);
+
         return response()->json([
             'success' => true,
             'data' => [
+                'flashcard_id' => $flashcard->id,
                 'is_correct' => $isCorrect,
                 'similarity' => round($similarity * 100, 2),
                 'correct_answer' => $studyMode === 'back_to_front' ? $flashcard->front : $flashcard->back,
@@ -252,7 +265,8 @@ class StudyController extends Controller
                 'next_review_at' => $status->next_review_at,
                 'interval_minutes' => $status->interval_minutes,
                 'status' => $status->status,
-                'quality_score' => $quality
+                'quality_score' => $quality,
+                'card_counts' => $cardCounts,
             ]
         ]);
     }
@@ -591,8 +605,8 @@ class StudyController extends Controller
         // Reset to initial state
         $status->update([
             'status' => 'new',
-            'interval' => 1,
-            'interval_minutes' => 1,
+            'interval' => 0,
+            'interval_minutes' => 0,
             'ease_factor' => 2.5,
             'repetitions' => 0,
             'lapses' => 0,
@@ -611,9 +625,9 @@ class StudyController extends Controller
     // Get cards for study session
     private function getCardsForSession(Request $request, $user, Collection $collection): array
     {
-        $limit = $request->input('limit', 40);
-        $newCardsLimit = $request->input('new_cards_limit', 20);
-        $reviewCardsLimit = $request->input('review_cards_limit', 20);
+        $limit = $request->input('limit', 5);
+        $newCardsLimit = $request->input('new_cards_limit', 2);
+        $reviewCardsLimit = $request->input('review_cards_limit', 3);
         $studyType = $request->study_type;
 
         $cards = [];
