@@ -14,7 +14,7 @@ class HanziCollectionSeeder extends Seeder
     {
         // Tags cần thiết
         $baseTags = [
-            'cn' => 'Chinese',
+            'zh' => 'Chinese',
             'hsk' => 'HSK Test',
             'hsk1' => 'HSK Level 1',
             'hsk2' => 'HSK Level 2',
@@ -47,7 +47,7 @@ class HanziCollectionSeeder extends Seeder
                 'privacy' => '1',
                 'difficulty_level' => 'beginner',
                 'is_featured' => true,
-                'tags' => ['cn', 'hsk', 'hsk1', 'beginner'],
+                'tags' => ['zh', 'hsk', 'hsk1', 'beginner'],
                 'user_id' => 1, // ID của admin
             ],
             [
@@ -56,7 +56,7 @@ class HanziCollectionSeeder extends Seeder
                 'privacy' => '1',
                 'difficulty_level' => 'beginner',
                 'is_featured' => true,
-                'tags' => ['cn', 'hsk', 'hsk2', 'beginner'],
+                'tags' => ['zh', 'hsk', 'hsk2', 'beginner'],
                 'user_id' => 1, // ID của admin
             ],
             [
@@ -65,7 +65,7 @@ class HanziCollectionSeeder extends Seeder
                 'privacy' => '1',
                 'difficulty_level' => 'intermediate',
                 'is_featured' => true,
-                'tags' => ['cn', 'hsk', 'hsk3', 'intermediate'],
+                'tags' => ['zh', 'hsk', 'hsk3', 'intermediate'],
                 'user_id' => 1, // ID của admin
             ],
             [
@@ -74,7 +74,7 @@ class HanziCollectionSeeder extends Seeder
                 'privacy' => '1',
                 'difficulty_level' => 'intermediate',
                 'is_featured' => true,
-                'tags' => ['cn', 'hsk', 'hsk4', 'intermediate'],
+                'tags' => ['zh', 'hsk', 'hsk4', 'intermediate'],
                 'user_id' => 1, // ID của admin
             ],
             [
@@ -83,7 +83,7 @@ class HanziCollectionSeeder extends Seeder
                 'privacy' => '1',
                 'difficulty_level' => 'advanced',
                 'is_featured' => true,
-                'tags' => ['cn', 'hsk', 'hsk5', 'advanced'],
+                'tags' => ['zh', 'hsk', 'hsk5', 'advanced'],
                 'user_id' => 1, // ID của admin
             ],
             [
@@ -92,7 +92,7 @@ class HanziCollectionSeeder extends Seeder
                 'privacy' => '1',
                 'difficulty_level' => 'advanced',
                 'is_featured' => true,
-                'tags' => ['cn', 'hsk', 'hsk6', 'advanced'],
+                'tags' => ['zh', 'hsk', 'hsk6', 'advanced'],
                 'user_id' => 1, // ID của admin
             ],
         ];

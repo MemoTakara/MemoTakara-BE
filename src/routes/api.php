@@ -1,48 +1,49 @@
 <?php
 
 use App\Http\Controllers\AuthController;
-use App\Http\Controllers\FlashcardReviewController;
+use App\Http\Controllers\CollectionController;
 use App\Http\Controllers\GoogleAPI;
+use App\Http\Controllers\NotificationController;
 use App\Http\Controllers\ProgressController;
-use App\Http\Controllers\RecentCollectionController;
 use App\Http\Controllers\StudyController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CollectionsController;
-use App\Http\Controllers\FlashcardsController;
+use App\Http\Controllers\FlashcardController;
 use App\Http\Controllers\AdminController;
 
 Route::middleware('auth:sanctum')->group(function () {
     // Routes liên quan đến collection
-    Route::prefix('collections')->controller(CollectionsController::class)->group(function () {
-        Route::get('/', 'index'); // Lấy danh sách collection user sở hữu
-        Route::post('/', 'store'); // Tạo mới collection
-        Route::get('/{id}', 'show'); // Lấy chi tiết 1 collection theo id
-        Route::put('/{id}', 'update'); // Cập nhật collection
-        Route::delete('/{id}', 'destroy'); // Xóa collection
-        Route::put('{id}/update-star', 'updateStarCount'); // Update star count
-        Route::post('{id}/duplicate', 'duplicateCollection'); // Duplicate collection
-        Route::get('/user/{userId}', 'getPublicCollectionsByUser'); // Lấy danh sách các collection công khai của người dùng
-        Route::get('/progress/{collectionId, $userId}', 'getCollectionProgress'); // Get study progress for a collection
-    });
+    Route::prefix('collections')->controller(CollectionController::class)->group(function () {
+//        Route::get('/user/{userId}', 'getPublicCollectionsByUser'); // Lấy danh sách các collection công khai của người dùng
+        Route::get('/my-collections', 'myCollections'); // Lấy các bộ sưu tập của người dùng đã xác thực
+        Route::get('/recent', 'recentCollections'); // Lấy các bộ sưu tập gần đây của người dùng
+        Route::get('/popular', 'popular'); // Lấy các bộ sưu tập phổ biến
 
-    // Routes liên quan đến recent collection
-    Route::prefix('recent-collections')->controller(RecentCollectionController::class)->group(function () {
-        Route::post('/', 'store');
-        Route::get('/', 'index');
+        Route::post('/', 'store'); // Tạo một bộ sưu tập mới
+        Route::get('/{id}', 'show'); // Lấy thông tin một bộ sưu tập cụ thể
+        Route::put('/{id}', 'update'); // Cập nhật một bộ sưu tập cụ thể
+        Route::delete('/{id}', 'destroy'); // Xóa một bộ sưu tập cụ thể
+
+        Route::post('/{id}/duplicate', 'duplicate'); // Sao chép một bộ sưu tập
+        Route::get('/{collectionId}/rate', 'getRatings'); // Get all ratings for a specific collection
+        Route::post('/{id}/rate', 'rate'); // Đánh giá một bộ sưu tập
+
+//        Route::get('/featured', 'featuredCollections'); // Lấy các bộ sưu tập nổi bật
+//        Route::get('/search', 'search'); // Tìm kiếm bộ sưu tập với bộ lọc nâng cao
+//        Route::get('/by-tags', 'byTags'); // Lấy các bộ sưu tập theo thẻ
     });
 
     // Routes liên quan đến flashcard
-    Route::prefix('flashcards')->controller(FlashcardsController::class)->group(function () {
-        Route::post('/', 'store'); // Thêm flashcard
-        Route::get('/{id}', 'show'); // Lấy chi tiết flashcard
-        Route::put('/{id}', 'update'); // Cập nhật flashcard
-        Route::delete('/{id}', 'destroy'); // Xóa flashcard
-    });
+    Route::prefix('flashcards')->controller(FlashcardController::class)->group(function () {
+        Route::get('/collection/{collectionId}', 'index'); // Lấy danh sách flashcard trong một collection
 
-    // Routes liên quan đến flashcard nhưng FlashcardReviewController
-    Route::prefix('fc-review')->controller(FlashcardReviewController::class)->group(function () {
-        Route::get('/progress-summary/{collectionId}', 'getProgressSummary');
+        Route::get('/{id}', 'show'); // Lấy thông tin chi tiết của một flashcard
+        Route::post('/', 'store'); // Tạo một flashcard mới
+        Route::put('/{id}', 'update'); // Cập nhật một flashcard
+        Route::delete('/{id}', 'destroy'); // Xóa một flashcard
+        Route::post('/bulk', 'bulkStore'); // Tạo flashcard hàng loạt
+
+        Route::post('/{id}/toggle-leech', 'toggleLeech'); // Đánh dấu hoặc bỏ đánh dấu flashcard khó
     });
 
     Route::prefix('study')->controller(StudyController::class)->group(function () {
@@ -59,6 +60,7 @@ Route::middleware('auth:sanctum')->group(function () {
 
     // Routes liên quan đến thống kê
     Route::prefix('progress')->controller(ProgressController::class)->group(function () {
+        Route::get('/{fcId}/review-history', 'getReviewHistory'); // Lấy lịch sử ôn tập của một flashcard
         Route::get('/dashboard', 'getDashboard');
         Route::get('/collection/{collectionId}', 'getCollectionProgress');
         Route::get('/analytics', 'getAnalytics');
@@ -73,6 +75,28 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::post('/change-password', 'changePassword'); // Tự đổi pass
         Route::post('/updateAccount', 'updateAccount'); // Update profile
         Route::delete('/delete', 'deleteAccount'); // User tự xóa tài khoản
+    });
+
+    // Routes liên quan đến notification
+    Route::prefix('notification')->controller(NotificationController::class)->group(function () {
+        Route::get('/', 'index'); // Lấy danh sách thông báo của người dùng đã xác thực
+        Route::get('/unread-count', 'unreadCount'); // Lấy số lượng thông báo chưa đọc
+        Route::get('/recent', 'recent'); // Lấy các thông báo gần đây (50 thông báo mới nhất)
+
+        Route::post('/{id}/mark-read', 'markAsRead'); // Đánh dấu một thông báo là đã đọc
+        Route::post('/mark-read-multiple', 'markMultipleAsRead'); // Đánh dấu nhiều thông báo là đã đọc
+        Route::post('/mark-all-read', 'markAllAsRead'); // Đánh dấu tất cả thông báo là đã đọc
+
+        Route::delete('/{id}', 'delete'); // Xóa một thông báo
+        Route::delete('/delete-multiple', 'deleteMultiple'); // Xóa nhiều thông báo
+        Route::delete('/delete-all-read', 'deleteAllRead'); // Xóa tất cả thông báo đã đọc
+
+        Route::get('/statistics', 'statistics'); // Lấy thống kê thông báo
+
+        Route::post('/send', 'send'); // Gửi thông báo (chỉ admin)
+        Route::post('/send-bulk', 'sendBulk'); // Gửi thông báo hàng loạt (chỉ admin)
+
+        Route::get('/{id}', 'show'); // Lấy chi tiết một thông báo
     });
 
     // Routes link-unlink Google
@@ -123,8 +147,7 @@ Route::controller(GoogleAPI::class)->group(function () {
     Route::get('/auth/google/callback', 'callback');
 });
 
-Route::controller(CollectionsController::class)->group(function () {
-    Route::get('/search-public', 'searchPublicCollections');    // search api
-    Route::get('/public-collections', 'getPublicCollections');  // Lấy danh sách collection công khai
-    Route::get('/public-collections/{id}', 'getPublicCollectionDetail');    // public collection with flashcard
+Route::controller(CollectionController::class)->group(function () {
+    Route::get('/collections', 'index'); // Lấy danh sách tất cả bộ sưu tập với bộ lọc và phân trang
+    Route::get('/public-collections/{id}', 'show'); // Lấy thông tin một bộ sưu tập cụ thể
 });

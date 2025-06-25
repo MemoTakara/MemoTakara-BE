@@ -2,69 +2,100 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Collection;
 use App\Models\RecentCollection;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Validator;
 
 class RecentCollectionController extends Controller
 {
-    // Giới hạn số lượng bản ghi
-    private function limitRecentCollections($userId)
-    {
-        $idsToKeep = RecentCollection::where('user_id', $userId)
-            ->orderByDesc('updated_at')
-            ->take(50)
-            ->pluck('id');
-
-        RecentCollection::where('user_id', $userId)
-            ->whereNotIn('id', $idsToKeep)
-            ->delete();
-    }
-
     // Lưu lịch sử truy cập
     public function store(Request $request)
     {
+        $validator = Validator::make($request->all(), [
+            'collection_id' => 'required|integer|exists:collections,id',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Validation failed',
+                'errors' => $validator->errors()
+            ], 422);
+        }
+
         $userId = Auth::id();
         $collectionId = $request->input('collection_id');
+        $collection = Collection::find($collectionId);
 
-        RecentCollection::updateOrCreate(
-            ['user_id' => $userId, 'collection_id' => $collectionId],
-            ['updated_at' => now()]
-        );
+        if (!$collection->canBeAccessedBy($userId)) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Access denied'
+            ], 403);
+        }
 
-        $this->limitRecentCollections($userId);
+        DB::beginTransaction();
+        try {
+            RecentCollection::upsert(
+                [
+                    [
+                        'user_id' => $userId,
+                        'collection_id' => $collectionId,
+                        'updated_at' => now(),
+                        'created_at' => now()
+                    ]
+                ],
+                ['user_id', 'collection_id'],
+                ['updated_at']
+            );
 
-        return response()->json(['message' => 'Saved successfully']);
+            $this->limitRecentCollections($userId);
+
+            DB::commit();
+
+            $recentCollection = RecentCollection::where('user_id', $userId)
+                ->where('collection_id', $collectionId)
+                ->first();
+
+            $recentCollection->load(['collection.user', 'collection.tags']);
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Saved successfully',
+                'data' => $recentCollection
+            ], 201);
+        } catch (\Exception $e) {
+            DB::rollback();
+            return response()->json([
+                'success' => false,
+                'message' => 'Failed to save recent collection'
+            ], 500);
+        }
     }
 
-    // Lấy danh sách đã xem gần đây (công khai + riêng tư của chính user)
-    public function index()
+    // Giới hạn số lượng bản ghi
+    private function limitRecentCollections($userId)
     {
-        $userId = Auth::id();
+//        $idsToKeep = RecentCollection::where('user_id', $userId)
+//            ->orderByDesc('updated_at')
+//            ->take(50)
+//            ->pluck('id');
+//
+//        RecentCollection::where('user_id', $userId)
+//            ->whereNotIn('id', $idsToKeep)
+//            ->delete();
+        $limit = 10;
+        $recentCount = RecentCollection::where('user_id', $userId)->count();
 
-        $recentCollections = RecentCollection::where('user_id', $userId)
-            ->with(['collection' => function ($query) use ($userId) {
-                $query->with(['user:id,username,role'])
-                    ->withCount('flashcards')
-                    ->where(function ($q) use ($userId) {
-                        $q->where('privacy', 1)
-                            ->orWhere('user_id', $userId);
-                    });
-            }])
-            ->orderByDesc('updated_at')
-            ->take(50)
-            ->get()
-            ->filter(function ($item) {
-                // Loại bỏ các bản ghi không còn collection (bị xóa)
-                return $item->collection !== null;
-            })
-            ->values() // reset index
-            ->map(function ($item) {
-                return [
-                    'collection' => $item->collection,
-                ];
-            });
-
-        return response()->json($recentCollections);
+        if ($recentCount > $limit) {
+            RecentCollection::where('user_id', $userId)
+                ->orderBy('updated_at', 'asc')
+                ->limit($recentCount - $limit)
+                ->delete();
+        }
     }
 }
