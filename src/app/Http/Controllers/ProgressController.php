@@ -20,7 +20,11 @@ class ProgressController extends Controller
     public function getReviewHistory(Request $request, $id): JsonResponse
     {
         try {
-            $flashcard = Flashcard::findOrFail($id);
+            $flashcard = Flashcard::with([
+                'statuses' => function ($q) {
+                    $q->where('user_id', Auth::id());
+                }
+            ])->findOrFail($id);
 
             // Check if user can access this flashcard
             if (!$flashcard->collection->canBeAccessedBy(Auth::id())) {

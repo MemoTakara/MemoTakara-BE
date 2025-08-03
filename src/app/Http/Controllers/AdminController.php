@@ -186,7 +186,7 @@ class AdminController extends Controller
 
         return response()->json(['message' => 'Collection created successfully', 'collection' => $collection]);
     }
-    
+
     // Admin: cập nhật collection
     public function updateCollection(Request $request, $id)
     {
@@ -249,22 +249,88 @@ class AdminController extends Controller
     public function getAllFlashcards(Request $request)
     {
         // Kiểm tra quyền admin
-        if (!Auth::user() || Auth::user()->role !== 'admin') {
+        if (!Auth::user() || !Auth::user()->isAdmin()) {
             return response()->json([
                 'message' => 'Unauthorized'
             ], 403);
         }
 
-        // Lấy tất cả flashcards, bao gồm collection_id và user_id của collection
-        $flashcards = Flashcard::with([
-            'collection:id,collection_name,user_id', // Lấy thông tin collection (chỉ lấy ID, tên collection, user_id)
-            'collection.user:id,username,email', // Lấy thông tin user (chỉ lấy ID, tên, email)
-            'statuses' => function ($query) {
-                $query->with('user:id,username')->latest();
-            }
-        ])->get();
+        try {
+            // Lấy parameters từ request
+            $perPage = $request->get('per_page', 15);
+            $search = $request->get('search');
+            $collectionId = $request->get('collection_id');
+            $userId = $request->get('user_id');
 
-        return response()->json($flashcards);
+            // Build query với eager loading được tối ưu
+            $query = Flashcard::with([
+                'collection:id,collection_name,user_id,privacy,language_front,language_back',
+                'collection.user:id,username,email,name'
+            ]);
+
+            // Thêm filter theo collection nếu có
+            if ($collectionId) {
+                $query->where('collection_id', $collectionId);
+            }
+
+            // Thêm filter theo user nếu có
+            if ($userId) {
+                $query->whereHas('collection', function ($q) use ($userId) {
+                    $q->where('user_id', $userId);
+                });
+            }
+
+            // Thêm tìm kiếm nếu có
+            if ($search) {
+                $query->where(function ($q) use ($search) {
+                    $q->where('front', 'like', "%{$search}%")
+                        ->orWhere('back', 'like', "%{$search}%")
+                        ->orWhereHas('collection', function ($collectionQuery) use ($search) {
+                            $collectionQuery->where('collection_name', 'like', "%{$search}%");
+                        });
+                });
+            }
+
+            // Sắp xếp theo thời gian tạo mới nhất
+            $query->orderBy('created_at', 'desc');
+
+            // Phân trang
+            $flashcards = $query->paginate($perPage);
+
+            // Nếu cần thêm thống kê về status (không load hết statuses)
+            if ($request->get('include_stats', false)) {
+                $flashcards->getCollection()->transform(function ($flashcard) {
+                    // Đếm số lượng status theo từng loại thay vì load hết
+                    $statusCounts = $flashcard->statuses()
+                        ->selectRaw('status, COUNT(*) as count')
+                        ->groupBy('status')
+                        ->pluck('count', 'status');
+
+                    $flashcard->status_stats = $statusCounts;
+                    return $flashcard;
+                });
+            }
+
+            return response()->json([
+                'success' => true,
+                'data' => $flashcards->items(),
+                'pagination' => [
+                    'current_page' => $flashcards->currentPage(),
+                    'last_page' => $flashcards->lastPage(),
+                    'per_page' => $flashcards->perPage(),
+                    'total' => $flashcards->total(),
+                    'from' => $flashcards->firstItem(),
+                    'to' => $flashcards->lastItem(),
+                ]
+            ]);
+
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Failed to retrieve flashcards',
+                'error' => config('app.debug') ? $e->getMessage() : 'Internal server error'
+            ], 500);
+        }
     }
 
     // Admin: Lấy danh sách flashcard trong collection
